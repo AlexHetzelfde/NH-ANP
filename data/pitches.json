@@ -1,0 +1,13 @@
+{
+  "gegenereerdOp": "2026-11-10T08:33:43.203Z",
+  "promptVersie": "2026-10-22-pitch-vier-velden",
+  "sorteerwijze": "datum",
+  "aantalBerichtenTotaal": 35,
+  "drempels": {
+    "lokaal": 6,
+    "landelijk": 8,
+    "maxLokaal": 34.5,
+    "maxLandelijk": 40.5
+  },
+  "topPitches": []
+}
