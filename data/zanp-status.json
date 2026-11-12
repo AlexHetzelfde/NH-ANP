@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-12T09:43:27.675Z",
+  "gegenereerdOp": "2026-11-12T18:11:25.600Z",
   "alertModus": "log",
   "bronnen": {
     "zaansche-molen": {
@@ -38,12 +38,12 @@
       "opeenvolgendLeeg": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0
     },
@@ -78,9 +78,9 @@
       "opeenvolgendLeeg": 0
     },
     "hhnk": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 50
+      "opeenvolgendLeeg": 51
     },
     "rechtspraak-noord-holland": {
       "laatsteScrape": "2026-11-12T09:43:27.675Z",
@@ -98,14 +98,14 @@
       "opeenvolgendLeeg": 0
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0
     },
     "politie-zaanstad": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 46
+      "opeenvolgendLeeg": 47
     },
     "zaanstad-kalender": {
       "laatsteScrape": "2026-11-12T09:43:27.675Z",
@@ -123,29 +123,29 @@
       "opeenvolgendLeeg": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2
+      "opeenvolgendLeeg": 3
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
-      "gevonden": 14,
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
+      "gevonden": 7,
       "opeenvolgendLeeg": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 40
+      "opeenvolgendLeeg": 41
     },
     "zaanstad-ted": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0
     },
     "zaanstad-tenderned": {
-      "laatsteScrape": "2026-11-12T09:43:27.675Z",
+      "laatsteScrape": "2026-11-12T18:11:25.600Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 40
+      "opeenvolgendLeeg": 41
     }
   },
   "bronnenZonderRubriek": [],
@@ -371,34 +371,34 @@
   },
   "laatsteRun": {
     "agenda": {
-      "nieuw": 7,
-      "bijgewerkt": 161,
-      "behouden": 74,
-      "verdwenen": 4,
+      "nieuw": 0,
+      "bijgewerkt": 0,
+      "behouden": 242,
+      "verdwenen": 0,
       "verlopen": 0,
-      "uitBerichten": 29,
+      "uitBerichten": 30,
       "uitCamera": 3,
-      "zichtbaar": 86,
+      "zichtbaar": 87,
       "verborgen": 183,
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 24,
-      "update": 1,
-      "opnieuw": 17,
+      "nieuw": 16,
+      "update": 0,
+      "opnieuw": 7,
       "ongewijzigd": 1,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 5151,
+      "vergeleken": 6441,
       "automatisch": 1,
       "aiGevraagd": 0,
       "aiJa": 0,
       "aiNee": 0,
-      "uitgesteld": 0,
+      "uitgesteld": 1,
       "clusters": 1
     },
-    "alerts": 3,
+    "alerts": 2,
     "koppel": {
       "agendaNaarBericht": 0,
       "uitkomsten": 0,
@@ -409,24 +409,24 @@
       "ai": false,
       "formule": "v4-22806000",
       "tekst": {
-        "werklijst": 26,
-        "lokaal": 24,
-        "opgehaald": 1,
+        "werklijst": 17,
+        "lokaal": 16,
+        "opgehaald": 0,
         "mislukt": 1,
         "uitgesteld": 0
       },
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
-      "stukken": 503,
-      "kandidaten": 142,
-      "metAnker": 140,
+      "stukken": 519,
+      "kandidaten": 135,
+      "metAnker": 133,
       "zonderAnker": 2,
       "afgelast": 1,
       "dubbel": 1,
       "tau": 0.5,
       "besluit": {
-        "boven": 0,
-        "wacht": 0,
+        "boven": 1,
+        "wacht": 1,
         "onderdrukt": 0,
         "veto": 0,
         "nieuwRood": 0,
