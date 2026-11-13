@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-13T07:50:35.721Z",
+  "gegenereerdOp": "2026-11-13T16:10:48.980Z",
   "promptVersie": "2026-10-29-batch-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,505 @@
   ],
   "berichten": [
     {
+      "id": "8716c120d4-v1",
+      "groepId": "8716c120d4",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Meertje_van_Vogelenzang_feestelijk_geopend_na_natuurherstel",
+      "kop": "Meertje van Vogelenzang feestelijk geopend na natuurherstel",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-13T12:28:17.000Z",
+      "heeftTijd": true,
+      "woorden": 520,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Meertje van Vogelenzang feestelijk geopend na natuurherstel",
+      "bronLengte": 3329,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "59c2eb1a43-v1",
+      "groepId": "59c2eb1a43",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_minder_goed_bereikbaar_via_e_mail",
+      "kop": "Provincie minder goed bereikbaar via e-mail",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-13T09:02:11.000Z",
+      "heeftTijd": true,
+      "woorden": 82,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Provincie minder goed bereikbaar via e-mail",
+      "bronLengte": 498,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "2bc5033876-v1",
+      "groepId": "2bc5033876",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zomaar-een-zaans-minuutje-spoorbrug-krommenie-%f0%9f%8e%a5/",
+      "kop": "Zomaar een Zaans minuutje: spoorbrug Krommenie… 🎥",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 473,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Zomaar een Zaans minuutje: spoorbrug Krommenie… 🎥",
+      "bronLengte": 3313,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "2b16e2398f-v1",
+      "groepId": "2b16e2398f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/noorderveenweg-drie-weken-dicht-voor-nieuwe-fietsoversteek/",
+      "kop": "Noorderveenweg drie weken dicht voor nieuwe fietsoversteek",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 285,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Noorderveenweg drie weken dicht voor nieuwe fietsoversteek",
+      "bronLengte": 1984,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "99e71d8e00-v1",
+      "groepId": "99e71d8e00",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 436,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Bewoners Russische Buurt starten petitie om poller te behouden",
+      "bronLengte": 2728,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "11956bb3dd-v1",
+      "groepId": "11956bb3dd",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/grote-zoekactie-naar-vermiste-schipper-bij-jachthaven-de-remming-in-zaandam/",
+      "kop": "Grote zoekactie naar vermiste schipper bij jachthaven De Remming in Zaandam (Update: terecht!)",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 310,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Grote zoekactie naar vermiste schipper bij jachthaven De Remming in Zaandam (Update: terecht!)",
+      "bronLengte": 1941,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "004a132449-v1",
+      "groepId": "004a132449",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-13-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 13 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 57,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "De Orkaan in 2 minuten: 13 november 🎧",
+      "bronLengte": 343,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "49e2daabbf-v1",
+      "groepId": "49e2daabbf",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/martin-rep-the-beatles-op-het-vissershop/",
+      "kop": "Martin Rep: The Beatles op het Vissershop",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 1012,
+      "afgekapt": true,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Martin Rep: The Beatles op het Vissershop",
+      "bronLengte": 5993,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "70fe2c68a0-v1",
+      "groepId": "70fe2c68a0",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/automobiliste-naar-ziekenhuis-na-harde-botsing-op-leeghwaterweg-%f0%9f%93%b8/",
+      "kop": "Automobiliste naar ziekenhuis na harde botsing op Leeghwaterweg 📸",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 187,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Automobiliste naar ziekenhuis na harde botsing op Leeghwaterweg 📸",
+      "bronLengte": 1241,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "87935b8d17-v1",
+      "groepId": "87935b8d17",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/waarheen-ricky-koole-boiler-room-india-light-festival%f0%9f%8e%99/",
+      "kop": "Waarheen: Ricky Koole, Boiler Room, India Light Festival 🎙",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 188,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Waarheen: Ricky Koole, Boiler Room, India Light Festival 🎙",
+      "bronLengte": 1096,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "e2523ab0bb-v1",
+      "groepId": "e2523ab0bb",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-duinkaart-is-terug-vanaf-maart-2027-vrijwillige-bijdrage-voor-zaanse-schans/",
+      "kop": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 843,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
+      "bronLengte": 5271,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 1010000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "economie",
+        "reden": "bedrag van 1 miljoen euro (één bron)",
+        "aangemaaktOp": "2026-11-13T16:10:48.980Z",
+        "tot": "2026-11-14T16:10:48.980Z"
+      }
+    },
+    {
+      "id": "2380a746f9-v1",
+      "groepId": "2380a746f9",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/besluit-sportcomplex-wormer-weer-uitgesteld/",
+      "kop": "Besluit sportcomplex Wormer weer uitgesteld",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 343,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Besluit sportcomplex Wormer weer uitgesteld",
+      "bronLengte": 2283,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "agendapunten": [
+        {
+          "titel": "Raadsvergadering — Besluit sportcomplex Wormer weer uitgesteld",
+          "dag": "2027-02-02",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "letterlijk"
+        }
+      ],
+      "agendapuntenBron": "patroon"
+    },
+    {
+      "id": "2e4b0cb167-v1",
+      "groepId": "2e4b0cb167",
+      "versie": 1,
+      "url": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/91502965-fd95-4058-87c7-621e991401f8",
+      "kop": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 1973,
+      "afgekapt": true,
+      "bronId": "vervoerregio-overzichten",
+      "bronNaam": "Vervoerregio: Overzichten (iBabs)",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "bronTitel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg",
+      "bronLengte": 13510,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
       "id": "d0a0aa7b4e-v1",
       "groepId": "d0a0aa7b4e",
       "versie": 1,
@@ -425,7 +924,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T07:50:35.721Z",
-      "gecontroleerdOp": "2026-11-13T07:50:35.721Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
       "bronTitel": "Dit weekend Den Uylbrug afgesloten",
       "bronLengte": 1052,
       "checklist": {
@@ -440,7 +939,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "47aa533e3e-v1",
@@ -462,7 +962,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T07:50:35.721Z",
-      "gecontroleerdOp": "2026-11-13T07:50:35.721Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
       "bronTitel": "Drie auto’s verwoest door felle brand in Zaandam",
       "bronLengte": 1155,
       "checklist": {
@@ -477,7 +977,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "ae041db2ca-v1",
@@ -1947,7 +2448,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-12T09:43:27.675Z",
-      "gecontroleerdOp": "2026-11-13T07:50:35.721Z",
+      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
       "bronTitel": "Provincie betrekt belanghebbenden bij aanpak stikstof en natuurherstel",
       "bronLengte": 3191,
       "checklist": {
@@ -2000,7 +2501,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "992985ac8a-v1",
@@ -2037,7 +2539,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "b863497ef4-v1",
@@ -2075,6 +2578,7 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -2118,7 +2622,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "62445de7e2-v1",
@@ -2155,7 +2660,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "6ff6b54bf5-v1",
@@ -2192,7 +2698,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "9724846d54-v1",
@@ -2229,7 +2736,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "7a1e17f969-v1",
@@ -2266,7 +2774,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "2e6cbfd871-v1",
@@ -2303,7 +2812,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "822a579f39-v1",
@@ -2341,6 +2851,7 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -2384,7 +2895,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "596a76f99b-v1",
@@ -2421,7 +2933,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "93f0e76f6f-v1",
@@ -2458,7 +2971,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "ce8d354fdf-v1",
