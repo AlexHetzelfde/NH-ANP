@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-13T16:10:48.980Z",
+  "gegenereerdOp": "2026-11-13T22:31:44.216Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,17 +8,17 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 14,
-      "lokaal": 12,
-      "opgehaald": 1,
+      "werklijst": 2,
+      "lokaal": 1,
+      "opgehaald": 0,
       "mislukt": 1,
       "uitgesteld": 0
     },
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
-    "stukken": 551,
-    "kandidaten": 121,
-    "metAnker": 121,
+    "stukken": 552,
+    "kandidaten": 113,
+    "metAnker": 113,
     "zonderAnker": 0,
     "afgelast": 1,
     "dubbel": 1,
@@ -38,14 +38,14 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4c2b4845-ac3f-41e9-aa74-4c4961b9b3a7",
       "soort": "nieuws",
       "kop": "Kennisgeving burgemeester Hamming: Persbericht politie aanhouding verdachten explosies en beschieting in Zaanstreek",
-      "S": 0.43,
-      "Sa": 0.43,
+      "S": 0.57,
+      "Sa": 0.57,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.95,
       "Kp": 0.62,
-      "n": 2,
-      "dagen": 2,
+      "n": 3,
+      "dagen": 3,
       "bronnen": 2,
       "ankers": [
         "anhouding",
@@ -53,22 +53,69 @@
         "kennisgeving",
         "explosie",
         "beschieting",
-        "politi"
+        "politi",
+        "verdacht"
       ],
       "bewijs": [
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-10T23:00:00.000Z",
-          "c": 0.99,
+          "c": 0.96,
           "plek": "kop",
           "titel": "Zes Zaanse tieners aangehouden voor explosies en beschietingen"
         },
         {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.93,
+          "plek": "kop",
+          "titel": "Honderden drugspillen, softdrugs en patronen bij huiszoekingen Zaanse verdachten"
+        },
+        {
           "bron": "ibabs-collegeberichten",
           "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.86,
+          "c": 0.89,
           "plek": "kop",
           "titel": "Kennisgeving Burgemeester J. Hamming: Incident Elzenstraat"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.deorkaan.nl/zes-zaanse-tieners-aangehouden-voor-explosies-en-beschietingen/",
+      "soort": "nieuws",
+      "kop": "Zes Zaanse tieners aangehouden voor explosies en beschietingen",
+      "S": 0.48,
+      "Sa": 0.48,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.92,
+      "Kp": 0.6,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "tiener",
+        "explosie",
+        "beschieting",
+        "angehoud",
+        "ronsel",
+        "opgepakt",
+        "jongeman"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-10T23:00:00.000Z",
+          "c": 0.93,
+          "plek": "kop",
+          "titel": "Kennisgeving burgemeester Hamming: Persbericht politie aanhouding verdachten explosies en beschieting in Zaanstreek"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Honderden drugspillen, softdrugs en patronen bij huiszoekingen Zaanse verdachten"
         }
       ]
     },
@@ -76,14 +123,14 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/027708f4-7c42-48bf-9eae-3a36d9150dcc",
       "soort": "nieuws",
       "kop": "Motie verworpen: Beetje tijd om vrij te stellen",
-      "S": 0.41,
-      "Sa": 0.41,
+      "S": 0.48,
+      "Sa": 0.48,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.59,
       "Kp": 0.25,
       "n": 3,
-      "dagen": 1,
+      "dagen": 2,
       "bronnen": 2,
       "ankers": [
         "betj",
@@ -127,12 +174,12 @@
       "key": "n:https://www.vervoerregio.nl/artikel/20261111-bo-mirt-nieuwe-afspraken-over-bereikbaarheid-en-infr",
       "soort": "nieuws",
       "kop": "BO MIRT: nieuwe afspraken over bereikbaarheid en infrastructuur",
-      "S": 0.34,
-      "Sa": 0.34,
+      "S": 0.33,
+      "Sa": 0.33,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.81,
-      "Kp": 0.49,
+      "K": 0.8,
+      "Kp": 0.48,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -154,78 +201,11 @@
       ]
     },
     {
-      "key": "n:https://www.deorkaan.nl/kruidvat-ziet-geen-datalek-bij-zichtbare-pincodes-maar-vragen-blijven/",
-      "soort": "nieuws",
-      "kop": "Kruidvat ziet geen datalek bij zichtbare pincodes, maar vragen blijven",
-      "S": 0.33,
-      "Sa": 0.33,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.61,
-      "Kp": 0.48,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "kruidvat",
-        "datalek",
-        "pincode",
-        "zichtbar",
-        "gedempt"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-06T20:00:52.041Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Pinnen bij Kruidvat in Zaandam? Winkel kan meekijken – update"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "c": 0.93,
-          "plek": "kop",
-          "titel": "Pincodes klanten in Zaandam beeld: Kruidvat onderzoekt veiligheidslek in gehele keten"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.deorkaan.nl/zes-zaanse-tieners-aangehouden-voor-explosies-en-beschietingen/",
-      "soort": "nieuws",
-      "kop": "Zes Zaanse tieners aangehouden voor explosies en beschietingen",
-      "S": 0.32,
-      "Sa": 0.32,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.93,
-      "Kp": 0.61,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "tiener",
-        "explosie",
-        "beschieting",
-        "angehoud",
-        "jongeman"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-10T23:00:00.000Z",
-          "c": 0.96,
-          "plek": "kop",
-          "titel": "Kennisgeving burgemeester Hamming: Persbericht politie aanhouding verdachten explosies en beschieting in Zaanstreek"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.deorkaan.nl/verblijfsontzegging-voor-overlast-gevende-jongeren-bij-de-tref-en-gibraltar/",
       "soort": "nieuws",
       "kop": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gibraltar",
-      "S": 0.29,
-      "Sa": 0.29,
+      "S": 0.28,
+      "Sa": 0.28,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.87,
@@ -423,8 +403,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/214aa177-a500-4e39-9bfb-bbea135f69c3",
       "soort": "nieuws",
       "kop": "Terugkoppeling bestuurlijk overleg Meerjarenprogramma, Infrastructuur, Ruimte en Transport",
-      "S": 0.21,
-      "Sa": 0.21,
+      "S": 0.2,
+      "Sa": 0.2,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.94,
@@ -481,44 +461,6 @@
           "c": 0.78,
           "plek": "intro",
           "titel": "Binnen praten over duurzaamheid, buiten klimaatprotest bij Taets"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c27ad020-2d08-4dde-9028-bde24792ba36",
-      "soort": "nieuws",
-      "kop": "Motie aangenomen: Niet omrijden, maar vrijstellen",
-      "S": 0.19,
-      "Sa": 0.19,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.16,
-      "Kp": 0,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "vrijstel",
-        "omrijd",
-        "binding",
-        "casper",
-        "davelar",
-        "26m76"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-10T22:19:09.971Z",
-          "c": 0.8,
-          "plek": "intro",
-          "titel": "Motie verworpen: Beetje tijd om vrij te stellen"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-10T22:19:09.971Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "Motie aangenomen: Wie niets geeft, kan niet terugverwachten"
         }
       ]
     },
@@ -580,34 +522,40 @@
       ]
     },
     {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Besluiten_Provinciale_Staten_van_Noord_Holland_9_november_2026",
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c27ad020-2d08-4dde-9028-bde24792ba36",
       "soort": "nieuws",
-      "kop": "Besluiten Provinciale Staten van Noord-Holland 9 november 2026",
-      "S": 0.18,
-      "Sa": 0.18,
+      "kop": "Motie aangenomen: Niet omrijden, maar vrijstellen",
+      "S": 0.19,
+      "Sa": 0.19,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.92,
-      "Kp": 0.55,
-      "n": 1,
+      "K": 0.16,
+      "Kp": 0,
+      "n": 2,
       "dagen": 1,
       "bronnen": 1,
       "ankers": [
-        "provincial",
-        "statenperiod",
-        "merjarenprogramma",
-        "stat",
-        "gedeputerd",
-        "infrastructur",
-        "kondigd"
+        "vrijstel",
+        "omrijd",
+        "binding",
+        "casper",
+        "davelar",
+        "26m76"
       ],
       "bewijs": [
         {
-          "bron": "nh-actueel",
-          "datum": "2026-11-06T10:28:53.000Z",
-          "c": 0.89,
-          "plek": "kop",
-          "titel": "Gedeputeerde Staten stellen concept-Omgevingsvisie Noord-Holland vast"
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-10T22:19:09.971Z",
+          "c": 0.8,
+          "plek": "intro",
+          "titel": "Motie verworpen: Beetje tijd om vrij te stellen"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-10T22:19:09.971Z",
+          "c": 0.68,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Wie niets geeft, kan niet terugverwachten"
         }
       ]
     },
@@ -615,12 +563,12 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/504ce4de-b401-486a-9066-852a2f49786b",
       "soort": "nieuws",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
-      "S": 0.17,
-      "Sa": 0.17,
+      "S": 0.16,
+      "Sa": 0.16,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.73,
-      "Kp": 0.57,
+      "Kp": 0.56,
       "n": 2,
       "dagen": 2,
       "bronnen": 2,
@@ -654,7 +602,7 @@
       "Sa": 0.14,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.77,
+      "K": 0.76,
       "Kp": 0.5,
       "n": 1,
       "dagen": 1,
@@ -757,7 +705,7 @@
       "Sa": 0.13,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.66,
+      "K": 0.65,
       "Kp": 0.39,
       "n": 1,
       "dagen": 1,
@@ -785,8 +733,8 @@
       "key": "n:https://www.deorkaan.nl/dit-weekend-den-uylbrug-afgesloten/",
       "soort": "nieuws",
       "kop": "Dit weekend Den Uylbrug afgesloten",
-      "S": 0.13,
-      "Sa": 0.13,
+      "S": 0.12,
+      "Sa": 0.12,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.56,
@@ -812,8 +760,8 @@
       "key": "a:a931345543",
       "soort": "agenda",
       "kop": "Recital met Vincent Kusters en Reinhild Mees",
-      "S": 0.12,
-      "Sa": 0.12,
+      "S": 0.11,
+      "Sa": 0.11,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0,
@@ -993,7 +941,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.43,
-      "Kp": 0.22,
+      "Kp": 0.21,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -1052,7 +1000,7 @@
       "Sa": 0.06,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.2,
+      "K": 0.19,
       "Kp": 0.05,
       "n": 1,
       "dagen": 1,
@@ -1311,6 +1259,52 @@
       "bronnen": 0,
       "ankers": [
         "woncoperati"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:d687f6b7ef",
+      "soort": "agenda",
+      "kop": "Bestuurlijke boete kamerverhuur Klipperstraat 37 te Zaandam - Microsoft Teams",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.15,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "klipperstrat",
+        "microsoft",
+        "kamerverhur"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:e92c9914b6",
+      "soort": "agenda",
+      "kop": "Zaanstad Beraad",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.13,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "vergaderzal",
+        "damgebied",
+        "radzal",
+        "pauze",
+        "insprak",
+        "uitgan",
+        "regiovisi",
+        "initiatief",
+        "veilig"
       ],
       "bewijs": []
     }
@@ -2187,10 +2181,18 @@
       },
       "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/027708f4-7c42-48bf-9eae-3a36d9150dcc": {
         "kop": "Motie verworpen: Beetje tijd om vrij te stellen",
-        "S": 0.43,
+        "S": 0.48,
         "route": "aanhoudend",
-        "K": 0.61,
+        "K": 0.59,
         "n": 3,
+        "bronnen": 2
+      },
+      "n:https://www.deorkaan.nl/zes-zaanse-tieners-aangehouden-voor-explosies-en-beschietingen/": {
+        "kop": "Zes Zaanse tieners aangehouden voor explosies en beschietingen",
+        "S": 0.48,
+        "route": "aanhoudend",
+        "K": 0.92,
+        "n": 2,
         "bronnen": 2
       },
       "n:https://www.deorkaan.nl/kruidvat-ziet-geen-datalek-bij-zichtbare-pincodes-maar-vragen-blijven/": {
@@ -2206,14 +2208,6 @@
         "S": 0.34,
         "route": "aanhoudend",
         "K": 0.81,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://www.deorkaan.nl/zes-zaanse-tieners-aangehouden-voor-explosies-en-beschietingen/": {
-        "kop": "Zes Zaanse tieners aangehouden voor explosies en beschietingen",
-        "S": 0.33,
-        "route": "aanhoudend",
-        "K": 0.93,
         "n": 1,
         "bronnen": 1
       },

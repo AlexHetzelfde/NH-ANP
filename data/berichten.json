@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-13T16:10:48.980Z",
+  "gegenereerdOp": "2026-11-13T22:31:44.216Z",
   "promptVersie": "2026-10-29-batch-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Meertje van Vogelenzang feestelijk geopend na natuurherstel",
       "bronLengte": 3329,
       "checklist": {
@@ -440,7 +440,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "59c2eb1a43-v1",
@@ -462,7 +463,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Provincie minder goed bereikbaar via e-mail",
       "bronLengte": 498,
       "checklist": {
@@ -476,6 +477,44 @@
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
+      },
+      "checklistBron": "patroon",
+      "tagVersie": 2
+    },
+    {
+      "id": "eb2f32923f-v1",
+      "groepId": "eb2f32923f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/honderden-drugspillen-softdrugs-en-patronen-bij-huiszoekingen-zaanse-verdachten/",
+      "kop": "Honderden drugspillen, softdrugs en patronen bij huiszoekingen Zaanse verdachten",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-12T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 207,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "DeOrkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-13T22:31:44.216Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
+      "bronTitel": "Honderden drugspillen, softdrugs en patronen bij huiszoekingen Zaanse verdachten",
+      "bronLengte": 1419,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
       },
       "checklistBron": "patroon"
     },
@@ -499,7 +538,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Zomaar een Zaans minuutje: spoorbrug Krommenie… 🎥",
       "bronLengte": 3313,
       "checklist": {
@@ -514,7 +553,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "2b16e2398f-v1",
@@ -536,7 +576,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Noorderveenweg drie weken dicht voor nieuwe fietsoversteek",
       "bronLengte": 1984,
       "checklist": {
@@ -551,7 +591,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "99e71d8e00-v1",
@@ -573,7 +614,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Bewoners Russische Buurt starten petitie om poller te behouden",
       "bronLengte": 2728,
       "checklist": {
@@ -588,7 +629,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "11956bb3dd-v1",
@@ -610,7 +652,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Grote zoekactie naar vermiste schipper bij jachthaven De Remming in Zaandam (Update: terecht!)",
       "bronLengte": 1941,
       "checklist": {
@@ -625,7 +667,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "004a132449-v1",
@@ -647,7 +690,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "De Orkaan in 2 minuten: 13 november 🎧",
       "bronLengte": 343,
       "checklist": {
@@ -662,7 +705,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "49e2daabbf-v1",
@@ -684,7 +728,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Martin Rep: The Beatles op het Vissershop",
       "bronLengte": 5993,
       "checklist": {
@@ -699,7 +743,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "70fe2c68a0-v1",
@@ -721,7 +766,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Automobiliste naar ziekenhuis na harde botsing op Leeghwaterweg 📸",
       "bronLengte": 1241,
       "checklist": {
@@ -736,7 +781,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "87935b8d17-v1",
@@ -758,7 +804,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Waarheen: Ricky Koole, Boiler Room, India Light Festival 🎙",
       "bronLengte": 1096,
       "checklist": {
@@ -773,7 +819,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "e2523ab0bb-v1",
@@ -795,7 +842,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
       "bronLengte": 5271,
       "checklist": {
@@ -811,6 +858,7 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -839,7 +887,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Besluit sportcomplex Wormer weer uitgesteld",
       "bronLengte": 2283,
       "checklist": {
@@ -865,7 +913,8 @@
           "zekerheid": "letterlijk"
         }
       ],
-      "agendapuntenBron": "patroon"
+      "agendapuntenBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "2e4b0cb167-v1",
@@ -887,7 +936,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T16:10:48.980Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg",
       "bronLengte": 13510,
       "checklist": {
@@ -902,7 +951,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "d0a0aa7b4e-v1",
@@ -924,7 +974,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-13T07:50:35.721Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Dit weekend Den Uylbrug afgesloten",
       "bronLengte": 1052,
       "checklist": {
@@ -2448,7 +2498,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-12T09:43:27.675Z",
-      "gecontroleerdOp": "2026-11-13T16:10:48.980Z",
+      "gecontroleerdOp": "2026-11-13T22:31:44.216Z",
       "bronTitel": "Provincie betrekt belanghebbenden bij aanpak stikstof en natuurherstel",
       "bronLengte": 3191,
       "checklist": {
@@ -3737,14 +3787,7 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "economie",
-        "reden": "bedrag van 1200 miljoen euro (officiële bron)",
-        "aangemaaktOp": "2026-11-13T07:50:35.721Z",
-        "tot": "2026-11-14T07:50:35.721Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "122c8e9bd7-v1",
