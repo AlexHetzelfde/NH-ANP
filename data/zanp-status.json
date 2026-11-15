@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T10:24:52.912Z",
+  "gegenereerdOp": "2026-11-15T11:00:48.272Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-15T11:00:48.272Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
-      "gevonden": 15,
+      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
@@ -74,22 +74,22 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-15T11:00:48.272Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 1,
+      "opeenvolgendLeeg": 2,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-15T11:00:48.272Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 9,
+      "opeenvolgendLeeg": 10,
       "opeenvolgendFout": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-15T11:00:48.272Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 54,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 55,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-15T10:24:52.912Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 504",
@@ -322,10 +322,10 @@
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 38,
-      "behouden": 182,
+      "bijgewerkt": 0,
+      "behouden": 220,
       "verdwenen": 0,
-      "verlopen": 30,
+      "verlopen": 0,
       "uitBerichten": 24,
       "uitCamera": 4,
       "zichtbaar": 79,
@@ -340,7 +340,7 @@
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 1128,
+      "vergeleken": 435,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -366,7 +366,7 @@
         "uitgesteld": 0
       },
       "vergeten": 0,
-      "tekstenOpgeruimd": 1,
+      "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 97,
       "stukken": 567,
       "kandidaten": 63,
