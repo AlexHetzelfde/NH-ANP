@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T15:00:50.529Z",
+  "gegenereerdOp": "2026-11-15T16:00:51.779Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -18,8 +18,8 @@
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 97,
     "stukken": 567,
-    "kandidaten": 63,
-    "metAnker": 63,
+    "kandidaten": 50,
+    "metAnker": 50,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 1,
@@ -98,37 +98,6 @@
           "c": 1,
           "plek": "kop",
           "titel": "Molens openen ’s avonds hun deuren ter ere van 80 jaar UNESCO"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.deorkaan.nl/besluit-sportcomplex-wormer-weer-uitgesteld/",
-      "soort": "nieuws",
-      "kop": "Besluit sportcomplex Wormer weer uitgesteld",
-      "S": 0.12,
-      "Sa": 0.12,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.74,
-      "Kp": 0.49,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "uitgesteld",
-        "sportcomplex",
-        "gefuserd",
-        "tennisclub",
-        "zovelst",
-        "optie"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "c": 0.61,
-          "plek": "intro",
-          "titel": "Fel verzet omwonenden tegen tennispark Spekhuisstraat: ‘gewoon een heel slecht plan’"
         }
       ]
     },
@@ -222,46 +191,6 @@
           "c": 0.8,
           "plek": "intro",
           "titel": "Raadsvergadering"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-      "soort": "nieuws",
-      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
-      "S": 0.06,
-      "Sa": 0.06,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.6,
-      "Kp": 0.31,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "russisch",
-        "petiti",
-        "bianca",
-        "poller",
-        "behoud",
-        "peterstrat",
-        "hogendijk",
-        "czarinastrat"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-21T22:00:00.000Z",
-          "c": 0.96,
-          "plek": "kop",
-          "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-20T22:00:00.000Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Russische Buurt voert actie: ‘Laat de poller omhoog’"
         }
       ]
     },
@@ -1021,6 +950,59 @@
         "zeist",
         "begint",
         "achmea"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:a7d8a22d6c",
+      "soort": "agenda",
+      "kop": "WC-Symposium",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "nederlander",
+        "ranglijst",
+        "jarlijks",
+        "wereld",
+        "buitenshuis",
+        "iederewctelt",
+        "mdlfond",
+        "vriendelijkheid",
+        "toiletvriendelijkheid",
+        "stappenplan",
+        "wijzer",
+        "zomlink"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:93b5ea70bf",
+      "soort": "agenda",
+      "kop": "Mini-conferentie Nieuwe Normen, Oude Inzichten",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "inzicht",
+        "conferenti",
+        "mini",
+        "landgoederij",
+        "camminghalan",
+        "bunnik",
+        "norm"
       ],
       "bewijs": []
     }
