@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T11:00:48.272Z",
+  "gegenereerdOp": "2026-11-15T12:00:45.611Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,13 +15,13 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "laatsteScrape": "2026-11-15T12:00:45.611Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "laatsteScrape": "2026-11-15T12:00:45.611Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
@@ -74,25 +74,25 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "laatsteScrape": "2026-11-15T12:00:45.611Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "laatsteScrape": "2026-11-15T12:00:45.611Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 10,
+      "opeenvolgendLeeg": 11,
       "opeenvolgendFout": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-15T11:00:48.272Z",
+      "laatsteScrape": "2026-11-15T12:00:45.611Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 55,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 56,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-15T10:24:52.912Z",
-        "bericht": "RSS-feed ophalen mislukt: HTTP 504",
+        "tijd": "2026-11-15T12:00:45.611Z",
+        "bericht": "RSS-feed ophalen mislukt: HTTP 500",
         "duurSec": null
       }
     }
