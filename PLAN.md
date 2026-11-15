@@ -6,22 +6,25 @@ Status: `[ ]` open, `[x]` af, `[~]` deels (zie opmerking).
 
 ## Spelregels (gelden voor elke fase)
 
-1. Het pitchdeel blijft onaangeroerd. We werken alleen aan ZANP.
-2. Pitches draaien dagelijks op Gemini Flash.
-3. Alles van ZANP draait op Gemini Flash-Lite en mag nooit het Flash-quotum gebruiken.
-4. Alleen fouten oplossen en de gevraagde verbeteringen doorvoeren. Wat werkt of goed is, blijft zoals het is.
+1. Het pitchdeel bestaat niet meer (verwijderd op 2026-11-14, zie "Fase 0" hieronder). Er worden geen pitches meer gemaakt.
+2. Alles draait op Gemini Flash-Lite (`MODELLEN.wire` in `gemini.js`); er is geen Flash-model meer in gebruik.
+3. Alleen fouten oplossen en de gevraagde verbeteringen doorvoeren. Wat werkt of goed is, blijft zoals het is.
 
-### Niet aanraken (pitchdeel)
+### Fase 0: regio Midden-Noord-Holland, opruimen (2026-11-14)
 
-- `scraper/index.js`
-- `.github/workflows/dagelijkse-run.yml`
-- `data/pitches.json`, `data/nieuws-lokaal.json`, `data/nieuws-landelijk.json`, `data/feed.json`, `data/bron-gezondheid.json`
-- `scraper/nieuwscriteria.js`
-- Het pitchgedrag van `gemini.js` en `gedeeld.js`: wijzigingen daar zijn alleen toegestaan als optionele instelling of aparte functie voor ZANP, met standaardgedrag identiek aan nu. Na zo'n wijziging controleren dat de pitchuitvoer ongewijzigd blijft.
+Voorbereiding op een nieuwe repo voor de regio tussen Zaanstreek-Waterland en Alkmaar.
+
+- [x] Pitchmachine verwijderd: `scraper/index.js`, `scraper/nieuwscriteria.js`, `.github/workflows/dagelijkse-run.yml`, `data/pitches.json`, `data/nieuws-lokaal.json`, `data/nieuws-landelijk.json`, `data/feed.json`, `data/bron-gezondheid.json`.
+- [x] `gemini.js`: criteria-filter en pitchprompts eruit (`beoordeelBerichten`, `genereerPitches` en bijbehorende helpers); alleen de ZANP-functies blijven.
+- [x] Front-end: tab Pitches, Nieuwsfeed en de lijsten "Alle lokale/landelijke berichten" eruit (`index.html`, `script.js`, `style.css`).
+- [x] `package.json`: `npm start` draait nu `zanp.js`.
+- [x] `herstel-bronnen.js` leest zijn tellers uit `data/zanp-status.json`. Er is geen automatisch zelfherstel meer; "Bron herstellen" werkt alleen handmatig.
+- [x] Bronnen verwijderd (uit `bronnen.js`, `zanp-bronnen.js` en `rubrieken.json`): DeOrkaan, hhnk, zaansche-molen, ovo-zaanstad, zaans-museum, zaanse-schans, zaandijk-leeft, zaans-cultuur-huis, WaarheenAgenda, vervoerregio-persberichten, zaanstad-ted.
+- [ ] Nog te doen voor de nieuwe regio: bronnen voor Alkmaar en omgeving toevoegen, titels en teksten ("Zaanstreek-Waterland") aanpassen, en de bestaande data (`berichten.json`, `agenda.json`, `zanp-*`) leegmaken of bewaren.
 
 ### Eerste controle in de repo, voor elke fase
 
-Dit plan is opgesteld uit het chatgesprek, niet uit de actuele repo. Controleer eerst de actuele staat van de bestanden hieronder. Het gesprek meldt dat Flash-Lite voor ZANP en een stop bij een 429 in `zanp.js` mogelijk al (deels) staan.
+Dit plan is opgesteld uit het chatgesprek, niet uit de actuele repo. Controleer eerst de actuele staat van de bestanden hieronder. Het gesprek meldt dat Flash-Lite voor ZANP en een stop bij een 429 in `zanp.js` mogelijk al (deels) staan. (Fase 0 hierboven is wel uitgevoerd.)
 
 ---
 
@@ -157,7 +160,7 @@ Pas oppakken na Fase 3, per stuk beslissen.
 
 ## Startprompt per fase
 
-> Clone https://github.com/AlexHetzelfde/PitcherDEEPSEEK en lees `PLAN.md`. We doen alleen **Fase N**. Raak het pitchdeel niet aan (zie "Niet aanraken" in `PLAN.md`). Wijzig niets wat werkt. Controleer eerst de actuele staat van de bestanden van deze fase. Bouw, test, en geef alleen de gewijzigde bestanden terug. Werk daarna `PLAN.md` bij met wat af is en wat open staat.
+> Clone https://github.com/AlexHetzelfde/PitcherDEEPSEEK en lees `PLAN.md`. We doen alleen **Fase N**. Wijzig niets wat werkt. Controleer eerst de actuele staat van de bestanden van deze fase. Bouw, test, en geef alleen de gewijzigde bestanden terug. Werk daarna `PLAN.md` bij met wat af is en wat open staat.
 
 ## Voortgang
 

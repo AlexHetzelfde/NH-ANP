@@ -10,11 +10,8 @@
 //   data/zanp-teksten/JJJJ-MM-DD.json   de volledige teksten per publicatiedag
 //                           (14 dagen); de pop-up laadt het bestand van de dag
 //                           van het bericht pas als je het bericht opent
-//   data/pitches.json, data/feed.json, data/nieuws-lokaal.json,
-//   data/nieuws-landelijk.json   de pitchmachine (tab Pitches, elke nacht)
 //
-// De ZANP-tabs verversen zichzelf elke 5 minuten zolang de pagina zichtbaar
-// is; de pitchtab wordt één keer geladen.
+// De tabs verversen zichzelf elke 5 minuten zolang de pagina zichtbaar is.
 //
 // Opzet (ZANP, indeling van het ANP-nieuwsscherm, 2026-10-30):
 //  - Nieuwsdienst: een kolom van 20rem per tag plus een totaalkolom (naar het ANP).
@@ -35,11 +32,10 @@
 //    ANP: kop, meta-regel, tekst en een zijbalk met vorige/volgende, print, mail,
 //    versies, tags en gerelateerde berichten. Esc, de sluitknop of een klik
 //    naast de pop-up sluit hem.
-//  - Pitches: ongewijzigd.
 //  - escapeHtml escapet ook aanhalingstekens; links zijn alleen http(s).
 
 const TIJDZONE = "Europe/Amsterdam";
-const TABS = ["nieuwsdienst", "agenda", "dossiers", "pitches"];
+const TABS = ["nieuwsdienst", "agenda", "dossiers"];
 const VERVERS_MS = 5 * 60 * 1000;
 const VEROUDERD_MINUTEN = 90;
 
@@ -276,8 +272,6 @@ function toonTab(naam, opties = {}) {
   }
   const kiezer = document.getElementById("kolommenkiezer");
   if (kiezer) kiezer.hidden = gekozen !== "nieuwsdienst";
-  const schuif = document.getElementById("scroll-controls");
-  if (schuif) schuif.hidden = gekozen === "pitches";
   if (opties.schrijfHash !== false) schrijfHash();
 }
 
@@ -1439,135 +1433,8 @@ function renderStatusregel() {
 }
 
 // ---------------------------------------------------------------------------
-// Pitches (ongewijzigd, nu een eigen tab)
-// ---------------------------------------------------------------------------
-
-function scoreBand(score) {
-  if (score >= 18) return "hoog";
-  if (score >= 10) return "middel";
-  return "laag";
-}
-
-function renderPitches(data) {
-  const container = document.getElementById("pitches-lijst");
-  const updateEl = document.getElementById("pitch-update");
-
-  if (updateEl && data.gegenereerdOp) {
-    const versie = data.promptVersie ? ` · prompt ${data.promptVersie}` : "";
-    updateEl.textContent = `Laatst bijgewerkt: ${formatteerDatum(data.gegenereerdOp)} · ${data.aantalBerichtenTotaal ?? "?"} berichten verwerkt vandaag${versie}`;
-  }
-
-  if (!data.topPitches || data.topPitches.length === 0) {
-    container.innerHTML = '<p class="leeg">Nog geen pitches vandaag — kom later terug of bekijk de volledige lijsten hieronder.</p>';
-    return;
-  }
-
-  container.innerHTML = data.topPitches.map(renderPitchKaart).join("");
-}
-
-function renderPitchKaart(bericht) {
-  const beoordeling = bericht.aiBeoordeling || {};
-  const score = typeof beoordeling.score === "number" ? beoordeling.score : null;
-  const band = score !== null ? scoreBand(score) : null;
-
-  // Invalshoek is in de nieuwe pitch een string; in oude data kan het een
-  // object { tekst, citaat } zijn.
-  const invalshoekTekst = beoordeling.invalshoek
-    ? (typeof beoordeling.invalshoek === "string" ? beoordeling.invalshoek : beoordeling.invalshoek.tekst)
-    : null;
-
-  const vraag = beoordeling.vraag || beoordeling.centraleVraag || null;
-
-  return `
-    <article class="pitch-kaart">
-      <span class="badge ${escapeHtml(bericht.categorie || "lokaal")}">${escapeHtml(bericht.categorie || "lokaal")}</span>
-      ${score !== null ? `<span class="badge pitch-score pitch-score-${band}" title="Codescore ${score} (agenda-filter)">score ${score} · ${band}</span>` : ""}
-      <h3><a href="${escapeHtml(veiligeUrl(bericht.url))}" target="_blank" rel="noopener">${escapeHtml(beoordeling.werktitel || bericht.titel)}</a></h3>
-      <div class="bericht-meta">${escapeHtml(bericht.bronNaam || "")} · ${formatteerDatum(bericht.gepubliceerdOp)}</div>
-      ${beoordeling.samenvatting ? `<p class="pitch-samenvatting">${escapeHtml(beoordeling.samenvatting)}</p>` : ""}
-      ${invalshoekTekst ? `<p class="invalshoek"><strong>Invalshoek:</strong> ${escapeHtml(invalshoekTekst)}</p>` : ""}
-      ${vraag ? `<p class="researchvraag"><strong>Vraag:</strong> ${escapeHtml(vraag)}</p>` : ""}
-      ${beoordeling.onderbouwing ? `<p class="onderbouwing"><em>${escapeHtml(beoordeling.onderbouwing)}</em></p>` : ""}
-    </article>
-  `;
-}
-
-function renderFeed(items) {
-  const container = document.getElementById("feed-lijst");
-  if (!items || items.length === 0) {
-    container.innerHTML = '<p class="leeg">Nog geen berichten in de feed.</p>';
-    return;
-  }
-  container.innerHTML = items.map(renderFeedItem).join("");
-}
-
-function escapeVoorCssUrl(url) {
-  return String(url)
-    .replace(/\\/g, "\\\\")
-    .replace(/'/g, "\\'")
-    .replace(/"/g, '\\"')
-    .replace(/\)/g, "\\)")
-    .replace(/\(/g, "\\(")
-    .replace(/\s/g, "\\ ")
-    .replace(/</g, "\\<")
-    .replace(/>/g, "\\>");
-}
-
-function renderFeedItem(item) {
-  const heeftFoto = typeof item.foto === "string" && item.foto.length > 0;
-  const veiligeFoto = heeftFoto ? escapeVoorCssUrl(item.foto) : "";
-  const stijl = heeftFoto ? ` style="background-image: url('${escapeHtml(veiligeFoto)}')"` : "";
-  const soort = item.soort === "agenda" ? "agenda" : "nieuws";
-  const soortLabel = soort === "agenda" ? "agenda" : "nieuws";
-
-  return `
-    <article class="feed-item feed-${soort}">
-      <div class="feed-foto${heeftFoto ? " heeft-foto" : ""}"${stijl} role="img" aria-label="${heeftFoto ? "afbeelding bij het bericht" : "geen afbeelding beschikbaar"}">
-        ${heeftFoto ? "" : '<span class="geen-foto-tekst">geen foto beschikbaar</span>'}
-      </div>
-      <div class="feed-tekst">
-        <div class="feed-meta">
-          <span class="feed-soort feed-soort-${soort}">${soortLabel}</span>
-          <span class="feed-bron">${escapeHtml(item.bronNaam || "")}</span>
-          <span class="feed-datum">${formatteerDatum(item.gepubliceerdOp)}</span>
-        </div>
-        <h3 class="feed-titel"><a href="${escapeHtml(veiligeUrl(item.url))}" target="_blank" rel="noopener">${escapeHtml(item.titel || "")}</a></h3>
-        ${item.samenvatting ? `<p class="feed-samenvatting">${escapeHtml(item.samenvatting)}</p>` : ""}
-      </div>
-    </article>
-  `;
-}
-
-function renderBerichtenLijst(containerId, berichten) {
-  const container = document.getElementById(containerId);
-  if (!berichten || berichten.length === 0) {
-    container.innerHTML = '<p class="leeg">Geen berichten gevonden voor vandaag.</p>';
-    return;
-  }
-  container.innerHTML = berichten.map(renderBerichtRij).join("");
-}
-
-function renderBerichtRij(bericht) {
-  const beoordeling = bericht.aiBeoordeling || {};
-  const score = typeof beoordeling.score === "number" ? beoordeling.score : null;
-  const scoreTekst = score !== null ? `score ${score}` : "";
-  return `
-    <div class="bericht-rij">
-      <span class="bericht-score">${escapeHtml(scoreTekst)}</span>
-      <a href="${escapeHtml(veiligeUrl(bericht.url))}" target="_blank" rel="noopener">${escapeHtml(bericht.titel || "")}</a>
-      <span class="bericht-meta">${escapeHtml(bericht.bronNaam || "")}</span>
-    </div>
-  `;
-}
-
-// ---------------------------------------------------------------------------
 // Klikken, verversen, opstarten
 // ---------------------------------------------------------------------------
-
-function verbergLandelijk() {
-  const sectie = document.getElementById("landelijk-sectie");
-  if (sectie) sectie.style.display = "none";
-}
 
 function koppelKlikken() {
   document.addEventListener("click", (e) => {
@@ -1815,14 +1682,10 @@ async function initialiseer() {
   koppelPopup();
 
   // Alles tegelijk ophalen; één ontbrekend bestand mag de rest niet blokkeren.
-  const [berichten, agenda, status, pitches, feed, lokaal, landelijk, dossiersRes] = await Promise.allSettled([
+  const [berichten, agenda, status, dossiersRes] = await Promise.allSettled([
     laadJson("data/berichten.json"),
     laadJson("data/agenda.json"),
     laadJson("data/zanp-status.json"),
-    laadJson("data/pitches.json"),
-    laadJson("data/feed.json"),
-    laadJson("data/nieuws-lokaal.json"),
-    laadJson("data/nieuws-landelijk.json"),
     laadJson("data/zanp-dossiers.json"), // bestaat pas na de eerste run met dossiers; een fout hier is geen probleem
   ]);
 
@@ -1850,21 +1713,6 @@ async function initialiseer() {
     renderAgenda();
   }
   renderStatusregel();
-
-  if (pitches.status === "fulfilled") renderPitches(pitches.value);
-  else document.getElementById("pitches-lijst").innerHTML = foutmeldingHtml(pitches.reason, "Pitches");
-
-  if (feed.status === "fulfilled") renderFeed(feed.value);
-  else document.getElementById("feed-lijst").innerHTML = foutmeldingHtml(feed.reason, "Feed");
-
-  if (lokaal.status === "fulfilled") renderBerichtenLijst("lokaal-lijst", lokaal.value);
-  else document.getElementById("lokaal-lijst").innerHTML = foutmeldingHtml(lokaal.reason, "Lokaal nieuws");
-
-  if (landelijk.status === "fulfilled" && Array.isArray(landelijk.value) && landelijk.value.length > 0) {
-    renderBerichtenLijst("landelijk-lijst", landelijk.value);
-  } else {
-    verbergLandelijk();
-  }
 
   koppelVerversen();
 }
