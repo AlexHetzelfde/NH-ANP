@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T21:40:19.848Z",
+  "gegenereerdOp": "2026-11-15T22:00:49.567Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -369,8 +369,8 @@
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 97,
       "stukken": 567,
-      "kandidaten": 50,
-      "metAnker": 50,
+      "kandidaten": 48,
+      "metAnker": 48,
       "zonderAnker": 0,
       "afgelast": 2,
       "dubbel": 1,
