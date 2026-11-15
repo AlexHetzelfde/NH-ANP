@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-15T09:11:47.672Z",
+  "bijgewerkt": "2026-11-14T16:05:59.095Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -406,7 +406,7 @@
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-11T23:00:00.000Z",
-      "c": null,
+      "c": "16f5b94562",
       "r": "CUL"
     },
     "93f0e76f6f": {
@@ -560,7 +560,7 @@
       "b": "DeOrkaan",
       "n": "DeOrkaan",
       "t": "2026-11-11T23:00:00.000Z",
-      "c": null,
+      "c": "16f5b94562",
       "r": "CUL"
     },
     "bdc90b8b2d": {
@@ -3510,17 +3510,6 @@
       "t": "2026-11-13T23:00:00.000Z",
       "c": null,
       "r": "PRV"
-    },
-    "c5f0e4edcf": {
-      "g": "c5f0e4edcf",
-      "u": "https://zaandijkleeft.nl/hij-komt-hij-komt-3/",
-      "k": "Hij Komt, Hij Komt…",
-      "bt": "",
-      "b": "zaandijk-leeft",
-      "n": "Zaandijk Leeft!",
-      "t": "2026-11-15T07:59:41.000Z",
-      "c": null,
-      "r": "ALG"
     }
   }
 }
