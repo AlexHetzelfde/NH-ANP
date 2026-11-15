@@ -10,6 +10,7 @@
 //   data/zanp-teksten/JJJJ-MM-DD.json   de volledige teksten per publicatiedag
 //                           (14 dagen); de pop-up laadt het bestand van de dag
 //                           van het bericht pas als je het bericht opent
+//   gemeenten.json          de gemeenten van het gemeentemenu (eenmalig geladen)
 //
 // De tabs verversen zichzelf elke 5 minuten zolang de pagina zichtbaar is.
 //
@@ -32,6 +33,10 @@
 //    ANP: kop, meta-regel, tekst en een zijbalk met vorige/volgende, print, mail,
 //    versies, tags en gerelateerde berichten. Esc, de sluitknop of een klik
 //    naast de pop-up sluit hem.
+//  - Gemeentemenu (Nieuwsdienst en Agenda): "Gemeente: Alles" bovenaan, met alle
+//    gemeenten uit gemeenten.json. De keuze geldt voor beide tabs en wordt onthouden.
+//    Een bericht of agendapunt hoort bij een gemeente als de kop, plaats of tekst de
+//    gemeente of een van haar plaatsen noemt, of als de bron aan de gemeente gekoppeld is.
 //  - escapeHtml escapet ook aanhalingstekens; links zijn alleen http(s).
 
 const TIJDZONE = "Europe/Amsterdam";
@@ -105,6 +110,8 @@ const state = {
   dossierOpen: null, // id van het dossier dat in de tab open staat
   popup: null, // { id, kolom } zolang de pop-up open staat
   cameraReeksen: [], // reeksen van cameratoezicht (uit berichten.json), voor de pop-up
+  gemeente: leesOpslag("zanp-gemeente", "alles"), // gekozen gemeente-id, of "alles"
+  gemeenten: { lijst: [], negeer: [], bronnen: {} }, // uit gemeenten.json
 };
 
 // ---------------------------------------------------------------------------
@@ -272,6 +279,7 @@ function toonTab(naam, opties = {}) {
   }
   const kiezer = document.getElementById("kolommenkiezer");
   if (kiezer) kiezer.hidden = gekozen !== "nieuwsdienst";
+  zetGemeenteKiezerZichtbaar();
   if (opties.schrijfHash !== false) schrijfHash();
 }
 
@@ -302,6 +310,106 @@ function koppelTabs() {
   const { tab, params } = parseHash();
   pasParamsToe(tab, params);
   toonTab(tab, { schrijfHash: false });
+}
+
+// ---------------------------------------------------------------------------
+// Gemeentemenu
+// ---------------------------------------------------------------------------
+
+const GEMEENTE_ALLES = "alles";
+const GEEN_GEMEENTEN = new Set();
+let gemeenteCache = new WeakMap(); // bericht of agendapunt -> Set met gemeente-id's
+
+function escapeRegExp(tekst) {
+  return String(tekst).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// Leest gemeenten.json. Een gemeente telt als genoemd bij de naam of een van haar
+// plaatsen, los van een letter ervoor of erna (Alkmaar, Alkmaarse, niet Alkmaarder
+// of Hoogkarspel). Hoofdlettergevoelig: Edam is een plaats, edam een kaas.
+function zetGemeenten(data) {
+  const lijst = data && Array.isArray(data.gemeenten) ? data.gemeenten.filter((g) => g && g.id && g.naam) : [];
+  const negeer = data && Array.isArray(data.negeer) ? data.negeer : [];
+  const bronnen = data && data.bronnen && typeof data.bronnen === "object" ? data.bronnen : {};
+  state.gemeenten = {
+    lijst: lijst.map((g) => {
+      const namen = [...new Set([g.naam, ...(Array.isArray(g.plaatsen) ? g.plaatsen : [])].map(String).filter(Boolean))]
+        .sort((a, b) => b.length - a.length)
+        .map(escapeRegExp);
+      return {
+        id: String(g.id),
+        naam: String(g.naam),
+        regex: new RegExp(`(?<![\\p{L}\\p{N}])(?:${namen.join("|")})(?:se)?(?![\\p{L}\\p{N}])`, "u"),
+      };
+    }),
+    negeer: negeer.map((n) => new RegExp(escapeRegExp(n), "gi")),
+    bronnen,
+  };
+  gemeenteCache = new WeakMap();
+  if (state.gemeente !== GEMEENTE_ALLES && !state.gemeenten.lijst.some((g) => g.id === state.gemeente)) {
+    state.gemeente = GEMEENTE_ALLES;
+  }
+}
+
+function gemeentenVan(item) {
+  if (!state.gemeenten.lijst.length) return GEEN_GEMEENTEN;
+  const bekend = gemeenteCache.get(item);
+  if (bekend) return bekend;
+  let tekst = `${item.kop || ""} ${item.plaats || ""} ${item.tekst || ""}`;
+  for (const n of state.gemeenten.negeer) tekst = tekst.replace(n, " ");
+  const gevonden = new Set();
+  for (const g of state.gemeenten.lijst) {
+    if (g.regex.test(tekst)) gevonden.add(g.id);
+  }
+  for (const id of [].concat(state.gemeenten.bronnen[item.bronId] || [])) gevonden.add(String(id));
+  gemeenteCache.set(item, gevonden);
+  return gevonden;
+}
+
+function gemeenteZichtbaar(item) {
+  return state.gemeente === GEMEENTE_ALLES || gemeentenVan(item).has(state.gemeente);
+}
+
+function gemeenteNaam() {
+  const g = state.gemeenten.lijst.find((x) => x.id === state.gemeente);
+  return g ? g.naam : "Alles";
+}
+
+function renderGemeenteKiezer() {
+  const kiezer = document.getElementById("gemeentekiezer");
+  const container = document.getElementById("gemeente-opties");
+  if (!kiezer || !container) return;
+  const opties = [{ id: GEMEENTE_ALLES, naam: "Alles" }, ...state.gemeenten.lijst];
+  container.innerHTML = opties
+    .map(
+      (o) => `
+      <label class="vinkje gemeente-optie${o.id === state.gemeente ? " actief" : ""}">
+        <input type="radio" name="gemeente" data-actie="gemeente-kies" value="${escapeHtml(o.id)}"${o.id === state.gemeente ? " checked" : ""}>
+        <span>${escapeHtml(o.naam)}</span>
+      </label>${o.id === GEMEENTE_ALLES ? '<div class="gemeente-scheiding" aria-hidden="true"></div>' : ""}`
+    )
+    .join("");
+  const naam = document.getElementById("gemeente-naam");
+  if (naam) naam.textContent = gemeenteNaam();
+  zetGemeenteKiezerZichtbaar();
+}
+
+// Het menu hoort bij Nieuwsdienst en Agenda, en alleen als er gemeenten zijn.
+function zetGemeenteKiezerZichtbaar() {
+  const kiezer = document.getElementById("gemeentekiezer");
+  if (!kiezer) return;
+  kiezer.hidden = state.gemeenten.lijst.length === 0 || state.actieveTab === "dossiers";
+}
+
+function kiesGemeente(id) {
+  const geldig = id === GEMEENTE_ALLES || state.gemeenten.lijst.some((g) => g.id === id);
+  state.gemeente = geldig ? id : GEMEENTE_ALLES;
+  bewaarOpslag("zanp-gemeente", state.gemeente);
+  const kiezer = document.getElementById("gemeentekiezer");
+  if (kiezer) kiezer.removeAttribute("open");
+  renderGemeenteKiezer();
+  renderWire();
+  renderAgenda();
 }
 
 // ---------------------------------------------------------------------------
@@ -371,6 +479,7 @@ function kolomBerichten(code) {
   let ouder = 0;
   for (const r of state.zichtbaar) {
     if (code !== "ALL" && r.rubriek !== code) continue;
+    if (!gemeenteZichtbaar(r)) continue;
     if (ondergrens && (dagVan(r.tijd) || "") < ondergrens) {
       ouder++;
       continue;
@@ -478,6 +587,7 @@ function agendaVandaagInfo(rubriekCode) {
   const items = state.agenda.filter(
     (i) =>
       agendaItemZichtbaar(i, false)
+      && gemeenteZichtbaar(i)
       && i.startDag <= vandaag
       && vandaag <= i.eindDag
       && i.status !== "VERVALLEN"
@@ -999,7 +1109,10 @@ function renderWireItem(r, kolomCode) {
 function kolomLijstHtml(code) {
   const { lijst, ouder, zoekt } = kolomBerichten(code);
   let html = lijst.map((r) => renderWireItem(r, code)).join("");
-  if (!html) html = `<p class="agenda-leeg">${zoekt ? "Niets gevonden." : "Geen berichten in de laatste drie dagen."}</p>`;
+  if (!html) {
+    const gekozen = state.gemeente !== GEMEENTE_ALLES ? ` voor ${escapeHtml(gemeenteNaam())}` : "";
+    html = `<p class="agenda-leeg">${zoekt ? "Niets gevonden." : `Geen berichten${gekozen} in de laatste drie dagen.`}</p>`;
+  }
   if (ouder > 0) {
     html += `<button type="button" class="oudere-knop" data-actie="oudere" data-kolom="${escapeHtml(code)}">Oudere berichten (${ouder})</button>`;
   }
@@ -1329,7 +1442,7 @@ function renderAgenda() {
     return;
   }
 
-  const items = state.agenda.filter((i) => !rubriek || i.rubriek === rubriek);
+  const items = state.agenda.filter((i) => (!rubriek || i.rubriek === rubriek) && gemeenteZichtbaar(i));
   const verborgen = items.filter((i) => i.startDag <= dagen[6] && i.eindDag >= dagen[0] && !agendaItemZichtbaar(i, false)).length;
   const allesKnop = document.getElementById("agenda-alles");
   allesKnop.hidden = verborgen === 0 && !toonAlles;
@@ -1442,6 +1555,9 @@ function koppelKlikken() {
     document.querySelectorAll(".kolom-menu[open]").forEach((m) => {
       if (!m.contains(e.target)) m.removeAttribute("open");
     });
+    // Het gemeentemenu sluit bij een klik ernaast.
+    const gemeenteMenu = document.getElementById("gemeentekiezer");
+    if (gemeenteMenu && gemeenteMenu.open && !gemeenteMenu.contains(e.target)) gemeenteMenu.removeAttribute("open");
     // Een klik naast de pop-up (op de donkere rand) sluit hem.
     if (e.target.id === "bericht-modal") {
       sluitPopup();
@@ -1557,6 +1673,11 @@ function koppelKlikken() {
   });
 
   document.addEventListener("change", (e) => {
+    const keuze = e.target.closest('[data-actie="gemeente-kies"]');
+    if (keuze) {
+      kiesGemeente(keuze.value);
+      return;
+    }
     const box = e.target.closest('[data-actie="kolom-aan"]');
     if (!box) return;
     if (box.checked) state.kolommenUit.delete(box.dataset.kolom);
@@ -1682,12 +1803,16 @@ async function initialiseer() {
   koppelPopup();
 
   // Alles tegelijk ophalen; één ontbrekend bestand mag de rest niet blokkeren.
-  const [berichten, agenda, status, dossiersRes] = await Promise.allSettled([
+  const [berichten, agenda, status, dossiersRes, gemeentenRes] = await Promise.allSettled([
     laadJson("data/berichten.json"),
     laadJson("data/agenda.json"),
     laadJson("data/zanp-status.json"),
     laadJson("data/zanp-dossiers.json"), // bestaat pas na de eerste run met dossiers; een fout hier is geen probleem
+    laadJson("gemeenten.json"), // zonder dit bestand is er geen gemeentemenu; de rest werkt gewoon
   ]);
+
+  if (gemeentenRes.status === "fulfilled") zetGemeenten(gemeentenRes.value);
+  renderGemeenteKiezer();
 
   if (berichten.status === "fulfilled") zetBerichten(berichten.value);
   if (dossiersRes.status === "fulfilled") zetDossiers(dossiersRes.value);

@@ -23,6 +23,11 @@
           <summary>Kolommen</summary>
           <div id="kolommen-opties" class="kolommen-opties"></div>
         </details>
+        <!-- Gemeentemenu: zichtbaar op Nieuwsdienst en Agenda. Gevuld uit gemeenten.json; zonder dat bestand blijft het verborgen. -->
+        <details class="gemeentekiezer" id="gemeentekiezer" hidden>
+          <summary aria-label="Gemeente kiezen" title="Gemeente kiezen"><span class="gemeente-label">Gemeente:</span><span id="gemeente-naam" class="gemeente-naam">Alles</span></summary>
+          <div id="gemeente-opties" class="gemeente-opties" role="radiogroup" aria-label="Gemeente"></div>
+        </details>
         <h1 class="top-titel sr-only">Nieuwsdienst Zaanstreek-Waterland</h1>
         <p id="laatste-update" class="laatste-update"></p>
         <details class="info-menu" id="info-menu">

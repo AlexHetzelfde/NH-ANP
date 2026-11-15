@@ -267,11 +267,17 @@ body {
   border-radius: 4px;
 }
 
-.kolommenkiezer {
+.kolommenkiezer,
+.gemeentekiezer {
   position: relative;
 }
 
-.kolommenkiezer summary {
+.gemeentekiezer[hidden] {
+  display: none;
+}
+
+.kolommenkiezer summary,
+.gemeentekiezer summary {
   display: flex;
   align-items: center;
   height: 2.25rem;
@@ -284,15 +290,18 @@ body {
   border-radius: 999px;
 }
 
-.kolommenkiezer summary:hover {
+.kolommenkiezer summary:hover,
+.gemeentekiezer summary:hover {
   background: var(--zanp-primair-licht);
 }
 
-.kolommenkiezer summary::-webkit-details-marker {
+.kolommenkiezer summary::-webkit-details-marker,
+.gemeentekiezer summary::-webkit-details-marker {
   display: none;
 }
 
-.kolommen-opties {
+.kolommen-opties,
+.gemeente-opties {
   position: absolute;
   z-index: 10;
   top: calc(100% + 0.25rem);
@@ -312,6 +321,43 @@ body {
   align-items: center;
   gap: 0.4rem;
   font-size: 0.9rem;
+}
+
+.gemeente-label {
+  font-weight: 400;
+  color: #555;
+  margin-right: 0.35rem;
+}
+
+.gemeente-naam::after {
+  content: " ▾";
+  font-weight: 400;
+}
+
+.gemeente-opties {
+  min-width: 13rem;
+  max-height: min(70vh, 26rem);
+  overflow-y: auto;
+}
+
+.gemeente-optie {
+  cursor: pointer;
+  padding: 0.2rem 0;
+}
+
+.gemeente-optie input {
+  margin: 0;
+}
+
+.gemeente-optie.actief span {
+  font-weight: 700;
+  color: var(--zanp-primair);
+}
+
+.gemeente-scheiding {
+  height: 1px;
+  margin: 0.15rem 0;
+  background: #e3e5ea;
 }
 
 /* --- Hoofdvlak --- */

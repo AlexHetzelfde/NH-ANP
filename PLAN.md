@@ -20,6 +20,7 @@ Voorbereiding op een nieuwe repo voor de regio tussen Zaanstreek-Waterland en Al
 - [x] `package.json`: `npm start` draait nu `zanp.js`.
 - [x] `herstel-bronnen.js` leest zijn tellers uit `data/zanp-status.json`. Er is geen automatisch zelfherstel meer; "Bron herstellen" werkt alleen handmatig.
 - [x] Bronnen verwijderd (uit `bronnen.js`, `zanp-bronnen.js` en `rubrieken.json`): DeOrkaan, hhnk, zaansche-molen, ovo-zaanstad, zaans-museum, zaanse-schans, zaandijk-leeft, zaans-cultuur-huis, WaarheenAgenda, vervoerregio-persberichten, zaanstad-ted.
+- [x] Gemeentemenu in de header (Nieuwsdienst en Agenda): "Gemeente: Alles" plus 15 gemeenten van Zaanstreek-Waterland tot Alkmaar, uit `gemeenten.json`. De keuze geldt voor beide tabs en wordt onthouden. Een bericht of agendapunt hoort bij een gemeente als kop, plaats of tekst de gemeente of een plaats noemt, of als de bron aan de gemeente gekoppeld is (`bronnen` in `gemeenten.json`). Bij een nieuwe bron daar dus ook een koppeling toevoegen. Berichten zonder herkende gemeente staan alleen bij Alles.
 - [ ] Nog te doen voor de nieuwe regio: bronnen voor Alkmaar en omgeving toevoegen, titels en teksten ("Zaanstreek-Waterland") aanpassen, en de bestaande data (`berichten.json`, `agenda.json`, `zanp-*`) leegmaken of bewaren.
 
 ### Eerste controle in de repo, voor elke fase
