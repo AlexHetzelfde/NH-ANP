@@ -2,9 +2,8 @@
 //
 // Controleert scraper/rubrieken.json (de ZANP-instellingen per bron).
 // Bewust APART van valideer-bronnen.js: een fout in rubrieken.json mag de
-// pitchmachine nooit stoppen. De dagelijkse pitchrun roept dit script dus niet
-// aan; controle.yml (bij elke push) en "Bron toevoegen" wel, en de ZANP-run
-// draait het met continue-on-error.
+// ZANP-run nooit stoppen. controle.yml (bij elke push) en "Bron toevoegen"
+// draaien dit script, en de ZANP-run draait het met continue-on-error.
 //
 // Fouten (exit 1): kapot JSON, onbekende rubriek of herkomst, ongeldige prio,
 //   herschrijven bij een bron die we niet mogen herschrijven.

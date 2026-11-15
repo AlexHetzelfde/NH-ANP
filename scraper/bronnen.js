@@ -6,23 +6,15 @@
 //  - blaise-pascal-college en OmgevingsdienstNHN verwijderd (leverden
 //    onvoldoende op en kostten te veel tijd).
 //
-// Sinds 2026-11-14:
-//  - DeOrkaan (deorkaan.nl) verwijderd op verzoek. WaarheenAgenda (de agenda van
-//    De Orkaan) blijft staan.
-//  - hhnk (Hoogheemraadschap Hollands Noorderkwartier) verwijderd op verzoek
-//    (58 runs achter elkaar niets in ZANP).
-//  - politie-zaanstad verwijderd (de pitchrun vond er 14 nachten achter elkaar
-//    niets, ZANP 52 runs achter elkaar; de selectors van politie.nl werken niet meer).
+// Sinds 2026-11-14 (voorbereiding op de regio Midden-Noord-Holland):
+//  - De pitchmachine is uit de repo gehaald; ZANP is de enige gebruiker van deze lijst.
+//  - Verwijderd op verzoek: DeOrkaan, hhnk, zaansche-molen, ovo-zaanstad,
+//    zaans-museum, zaanse-schans, zaandijk-leeft, zaans-cultuur-huis,
+//    WaarheenAgenda en vervoerregio-persberichten.
+//  - politie-zaanstad verwijderd (52 ZANP-runs achter elkaar niets; de selectors
+//    van politie.nl werken niet meer).
 
 module.exports = [
-  {
-    id: "zaansche-molen",
-    naam: "De Zaansche Molen — Nieuws",
-    categorie: "lokaal",
-    type: "wordpress-html",
-    url: "https://www.zaanschemolen.nl/nieuws/",
-    rustig: true,
-  },
   {
     id: "ibabs-collegeberichten",
     naam: "Zaanstad — Collegeberichten (iBabs)",
@@ -69,30 +61,6 @@ module.exports = [
     },
   },
   {
-    id: "ovo-zaanstad",
-    naam: "OVO Zaanstad (koepel 7 vo-scholen)",
-    categorie: "lokaal",
-    type: "generieke-lijst",
-    url: "https://www.ovo-zaanstad.nl/nieuws/",
-    rustig: true,
-  },
-  {
-    id: "zaans-museum",
-    naam: "Zaans Museum — Nieuws & Pers",
-    categorie: "lokaal",
-    type: "generieke-lijst",
-    url: "https://zaansmuseum.nl/nieuws-pers/",
-    rustig: true,
-  },
-  {
-    id: "zaanse-schans",
-    naam: "Zaanse Schans — Actueel",
-    categorie: "lokaal",
-    type: "generieke-lijst",
-    url: "https://www.dezaanseschans.nl/contact/actueel/",
-    rustig: true,
-  },
-  {
     id: "nh-actueel",
     naam: "Provincie Noord-Holland — Actueel",
     categorie: "lokaal",
@@ -124,54 +92,12 @@ module.exports = [
     },
   },
   {
-    id: "zaandijk-leeft",
-    naam: "Zaandijk Leeft!",
-    categorie: "lokaal",
-    type: "wordpress-html",
-    url: "https://zaandijkleeft.nl/",
-    rustig: true,
-  },
-  {
     id: "omgevingsdienstnoordzeekanaal",
     naam: "Omgevingsdienst Noordzeekanaalgebied",
     categorie: "lokaal",
     type: "wordpress-html",
     url: "https://odnzkg.nl/nieuws/",
     rustig: true,
-  },
-  {
-    id: "zaans-cultuur-huis",
-    naam: "Zaans Cultuurhuis — Agenda",
-    categorie: "lokaal",
-    type: "gemini-recept",
-    url: "https://zaanscultuurhuis.nl/agenda",
-    soort: "agenda",
-    selectors: {
-      itemSelector: "article.eventlist-event--upcoming",
-      titelSelector: "h1.eventlist-title",
-      linkSelector: "a.eventlist-title-link",
-      datumSelector: "time.event-date",
-      datumAttribuut: "datetime",
-      samenvattingSelector: ".eventlist-excerpt",
-      fotoSelector: "a.eventlist-column-thumbnail img",
-      fotoAttribuut: "data-src",
-    },
-  },
-  {
-    id: "WaarheenAgenda",
-    naam: "Waarheen Agenda (De Orkaan)",
-    categorie: "lokaal",
-    type: "gemini-recept",
-    url: "https://waarheen.deorkaan.nl/agenda/",
-    soort: "agenda",
-    detailSelector: ".text-content-section",
-    selectors: {
-      itemSelector: "a.event-card",
-      titelSelector: "h2",
-      linkSelector: "self",
-      datumSelector: ".date",
-      datumAttribuut: null,
-    },
   },
   {
     id: "rechtspraak-noord-holland",
@@ -248,27 +174,6 @@ module.exports = [
       samenvattingSelector: null,
       fotoSelector: null,
       fotoAttribuut: null,
-    },
-  },
-  {
-    id: "vervoerregio-persberichten",
-    naam: "Vervoerregio — Persberichten Zaanstad",
-    categorie: "lokaal",
-    type: "gemini-recept",
-    // De lijst staat niet in de pagina maar komt via een POST binnen; zie haalLijstViaVerzoek in scrapers/gemini-recept.js.
-    url: "https://www.vervoerregio.nl/zoeken?tGebied=Zaanstad",
-    paginering: { soort: "geen" },
-    rustig: true,
-    verzoek: { herken: "resultaten gevonden" },
-    selectors: {
-      itemSelector: ".pi-gallery-item.news",
-      titelSelector: ".header.side",
-      linkSelector: "self",
-      datumSelector: ".search-results-header",
-      datumAttribuut: null,
-      samenvattingSelector: ".caption",
-      fotoSelector: ".img-container img",
-      fotoAttribuut: "src",
     },
   },
 ];

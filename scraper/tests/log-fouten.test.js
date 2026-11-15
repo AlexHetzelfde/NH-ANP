@@ -32,7 +32,7 @@ const BRAND = ruw({
     "Bij een uitslaande brand aan de Annemoonstraat 30 in Zaandam zijn 3 gewonden gevallen en zijn 12 bewoners geëvacueerd, meldt de brandweer vanochtend.",
 });
 const WETHOUDER = ruw({
-  bronId: "DeOrkaan",
+  bronId: "testbron",
   url: "https://voorbeeld.nl/wethouder",
   titel: "Wethouder stapt op na integriteitsonderzoek",
   samenvatting:
@@ -115,13 +115,13 @@ test("een bron met een fout is in status en logboek te onderscheiden van een bro
   assert.equal(status.bronnen["nh-cultuur"].laatsteFout.duurSec, 45);
   assert.equal(status.bronnen.bekendmakingen.opeenvolgendFout, 0, "een bron die werkt heeft geen fouten");
   assert.equal(status.bronnen.bekendmakingen.laatsteFout, undefined);
-  assert.equal(status.bronnen["zaans-museum"].opeenvolgendLeeg, 1, "een rustige bron is wel leeg");
-  assert.equal(status.bronnen["zaans-museum"].opeenvolgendFout, 0, "maar geen fout");
+  assert.equal(status.bronnen["omgevingsdienstnoordzeekanaal"].opeenvolgendLeeg, 1, "een rustige bron is wel leeg");
+  assert.equal(status.bronnen["omgevingsdienstnoordzeekanaal"].opeenvolgendFout, 0, "maar geen fout");
 
   let bronnenLog = laatsteLog("bronnen");
   assert.equal(bronnenLog.tellers.fout, 1);
   assert.equal(bronnenLog.tellers.timeOut, 1);
-  assert.ok(bronnenLog.waarden.leegZonderFoutLijst.includes("zaans-museum"));
+  assert.ok(bronnenLog.waarden.leegZonderFoutLijst.includes("omgevingsdienstnoordzeekanaal"));
   assert.ok(!bronnenLog.waarden.leegZonderFoutLijst.includes("nh-cultuur"), "een bron met een fout is niet 'gewoon leeg'");
   assert.ok(!bronnenLog.waarden.leegZonderFoutLijst.includes("bekendmakingen"));
   assert.ok(bronnenLog.regels.some((r) => r.includes("[nh-cultuur]") && r.includes("time-out")));
@@ -154,8 +154,8 @@ test("een scraper die zijn eigen fout opvangt (console.error, lege lijst) telt a
     // Een foutregel naast gevonden berichten is een melding, geen mislukte bron.
     console.error("[bekendmakingen] Detailpagina niet op te halen: 500");
     // Waarschuwingen en gewone regels tellen niet mee.
-    console.warn("[zaans-museum] Sessie ophalen mislukt — doorgaan zonder cookie.");
-    console.log("[zaans-museum] Feed-kandidaat faalde: 404");
+    console.warn("[omgevingsdienstnoordzeekanaal] Sessie ophalen mislukt — doorgaan zonder cookie.");
+    console.log("[omgevingsdienstnoordzeekanaal] Feed-kandidaat faalde: 404");
     return [BRAND];
   };
   console.error = (...a) => stil.push(a.join(" ")); // houd de testuitvoer schoon
@@ -171,12 +171,12 @@ test("een scraper die zijn eigen fout opvangt (console.error, lege lijst) telt a
   assert.match(status.bronnen["nh-cultuur"].laatsteFout.bericht, /^Generieke lijst-scraper mislukt: fetch failed/);
   assert.equal(status.bronnen["nh-cultuur"].laatsteFout.duurSec, null);
   assert.equal(status.bronnen.bekendmakingen.opeenvolgendFout, 0, "met berichten is het geen mislukte bron");
-  assert.equal(status.bronnen["zaans-museum"].opeenvolgendFout, 0, "een waarschuwing is geen fout");
+  assert.equal(status.bronnen["omgevingsdienstnoordzeekanaal"].opeenvolgendFout, 0, "een waarschuwing is geen fout");
 
   const log = laatsteLog("bronnen");
   assert.equal(log.tellers.fout, 1);
   assert.equal(log.tellers.meldingMetBerichten, 1);
-  assert.ok(log.waarden.leegZonderFoutLijst.includes("zaans-museum"));
+  assert.ok(log.waarden.leegZonderFoutLijst.includes("omgevingsdienstnoordzeekanaal"));
   assert.ok(!log.waarden.leegZonderFoutLijst.includes("nh-cultuur"));
   assert.ok(log.regels.some((r) => r.startsWith("[nh-cultuur] scrapen mislukt") && r.includes("ENOTFOUND")));
 });
@@ -245,7 +245,7 @@ test("een mislukte AI-aanroep komt met de volledige reden in het logboek", async
   assert.ok(ai.regels.some((r) => r.includes("http-503") && r.includes("overloaded")), "de reden staat in een regel");
   assert.equal(ai.voorbeelden[0].categorie, "http-503");
   assert.equal(ai.voorbeelden[0].status, 503);
-  assert.ok(["bekendmakingen", "DeOrkaan"].includes(ai.voorbeelden[0].bron));
+  assert.ok(["bekendmakingen", "testbron"].includes(ai.voorbeelden[0].bron));
 });
 
 test("een antwoord waarin een bericht ontbreekt, staat als 'ontbreekt-in-antwoord' in het logboek", async () => {

@@ -1,7 +1,8 @@
 // gedeeld.js
 //
-// Scrapecode die zowel de pitchmachine (index.js) als de nieuwsdienst
-// (zanp.js) gebruikt. ZANP-fase 2 (2026-10-24).
+// Scrapecode van de nieuwsdienst (zanp.js). Gemaakt in ZANP-fase 2 (2026-10-24),
+// toen ze nog door de pitchmachine (index.js) werd gedeeld; die bestaat sinds
+// 2026-11-14 niet meer.
 //
 // Dit zijn de functies uit index.js, LETTERLIJK verplaatst. De enige
 // aanpassing: scrapeAlleBronnen krijgt een optionele lijst bronnen, zodat
@@ -66,7 +67,7 @@ async function metTijdslimiet(belofte, ms, melding) {
   return Promise.race([belofte, limiet]).finally(() => clearTimeout(timer));
 }
 
-// opties (allemaal optioneel; de pitchrun geeft er geen mee en gedraagt zich dus als vanouds):
+// opties (allemaal optioneel):
 //   parallel   hoeveel bronnen tegelijk
 //   timeoutMs  maximumtijd per bron
 //   opFout     (bron, fout, duurSec) => void, alleen ZANP: wordt aangeroepen als scrapen van
@@ -75,7 +76,7 @@ async function metTijdslimiet(belofte, ms, melding) {
 async function scrapeAlleBronnen(bronnenLijst = bronnen, opties = {}) {
   const alleBerichten = [];
   const parallel = Math.max(1, opties.parallel || 1);
-  const timeoutMs = opties.timeoutMs || 0; // 0 = geen timeout (pitchrun)
+  const timeoutMs = opties.timeoutMs || 0; // 0 = geen timeout
 
   const wachtrij = [...bronnenLijst].map((bron, index) => ({ bron, index }));
   const resultaten = new Map(); // index -> berichten

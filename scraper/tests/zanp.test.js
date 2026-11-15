@@ -18,7 +18,7 @@ const BRAND = ruw({
   samenvatting: "Bij een uitslaande brand aan de Annemoonstraat 30 in Zaandam zijn 3 gewonden gevallen en zijn 12 bewoners geëvacueerd, meldt de brandweer vanochtend.",
 });
 const WETHOUDER = ruw({
-  bronId: "DeOrkaan",
+  bronId: "testbron",
   url: "https://voorbeeld.nl/wethouder",
   titel: "Wethouder stapt op na integriteitsonderzoek",
   samenvatting: "De Zaanse wethouder stapt op na een integriteitsonderzoek naar het bestuur van de gemeente Zaanstad. De raad komt donderdag bijeen om erover te praten.",
@@ -57,7 +57,7 @@ test("een run zonder API-sleutel levert tags, checklists en alleen de eigen best
   const b = Object.fromEntries(r.records.map((x) => [x.bronId, x]));
   assert.equal(b.bekendmakingen.rubriek, "112");
   assert.equal(b.bekendmakingen.checklist.evacuatieOfNlAlert, true);
-  assert.equal(b.DeOrkaan.checklist.bestuurlijkeCrisis, true);
+  assert.equal(b.testbron.checklist.bestuurlijkeCrisis, true);
   assert.deepEqual(fs.readdirSync(map).sort(), ["agenda.json", "berichten.json", "zanp-dossiers.json", "zanp-log.json", "zanp-status.json", "zanp-stubs.json"]); // geen pitchbestanden
   const status = leesData(map, "zanp-status.json");
   assert.equal(status.gemini.gebruikt, 0);
@@ -92,8 +92,8 @@ test("een run met AI telt verzoeken, bewaart de kwaliteit en kiest de tag", asyn
   const b = Object.fromEntries(r.records.map((x) => [x.bronId, x]));
   assert.equal(b.bekendmakingen.ai, true);
   assert.equal(b.bekendmakingen.tagBron, "ai");
-  assert.equal(b.DeOrkaan.rubriek, "GEM");
-  assert.equal(b.DeOrkaan.tekst, null); // andermans artikel wordt nooit herschreven
+  assert.equal(b.testbron.rubriek, "GEM");
+  assert.equal(b.testbron.tekst, null); // andermans artikel wordt nooit herschreven
 });
 
 test("na een 429 wacht ZANP tot de quotumreset en slaat de AI daarna over", async () => {
@@ -128,7 +128,7 @@ test("een oud bericht met een oude rubriekcode wordt omgezet naar een tag", () =
   const oud = z.migreerBericht({ id: "a-v1", groepId: "a", url: "u", kop: "Rechtbank doet uitspraak", rubriek: "BES", bronId: "rechtspraak-noord-holland", herkomst: "officieel", gecontroleerdOp: "2026-10-01T00:00:00Z" });
   assert.equal(oud.rubriek, "REC");
   assert.ok(oud.tagBron);
-  const agenda = z.migreerAgendaItem({ id: "x", kop: "Concert", rubriek: "BES", bronId: "zaans-museum", relevantie: { zichtbaar: true }, afkomst: "bron" });
+  const agenda = z.migreerAgendaItem({ id: "x", kop: "Concert", rubriek: "BES", bronId: "nh-cultuur", relevantie: { zichtbaar: true }, afkomst: "bron" });
   assert.equal(agenda.rubriek, "CUL");
 });
 
@@ -146,13 +146,13 @@ test("dossiers: vijf verhalen over een onderwerp worden een dossier met één AI
   };
   const dag = 24 * 3600 * 1000;
   // De stubs van drie berichten uit eerdere dagen staan al in het bestand van een vorige run.
-  const stub = (g, kop, dagenGeleden, b = "DeOrkaan") => [g, { g, u: `https://voorbeeld.nl/${g}`, k: kop, bt: "", b, n: b, t: new Date(nu.getTime() - dagenGeleden * dag).toISOString(), c: null, r: "VER" }];
+  const stub = (g, kop, dagenGeleden, b = "testbron") => [g, { g, u: `https://voorbeeld.nl/${g}`, k: kop, bt: "", b, n: b, t: new Date(nu.getTime() - dagenGeleden * dag).toISOString(), c: null, r: "VER" }];
   fs.writeFileSync(`${map}/zanp-stubs.json`, JSON.stringify({ versie: 1, items: Object.fromEntries([
     stub("oud1", "Busbrug in Zaandam blijft dicht na nieuwe schade", 3),
     stub("oud2", "Raad wil antwoorden over vertraging van de busbrug", 2, "nh-actueel"),
     stub("oud3", "Fietsers boos over omleiding rond de busbrug", 2),
   ]) }));
-  const brug = (nr, titel, bronId = "DeOrkaan") => ruw({ bronId, url: `https://voorbeeld.nl/busbrug-${nr}`, titel, samenvatting: `${titel}. `.repeat(12) });
+  const brug = (nr, titel, bronId = "testbron") => ruw({ bronId, url: `https://voorbeeld.nl/busbrug-${nr}`, titel, samenvatting: `${titel}. `.repeat(12) });
   const env = { ZANP_DOSSIER_MODUS: "aan" };
   await z.draai({
     nu, apiKey: "sleutel", env, haalTekst: geenTekst, schrijf: g.schrijfMeldingen,

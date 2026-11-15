@@ -1,14 +1,15 @@
 // zanp.js — ingang van de half-uurlijkse nieuwsdienst-run (ZANP)
 //
-// Draait los van de pitchmachine (index.js). Schrijft ALLEEN:
+// De pitchmachine (index.js) bestaat niet meer; dit is de enige run. Schrijft ALLEEN:
 //   data/berichten.json    de nieuwsstroom
 //   data/agenda.json       de weekagenda
 //   data/zanp-status.json  per bron laatste scrape, dagteller Gemini, enz.
 //   data/zanp-prioriteit/  geheugen, schaduwlog en teksten van de prioriteitsfunctie
 //                          (rood kleuren, scraper/prioriteit/)
-// Leest verder alleen bronnen.js, rubrieken.json en (bij de allereerste run,
-// voor de startvulling) data/feed.json. De pitch-bestanden blijven van
-// index.js.
+// Leest verder alleen bronnen.js, zanp-bronnen.js, rubrieken.json en (bij de
+// allereerste run, voor de startvulling) data/feed.json als dat bestand bestaat.
+// Sinds 2026-11-14 wordt feed.json niet meer bijgewerkt en is het bestand
+// verwijderd; zonder het bestand begint de eerste run gewoon leeg.
 //
 // Sinds 2026-10-26 (ZANP-fase 2):
 //  - ZANP draait op gemini-flash-lite-latest (ruim quotum).
@@ -17,7 +18,7 @@
 //  - Teller telt alleen geslaagde aanroepen (melding of onvoldoende).
 //  - Scrapen parallel (4 tegelijk) met een harde time-out van 45s per bron.
 //  - Agenda-horizon: 14 dagen vooruit via maxVooruitDagen op de effectieve
-//    bron. De pitchrun (index.js) houdt de oude horizon.
+//    bron.
 //
 // Sinds 2026-10-29:
 //  - Het quotum telt VERZOEKEN. De AI werkt in batches van meerdere berichten
@@ -44,8 +45,7 @@
 //    tekstarchief.js). De teksten worden netjes en met alinea's bewaard
 //    (tekstopschoning.js).
 
-// Bronnen die alleen ZANP gebruikt staan in zanp-bronnen.js, zodat de
-// nachtelijke pitchrun (index.js) ze niet meeneemt.
+// Aanvullende bronnen staan in zanp-bronnen.js (zie dat bestand).
 const bronnen = [...require("./bronnen"), ...require("./zanp-bronnen")];
 const { RUBRIEKEN, isBekendeBron, profielVoor } = require("./rubrieken");
 const { tagsVoorPrompt, TAG_VERSIE, kiesTagUitTekst } = require("./tags");

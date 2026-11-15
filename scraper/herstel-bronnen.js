@@ -2,6 +2,13 @@
 //
 // Zelfherstel voor bronnen die niets meer opleveren.
 //
+// Sinds 2026-11-14: de pitchmachine (en daarmee data/bron-gezondheid.json) is
+// uit de repo gehaald. De tellers komen nu uit data/zanp-status.json
+// (opeenvolgendLeeg per bron). Het script draait alleen nog handmatig, via de
+// workflow "Bron herstellen"; er is geen automatische trigger meer. De
+// "venster"-aanleiding (wel berichten, maar niets binnen het leeftijdsvenster)
+// bestond alleen in de pitchrun en komt dus niet meer voor.
+//
 // Sinds de "tijdzone-en-logica"-ronde (2026-10-17):
 //  - Rustige bronnen (rustig: true) worden niet meer getriggerd op "venster".
 //    Dat is verwacht gedrag (een rustige bron publiceert nu eenmaal weinig),
@@ -22,7 +29,7 @@ const MIN_DAGEN = Number(process.env.HERSTEL_MIN_DAGEN || 2);
 const MIN_DAGEN_RUSTIG = Number(process.env.HERSTEL_MIN_DAGEN_RUSTIG || 14);
 const MAX_PER_RUN = Number(process.env.HERSTEL_MAX_PER_RUN || 3);
 const DROOG = process.env.HERSTEL_DROOG === "true";
-const GEZONDHEID_PAD = path.join(__dirname, "..", "data", "bron-gezondheid.json");
+const STATUS_PAD = path.join(__dirname, "..", "data", "zanp-status.json");
 const NIET_HERSTELBAAR = new Set(["ibabs"]);
 const REPO_ROOT = path.join(__dirname, "..");
 
@@ -36,7 +43,15 @@ function gh(...args) {
 
 async function leesGezondheid() {
   try {
-    return JSON.parse(await fs.readFile(GEZONDHEID_PAD, "utf-8"));
+    const status = JSON.parse(await fs.readFile(STATUS_PAD, "utf-8"));
+    const uit = {};
+    for (const [id, b] of Object.entries((status && status.bronnen) || {})) {
+      uit[id] = {
+        gevonden: b.gevonden || 0,
+        opeenvolgendGeenBerichten: b.opeenvolgendLeeg || 0,
+      };
+    }
+    return uit;
   } catch {
     return {};
   }

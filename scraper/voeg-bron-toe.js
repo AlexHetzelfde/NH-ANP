@@ -202,7 +202,7 @@ async function main() {
   const zanpWaarschuwingen = [];
   if (categorie === "landelijk") {
     zanpWaarschuwingen.push(
-      "Een landelijke bron doet niet mee aan ZANP (die is regionaal); hij blijft wel in het pitchdeel."
+      "Een landelijke bron doet niet mee aan ZANP (die is regionaal) en levert dus niets op. Kies categorie lokaal."
     );
   }
   if (zanp.herkomst === "onbekend") {

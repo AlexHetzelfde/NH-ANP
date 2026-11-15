@@ -1,11 +1,11 @@
 {
   "name": "nieuwsaggregator-zaanstreek-scraper",
   "version": "1.0.0",
-  "description": "Dagelijkse scraper + AI-triage voor de nieuwsaggregator Zaanstreek-Waterland",
+  "description": "ZANP: scraper en nieuwsdienst",
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
+    "start": "node zanp.js",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {

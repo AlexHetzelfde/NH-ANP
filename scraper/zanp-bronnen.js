@@ -1,16 +1,18 @@
 // zanp-bronnen.js
 //
-// Bronnen die ALLEEN door ZANP (de nieuwsstroom, zanp.js) worden gescrapet.
-// De nachtelijke pitchrun (index.js) leest alleen bronnen.js en slaat deze
-// lijst dus over. Voeg hier een bron toe als hij wel in de nieuwsstroom moet,
-// maar niet in de pitches. Vergeet niet een regel in rubrieken.json.
+// Aanvullende bronnen voor ZANP (de nieuwsstroom, zanp.js), naast bronnen.js.
+// zanp.js leest beide lijsten. De pitchmachine bestaat niet meer, dus het
+// onderscheid is alleen nog praktisch: "Bron toevoegen" en "Bron herstellen"
+// werken op bronnen.js; bronnen met een eigen scraper of speciale opties
+// staan hier. Vergeet niet een regel in rubrieken.json.
 //
 // Dit bestand wordt niet door "Bron toevoegen" of "Bron herstellen"
 // herschreven: die workflows werken alleen op bronnen.js.
 //
-// Sinds 2026-11-14: zaanstad-tenderned verwijderd (50 runs achter elkaar niets).
-// De Europese aanbestedingen blijven binnenkomen via zaanstad-ted. De scraper
-// zelf (scrapers/tenderned.js) blijft staan, mocht de bron terugkomen.
+// Sinds 2026-11-14: zaanstad-tenderned verwijderd (50 runs achter elkaar niets)
+// en zaanstad-ted verwijderd op verzoek (regio Midden-Noord-Holland). De
+// scrapers zelf (scrapers/tenderned.js en scrapers/ted.js) blijven staan,
+// mocht een van beide bronnen terugkomen.
 
 module.exports = [
   {
@@ -54,16 +56,6 @@ module.exports = [
       "or((w.publicatienaam==%22Blad%20gemeenschappelijke%20regeling%22)))" +
       "and(cql.textAndIndexes=%22camera%22)" +
       "%20AND%20dt.creator==%22Zaanstad%22",
-    nooitVertragen: true,
-  },
-  {
-    // Aanbestedingen boven de Europese drempel (TED). Zie scrapers/ted.js.
-    id: "zaanstad-ted",
-    naam: "Gemeente Zaanstad: aanbestedingen (TED)",
-    categorie: "lokaal",
-    type: "ted",
-    url: "https://api.ted.europa.eu/v3/notices/search",
-    zoeknaam: "Zaanstad",
     nooitVertragen: true,
   },
 ];

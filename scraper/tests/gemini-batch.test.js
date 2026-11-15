@@ -20,11 +20,8 @@ function antwoordVoorBatch(_url, opties) {
   });
 }
 
-test("de pitchrun blijft op Flash, ZANP op Flash-Lite", () => {
-  assert.deepEqual(g.MODELLEN.filter, ["gemini-flash-latest"]);
-  assert.deepEqual(g.MODELLEN.pitch, ["gemini-flash-latest"]);
-  assert.deepEqual(g.MODELLEN.sterker, ["gemini-flash-latest"]);
-  assert.deepEqual(g.MODELLEN.wire, ["gemini-flash-lite-latest"]);
+test("ZANP draait op Flash-Lite en er zijn geen pitchmodellen meer", () => {
+  assert.deepEqual(g.MODELLEN, { wire: ["gemini-flash-lite-latest"] });
 });
 
 test("16 berichten kosten 4 verzoeken: batches per modus", async () => {

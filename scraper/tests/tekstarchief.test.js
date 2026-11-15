@@ -12,7 +12,7 @@ const tmp = () => fs.mkdtempSync(path.join(os.tmpdir(), "zanp-teksten-"));
 const VANDAAG = "2026-11-10";
 const TEKST = "Eerste alinea met genoeg woorden.\nTweede alinea met ook genoeg woorden.";
 
-const regel = (k, datum, extra = {}) => ({ k, url: k.slice(2), bron: "DeOrkaan", versie: 1, methode: "artikel", kop: "Kop", datum, tekst: TEKST, ...extra });
+const regel = (k, datum, extra = {}) => ({ k, url: k.slice(2), bron: "testbron", versie: 1, methode: "artikel", kop: "Kop", datum, tekst: TEKST, ...extra });
 
 test("elke tekst komt in het bestand van zijn publicatiedag, schoon en met alinea's", async () => {
   const map = tmp();
@@ -72,7 +72,7 @@ test("opruimen verwijdert alleen dagbestanden ouder dan de bewaartermijn", async
 test("de oude jsonl-bestanden worden overgezet en verwijderd", async () => {
   const oud = tmp();
   const nieuw = tmp();
-  const lijn = (k, datum) => JSON.stringify({ k, url: k.slice(2), bron: "DeOrkaan", versie: 1, methode: "artikel", kop: "Kop", datum, tekst: TEKST });
+  const lijn = (k, datum) => JSON.stringify({ k, url: k.slice(2), bron: "testbron", versie: 1, methode: "artikel", kop: "Kop", datum, tekst: TEKST });
   fs.writeFileSync(
     path.join(oud, "teksten-2026-11-05.jsonl"),
     [lijn("n:https://a/1", "2026-11-04T10:00:00Z"), "kapotte regel", lijn("n:https://a/2", "2026-10-01T10:00:00Z")].join("\n") + "\n"
@@ -89,8 +89,8 @@ test("dekking: per bron hoeveel berichten een tekst hebben", async () => {
   const log = maakLog();
   await arch.voegToe(map, [regel("n:https://a/1", "2026-11-09T10:00:00Z")], { vandaag: VANDAAG, log });
   const records = [
-    { id: "x1-v1", groepId: "x1", versie: 1, url: "https://a/1", bronId: "DeOrkaan", tijd: "2026-11-09T10:00:00Z" },
-    { id: "x2-v1", groepId: "x2", versie: 1, url: "https://a/2", bronId: "DeOrkaan", tijd: "2026-11-09T11:00:00Z" },
+    { id: "x1-v1", groepId: "x1", versie: 1, url: "https://a/1", bronId: "testbron", tijd: "2026-11-09T10:00:00Z" },
+    { id: "x2-v1", groepId: "x2", versie: 1, url: "https://a/2", bronId: "testbron", tijd: "2026-11-09T11:00:00Z" },
     { id: "x3-v1", groepId: "x3", versie: 1, url: "https://b/1", bronId: "ibabs", tijd: "2026-11-09T11:00:00Z" },
     { id: "x4-v1", groepId: "x4", versie: 1, url: "https://b/oud", bronId: "ibabs", tijd: "2026-09-01T11:00:00Z" }, // te oud: telt niet mee
   ];
@@ -98,6 +98,6 @@ test("dekking: per bron hoeveel berichten een tekst hebben", async () => {
   assert.equal(d.berichten, 3);
   assert.equal(d.metTekst, 1);
   assert.equal(d.pct, 33);
-  assert.equal(d.perBron.DeOrkaan.pct, 50);
+  assert.equal(d.perBron.testbron.pct, 50);
   assert.equal(d.perBron.ibabs.metTekst, 0);
 });

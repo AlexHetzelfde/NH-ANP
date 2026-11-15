@@ -17,7 +17,7 @@ const bericht = (kop, dagGeleden, extra = {}) => {
   teller++;
   return {
     id: `g${teller}-v1`, groepId: `g${teller}`, versie: 1, url: `https://voorbeeld.nl/${teller}`, kop,
-    bronId: "DeOrkaan", bronNaam: "De Orkaan", tijd: dagen(dagGeleden), rubriek: "VER", ...extra,
+    bronId: "testbron", bronNaam: "Testbron signaal", tijd: dagen(dagGeleden), rubriek: "VER", ...extra,
   };
 };
 // vijf verschillende verhalen over de busbrug, over vijf dagen
@@ -45,7 +45,7 @@ test("updateStubs: routinebronnen eruit, nieuwste versie, oude stubs verlopen", 
     { ...bericht("Oude versie van een kop in de lijst", 2, { groepId: "dubbel", id: "dubbel-v1" }) },
     { ...bericht("Nieuwe versie van een kop in de lijst", 1, { groepId: "dubbel", id: "dubbel-v2", versie: 2 }) },
   ];
-  const oud = { weg: { g: "weg", u: "https://x/oud", k: "Heel oud", b: "DeOrkaan", n: "", t: dagen(61), c: null, r: null } };
+  const oud = { weg: { g: "weg", u: "https://x/oud", k: "Heel oud", b: "testbron", n: "", t: dagen(61), c: null, r: null } };
   const r = d.updateStubs(oud, records, NU);
   assert.equal(Object.keys(r.items).length, 2); // gewoon bericht + de nieuwste versie
   assert.ok(r.items.dubbel.k.startsWith("Nieuwe versie"));
