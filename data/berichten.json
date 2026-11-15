@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T01:45:40.488Z",
+  "gegenereerdOp": "2026-11-15T09:11:47.672Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,43 @@
     }
   ],
   "berichten": [
+    {
+      "id": "c5f0e4edcf-v1",
+      "groepId": "c5f0e4edcf",
+      "versie": 1,
+      "url": "https://zaandijkleeft.nl/hij-komt-hij-komt-3/",
+      "kop": "Hij Komt, Hij Komt…",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-15T07:59:41.000Z",
+      "heeftTijd": true,
+      "woorden": 13,
+      "afgekapt": false,
+      "bronId": "zaandijk-leeft",
+      "bronNaam": "Zaandijk Leeft!",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-15T09:11:47.672Z",
+      "gecontroleerdOp": "2026-11-15T09:11:47.672Z",
+      "bronTitel": "Hij Komt, Hij Komt…",
+      "bronLengte": 78,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
     {
       "id": "1374b2c9b7-v1",
       "groepId": "1374b2c9b7",
