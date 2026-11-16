@@ -36,7 +36,8 @@
 //  - Gemeentemenu (Nieuwsdienst en Agenda): "Gemeente: Alles" bovenaan, met alle
 //    gemeenten uit gemeenten.json. De keuze geldt voor beide tabs en wordt onthouden.
 //    Een bericht of agendapunt hoort bij een gemeente als de kop, plaats of tekst de
-//    gemeente of een van haar plaatsen noemt, of als de bron aan de gemeente gekoppeld is.
+//    gemeente of een van haar plaatsen noemt, of als de bron aan de gemeente gekoppeld is
+//    (met "*" in gemeenten.json aan alle gemeenten).
 //  - escapeHtml escapet ook aanhalingstekens; links zijn alleen http(s).
 
 const TIJDZONE = "Europe/Amsterdam";
@@ -361,7 +362,13 @@ function gemeentenVan(item) {
   for (const g of state.gemeenten.lijst) {
     if (g.regex.test(tekst)) gevonden.add(g.id);
   }
-  for (const id of [].concat(state.gemeenten.bronnen[item.bronId] || [])) gevonden.add(String(id));
+  // Een bron die aan "*" is gekoppeld (gemeenten.json), staat bij alle gemeenten.
+  const gekoppeld = [].concat(state.gemeenten.bronnen[item.bronId] || []).map(String);
+  if (gekoppeld.includes("*")) {
+    for (const g of state.gemeenten.lijst) gevonden.add(g.id);
+  } else {
+    for (const id of gekoppeld) gevonden.add(id);
+  }
   gemeenteCache.set(item, gevonden);
   return gevonden;
 }

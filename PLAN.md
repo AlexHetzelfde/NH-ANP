@@ -148,7 +148,7 @@ Ontwerp (vastgesteld):
 
 Pas oppakken na Fase 3, per stuk beslissen.
 
-- [ ] Nieuwe bronnen: politie, brandweer en 112, verkeer, sport, bedrijven, gemeentenieuws, gemeenten buiten Zaanstad. Eerst per bron uitzoeken welke open feeds bestaan.
+- [ ] Nieuwe bronnen: politie, brandweer en 112, verkeer, sport, bedrijven, gemeentenieuws, gemeenten buiten Zaanstad. Eerst per bron uitzoeken welke open feeds bestaan. (Brandweer en 112 deels gedaan: zie "Bronnen toegevoegd 2026-11-16" onder Voortgang.)
 - [ ] Koppeling op harde sleutels (adres, zaaknummer, ECLI, postcode).
 - [ ] Agendapunt dat na de zitting naar het resultaat linkt.
 - [ ] Kwaliteitslog van AI-afkeuringen over meerdere dagen.
@@ -169,3 +169,13 @@ Pas oppakken na Fase 3, per stuk beslissen.
 - Fase 2: open
 - Fase 3: open
 - Fase 4 (prioriteit, rood): gebouwd, nog niet getest; draait in schaduwmodus
+
+### Bronnen toegevoegd 2026-11-16 (buiten de fasen om)
+
+- `veiligheidsregio-nieuws` (bronnen.js, type gemini-recept met selectors): nieuws van de Veiligheidsregio Zaanstreek-Waterland. Tag 112, herkomst officieel, prio 3, AI herschrijft. Gekoppeld in gemeenten.json aan zaanstad, waterland, wormerland, oostzaan, landsmeer, purmerend en edam-volendam (alleen de eerste pagina van de lijst wordt gelezen).
+- `stroomstoringkaart` (zanp-bronnen.js, nieuw scrapertype `stroomstoringen` in `scrapers/stroomstoringen.js`): actuele stroomstoringen uit Noord-Holland, gefilterd op de plaatsen in `plaatsen` (dorpen en steden van Zaanstreek-Waterland). Per storing wordt de detailpagina gelezen, zodat ook storingen met meerdere plaatsen (de lijst toont alleen de eerste) goed worden gefilterd. Geen AI (`geenAi`), vaste tag 112. In gemeenten.json gekoppeld aan `"*"`: de berichten staan bij alle gemeenten.
+- Nieuwe regel `altijdRood` per bron (`scraper/bron-rood.js`, aangeroepen in `zanp.js` na prioriteit en jubileum): elk bericht van die bron is rood, los van de prioriteitsberekening. Nu alleen aan voor `stroomstoringkaart`.
+- Kop en tekst van een stroomstoring bevatten bewust geen looptijd of status: die veranderen elke run en zouden elke keer een nieuwe versie van het bericht maken.
+- `script.js`: een bron die in gemeenten.json aan `"*"` hangt, staat bij alle gemeenten.
+- `hulpmiddelen.js`: `.news-related-wrap` (TYPO3-blok "Terug naar overzicht / Delen") valt weg uit artikeltekst.
+- Open: de Atom-feed van Stroomstoringkaart (`/feed.xml`) zou ook al opgeloste en korte storingen kunnen geven; nu kijkt ZANP alleen naar wat er op dat moment op de provinciepagina staat. Controleer na de eerste echte runs of de plaatsenlijst compleet is en of rood niet te lang blijft staan (berichten staan standaard drie dagen in de stroom).

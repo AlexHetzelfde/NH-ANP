@@ -1,5 +1,5 @@
 {
-  "_uitleg": "Het gemeentemenu (Agenda en Nieuwsdienst). gemeenten: id, naam en plaatsen (woonplaatsen en kernen die bij de gemeente horen). Een bericht of agendapunt hoort bij een gemeente als de kop, de plaats of de tekst de naam of een plaats noemt (hoofdlettergevoelig, ook als bijvoeglijk naamwoord: Alkmaarse), of als zijn bron hieronder bij bronnen aan de gemeente is gekoppeld. Een bron mag aan een lijst gemeenten gekoppeld worden. negeer: teksten die eerst worden weggehaald, zodat een regio of een andere plaats niet als gemeente telt (Zaanstreek-Waterland is geen Waterland). Berichten zonder herkende gemeente staan alleen bij Alles. De volgorde van gemeenten is de volgorde in het menu. Staat dit bestand er niet of is de lijst leeg, dan verdwijnt het menu.",
+  "_uitleg": "Het gemeentemenu (Agenda en Nieuwsdienst). gemeenten: id, naam en plaatsen (woonplaatsen en kernen die bij de gemeente horen). Een bericht of agendapunt hoort bij een gemeente als de kop, de plaats of de tekst de naam of een plaats noemt (hoofdlettergevoelig, ook als bijvoeglijk naamwoord: Alkmaarse), of als zijn bron hieronder bij bronnen aan de gemeente is gekoppeld. Een bron mag aan een lijst gemeenten gekoppeld worden, of met \"*\" aan alle gemeenten (dan staan de berichten van die bron bij elke gemeente). negeer: teksten die eerst worden weggehaald, zodat een regio of een andere plaats niet als gemeente telt (Zaanstreek-Waterland is geen Waterland). Berichten zonder herkende gemeente staan alleen bij Alles. De volgorde van gemeenten is de volgorde in het menu. Staat dit bestand er niet of is de lijst leeg, dan verdwijnt het menu.",
   "gemeenten": [
     {
       "id": "alkmaar",
@@ -166,6 +166,16 @@
     "zaanstad-schriftelijke-vragen": "zaanstad",
     "zaanstad-camera": "zaanstad",
     "bekendmakingen": "zaanstad",
-    "wetenregelgeving": "zaanstad"
+    "wetenregelgeving": "zaanstad",
+    "veiligheidsregio-nieuws": [
+      "zaanstad",
+      "waterland",
+      "wormerland",
+      "oostzaan",
+      "landsmeer",
+      "purmerend",
+      "edam-volendam"
+    ],
+    "stroomstoringkaart": "*"
   }
 }
