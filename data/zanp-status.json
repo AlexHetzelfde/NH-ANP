@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T07:00:44.925Z",
+  "gegenereerdOp": "2026-11-16T08:00:54.482Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T07:00:44.925Z",
+      "laatsteScrape": "2026-11-16T08:00:54.482Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T07:00:44.925Z",
-      "gevonden": 15,
+      "laatsteScrape": "2026-11-16T08:00:54.482Z",
+      "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
@@ -74,24 +74,24 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T07:00:44.925Z",
+      "laatsteScrape": "2026-11-16T08:00:54.482Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 22,
+      "opeenvolgendLeeg": 23,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T07:00:44.925Z",
+      "laatsteScrape": "2026-11-16T08:00:54.482Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 30,
+      "opeenvolgendLeeg": 31,
       "opeenvolgendFout": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T07:00:44.925Z",
+      "laatsteScrape": "2026-11-16T08:00:54.482Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 75,
-      "opeenvolgendFout": 4,
+      "opeenvolgendLeeg": 76,
+      "opeenvolgendFout": 5,
       "laatsteFout": {
-        "tijd": "2026-11-16T07:00:44.925Z",
+        "tijd": "2026-11-16T08:00:54.482Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 500",
         "duurSec": null
       }
@@ -99,7 +99,7 @@
   },
   "bronnenZonderRubriek": [],
   "gemini": {
-    "dag": "2026-11-15",
+    "dag": "2026-11-16",
     "gebruikt": 0,
     "wachtTot": null,
     "dagcap": 80,
@@ -322,8 +322,8 @@
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 38,
-      "behouden": 171,
+      "bijgewerkt": 0,
+      "behouden": 209,
       "verdwenen": 0,
       "verlopen": 0,
       "uitBerichten": 23,
