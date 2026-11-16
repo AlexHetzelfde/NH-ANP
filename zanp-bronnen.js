@@ -1,0 +1,117 @@
+// zanp-bronnen.js
+//
+// Aanvullende bronnen voor ZANP (de nieuwsstroom, zanp.js), naast bronnen.js.
+// zanp.js leest beide lijsten. De pitchmachine bestaat niet meer, dus het
+// onderscheid is alleen nog praktisch: "Bron toevoegen" en "Bron herstellen"
+// werken op bronnen.js; bronnen met een eigen scraper of speciale opties
+// staan hier. Vergeet niet een regel in rubrieken.json.
+//
+// Dit bestand wordt niet door "Bron toevoegen" of "Bron herstellen"
+// herschreven: die workflows werken alleen op bronnen.js.
+//
+// Sinds 2026-11-14: zaanstad-tenderned verwijderd (50 runs achter elkaar niets)
+// en zaanstad-ted verwijderd op verzoek (regio Midden-Noord-Holland). De
+// scrapers zelf (scrapers/tenderned.js en scrapers/ted.js) blijven staan,
+// mocht een van beide bronnen terugkomen.
+//
+// Sinds 2026-11-16: stroomstoringkaart toegevoegd (stroomstoringen in Zaanstreek-
+// Waterland, altijd rood).
+
+module.exports = [
+  {
+    id: "vervoerregio-overzichten",
+    naam: "Vervoerregio: Overzichten (iBabs)",
+    categorie: "lokaal",
+    type: "ibabs-dashboard",
+    url: "https://vervoerregio.bestuurlijkeinformatie.nl/",
+    // Er verschijnen maar een paar items per week. Zonder deze regel gaat ZANP
+    // na drie lege runs steeds minder vaak kijken (tot eens per 6 uur).
+    nooitVertragen: true,
+  },
+  {
+    // Moties van de gemeenteraad, alleen na een stemming (aangenomen of
+    // verworpen), met stemming en strekking. Zie scrapers/moties.js.
+    id: "zaanstad-moties",
+    naam: "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+    categorie: "lokaal",
+    type: "moties",
+    url: "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/4b5dcb7b-adc3-4253-bad3-7bfd16341021",
+    // Een raadsvergadering levert een paar keer per jaar veel moties tegelijk;
+    // zonder deze regel gaat ZANP in de rustige weken steeds minder vaak kijken.
+    nooitVertragen: true,
+  },
+  {
+    // Schriftelijke vragen van de gemeenteraad, met twee momenten: publicatie van de
+    // vragen en de beantwoording (die komt als nieuwe versie van hetzelfde bericht, rood).
+    // Zie scrapers/schriftelijke-vragen.js.
+    id: "zaanstad-schriftelijke-vragen",
+    naam: "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+    categorie: "lokaal",
+    type: "schriftelijke-vragen",
+    url: "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/36b1b6ca-8c4b-4d88-b910-a1edba601ac1",
+    // Er komen maar een paar vragen per week, en een antwoord is tijdgevoelig;
+    // zonder deze regel gaat ZANP na drie lege runs steeds minder vaak kijken.
+    nooitVertragen: true,
+  },
+  {
+    // Cameratoezicht in Zaanstad uit officielebekendmakingen.nl, met reeksen per
+    // plek (eerste aanwijzing, verlengingen). Zie scrapers/camera.js en camera-reeks.js.
+    id: "zaanstad-camera",
+    naam: "Gemeente Zaanstad: cameratoezicht (officielebekendmakingen.nl)",
+    categorie: "lokaal",
+    type: "camera",
+    url:
+      "https://zoek.officielebekendmakingen.nl/rss" +
+      "?q=(c.product-area==%22officielepublicaties%22)" +
+      "and(((w.publicatienaam==%22Tractatenblad%22))" +
+      "or((w.publicatienaam==%22Staatsblad%22))" +
+      "or((w.publicatienaam==%22Staatscourant%22))" +
+      "or((w.publicatienaam==%22Gemeenteblad%22))" +
+      "or((w.publicatienaam==%22Provinciaal%20blad%22))" +
+      "or((w.publicatienaam==%22Waterschapsblad%22))" +
+      "or((w.publicatienaam==%22Blad%20gemeenschappelijke%20regeling%22)))" +
+      "and(cql.textAndIndexes=%22camera%22)" +
+      "%20AND%20dt.creator==%22Zaanstad%22",
+    nooitVertragen: true,
+  },
+  {
+    // Actuele stroomstoringen uit Noord-Holland van stroomstoringkaart.nl (gegevens van
+    // de netbeheerders), alleen voor de plaatsen hieronder. Zie scrapers/stroomstoringen.js.
+    //
+    // plaatsen        de dorpen en steden van Zaanstreek-Waterland. Een storing komt binnen
+    //                 als minstens een van zijn plaatsen hier staat (de naam moet precies
+    //                 kloppen, hoofdletters maken niet uit). Mist er een dorp, zet het erbij.
+    //                 Zonder deze lijst levert de bron niets op.
+    // vasteRubriek    de tag van deze berichten (112)
+    // altijdRood      elk bericht is rood, los van de prioriteitsberekening (bron-rood.js)
+    // nooitVertragen  storingen komen onregelmatig; zonder deze regel gaat ZANP na drie
+    //                 lege runs steeds minder vaak kijken
+    //
+    // Een gemeente is hier niet aan gekoppeld in gemeenten.json: met "*" staan de storingen
+    // bij alle gemeenten.
+    id: "stroomstoringkaart",
+    naam: "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+    categorie: "lokaal",
+    type: "stroomstoringen",
+    url: "https://www.stroomstoringkaart.nl/provincie/noord-holland",
+    vasteRubriek: "112",
+    altijdRood: { label: "stroomstoring", reden: "Stroomstoring in Zaanstreek-Waterland" },
+    nooitVertragen: true,
+    plaatsen: [
+      // Zaanstad
+      "Zaandam", "Zaandijk", "Koog aan de Zaan", "Wormerveer", "Krommenie", "Assendelft", "Westzaan",
+      "Nauerna", "Haaldersbroek", "Zaanse Schans",
+      // Oostzaan en Landsmeer
+      "Oostzaan", "Landsmeer", "Den Ilp",
+      // Wormerland
+      "Wormer", "Jisp", "Wijdewormer", "Neck", "Oostknollendam", "Spijkerboor",
+      // Waterland
+      "Monnickendam", "Marken", "Broek in Waterland", "Ilpendam", "Durgerdam", "Uitdam", "Zuiderwoude",
+      "Watergang", "Katwoude", "Overleek", "Holysloot", "Purmerland", "Purmer",
+      // Purmerend en de Beemster
+      "Purmerend", "Beemster", "Middenbeemster", "Westbeemster", "Zuidoostbeemster", "Noordbeemster",
+      // Edam-Volendam
+      "Volendam", "Edam", "Oosthuizen", "Warder", "Kwadijk", "Middelie", "Hobrede", "Beets", "Schardam",
+    ],
+  },
+];
