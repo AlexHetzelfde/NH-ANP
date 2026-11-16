@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T15:00:52.190Z",
+  "gegenereerdOp": "2026-11-16T16:00:57.823Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 98,
-    "stukken": 572,
-    "kandidaten": 44,
-    "metAnker": 44,
+    "stukken": 573,
+    "kandidaten": 45,
+    "metAnker": 45,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 1,
@@ -930,6 +930,35 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Nieuwe_archeologische_kroniek_bundelt_kennis_uit_de_bodem",
+      "soort": "nieuws",
+      "kop": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "kroniek",
+        "bundelt",
+        "archeologisch",
+        "kennis",
+        "jelle",
+        "bemsterboer",
+        "bodem",
+        "gedeputerd",
+        "culturel",
+        "bundeling",
+        "vondst",
+        "veranderend"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_legt_spelregels_voor_meedenken_vast",
       "soort": "nieuws",
       "kop": "Noord-Holland legt spelregels voor meedenken vast",
@@ -972,30 +1001,6 @@
         "vogelenzangseweg",
         "boekenrodeweg",
         "gravenweg"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/bd986c99-720b-4ecc-9423-3610fceeca2c",
-      "soort": "nieuws",
-      "kop": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.49,
-      "Kp": 0.34,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "schriftelijk",
-        "gehandhafd",
-        "nagekom",
-        "toezegging",
-        "amendement",
-        "militaireweg",
-        "eiland"
       ],
       "bewijs": []
     }

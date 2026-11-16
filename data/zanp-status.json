@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T15:00:52.190Z",
+  "gegenereerdOp": "2026-11-16T16:00:57.823Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
-      "gevonden": 15,
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
@@ -74,16 +74,16 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 31,
+      "opeenvolgendLeeg": 32,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 39,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 40,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
         "bericht": "Lijst ophalen mislukt: terminated — oorzaak: read ECONNRESET [ECONNRESET]",
@@ -91,12 +91,12 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 84,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 85,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-16T14:00:58.426Z",
+        "tijd": "2026-11-16T16:00:57.823Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 403",
         "duurSec": null
       }
@@ -108,9 +108,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T15:00:52.190Z",
+      "laatsteScrape": "2026-11-16T16:00:57.823Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 5,
+      "opeenvolgendLeeg": 6,
       "opeenvolgendFout": 0
     }
   },
@@ -352,7 +352,7 @@
     "berichten": {
       "nieuw": 1,
       "update": 0,
-      "opnieuw": 1,
+      "opnieuw": 2,
       "ongewijzigd": 0,
       "seed": 0
     },
@@ -385,9 +385,9 @@
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 98,
-      "stukken": 572,
-      "kandidaten": 44,
-      "metAnker": 44,
+      "stukken": 573,
+      "kandidaten": 45,
+      "metAnker": 45,
       "zonderAnker": 0,
       "afgelast": 2,
       "dubbel": 1,
@@ -412,8 +412,8 @@
     "dossiers": {
       "stubsNieuw": 1,
       "stubsVerlopen": 0,
-      "stubsTotaal": 323,
-      "verhalen": 300,
+      "stubsTotaal": 324,
+      "verhalen": 301,
       "kandidaten": 1,
       "aiControles": 0,
       "aiJa": 0,
