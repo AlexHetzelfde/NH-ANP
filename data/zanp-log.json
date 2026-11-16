@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T02:00:44.179Z",
+  "gegenereerdOp": "2026-11-16T03:00:47.073Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
     {
@@ -1819,11 +1819,7 @@
             "gecontroleerd": 3,
             "ok": 3
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": [
-            "Nederlands woordenboek geladen."
-          ]
+          "waarden": {}
         },
         "tekst": {
           "tellers": {
@@ -1923,24 +1919,7 @@
                 "gemTekens": 3328
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "DeOrkaan",
-              "methode": "run",
-              "kop": "Honderden drugspillen, softdrugs en patronen bij huiszoekingen Zaanse verdachten",
-              "tekensVoor": 1419,
-              "tekensNa": 1421,
-              "alineas": 3,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": true,
-              "begin": "De politie hield eerder deze week zes Zaanse tieners aan op verdenking van betrokkenheid bij ernstige geweldsincidenten in Wormer en Wormerveer afgelopen juli. De aanhoudingen maken deel uit van een onderzoek naar een re",
-              "eind": "n worden niet uitgesloten. Door Michel Schermer, met informatie van politie Noord-Holland en eerder nieuws op De Orkaan."
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 335/344 berichten (97%). Laagst: vervoerregio-overzichten 4/7 (57%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -1949,9 +1928,7 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 2
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "dossiers": {
           "tellers": {
@@ -1975,24 +1952,7 @@
             "dossiersActief": 0,
             "modus": "log",
             "dossiers": []
-          },
-          "voorbeelden": [
-            {
-              "besluit": "geen dossier",
-              "woord": "vragen",
-              "aantal": 5,
-              "reden": "te-weinig-bij-elkaar",
-              "koppen": [
-                "Regioraadsleden stellen vragen over proefweekend metronetwerk en onveiligheid Van der Madeweg",
-                "Kruidvat ziet geen datalek bij zichtbare pincodes, maar vragen blijven",
-                "Begroting voor de deur: wat vragen we van onze ambtenaren?",
-                "Regioraadsleden stellen schriftelijke vragen over rituitval bij busvervoerder EBS"
-              ]
-            }
-          ],
-          "regels": [
-            "Kandidaat \"vragen\" (5 verhalen): geen dossier (te-weinig-bij-elkaar)."
-          ]
+          }
         },
         "run": {
           "tellers": {},
@@ -2002,9 +1962,7 @@
             "aiVerzoeken": 3,
             "geminiDagGebruikt": "8/80",
             "duurSeconden": 85
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -6105,6 +6063,173 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-16T03:00:47.073Z",
+      "duurMs": 36516,
+      "onderdelen": {
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 5,
+            "fout": 0,
+            "leegZonderFout": 3
+          },
+          "waarden": {
+            "leegZonderFoutLijst": [
+              "vervoerregio-overzichten",
+              "zaanstad-moties",
+              "zaanstad-camera"
+            ]
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "tekst": {
+          "tellers": {
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-02",
+            "dekkingPct": 98,
+            "berichtenZonderTekst": 6,
+            "dekkingPerBron": {
+              "DeOrkaan": {
+                "berichten": 141,
+                "metTekst": 141,
+                "pct": 100,
+                "gemTekens": 2675
+              },
+              "nh-actueel": {
+                "berichten": 20,
+                "metTekst": 20,
+                "pct": 100,
+                "gemTekens": 3052
+              },
+              "bekendmakingen": {
+                "berichten": 30,
+                "metTekst": 30,
+                "pct": 100,
+                "gemTekens": 1225
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 7,
+                "metTekst": 4,
+                "pct": 57,
+                "gemTekens": 8599
+              },
+              "zaanstad-moties": {
+                "berichten": 43,
+                "metTekst": 43,
+                "pct": 100,
+                "gemTekens": 1054
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 18,
+                "metTekst": 17,
+                "pct": 94,
+                "gemTekens": 5817
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 40,
+                "metTekst": 38,
+                "pct": 95,
+                "gemTekens": 2061
+              },
+              "vervoerregio-persberichten": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 766
+              },
+              "wetenregelgeving": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 3696
+              },
+              "zaanstad-ted": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 74
+              },
+              "zaansche-molen": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 1620
+              },
+              "rechtspraak-noord-holland": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 6002
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 3328
+              }
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Dekking volledige tekst: 307/313 berichten (98%). Laagst: vervoerregio-overzichten 4/7 (57%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 1
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 0,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [
+              "schan (5)"
+            ],
+            "stubsTotaal": 319,
+            "verhalen": 296,
+            "kandidaten": 1,
+            "dossiersActief": 0,
+            "modus": "log",
+            "dossiers": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 326,
+            "agendaItems": 230,
+            "aiVerzoeken": 0,
+            "geminiDagGebruikt": "0/80",
+            "duurSeconden": 37
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -6317,12 +6442,12 @@
       }
     },
     "2026-11-16": {
-      "runs": 4,
+      "runs": 5,
       "tellers": {
         "bronnen": {
-          "gescrapet": 15,
+          "gescrapet": 20,
           "fout": 2,
-          "leegZonderFout": 7
+          "leegZonderFout": 10
         },
         "tekst": {
           "aangeboden": 2,
@@ -6341,7 +6466,7 @@
           "nieuwsRood": 0,
           "agendaRood": 0,
           "uitgesloten": 0,
-          "alRoodDoorPrioriteit": 4
+          "alRoodDoorPrioriteit": 5
         },
         "dossiers": {
           "stubsNieuw": 0,
