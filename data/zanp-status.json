@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T19:00:47.968Z",
+  "gegenereerdOp": "2026-11-16T20:00:45.975Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
       "laatsteFout": {
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 35,
+      "opeenvolgendLeeg": 36,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 43,
+      "opeenvolgendLeeg": 44,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,10 +96,10 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 88,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 89,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T19:00:47.968Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 504",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T19:00:47.968Z",
+      "laatsteScrape": "2026-11-16T20:00:45.975Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 9,
+      "opeenvolgendLeeg": 10,
       "opeenvolgendFout": 0
     }
   },
