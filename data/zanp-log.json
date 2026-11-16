@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T20:00:45.975Z",
+  "gegenereerdOp": "2026-11-16T20:18:22.674Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
     {
@@ -4752,18 +4752,7 @@
               "vervoerregio-overzichten",
               "zaanstad-moties"
             ]
-          },
-          "voorbeelden": [
-            {
-              "bron": "zaanstad-camera",
-              "bericht": "RSS-feed ophalen mislukt: HTTP 500",
-              "duurSec": null,
-              "opeenvolgendFout": 5
-            }
-          ],
-          "regels": [
-            "[zaanstad-camera] scrapen mislukt (5x achter elkaar): RSS-feed ophalen mislukt: HTTP 500"
-          ]
+          }
         },
         "tekst": {
           "tellers": {
@@ -4863,24 +4852,7 @@
                 "gemTekens": 3328
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "zaanstad-kalender",
-              "methode": "artikel",
-              "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-              "tekensVoor": 130,
-              "tekensNa": 130,
-              "alineas": 6,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": false,
-              "begin": "maandag 30 november 2026\n\n09:00 - 12:30\n\nLocatie\n\nZwolle\n\nAgenda documenten\n\n• Maling Academie Najaar 2026 - Schrijf u in!! 143 KB",
-              "eind": " november 2026\n\n09:00 - 12:30\n\nLocatie\n\nZwolle\n\nAgenda documenten\n\n• Maling Academie Najaar 2026 - Schrijf u in!! 143 KB"
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 307/313 berichten (98%). Laagst: vervoerregio-overzichten 4/7 (57%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -4889,9 +4861,7 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 1
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "dossiers": {
           "tellers": {
@@ -4915,9 +4885,7 @@
             "dossiersActief": 0,
             "modus": "log",
             "dossiers": []
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "run": {
           "tellers": {},
@@ -4927,9 +4895,7 @@
             "aiVerzoeken": 0,
             "geminiDagGebruikt": "0/80",
             "duurSeconden": 31
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -9125,6 +9091,175 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-16T20:18:22.674Z",
+      "duurMs": 344,
+      "onderdelen": {
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 0,
+            "fout": 0,
+            "leegZonderFout": 0
+          },
+          "waarden": {
+            "leegZonderFoutLijst": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "tekst": {
+          "tellers": {
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-02",
+            "dekkingPct": 98,
+            "berichtenZonderTekst": 6,
+            "dekkingPerBron": {
+              "nh-actueel": {
+                "berichten": 22,
+                "metTekst": 22,
+                "pct": 100,
+                "gemTekens": 2781
+              },
+              "zaanstad-schriftelijke-vragen": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 5035
+              },
+              "DeOrkaan": {
+                "berichten": 141,
+                "metTekst": 141,
+                "pct": 100,
+                "gemTekens": 2675
+              },
+              "bekendmakingen": {
+                "berichten": 30,
+                "metTekst": 30,
+                "pct": 100,
+                "gemTekens": 1225
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 7,
+                "metTekst": 4,
+                "pct": 57,
+                "gemTekens": 8599
+              },
+              "zaanstad-moties": {
+                "berichten": 43,
+                "metTekst": 43,
+                "pct": 100,
+                "gemTekens": 1054
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 18,
+                "metTekst": 17,
+                "pct": 94,
+                "gemTekens": 5817
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 40,
+                "metTekst": 38,
+                "pct": 95,
+                "gemTekens": 2061
+              },
+              "vervoerregio-persberichten": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 766
+              },
+              "wetenregelgeving": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 3696
+              },
+              "zaanstad-ted": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 74
+              },
+              "zaansche-molen": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 1620
+              },
+              "rechtspraak-noord-holland": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 6002
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 3328
+              }
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Dekking volledige tekst: 311/317 berichten (98%). Laagst: vervoerregio-overzichten 4/7 (57%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 1
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 0,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [
+              "schan (5)"
+            ],
+            "stubsTotaal": 324,
+            "verhalen": 301,
+            "kandidaten": 1,
+            "dossiersActief": 0,
+            "modus": "log",
+            "dossiers": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 330,
+            "agendaItems": 231,
+            "aiVerzoeken": 0,
+            "geminiDagGebruikt": "0/80",
+            "duurSeconden": 0
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -9337,7 +9472,7 @@
       }
     },
     "2026-11-16": {
-      "runs": 23,
+      "runs": 24,
       "tellers": {
         "bronnen": {
           "gescrapet": 131,
@@ -9364,7 +9499,7 @@
           "nieuwsRood": 0,
           "agendaRood": 0,
           "uitgesloten": 0,
-          "alRoodDoorPrioriteit": 23
+          "alRoodDoorPrioriteit": 24
         },
         "dossiers": {
           "stubsNieuw": 5,
