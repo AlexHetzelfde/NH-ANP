@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T10:00:47.538Z",
+  "gegenereerdOp": "2026-11-16T11:23:50.786Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-16T10:00:47.538Z",
+      "gecontroleerdOp": "2026-11-16T11:23:50.786Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
@@ -454,7 +454,8 @@
       "agendapuntenBron": "patroon",
       "agendaIds": [
         "27831893f3"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "1ed86ff81f-v1",
@@ -496,7 +497,8 @@
         "portefeuillehouders": [
           "Laan, van der H."
         ]
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "0585d203d7-v1",
@@ -538,7 +540,8 @@
         "portefeuillehouders": [
           "Doeves - de Boer, M."
         ]
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "1374b2c9b7-v1",

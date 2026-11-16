@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T10:00:47.538Z",
+  "gegenereerdOp": "2026-11-16T11:23:50.786Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 3,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -18,8 +18,8 @@
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 98,
     "stukken": 571,
-    "kandidaten": 49,
-    "metAnker": 49,
+    "kandidaten": 43,
+    "metAnker": 43,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 1,
@@ -196,7 +196,7 @@
       "Sa": 0.07,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.14,
+      "K": 0.13,
       "Kp": 0,
       "n": 2,
       "dagen": 2,
@@ -220,34 +220,6 @@
           "c": 0.8,
           "plek": "intro",
           "titel": "Raadsvergadering"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-530067.html",
-      "soort": "nieuws",
-      "kop": "Melding graven bodem - Nabij Dorpsstraat 742 Assendelft , 34 meter richting noorden",
-      "S": 0.04,
-      "Sa": 0.04,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.17,
-      "Kp": 0.17,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "dorpsstrat",
-        "bodem",
-        "qterra"
-      ],
-      "bewijs": [
-        {
-          "bron": "bekendmakingen",
-          "datum": "2026-11-02T23:00:00.000Z",
-          "c": 0.95,
-          "plek": "kop",
-          "titel": "Melding graven bodem - Nabij Vinkenstraat 1 Zaandam , 7 meter richting zuiden"
         }
       ]
     },
@@ -1001,6 +973,25 @@
         "amendement",
         "militaireweg",
         "eiland"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f51a949b-891c-4a2e-b8b8-6b7c8383a690",
+      "soort": "nieuws",
+      "kop": "Schriftelijke vragen: Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.23,
+      "Kp": 0.23,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "vartuig",
+        "beleidsnotiti"
       ],
       "bewijs": []
     }
