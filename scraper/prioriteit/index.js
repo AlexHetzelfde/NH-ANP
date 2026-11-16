@@ -41,7 +41,7 @@ const {
 const { berekenImpact, berekenScore, bepaalTau, PIEK_CATS } = require("./score");
 const { maakAiVeto } = require("./ai");
 const { beslis } = require("./beslis");
-const { cameraRood } = require("./regels");
+const { cameraRood, vraagRood } = require("./regels");
 const tekstarchief = require("../tekstarchief");
 const { maakWerklijst, haalTeksten, agendaKomt, laatstePerGroep } = require("./tekst");
 const {
@@ -249,6 +249,7 @@ async function draaiPrioriteit(opties) {
   for (const r of laatstePerGroep(records)) {
     if (!r.url || r.seed) continue;
     if (r.camera) continue; // cameratoezicht: vaste regel (regels.js), niet de formule
+    if (r.vraag && r.vraag.status === "beantwoord") continue; // beantwoording schriftelijke vragen: vaste regel (regels.js)
     const eerst = Date.parse(r.eerstGezienOp);
     if (!Number.isFinite(eerst) || eerst < nieuwsGrens) continue;
     kandidaten.push({
@@ -359,6 +360,7 @@ async function draaiPrioriteit(opties) {
   let regelRood = new Map();
   try {
     regelRood = cameraRood({ records, cameraReeksen });
+    for (const [sleutel, e] of vraagRood({ records, nu })) regelRood.set(sleutel, e);
     stats.regelRood = regelRood.size;
     for (const e of regelRood.values()) {
       if (e.sinds && nu.getTime() - Date.parse(e.sinds) <= 2 * 3600 * 1000) {
@@ -366,7 +368,7 @@ async function draaiPrioriteit(opties) {
       }
     }
   } catch (fout) {
-    log.error(`[prioriteit] Rood op regel (camera) mislukte: ${fout.stack || fout.message}`);
+    log.error(`[prioriteit] Rood op regel (camera of vragen) mislukte: ${fout.stack || fout.message}`);
   }
 
   // 6. Kleuren, alleen in modus "aan"

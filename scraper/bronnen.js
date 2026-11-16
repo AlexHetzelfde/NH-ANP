@@ -176,4 +176,15 @@ module.exports = [
       fotoAttribuut: null,
     },
   },
+  {
+    // Nieuws van de Rekenkamer Amsterdam-Zaanstad (Next.js-site met een gewone lijst
+    // van <article class="nieuwsitem">). Een paar berichten per maand, dus rustig.
+    id: "rekenkamer-amsterdam-zaanstad",
+    naam: "Rekenkamer Amsterdam-Zaanstad — Nieuws",
+    categorie: "lokaal",
+    type: "generieke-lijst",
+    url: "https://www.rekenkamer.amsterdam.nl/nieuws/",
+    detailSelector: ".c-wysiwyg",
+    rustig: true,
+  },
 ];

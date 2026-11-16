@@ -38,6 +38,19 @@ module.exports = [
     nooitVertragen: true,
   },
   {
+    // Schriftelijke vragen van de gemeenteraad, met twee momenten: publicatie van de
+    // vragen en de beantwoording (die komt als nieuwe versie van hetzelfde bericht, rood).
+    // Zie scrapers/schriftelijke-vragen.js.
+    id: "zaanstad-schriftelijke-vragen",
+    naam: "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+    categorie: "lokaal",
+    type: "schriftelijke-vragen",
+    url: "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Details/36b1b6ca-8c4b-4d88-b910-a1edba601ac1",
+    // Er komen maar een paar vragen per week, en een antwoord is tijdgevoelig;
+    // zonder deze regel gaat ZANP na drie lege runs steeds minder vaak kijken.
+    nooitVertragen: true,
+  },
+  {
     // Cameratoezicht in Zaanstad uit officielebekendmakingen.nl, met reeksen per
     // plek (eerste aanwijzing, verlengingen). Zie scrapers/camera.js en camera-reeks.js.
     id: "zaanstad-camera",

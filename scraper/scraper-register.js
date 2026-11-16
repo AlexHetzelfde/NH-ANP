@@ -27,6 +27,7 @@ const { scrapeWpRest } = require("./scrapers/wp-rest");
 const { scrapeJsonLd } = require("./scrapers/json-ld");
 const { scrapeJsonApi } = require("./scrapers/json-api");
 const { scrapeMoties } = require("./scrapers/moties");
+const { scrapeSchriftelijkeVragen } = require("./scrapers/schriftelijke-vragen");
 const { scrapeCamera } = require("./scrapers/camera");
 const { scrapeTed } = require("./scrapers/ted");
 const { scrapeTenderned } = require("./scrapers/tenderned");
@@ -46,6 +47,7 @@ const SCRAPER_PER_TYPE = {
   ted: scrapeTed, // aanbestedingen van de gemeente uit TED, de Europese databank (alleen ZANP)
   tenderned: scrapeTenderned, // aanbestedingen uit TenderNed, ook nationaal en onder de drempel (alleen ZANP)
   moties: scrapeMoties, // moties met stemming en strekking uit het iBabs-rapport "Moties en amendementen" (alleen ZANP)
+  "schriftelijke-vragen": scrapeSchriftelijkeVragen, // schriftelijke vragen en hun beantwoording uit het iBabs-rapport (alleen ZANP)
 };
 
 /** Geeft de scraper-functie voor een type, of undefined als die niet bestaat. */

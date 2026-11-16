@@ -71,6 +71,18 @@
       "prio": 3,
       "herschrijf": false
     },
+    "zaanstad-schriftelijke-vragen": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": false
+    },
+    "rekenkamer-amsterdam-zaanstad": {
+      "rubriek": "GEM",
+      "herkomst": "officieel",
+      "prio": 4,
+      "herschrijf": true
+    },
     "zaanstad-moties": {
       "rubriek": "GEM",
       "herkomst": "officieel",

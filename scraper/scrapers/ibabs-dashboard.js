@@ -374,4 +374,5 @@ module.exports = {
   parseerDetail,
   adressenUitViewerScript,
   antwoordLabel,
+  leesPdfTekst, // ook gebruikt door scrapers/schriftelijke-vragen.js
 };
