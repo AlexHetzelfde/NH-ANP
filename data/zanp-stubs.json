@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-16T09:27:13.198Z",
+  "bijgewerkt": "2026-11-16T10:00:47.538Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3510,6 +3510,39 @@
       "t": "2026-11-13T23:00:00.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "5f2417d1a1": {
+      "g": "5f2417d1a1",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Bewonersavond_over_N206_tussen_Vogelenzang_en_Aerdenhout",
+      "k": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-16T10:43:36.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "1ed86ff81f": {
+      "g": "1ed86ff81f",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/bd986c99-720b-4ecc-9423-3610fceeca2c",
+      "k": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
+      "bt": "",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-16T10:00:48.563Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "0585d203d7": {
+      "g": "0585d203d7",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f51a949b-891c-4a2e-b8b8-6b7c8383a690",
+      "k": "Schriftelijke vragen: Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
+      "bt": "",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-16T10:00:48.563Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T09:27:13.198Z",
+  "gegenereerdOp": "2026-11-16T10:00:47.538Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,141 @@
     }
   ],
   "berichten": [
+    {
+      "id": "5f2417d1a1-v1",
+      "groepId": "5f2417d1a1",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Bewonersavond_over_N206_tussen_Vogelenzang_en_Aerdenhout",
+      "kop": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-16T10:43:36.000Z",
+      "heeftTijd": true,
+      "woorden": 284,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-16T10:00:47.538Z",
+      "gecontroleerdOp": "2026-11-16T10:00:47.538Z",
+      "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
+      "bronLengte": 1959,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon",
+      "agendapunten": [
+        {
+          "titel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
+          "dag": "2026-11-16",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "letterlijk"
+        }
+      ],
+      "agendapuntenBron": "patroon",
+      "agendaIds": [
+        "27831893f3"
+      ]
+    },
+    {
+      "id": "1ed86ff81f-v1",
+      "groepId": "1ed86ff81f",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/bd986c99-720b-4ecc-9423-3610fceeca2c",
+      "kop": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-16T10:00:48.563Z",
+      "heeftTijd": true,
+      "woorden": 1031,
+      "afgekapt": true,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-16T10:00:47.538Z",
+      "gecontroleerdOp": "2026-11-16T10:00:47.538Z",
+      "bronTitel": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
+      "bronLengte": 6990,
+      "vraag": {
+        "status": "gesteld",
+        "nummer": "1039",
+        "onderwerp": "Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
+        "datumVraag": "2026-11-11",
+        "datumAntwoord": null,
+        "verwachteAfdoening": "2026-12-17",
+        "raadsleden": [
+          "Kerkhoven, Jos"
+        ],
+        "steunfractieleden": [],
+        "partijen": [
+          "DZ"
+        ],
+        "portefeuillehouders": [
+          "Laan, van der H."
+        ]
+      }
+    },
+    {
+      "id": "0585d203d7-v1",
+      "groepId": "0585d203d7",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f51a949b-891c-4a2e-b8b8-6b7c8383a690",
+      "kop": "Schriftelijke vragen: Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-16T10:00:48.563Z",
+      "heeftTijd": true,
+      "woorden": 438,
+      "afgekapt": false,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-16T10:00:47.538Z",
+      "gecontroleerdOp": "2026-11-16T10:00:47.538Z",
+      "bronTitel": "Schriftelijke vragen: Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
+      "bronLengte": 3059,
+      "vraag": {
+        "status": "gesteld",
+        "nummer": "1038",
+        "onderwerp": "Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
+        "datumVraag": "2026-11-10",
+        "datumAntwoord": null,
+        "verwachteAfdoening": "2026-12-15",
+        "raadsleden": [],
+        "steunfractieleden": [
+          "Beekhuis- de Boer, Very"
+        ],
+        "partijen": [
+          "PVV"
+        ],
+        "portefeuillehouders": [
+          "Doeves - de Boer, M."
+        ]
+      }
+    },
     {
       "id": "1374b2c9b7-v1",
       "groepId": "1374b2c9b7",
