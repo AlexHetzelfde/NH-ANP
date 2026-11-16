@@ -1,97 +1,97 @@
 {
-  "gegenereerdOp": "2026-11-16T06:00:49.860Z",
+  "gegenereerdOp": "2026-11-16T07:00:44.925Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     },
     "ibabs-ingekomen-stukken": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T06:00:49.860Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T06:00:49.860Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-hoorzittingen": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "omgevingsdienstnoordzeekanaal": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "rechtspraak-noord-holland": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 2,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "bekendmakingen": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 1,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 2,
+      "opeenvolgendFout": 2,
       "laatsteFout": {
-        "tijd": "2026-11-15T10:24:52.912Z",
+        "tijd": "2026-11-16T07:00:44.925Z",
         "bericht": "HTTP 500 voor https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(dt.creator==%22Zaanstad%22)and((dt.type==%22algemeen%20verbindend%20voorschrift%20(ministeri%C3%ABle%20regeling)%22)or(dt.type==%22algemeen%2…",
-        "duurSec": 15.9
+        "duurSec": 4.5
       }
     },
     "wetenregelgeving": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 50,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-kalender": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 38,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "vervoerregio-aanbesteding": {
-      "laatsteScrape": "2026-11-15T10:24:52.912Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 17,
+      "opeenvolgendLeeg": 18,
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T06:00:49.860Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 21,
+      "opeenvolgendLeeg": 22,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T06:00:49.860Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 29,
+      "opeenvolgendLeeg": 30,
       "opeenvolgendFout": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T06:00:49.860Z",
+      "laatsteScrape": "2026-11-16T07:00:44.925Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 74,
-      "opeenvolgendFout": 3,
+      "opeenvolgendLeeg": 75,
+      "opeenvolgendFout": 4,
       "laatsteFout": {
-        "tijd": "2026-11-16T06:00:49.860Z",
+        "tijd": "2026-11-16T07:00:44.925Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 500",
         "duurSec": null
       }
@@ -322,8 +322,8 @@
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 0,
-      "behouden": 209,
+      "bijgewerkt": 38,
+      "behouden": 171,
       "verdwenen": 0,
       "verlopen": 0,
       "uitBerichten": 23,
