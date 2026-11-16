@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T14:00:58.426Z",
+  "gegenereerdOp": "2026-11-16T15:00:52.190Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 98,
-    "stukken": 571,
-    "kandidaten": 43,
-    "metAnker": 43,
+    "stukken": 572,
+    "kandidaten": 44,
+    "metAnker": 44,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 1,
@@ -373,9 +373,9 @@
         "pauze",
         "uitgan",
         "wissel",
-        "insprak",
         "veilig",
         "regiovisi",
+        "insprak",
         "initiatief",
         "samenwerk",
         "jagersveld"
@@ -555,9 +555,9 @@
         "opschort",
         "wissel",
         "regiovisi",
-        "insprak",
         "schan",
-        "gouwpark"
+        "gouwpark",
+        "insprak"
       ],
       "bewijs": []
     },
@@ -930,6 +930,29 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_legt_spelregels_voor_meedenken_vast",
+      "soort": "nieuws",
+      "kop": "Noord-Holland legt spelregels voor meedenken vast",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.33,
+      "Kp": 0.2,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "medenk",
+        "spelregel",
+        "participatieverordening",
+        "inzichtelijk",
+        "meprat",
+        "insprakprocedur"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Bewonersavond_over_N206_tussen_Vogelenzang_en_Aerdenhout",
       "soort": "nieuws",
       "kop": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
@@ -973,25 +996,6 @@
         "amendement",
         "militaireweg",
         "eiland"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f51a949b-891c-4a2e-b8b8-6b7c8383a690",
-      "soort": "nieuws",
-      "kop": "Schriftelijke vragen: Artikel 51 vragen PVV beleidsnotitie vaartuig in goede staat van onderhoud",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.23,
-      "Kp": 0.23,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "vartuig",
-        "beleidsnotiti"
       ],
       "bewijs": []
     }

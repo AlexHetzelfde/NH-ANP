@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-16T14:00:58.426Z",
+  "bijgewerkt": "2026-11-16T15:00:52.190Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3543,6 +3543,17 @@
       "t": "2026-11-16T10:00:48.563Z",
       "c": null,
       "r": "GEM"
+    },
+    "34b0653d6a": {
+      "g": "34b0653d6a",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_legt_spelregels_voor_meedenken_vast",
+      "k": "Noord-Holland legt spelregels voor meedenken vast",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-16T14:19:43.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
