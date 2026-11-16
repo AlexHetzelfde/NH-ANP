@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T16:00:57.823Z",
+  "gegenereerdOp": "2026-11-16T17:00:49.427Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,16 +15,21 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
-      "gevonden": 3,
-      "opeenvolgendLeeg": 0,
-      "opeenvolgendFout": 0
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
+      "opeenvolgendFout": 1,
+      "laatsteFout": {
+        "tijd": "2026-11-16T17:00:49.427Z",
+        "bericht": "time-out na 45.0s bij nh-cultuur",
+        "duurSec": 45
+      }
     },
     "zaanstad-hoorzittingen": {
       "laatsteScrape": "2026-11-16T07:00:44.925Z",
@@ -74,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 32,
+      "opeenvolgendLeeg": 33,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 40,
+      "opeenvolgendLeeg": 41,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -91,10 +96,10 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 85,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 86,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T16:00:57.823Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 403",
@@ -108,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T16:00:57.823Z",
+      "laatsteScrape": "2026-11-16T17:00:49.427Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 6,
+      "opeenvolgendLeeg": 7,
       "opeenvolgendFout": 0
     }
   },
@@ -350,9 +355,9 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
-      "opnieuw": 2,
+      "opnieuw": 3,
       "ongewijzigd": 0,
       "seed": 0
     },
@@ -376,8 +381,8 @@
       "ai": false,
       "formule": "v4-22806000",
       "tekst": {
-        "werklijst": 1,
-        "lokaal": 1,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -386,8 +391,8 @@
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 98,
       "stukken": 573,
-      "kandidaten": 45,
-      "metAnker": 45,
+      "kandidaten": 41,
+      "metAnker": 41,
       "zonderAnker": 0,
       "afgelast": 2,
       "dubbel": 1,
@@ -410,7 +415,7 @@
       "alRood": 1
     },
     "dossiers": {
-      "stubsNieuw": 1,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 324,
       "verhalen": 301,

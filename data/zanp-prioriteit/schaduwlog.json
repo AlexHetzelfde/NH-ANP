@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T16:00:57.823Z",
+  "gegenereerdOp": "2026-11-16T17:00:49.427Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -18,8 +18,8 @@
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 98,
     "stukken": 573,
-    "kandidaten": 45,
-    "metAnker": 45,
+    "kandidaten": 41,
+    "metAnker": 41,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 1,
@@ -35,45 +35,6 @@
     "rood": 1
   },
   "top": [
-    {
-      "key": "n:https://www.deorkaan.nl/begroting-verzet-krommeniedijk-en-sprookje-in-de-week-van-de-orkaan-%f0%9f%8e%99/",
-      "soort": "nieuws",
-      "kop": "Begroting, verzet Krommeniedijk en sprookje in De Week van De Orkaan 🎙",
-      "S": 0.26,
-      "Sa": 0.26,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.63,
-      "Kp": 0.41,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "krommeniedijk",
-        "sprokj",
-        "verzet",
-        "winni",
-        "gebak",
-        "schiphol",
-        "zankanter"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-13T23:00:00.000Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Sprookjesboek als protest tegen Schiphollawaai 🎧"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "In memoriam: Rita Melk (1957–2026), onvermoeibaar voor de Zaanse natuur"
-        }
-      ]
-    },
     {
       "key": "a:a0100eb92c",
       "soort": "agenda",
@@ -1001,6 +962,30 @@
         "vogelenzangseweg",
         "boekenrodeweg",
         "gravenweg"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/bd986c99-720b-4ecc-9423-3610fceeca2c",
+      "soort": "nieuws",
+      "kop": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.49,
+      "Kp": 0.34,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "schriftelijk",
+        "gehandhafd",
+        "nagekom",
+        "toezegging",
+        "amendement",
+        "militaireweg",
+        "eiland"
       ],
       "bewijs": []
     }
