@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T12:00:59.519Z",
+  "gegenereerdOp": "2026-11-16T13:01:04.686Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-16T12:00:59.519Z",
+      "gecontroleerdOp": "2026-11-16T13:01:04.686Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
