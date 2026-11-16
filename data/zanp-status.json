@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-15T23:00:52.523Z",
+  "gegenereerdOp": "2026-11-16T00:00:46.015Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-15T23:00:52.523Z",
+      "laatsteScrape": "2026-11-16T00:00:46.015Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-15T23:00:52.523Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-16T00:00:46.015Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
@@ -74,24 +74,24 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-15T23:00:52.523Z",
+      "laatsteScrape": "2026-11-16T00:00:46.015Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 14,
+      "opeenvolgendLeeg": 15,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-15T23:00:52.523Z",
+      "laatsteScrape": "2026-11-16T00:00:46.015Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 22,
+      "opeenvolgendLeeg": 23,
       "opeenvolgendFout": 0
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-15T23:00:52.523Z",
+      "laatsteScrape": "2026-11-16T00:00:46.015Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 67,
-      "opeenvolgendFout": 5,
+      "opeenvolgendLeeg": 68,
+      "opeenvolgendFout": 6,
       "laatsteFout": {
-        "tijd": "2026-11-15T23:00:52.523Z",
+        "tijd": "2026-11-16T00:00:46.015Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 500",
         "duurSec": null
       }
@@ -325,7 +325,7 @@
       "bijgewerkt": 0,
       "behouden": 209,
       "verdwenen": 0,
-      "verlopen": 11,
+      "verlopen": 0,
       "uitBerichten": 23,
       "uitCamera": 4,
       "zichtbaar": 78,
@@ -366,7 +366,7 @@
         "uitgesteld": 0
       },
       "vergeten": 0,
-      "tekstenOpgeruimd": 1,
+      "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 98,
       "stukken": 568,
       "kandidaten": 46,
