@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T17:00:49.427Z",
+  "gegenereerdOp": "2026-11-16T18:00:46.542Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,16 +15,16 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
-      "gevonden": 0,
-      "opeenvolgendLeeg": 1,
-      "opeenvolgendFout": 1,
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
+      "gevonden": 3,
+      "opeenvolgendLeeg": 0,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T17:00:49.427Z",
         "bericht": "time-out na 45.0s bij nh-cultuur",
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 33,
+      "opeenvolgendLeeg": 34,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 41,
+      "opeenvolgendLeeg": 42,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,9 +96,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 86,
+      "opeenvolgendLeeg": 87,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T16:00:57.823Z",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T17:00:49.427Z",
+      "laatsteScrape": "2026-11-16T18:00:46.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 7,
+      "opeenvolgendLeeg": 8,
       "opeenvolgendFout": 0
     }
   },
