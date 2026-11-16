@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T13:01:04.686Z",
+  "gegenereerdOp": "2026-11-16T14:00:58.426Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
@@ -74,16 +74,16 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 29,
+      "opeenvolgendLeeg": 30,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 37,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 38,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T13:01:04.686Z",
         "bericht": "Lijst ophalen mislukt: This operation was aborted",
@@ -91,13 +91,13 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 82,
-      "opeenvolgendFout": 11,
+      "opeenvolgendLeeg": 83,
+      "opeenvolgendFout": 12,
       "laatsteFout": {
-        "tijd": "2026-11-16T13:01:04.686Z",
-        "bericht": "RSS-feed ophalen mislukt: fetch failed — oorzaak: Client network socket disconnected before secure TLS connection was established [ECONNRESET]",
+        "tijd": "2026-11-16T14:00:58.426Z",
+        "bericht": "RSS-feed ophalen mislukt: HTTP 403",
         "duurSec": null
       }
     },
@@ -108,9 +108,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T13:01:04.686Z",
+      "laatsteScrape": "2026-11-16T14:00:58.426Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 3,
+      "opeenvolgendLeeg": 4,
       "opeenvolgendFout": 0
     }
   },
