@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T21:00:46.031Z",
+  "gegenereerdOp": "2026-11-16T22:00:54.206Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,18 +15,18 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
-      "gevonden": 3,
-      "opeenvolgendLeeg": 0,
-      "opeenvolgendFout": 0,
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-16T17:00:49.427Z",
+        "tijd": "2026-11-16T22:00:54.206Z",
         "bericht": "time-out na 45.0s bij nh-cultuur",
         "duurSec": 45
       }
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 37,
+      "opeenvolgendLeeg": 38,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 45,
+      "opeenvolgendLeeg": 46,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,9 +96,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 90,
+      "opeenvolgendLeeg": 91,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T19:00:47.968Z",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T21:00:46.031Z",
+      "laatsteScrape": "2026-11-16T22:00:54.206Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 11,
+      "opeenvolgendLeeg": 12,
       "opeenvolgendFout": 0
     }
   },
@@ -387,10 +387,10 @@
         "mislukt": 0,
         "uitgesteld": 0
       },
-      "vergeten": 0,
+      "vergeten": 1,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 98,
-      "stukken": 573,
+      "stukken": 572,
       "kandidaten": 41,
       "metAnker": 41,
       "zonderAnker": 0,
