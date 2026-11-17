@@ -248,6 +248,7 @@ async function draaiPrioriteit(opties) {
   }
   for (const r of laatstePerGroep(records)) {
     if (!r.url || r.seed) continue;
+    if (r.alleenAgenda) continue; // De Orkaan: wel bewijsstuk (vingerafdruk), nooit zelf rood
     if (r.camera) continue; // cameratoezicht: vaste regel (regels.js), niet de formule
     if (r.vraag && r.vraag.status === "beantwoord") continue; // beantwoording schriftelijke vragen: vaste regel (regels.js)
     const eerst = Date.parse(r.eerstGezienOp);

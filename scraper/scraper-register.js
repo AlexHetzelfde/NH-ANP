@@ -31,6 +31,7 @@ const { scrapeSchriftelijkeVragen } = require("./scrapers/schriftelijke-vragen")
 const { scrapeCamera } = require("./scrapers/camera");
 const { scrapeTed } = require("./scrapers/ted");
 const { scrapeTenderned } = require("./scrapers/tenderned");
+const { scrapeStroomstoringen } = require("./scrapers/stroomstoringen");
 
 const SCRAPER_PER_TYPE = {
   "wordpress-html": scrapeWordpress,
@@ -46,6 +47,7 @@ const SCRAPER_PER_TYPE = {
   camera: scrapeCamera, // cameratoezicht uit officielebekendmakingen.nl, met reeksen (alleen ZANP)
   ted: scrapeTed, // aanbestedingen van de gemeente uit TED, de Europese databank (alleen ZANP)
   tenderned: scrapeTenderned, // aanbestedingen uit TenderNed, ook nationaal en onder de drempel (alleen ZANP)
+  stroomstoringen: scrapeStroomstoringen, // actuele stroomstoringen van Stroomstoringkaart, gefilterd op de plaatsen van bron.plaatsen (alleen ZANP)
   moties: scrapeMoties, // moties met stemming en strekking uit het iBabs-rapport "Moties en amendementen" (alleen ZANP)
   "schriftelijke-vragen": scrapeSchriftelijkeVragen, // schriftelijke vragen en hun beantwoording uit het iBabs-rapport (alleen ZANP)
 };

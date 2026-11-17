@@ -144,6 +144,24 @@
       "herkomst": "officieel",
       "prio": 3,
       "herschrijf": true
+    },
+    "DeOrkaan": {
+      "rubriek": "ALG",
+      "herkomst": "signaal",
+      "prio": 3,
+      "herschrijf": false
+    },
+    "veiligheidsregio-nieuws": {
+      "rubriek": "112",
+      "herkomst": "officieel",
+      "prio": 3,
+      "herschrijf": true
+    },
+    "stroomstoringkaart": {
+      "rubriek": "112",
+      "herkomst": "signaal",
+      "prio": 3,
+      "herschrijf": false
     }
   }
 }

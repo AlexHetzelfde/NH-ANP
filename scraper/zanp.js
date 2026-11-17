@@ -60,6 +60,7 @@ const gedeeld = require("./gedeeld");
 const wire = require("./wire");
 const runlog = require("./runlog");
 const jubileum = require("./jubileum");
+const bronRood = require("./bron-rood");
 const dossiers = require("./dossiers");
 const spelling = require("./spelling");
 
@@ -675,6 +676,16 @@ async function draai(deps = {}) {
 
   let records = wire.voegBerichtenSamen(bestaand, [...verwerkt, ...bijgewerkteControle], nu);
 
+  // Bronnen met alleenAgenda (De Orkaan): de berichten worden net als alle andere opgehaald en
+  // geanalyseerd, maar zijn GEEN nieuws: ze leveren alleen agendapunten en termijnen op (ZANP 8).
+  // Het veld alleenAgenda op het record zorgt dat de site ze weglaat (script.js) en dat
+  // clusters, alerts, dossiers en de rood-kandidaten ze overslaan. De vlag staat op het record zelf,
+  // dus ook als de bron later uit de lijst gaat blijven oude records verborgen.
+  const nieuwsRecord = (r) => !r.alleenAgenda;
+  records = records.map((r) =>
+    bronPerId[r.bronId] && bronPerId[r.bronId].alleenAgenda && !r.alleenAgenda ? { ...r, alleenAgenda: true } : r
+  );
+
   logFase("ZANP 6 — Dubbel nieuws");
   let clusterResultaat = {
     clusterVan: new Map(),
@@ -703,7 +714,7 @@ async function draai(deps = {}) {
             return antwoorden;
           }
         : undefined;
-      clusterResultaat = await bouwClusters(records, {
+      clusterResultaat = await bouwClusters(records.filter(nieuwsRecord), {
         nu,
         beslissingen: status.clusterBeslissingen,
         vraagAI,
@@ -720,7 +731,8 @@ async function draai(deps = {}) {
 
   logFase(`ZANP 7 — Alerts (modus ${inst.alertModus})`);
   try {
-    records = bepaalAlerts(records, clusterResultaat, inst.alertModus, nu);
+    const metAlert = new Map(bepaalAlerts(records.filter(nieuwsRecord), clusterResultaat, inst.alertModus, nu).map((r) => [r.id, r]));
+    records = records.map((r) => metAlert.get(r.id) || r);
     const nAlerts = records.filter((r) => r.alert || r.alertKandidaat).length;
     samenvatting.alerts = nAlerts;
     for (const r of records.filter((x) => x.alert || x.alertKandidaat)) {
@@ -819,6 +831,17 @@ async function draai(deps = {}) {
     console.error(`Jubileumregel mislukte (ZANP gaat door zonder jubileum-rood): ${fout.stack || fout.message}`);
   }
 
+  // Bronnen met altijdRood (bron-rood.js, bijvoorbeeld de stroomstoringen): elk bericht is
+  // rood, los van de prioriteitsmodule. Draait na de prioriteit en het jubileum, zodat een
+  // bericht dat daar al rood werd zijn eigen reden houdt. Een fout hier stopt de run niet.
+  try {
+    const b = bronRood.pasBronRoodToe({ records, bronPerId, nu });
+    records = b.records;
+    samenvatting.bronRood = b.stats;
+  } catch (fout) {
+    console.error(`Rood per bron mislukte (ZANP gaat door zonder): ${fout.stack || fout.message}`);
+  }
+
   // Dossiers (ZANP 10): onderwerpen waar vaak over is bericht. Een fout hier stopt
   // de run niet.
   const dossierModus = ["uit", "log", "aan"].includes(String(env.ZANP_DOSSIER_MODUS || "").trim().toLowerCase())
@@ -855,7 +878,7 @@ async function draai(deps = {}) {
           }
         : null;
       const uit = await dossiers.draaiDossiers({
-        records,
+        records: records.filter(nieuwsRecord),
         nu,
         modus: dossierModus,
         stubsBestand: await leesJson("zanp-stubs.json", { items: {} }),

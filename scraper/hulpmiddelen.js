@@ -920,7 +920,7 @@ const MIN_BRUIKBARE_TEKST_TEKENS = 100;
 const ARTIKEL_WEG =
   'script, style, noscript, svg, iframe, nav, footer, header, aside, form, button, select, ' +
   '[role="navigation"], [role="banner"], [role="contentinfo"], ' +
-  ".breadcrumb, .breadcrumbs, .share, .social, .cookie, .cookies, #cookie, .related, .comments";
+  ".breadcrumb, .breadcrumbs, .share, .social, .cookie, .cookies, #cookie, .related, .comments, .news-related-wrap";
 
 const ARTIKEL_INHOUD_SELECTORS = [
   ".text-content-section",

@@ -77,7 +77,8 @@ const SOORT_SEED = new Set(
   `besluit verkeersbesluit vergunning omgevingsvergunning evenementenvergunning aanvraag melding bekendmaking boete
   bestuurlijke dwangsom bestuursdwang bezwaar beroep uitnodiging bijeenkomst vergadering informatieve
   themabijeenkomst werkbezoek symposium webinar overleg locatie plaatsen wijzigen verlenen weigeren intrekken
-  ontheffing kapvergunning exploitatievergunning`
+  ontheffing kapvergunning exploitatievergunning kennisgeving persbericht mededeling aankondiging nieuwsbrief
+  raadsinformatiebrief collegebericht verlenging subsidieregeling`
     .split(/\s+/)
     .filter(Boolean)
     .map((w) => stam(schoon(w)))

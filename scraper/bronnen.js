@@ -8,11 +8,20 @@
 //
 // Sinds 2026-11-14 (voorbereiding op de regio Midden-Noord-Holland):
 //  - De pitchmachine is uit de repo gehaald; ZANP is de enige gebruiker van deze lijst.
-//  - Verwijderd op verzoek: DeOrkaan, hhnk, zaansche-molen, ovo-zaanstad,
+//  - Verwijderd op verzoek: hhnk, zaansche-molen, ovo-zaanstad,
 //    zaans-museum, zaanse-schans, zaandijk-leeft, zaans-cultuur-huis,
 //    WaarheenAgenda en vervoerregio-persberichten.
+//  - DeOrkaan was ook verwijderd, maar staat sinds 2026-11-17 terug met alleenAgenda: de
+//    artikelen worden gewoon opgehaald (volledige tekst, AI-analyse), maar komen nooit als
+//    nieuwsbericht in de nieuwsdienst. Ze dienen alleen om agendapunten en termijnen te
+//    signaleren (en als bewijsstuk voor de prioriteitsberekening).
 //  - politie-zaanstad verwijderd (52 ZANP-runs achter elkaar niets; de selectors
 //    van politie.nl werken niet meer).
+//
+// Sinds 2026-11-16:
+//  - veiligheidsregio-nieuws toegevoegd (Veiligheidsregio Zaanstreek-Waterland, TYPO3-
+//    nieuwslijst). De stroomstoringen van Stroomstoringkaart staan in zanp-bronnen.js,
+//    want die hebben een eigen scraper.
 
 module.exports = [
   {
@@ -174,6 +183,62 @@ module.exports = [
       samenvattingSelector: null,
       fotoSelector: null,
       fotoAttribuut: null,
+    },
+  },
+  {
+    // De Orkaan: ALLEEN voor agendapunten en termijnen (alleenAgenda). Het artikel wordt
+    // opgehaald zoals bij elke bron, maar het bericht zelf verschijnt nooit in de
+    // nieuwsdienst: zanp.js zet het veld alleenAgenda op het record, script.js laat zulke
+    // records weg, en clusters, alerts en dossiers slaan ze over.
+    // WordPress-thema: de lijst staat in .home-article-grid, elk artikel is een kolom
+    // (div) met h3 > a (kop en link), .text-gray-500 (datum) en p.text-sm (inleiding).
+    id: "DeOrkaan",
+    naam: "De Orkaan",
+    categorie: "lokaal",
+    type: "gemini-recept",
+    url: "https://www.deorkaan.nl/",
+    alleenAgenda: true,
+    // Het artikel zelf: de tekst staat in .post-content.
+    detailSelector: ".post-content",
+    selectors: {
+      itemSelector: ".home-article-grid > div",
+      titelSelector: "h3 a",
+      linkSelector: "h3 a",
+      datumSelector: ".text-gray-500",
+      datumAttribuut: null,
+      samenvattingSelector: "p.text-sm",
+      fotoSelector: "img.post-thumb",
+      fotoAttribuut: "src",
+    },
+    paginering: {
+      soort: "patroon",
+      patroon: "https://www.deorkaan.nl/page/{n}/",
+    },
+  },
+  {
+    // Nieuws van de Veiligheidsregio Zaanstreek-Waterland (brandweer, GHOR, crisisbeheersing).
+    // TYPO3 met de nieuwsmodule: de lijst staat in .news-blocks, elk bericht is een
+    // div.article met een kop (itemprop=headline), een datum (time[datetime]) en een foto.
+    // Een paar berichten per maand, en alleen de eerste pagina is nodig.
+    // De tekst van een bericht (de intro en de uitgeschreven tekst) staat in
+    // .news-content-wrap; het blok "Terug naar overzicht / Delen" valt weg (zie ARTIKEL_WEG
+    // in hulpmiddelen.js).
+    id: "veiligheidsregio-nieuws",
+    naam: "Veiligheidsregio Zaanstreek-Waterland — Nieuws",
+    categorie: "lokaal",
+    type: "gemini-recept",
+    url: "https://www.veiligheidsregiozaanstreekwaterland.nl/nieuws",
+    paginering: { soort: "geen" },
+    detailSelector: ".news-detail-view .news-content-wrap",
+    selectors: {
+      itemSelector: ".news-blocks .article",
+      titelSelector: "[itemprop='headline']",
+      linkSelector: "a[href*='/nieuws/nieuwsbericht/']",
+      datumSelector: "time",
+      datumAttribuut: "datetime",
+      samenvattingSelector: null,
+      fotoSelector: "img",
+      fotoAttribuut: "src",
     },
   },
   {

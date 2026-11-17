@@ -13,6 +13,9 @@
 // en zaanstad-ted verwijderd op verzoek (regio Midden-Noord-Holland). De
 // scrapers zelf (scrapers/tenderned.js en scrapers/ted.js) blijven staan,
 // mocht een van beide bronnen terugkomen.
+//
+// Sinds 2026-11-16: stroomstoringkaart toegevoegd (stroomstoringen in Zaanstreek-
+// Waterland, altijd rood).
 
 module.exports = [
   {
@@ -70,5 +73,45 @@ module.exports = [
       "and(cql.textAndIndexes=%22camera%22)" +
       "%20AND%20dt.creator==%22Zaanstad%22",
     nooitVertragen: true,
+  },
+  {
+    // Actuele stroomstoringen uit Noord-Holland van stroomstoringkaart.nl (gegevens van
+    // de netbeheerders), alleen voor de plaatsen hieronder. Zie scrapers/stroomstoringen.js.
+    //
+    // plaatsen        de dorpen en steden van Zaanstreek-Waterland. Een storing komt binnen
+    //                 als minstens een van zijn plaatsen hier staat (de naam moet precies
+    //                 kloppen, hoofdletters maken niet uit). Mist er een dorp, zet het erbij.
+    //                 Zonder deze lijst levert de bron niets op.
+    // vasteRubriek    de tag van deze berichten (112)
+    // altijdRood      elk bericht is rood, los van de prioriteitsberekening (bron-rood.js)
+    // nooitVertragen  storingen komen onregelmatig; zonder deze regel gaat ZANP na drie
+    //                 lege runs steeds minder vaak kijken
+    //
+    // Een gemeente is hier niet aan gekoppeld in gemeenten.json: met "*" staan de storingen
+    // bij alle gemeenten.
+    id: "stroomstoringkaart",
+    naam: "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+    categorie: "lokaal",
+    type: "stroomstoringen",
+    url: "https://www.stroomstoringkaart.nl/provincie/noord-holland",
+    vasteRubriek: "112",
+    altijdRood: { label: "stroomstoring", reden: "Stroomstoring in Zaanstreek-Waterland" },
+    nooitVertragen: true,
+    plaatsen: [
+      // Zaanstad
+      "Zaandam", "Zaandijk", "Koog aan de Zaan", "Wormerveer", "Krommenie", "Assendelft", "Westzaan",
+      "Nauerna", "Haaldersbroek", "Zaanse Schans",
+      // Oostzaan en Landsmeer
+      "Oostzaan", "Landsmeer", "Den Ilp",
+      // Wormerland
+      "Wormer", "Jisp", "Wijdewormer", "Neck", "Oostknollendam", "Spijkerboor",
+      // Waterland
+      "Monnickendam", "Marken", "Broek in Waterland", "Ilpendam", "Durgerdam", "Uitdam", "Zuiderwoude",
+      "Watergang", "Katwoude", "Overleek", "Holysloot", "Purmerland", "Purmer",
+      // Purmerend en de Beemster
+      "Purmerend", "Beemster", "Middenbeemster", "Westbeemster", "Zuidoostbeemster", "Noordbeemster",
+      // Edam-Volendam
+      "Volendam", "Edam", "Oosthuizen", "Warder", "Kwadijk", "Middelie", "Hobrede", "Beets", "Schardam",
+    ],
   },
 ];
