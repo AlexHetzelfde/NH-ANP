@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T18:00:47.616Z",
+  "gegenereerdOp": "2026-11-17T19:00:47.711Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -506,7 +506,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -544,7 +544,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
@@ -582,7 +582,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -620,7 +620,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -658,7 +658,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -696,7 +696,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T18:00:47.616Z",
+      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {

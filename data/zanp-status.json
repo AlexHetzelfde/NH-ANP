@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T18:00:47.616Z",
+  "gegenereerdOp": "2026-11-17T19:00:47.711Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,13 +15,13 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -79,30 +79,30 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 66,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 67,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-16T15:00:52.190Z",
-        "bericht": "Lijst ophalen mislukt: terminated — oorzaak: read ECONNRESET [ECONNRESET]",
+        "tijd": "2026-11-17T19:00:47.711Z",
+        "bericht": "Lijst ophalen mislukt: This operation was aborted",
         "duurSec": null
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 111,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 112,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-17T10:00:55.145Z",
-        "bericht": "RSS-feed ophalen mislukt: HTTP 403",
+        "tijd": "2026-11-17T19:00:47.711Z",
+        "bericht": "RSS-feed ophalen mislukt: HTTP 504",
         "duurSec": null
       }
     },
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-17T18:00:47.616Z",
+      "laatsteScrape": "2026-11-17T19:00:47.711Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 4,
+      "opeenvolgendLeeg": 5,
       "opeenvolgendFout": 0
     }
   },
