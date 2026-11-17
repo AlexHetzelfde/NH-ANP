@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T21:43:50.862Z",
+  "gegenereerdOp": "2026-11-17T22:00:45.845Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -14,10 +14,10 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "vergeten": 0,
+    "vergeten": 4,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 99,
-    "stukken": 590,
+    "stukken": 586,
     "kandidaten": 45,
     "metAnker": 45,
     "zonderAnker": 0,
@@ -453,8 +453,8 @@
         "uitgan",
         "wissel",
         "regiovisi",
-        "veilig",
         "initiatief",
+        "veilig",
         "insprak",
         "samenwerk",
         "jagersveld"
