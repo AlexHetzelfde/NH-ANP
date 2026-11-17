@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T19:00:47.711Z",
+  "gegenereerdOp": "2026-11-17T20:00:50.326Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -506,7 +506,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -523,6 +523,462 @@
       },
       "checklistBron": "patroon",
       "tagVersie": 2
+    },
+    {
+      "id": "416f6b83ff-v1",
+      "groepId": "416f6b83ff",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/dagje-stroomstoring-aan-hogendijk/",
+      "kop": "Dagje stroomstoring aan Hogendijk",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 88,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Dagje stroomstoring aan Hogendijk",
+      "bronLengte": 525,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "df1819c4dc-v1",
+      "groepId": "df1819c4dc",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/forum-informatieavond-krommenie-aardgasvrij/",
+      "kop": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 414,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
+      "bronLengte": 2796,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "8224d85f55-v1",
+      "groepId": "8224d85f55",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/sina-schipper-na-honderdzes-jaar-thuisgekomen/",
+      "kop": "Sina Schipper na honderdzes jaar thuisgekomen",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 441,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
+      "bronLengte": 2533,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "d7e3fc334d-v1",
+      "groepId": "d7e3fc334d",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/automobilist-mist-bocht-bij-a7-en-rijdt-zo-de-sloot-in/",
+      "kop": "Automobilist mist bocht bij A7 en rijdt zo de sloot in",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 213,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Automobilist mist bocht bij A7 en rijdt zo de sloot in",
+      "bronLengte": 1247,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "8e442b6b76-v1",
+      "groepId": "8e442b6b76",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/giftige-struiken-op-speelplaats-de-dorpsakker-zaanstad-de-meeste-kinderen-eten-niet-zomaar-bladeren/",
+      "kop": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 885,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’",
+      "bronLengte": 5788,
+      "checklist": {
+        "gevaar": true,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "79b2ad03b6-v1",
+      "groepId": "79b2ad03b6",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/uwv-walk-out-voor-loonsverhoging-ook-beetje-run-in/",
+      "kop": "UWV Walk-out voor loonsverhoging (ook beetje Run-in)",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 361,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "UWV Walk-out voor loonsverhoging (ook beetje Run-in)",
+      "bronLengte": 2394,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "65f2bcd6ca-v1",
+      "groepId": "65f2bcd6ca",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-17-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 17 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 55,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "De Orkaan in 2 minuten: 17 november 🎧",
+      "bronLengte": 326,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "e4407ee531-v1",
+      "groepId": "e4407ee531",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zomaar-een-zaans-minuutje-den-uylbrug-%f0%9f%8e%a5/",
+      "kop": "Zomaar een Zaans minuutje: Den Uylbrug… 🎥",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 476,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Zomaar een Zaans minuutje: Den Uylbrug… 🎥",
+      "bronLengte": 3286,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "a31ffbdaf1-v1",
+      "groepId": "a31ffbdaf1",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/kapot-het-repair-cafe-krijgt-het-aan-de-praat-%f0%9f%8e%a5/",
+      "kop": "Kapot? Het Repair Café krijgt het aan de praat 🎥",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 433,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Kapot? Het Repair Café krijgt het aan de praat 🎥",
+      "bronLengte": 2649,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "c82a268deb-v1",
+      "groepId": "c82a268deb",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/napoleon-een-verre-voorvader-en-een-bijna-oorlogstrauma/",
+      "kop": "Napoleon, een verre voorvader en een bijna oorlogstrauma",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 662,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Napoleon, een verre voorvader en een bijna oorlogstrauma",
+      "bronLengte": 4272,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "150c813a79-v1",
+      "groepId": "150c813a79",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
+      "kop": "Het Blauwe Pand dichtgespijkerd",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 241,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "Het Blauwe Pand dichtgespijkerd",
+      "bronLengte": 1468,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": true,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "b699166559-v1",
+      "groepId": "b699166559",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/50woordenfoto-noodlanding/",
+      "kop": "50woordenfoto: noodlanding…",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 102,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T20:00:50.326Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
+      "bronTitel": "50woordenfoto: noodlanding…",
+      "bronLengte": 569,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
     },
     {
       "id": "ec17a6d2b5-v1",
@@ -544,7 +1000,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
@@ -582,7 +1038,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -620,7 +1076,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -658,7 +1114,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -696,7 +1152,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T19:00:47.711Z",
+      "gecontroleerdOp": "2026-11-17T20:00:50.326Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
@@ -851,7 +1307,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "1ad67625a2-v1",
@@ -890,7 +1347,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "9931cb3d69-v1",
@@ -929,7 +1387,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "83ef01d4f9-v1",
@@ -968,7 +1427,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "6d27772f6c-v1",
@@ -1007,7 +1467,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "a0597aaf31-v1",
@@ -1059,7 +1520,8 @@
       "tagVersie": 2,
       "agendaIds": [
         "5ee4c4fe04"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "2b07c4344b-v1",
@@ -1098,7 +1560,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "47aa533e3e-v2",
@@ -1137,7 +1600,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "8716c120d4-v1",
@@ -1328,7 +1792,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "eb2f32923f-v1",
@@ -1367,7 +1832,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "2bc5033876-v1",
@@ -1406,7 +1872,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "2b16e2398f-v1",
@@ -1445,7 +1912,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "99e71d8e00-v1",
@@ -1484,7 +1952,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "11956bb3dd-v1",
@@ -1523,7 +1992,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "004a132449-v1",
@@ -1562,7 +2032,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "49e2daabbf-v1",
@@ -1601,7 +2072,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "70fe2c68a0-v1",
@@ -1640,7 +2112,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "87935b8d17-v1",
@@ -1679,7 +2152,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "e2523ab0bb-v1",
@@ -1718,7 +2192,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "2380a746f9-v1",
@@ -1757,7 +2232,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "2e4b0cb167-v1",
@@ -1834,7 +2310,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "47aa533e3e-v1",
@@ -1873,7 +2350,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "ae041db2ca-v1",
@@ -3322,7 +3800,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "57352072e8-v1",
@@ -3982,7 +4461,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "7afe092cf3-v1",
@@ -4021,7 +4501,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "aedc880bb8-v1",
@@ -4073,7 +4554,8 @@
       "agendaIds": [
         "3c30cbc46c"
       ],
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "32902bd5ab-v1",
@@ -4112,7 +4594,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "74f71e24f8-v1",
@@ -4151,7 +4634,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "9b19abc714-v1",
@@ -4190,7 +4674,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "b690ce747a-v1",
@@ -4229,7 +4714,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "e481e88eec-v1",
@@ -4268,7 +4754,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "131b76a06d-v1",
@@ -4320,7 +4807,8 @@
       "agendaIds": [
         "4e46a9609e"
       ],
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "bf7ca88994-v1",
@@ -4359,7 +4847,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "c35fe6e606-v1",
@@ -4429,7 +4918,8 @@
         "2727f298ba",
         "a7f0208c71",
         "6128eb0cbe"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "7472201709-v1",
@@ -4468,7 +4958,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "bf449969aa-v1",
@@ -4545,7 +5036,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "16f5b94562-v1",
@@ -4584,7 +5076,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "1494cd977d-v1",
@@ -6597,7 +7090,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "b78bbe1eea-v1",
@@ -6636,7 +7130,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "c4c0e1e653-v1",
@@ -6675,7 +7170,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "c92229dfb1-v1",
@@ -6714,7 +7210,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "7fd9fa2dd6-v1",
@@ -6753,7 +7250,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "72de5bd8e0-v1",
@@ -6792,7 +7290,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "92b7edce1b-v1",
@@ -6831,7 +7330,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f3e9cc0556-v1",
@@ -6870,7 +7370,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "cbe88dcaaf-v1",
@@ -6922,7 +7423,8 @@
       "analyse": true,
       "agendaIds": [
         "2dd437066a"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "56de5590d9-v1",
@@ -6961,7 +7463,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "bbae8c023f-v1",
@@ -7000,7 +7503,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "6bcd9d7380-v1",
@@ -7039,7 +7543,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "19c1e61748-v2",
@@ -7078,7 +7583,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "026e4c1152-v1",
@@ -7155,7 +7661,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "160863af71-v1",
@@ -7270,7 +7777,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f218afd915-v1",
@@ -7309,7 +7817,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "dc40448f1a-v1",
@@ -7538,7 +8047,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "0e700c678e-v1",
@@ -7628,7 +8138,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "ac08ce4ecb-v1",
@@ -7667,7 +8178,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "579b746275-v1",
@@ -7706,7 +8218,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "cc452fea66-v1",
@@ -7745,7 +8258,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "19c1e61748-v1",
@@ -7784,7 +8298,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "92307478e7-v1",
@@ -7823,7 +8338,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f9d3198f90-v1",
@@ -8128,7 +8644,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "b286fc6895-v1",
@@ -8167,7 +8684,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "1eba30b367-v1",
@@ -8206,7 +8724,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "d49dd9a007-v1",
@@ -8266,7 +8785,8 @@
       "tagVersie": 2,
       "agendaIds": [
         "658be6d1af"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "567a9b680c-v2",
@@ -8305,7 +8825,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "54ee6086c7-v2",
@@ -8344,7 +8865,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "9b8993a91d-v1",
@@ -8776,7 +9298,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "e0c8d06de1-v1",
@@ -8815,7 +9338,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "cdc13b69df-v1",
@@ -8854,7 +9378,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "1f9a693d51-v1",
@@ -9007,7 +9532,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "568454d2c0-v1",
@@ -9046,7 +9572,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "639b3d3211-v1",
@@ -9098,7 +9625,8 @@
       "analyse": true,
       "agendaIds": [
         "00bd7e7755"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "3bd27ad8ee-v1",
@@ -9137,7 +9665,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f34eb5e251-v1",
@@ -9176,7 +9705,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "85c60d7f39-v1",
@@ -9215,7 +9745,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "d48f14d52f-v1",
@@ -9254,7 +9785,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "54ee6086c7-v1",
@@ -9293,7 +9825,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "a0cf15ccde-v1",
@@ -9392,7 +9925,8 @@
       "agendaIds": [
         "b89f8df87d",
         "f30edbd1c7"
-      ]
+      ],
+      "alleenAgenda": true
     },
     {
       "id": "8551a2f43c-v1",
@@ -9431,7 +9965,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "aa1f8d72ab-v1",
@@ -9508,7 +10043,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "0a1a1df44a-v1",
@@ -9601,7 +10137,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "94ee47e8c0-v1",
@@ -9640,7 +10177,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "fae10c20fa-v1",
@@ -9679,7 +10217,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f4f48a9b03-v1",
@@ -9718,7 +10257,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "d6700fdef4-v1",
@@ -9783,7 +10323,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "7941c5e237-v1",
@@ -9822,7 +10363,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "721bcae6d6-v1",
@@ -9861,7 +10403,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "df254b0c4d-v1",
@@ -9900,7 +10443,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "a5e1214bbc-v1",
@@ -9939,7 +10483,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "33a6571439-v1",
@@ -9978,7 +10523,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "fe149669c4-v2",
@@ -10055,7 +10601,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f7e7587369-v1",
@@ -10094,7 +10641,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "6475b27baf-v1",
@@ -10133,7 +10681,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "5bdad2a42e-v1",
@@ -10172,7 +10721,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "230eedecdd-v1",
@@ -10211,7 +10761,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "4eb3c4d9d3-v1",
@@ -10250,7 +10801,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "0073df547a-v1",
@@ -10289,7 +10841,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "190d32f82e-v1",
@@ -10338,7 +10891,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "69200589bb-v1",
@@ -10377,7 +10931,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "3f583e41be-v3",
@@ -10416,7 +10971,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "3f583e41be-v2",
@@ -10455,7 +11011,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "d29da656b9-v1",
@@ -10570,7 +11127,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "ff73618262-v1",
@@ -10862,7 +11420,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "7f666b0771-v1",
@@ -10901,7 +11460,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "888b4c93a9-v1",
@@ -10940,7 +11500,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "ccf449bf38-v1",
@@ -10979,7 +11540,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "51d7447585-v1",
@@ -11018,7 +11580,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "7db1f83da4-v1",
@@ -11057,7 +11620,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "fa6039797c-v1",
@@ -11117,7 +11681,8 @@
       "agendaIds": [
         "f9d7a5c9f7"
       ],
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "d20493c626-v1",
@@ -11156,7 +11721,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "430c13f72f-v1",
@@ -11195,7 +11761,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f40d6678b7-v1",
@@ -11234,7 +11801,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "3f583e41be-v1",
@@ -11273,7 +11841,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "00ff20e2b9-v1",
@@ -11312,7 +11881,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "47202e317b-v1",
@@ -11427,7 +11997,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "fe86f7d6db-v1",
@@ -11666,7 +12237,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "38cdb35e9c-v1",
@@ -11857,7 +12429,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "5459672d9c-v1",
@@ -11895,7 +12468,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "812792da8e-v1",
@@ -11934,7 +12508,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f21c3a35f6-v1",
@@ -11973,7 +12548,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "cf925d4863-v1",
@@ -12012,7 +12588,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "6e7ee94036-v1",
@@ -12051,7 +12628,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "ac80e24f20-v1",
@@ -12090,7 +12668,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "8d439e8e5d-v1",
@@ -12129,7 +12708,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "4c7b0c483a-v1",
@@ -12168,7 +12748,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "7d6d633215-v1",
@@ -12207,7 +12788,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "6ac78fac7e-v1",
@@ -12246,7 +12828,8 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2,
-      "analyse": true
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "73a331918f-v1",
@@ -12615,7 +13198,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f5ce24b6b9-v1",
@@ -12664,7 +13248,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "65a001ee37-v1",
@@ -12817,7 +13402,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "b38aa580d7-v1",
@@ -13591,7 +14177,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "c25dfcec5b-v1",
@@ -13630,7 +14217,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "c5c63a3c12-v1",
@@ -13695,7 +14283,8 @@
         }
       ],
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "955f4f71a1-v1",
@@ -13734,7 +14323,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "5cbd12cc8e-v1",
@@ -13773,7 +14363,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "210f9f8aab-v1",
@@ -13812,7 +14403,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "acd71a15d2-v1",
@@ -13851,7 +14443,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "1b2560bc11-v1",
@@ -13890,7 +14483,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "afa774125b-v1",
@@ -13929,7 +14523,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "d54f3d027a-v1",
@@ -13968,7 +14563,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "aa7e41d90d-v1",
@@ -14007,7 +14603,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "7996481e07-v1",
@@ -14046,7 +14643,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "alleenAgenda": true
     },
     {
       "id": "f2ec380ca4-v1",
