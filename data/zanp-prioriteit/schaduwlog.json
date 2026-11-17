@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T09:00:55.804Z",
+  "gegenereerdOp": "2026-11-17T10:00:55.145Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 99,
-    "stukken": 574,
-    "kandidaten": 42,
-    "metAnker": 42,
+    "stukken": 575,
+    "kandidaten": 43,
+    "metAnker": 43,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -906,6 +906,27 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Maak_kennis_met_techniek_op_een_PET_Event",
+      "soort": "nieuws",
+      "kop": "Maak kennis met techniek op een PET Event",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.13,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "techniek",
+        "event",
+        "promoti",
+        "kennis"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_zoekt_woorden_voor_Noord_Hollandlied",
       "soort": "nieuws",
       "kop": "Provincie zoekt woorden voor Noord-Hollandlied",
@@ -973,29 +994,6 @@
         "inzichtelijk",
         "meprat",
         "insprakprocedur"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Bewonersavond_over_N206_tussen_Vogelenzang_en_Aerdenhout",
-      "soort": "nieuws",
-      "kop": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.13,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "aerdenhout",
-        "vogelenzang",
-        "bewonersavond",
-        "vogelenzangseweg",
-        "boekenrodeweg",
-        "gravenweg"
       ],
       "bewijs": []
     }

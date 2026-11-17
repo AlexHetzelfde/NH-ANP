@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T09:00:55.804Z",
+  "gegenereerdOp": "2026-11-17T10:00:55.145Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,43 @@
   ],
   "berichten": [
     {
+      "id": "a3372e97d8-v1",
+      "groepId": "a3372e97d8",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Maak_kennis_met_techniek_op_een_PET_Event",
+      "kop": "Maak kennis met techniek op een PET Event",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-17T10:28:30.000Z",
+      "heeftTijd": true,
+      "woorden": 335,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T10:00:55.145Z",
+      "gecontroleerdOp": "2026-11-17T10:00:55.145Z",
+      "bronTitel": "Maak kennis met techniek op een PET Event",
+      "bronLengte": 2234,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
       "id": "52a638fb09-v1",
       "groepId": "52a638fb09",
       "versie": 1,
@@ -425,7 +462,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T09:00:55.804Z",
+      "gecontroleerdOp": "2026-11-17T10:00:55.145Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -463,7 +500,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T09:00:55.804Z",
+      "gecontroleerdOp": "2026-11-17T10:00:55.145Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -501,7 +538,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T09:00:55.804Z",
+      "gecontroleerdOp": "2026-11-17T10:00:55.145Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -539,7 +576,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T09:00:55.804Z",
+      "gecontroleerdOp": "2026-11-17T10:00:55.145Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
