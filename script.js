@@ -442,7 +442,8 @@ function kiesPrimair(leden) {
 // het bericht van de beste bron over, met een lijst "ook gemeld door".
 function zetBerichten(data) {
   const d = data || {};
-  state.berichten = Array.isArray(d.berichten) ? d.berichten : [];
+  // Records met alleenAgenda (De Orkaan) bestaan alleen voor de agenda: nooit tonen als nieuws.
+  state.berichten = (Array.isArray(d.berichten) ? d.berichten : []).filter((r) => !r.alleenAgenda);
   state.rubrieken = Array.isArray(d.rubrieken) ? d.rubrieken : [];
   state.alertModus = d.alertModus === "aan" ? "aan" : "log";
   state.berichtenGegenereerdOp = d.gegenereerdOp || null;
