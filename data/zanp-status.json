@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-16T23:00:44.919Z",
+  "gegenereerdOp": "2026-11-17T00:00:46.806Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
       "laatsteFout": {
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 39,
+      "opeenvolgendLeeg": 40,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 47,
+      "opeenvolgendLeeg": 48,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,9 +96,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 92,
+      "opeenvolgendLeeg": 93,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T19:00:47.968Z",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-16T23:00:44.919Z",
+      "laatsteScrape": "2026-11-17T00:00:46.806Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 13,
+      "opeenvolgendLeeg": 14,
       "opeenvolgendFout": 0
     }
   },
@@ -347,7 +347,7 @@
       "bijgewerkt": 0,
       "behouden": 206,
       "verdwenen": 0,
-      "verlopen": 3,
+      "verlopen": 0,
       "uitBerichten": 17,
       "uitCamera": 4,
       "zichtbaar": 73,
@@ -381,14 +381,14 @@
       "ai": false,
       "formule": "v4-22806000",
       "tekst": {
-        "werklijst": 1,
+        "werklijst": 0,
         "lokaal": 0,
-        "opgehaald": 1,
+        "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
       },
       "vergeten": 0,
-      "tekstenOpgeruimd": 1,
+      "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 99,
       "stukken": 573,
       "kandidaten": 41,
