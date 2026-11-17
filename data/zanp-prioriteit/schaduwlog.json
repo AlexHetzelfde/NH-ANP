@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T06:00:46.337Z",
+  "gegenereerdOp": "2026-11-17T07:00:49.814Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 99,
-    "stukken": 573,
-    "kandidaten": 41,
-    "metAnker": 41,
+    "stukken": 574,
+    "kandidaten": 42,
+    "metAnker": 42,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -39,8 +39,8 @@
       "key": "a:a0100eb92c",
       "soort": "agenda",
       "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
-      "S": 0.14,
-      "Sa": 0.14,
+      "S": 0.13,
+      "Sa": 0.13,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0,
@@ -906,6 +906,25 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_zoekt_woorden_voor_Noord_Hollandlied",
+      "soort": "nieuws",
+      "kop": "Provincie zoekt woorden voor Noord-Hollandlied",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.1,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "hollandlied",
+        "zoekt"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Nieuwe_archeologische_kroniek_bundelt_kennis_uit_de_bodem",
       "soort": "nieuws",
       "kop": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
@@ -977,30 +996,6 @@
         "vogelenzangseweg",
         "boekenrodeweg",
         "gravenweg"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/bd986c99-720b-4ecc-9423-3610fceeca2c",
-      "soort": "nieuws",
-      "kop": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.49,
-      "Kp": 0.34,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "schriftelijk",
-        "gehandhafd",
-        "nagekom",
-        "toezegging",
-        "amendement",
-        "militaireweg",
-        "eiland"
       ],
       "bewijs": []
     }
