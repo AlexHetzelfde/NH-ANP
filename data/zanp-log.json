@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T07:00:49.814Z",
+  "gegenereerdOp": "2026-11-17T08:00:54.004Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
     {
@@ -6780,18 +6780,7 @@
               "vervoerregio-overzichten",
               "zaanstad-moties"
             ]
-          },
-          "voorbeelden": [
-            {
-              "bron": "zaanstad-camera",
-              "bericht": "RSS-feed ophalen mislukt: HTTP 500",
-              "duurSec": null,
-              "opeenvolgendFout": 8
-            }
-          ],
-          "regels": [
-            "[zaanstad-camera] scrapen mislukt (8x achter elkaar): RSS-feed ophalen mislukt: HTTP 500"
-          ]
+          }
         },
         "tekst": {
           "tellers": {
@@ -6898,36 +6887,7 @@
                 "gemTekens": 3328
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "nh-actueel",
-              "methode": "run",
-              "kop": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
-              "tekensVoor": 1959,
-              "tekensNa": 1747,
-              "alineas": 4,
-              "rommelRegelsWeg": 2,
-              "alineasHerleid": true,
-              "begin": "Op dinsdag 24 november organiseert de provincie Noord-Holland een bewonersavond over de Vogelenzangseweg (N206). De bijeenkomst is van 19.00 tot 21.00 uur in Dorpshuis Vogelenzang. De provincie vertelt deze avond over de",
-              "eind": "het Servicepunt van de provincie Noord-Holland: Telefoon: 0800 - 020 06 00 (gratis) E-mail: servicepunt@noord-holland.nl"
-            },
-            {
-              "bron": "zaanstad-schriftelijke-vragen",
-              "methode": "lijst",
-              "kop": "Schriftelijke vragen: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd",
-              "tekensVoor": 6991,
-              "tekensNa": 7004,
-              "alineas": 15,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": true,
-              "begin": "Schriftelijke vragen van Kerkhoven, Jos (DZ) aan het college. Onderwerp: Artikel 51 vragen DZ niet-nagekomen toezeggingen en niet-gehandhaafd amendement. Nummer: 1039. Datum vraag: 11-11-2026. Portefeuillehouder: Laan, v",
-              "eind": "er: Julië4e Rot Stadhuisplein 100 Inschr.nr. KvK 34188099 te Zaandam Email: j.rot@democra(schzaanstad.nl 1506 MZ Zaandam"
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 310/316 berichten (98%). Laagst: vervoerregio-overzichten 4/7 (57%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -6936,9 +6896,7 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 1
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "dossiers": {
           "tellers": {
@@ -6962,9 +6920,7 @@
             "dossiersActief": 0,
             "modus": "log",
             "dossiers": []
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "run": {
           "tellers": {},
@@ -6974,9 +6930,7 @@
             "aiVerzoeken": 0,
             "geminiDagGebruikt": "0/80",
             "duurSeconden": 33
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -11155,6 +11109,188 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-17T08:00:54.004Z",
+      "duurMs": 24851,
+      "onderdelen": {
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 6,
+            "fout": 1,
+            "leegZonderFout": 3
+          },
+          "waarden": {
+            "leegZonderFoutLijst": [
+              "vervoerregio-overzichten",
+              "zaanstad-moties",
+              "zaanstad-schriftelijke-vragen"
+            ]
+          },
+          "voorbeelden": [
+            {
+              "bron": "zaanstad-camera",
+              "bericht": "RSS-feed ophalen mislukt: HTTP 403",
+              "duurSec": null,
+              "opeenvolgendFout": 1
+            }
+          ],
+          "regels": [
+            "[zaanstad-camera] scrapen mislukt (1x achter elkaar): RSS-feed ophalen mislukt: HTTP 403"
+          ]
+        },
+        "tekst": {
+          "tellers": {
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-03",
+            "dekkingPct": 99,
+            "berichtenZonderTekst": 4,
+            "dekkingPerBron": {
+              "nh-actueel": {
+                "berichten": 23,
+                "metTekst": 23,
+                "pct": 100,
+                "gemTekens": 2748
+              },
+              "zaanstad-schriftelijke-vragen": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 5035
+              },
+              "DeOrkaan": {
+                "berichten": 131,
+                "metTekst": 131,
+                "pct": 100,
+                "gemTekens": 2713
+              },
+              "bekendmakingen": {
+                "berichten": 26,
+                "metTekst": 26,
+                "pct": 100,
+                "gemTekens": 1193
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 7,
+                "metTekst": 4,
+                "pct": 57,
+                "gemTekens": 8599
+              },
+              "zaanstad-moties": {
+                "berichten": 43,
+                "metTekst": 43,
+                "pct": 100,
+                "gemTekens": 1054
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 17,
+                "metTekst": 17,
+                "pct": 100,
+                "gemTekens": 5817
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 39,
+                "metTekst": 38,
+                "pct": 97,
+                "gemTekens": 2061
+              },
+              "vervoerregio-persberichten": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 766
+              },
+              "wetenregelgeving": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 3696
+              },
+              "zaanstad-ted": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 74
+              },
+              "zaansche-molen": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 1620
+              },
+              "rechtspraak-noord-holland": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 6002
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 3328
+              }
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Dekking volledige tekst: 298/302 berichten (99%). Laagst: vervoerregio-overzichten 4/7 (57%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 1
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 0,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [
+              "schan (5)"
+            ],
+            "stubsTotaal": 325,
+            "verhalen": 302,
+            "kandidaten": 1,
+            "dossiersActief": 0,
+            "modus": "log",
+            "dossiers": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 315,
+            "agendaItems": 225,
+            "aiVerzoeken": 0,
+            "geminiDagGebruikt": "0/80",
+            "duurSeconden": 25
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -11411,12 +11547,12 @@
       }
     },
     "2026-11-17": {
-      "runs": 9,
+      "runs": 10,
       "tellers": {
         "bronnen": {
-          "gescrapet": 58,
-          "fout": 2,
-          "leegZonderFout": 34
+          "gescrapet": 64,
+          "fout": 3,
+          "leegZonderFout": 37
         },
         "tekst": {
           "oudeBestandenOvergezet": 0,
@@ -11435,7 +11571,7 @@
           "nieuwsRood": 0,
           "agendaRood": 0,
           "uitgesloten": 0,
-          "alRoodDoorPrioriteit": 9
+          "alRoodDoorPrioriteit": 10
         },
         "dossiers": {
           "stubsNieuw": 1,
