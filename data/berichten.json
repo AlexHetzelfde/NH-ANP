@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T13:06:50.847Z",
+  "gegenereerdOp": "2026-11-17T14:01:26.720Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,48 @@
   ],
   "berichten": [
     {
+      "id": "e64e2ac147-v1",
+      "groepId": "e64e2ac147",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/374d8c39-c41c-4f2b-8da0-549d7ecc9b58",
+      "kop": "Antwoord op schriftelijke vragen: Artikel 51 vragen LZ inzake Eilanden van Hain te Krommenie",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-17T14:01:27.222Z",
+      "heeftTijd": true,
+      "woorden": 2188,
+      "afgekapt": true,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-17T14:01:26.720Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
+      "bronTitel": "Antwoord op schriftelijke vragen: Artikel 51 vragen LZ inzake Eilanden van Hain te Krommenie",
+      "bronLengte": 14998,
+      "vraag": {
+        "status": "beantwoord",
+        "nummer": "1037",
+        "onderwerp": "Artikel 51 vragen LZ inzake Eilanden van Hain te Krommenie",
+        "datumVraag": "2026-10-22",
+        "datumAntwoord": "2026-11-17",
+        "verwachteAfdoening": "2026-11-26",
+        "raadsleden": [],
+        "steunfractieleden": [
+          "Kuijt, Rosalie"
+        ],
+        "partijen": [
+          "Lokaal Zaans"
+        ],
+        "portefeuillehouders": [
+          "Laan, van der H."
+        ]
+      }
+    },
+    {
       "id": "a3372e97d8-v1",
       "groepId": "a3372e97d8",
       "versie": 1,
@@ -425,7 +467,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-17T13:01:02.483Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -463,7 +505,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T13:01:02.483Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -501,7 +543,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T13:01:02.483Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -539,7 +581,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T13:01:02.483Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -577,7 +619,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T13:01:02.483Z",
+      "gecontroleerdOp": "2026-11-17T14:01:26.720Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
@@ -13963,44 +14005,6 @@
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
-    },
-    {
-      "id": "6b001b9460-v1",
-      "groepId": "6b001b9460",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_geeft_subsidie_aan_veehouders_die_willen_stoppen",
-      "kop": "Provincie Noord-Holland stelt ruim 8 miljoen euro beschikbaar voor stoppende veehouders",
-      "tekst": "Noord-Hollandse veehouders rond Natura 2000-gebieden die vrijwillig hun bedrijf willen beëindigen, kunnen hiervoor subsidie aanvragen bij de provincie. Er is in totaal ruim 8 miljoen euro beschikbaar voor onder meer het waardeverlies van productiecapaciteit en sloopkosten. De subsidie is aan te vragen van 1 december 2026 tot en met 13 mei 2027.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-03T13:24:54.000Z",
-      "heeftTijd": true,
-      "woorden": 320,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-03T13:01:08.430Z",
-      "gecontroleerdOp": "2026-11-04T13:00:54.268Z",
-      "bronTitel": "Provincie geeft subsidie aan veehouders die willen stoppen",
-      "bronLengte": 2229,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": 8000000,
-        "banen": null,
-        "inRegio": false
       },
       "checklistBron": "ai",
       "tagVersie": 2

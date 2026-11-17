@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-17T13:06:50.847Z",
+  "bijgewerkt": "2026-11-17T14:01:26.720Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3587,6 +3587,17 @@
       "t": "2026-11-17T10:28:30.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "e64e2ac147": {
+      "g": "e64e2ac147",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/374d8c39-c41c-4f2b-8da0-549d7ecc9b58",
+      "k": "Antwoord op schriftelijke vragen: Artikel 51 vragen LZ inzake Eilanden van Hain te Krommenie",
+      "bt": "",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-17T14:01:27.222Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }
