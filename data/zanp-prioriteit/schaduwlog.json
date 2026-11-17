@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T16:00:51.834Z",
+  "gegenereerdOp": "2026-11-17T17:00:49.542Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 99,
-    "stukken": 577,
-    "kandidaten": 44,
-    "metAnker": 44,
+    "stukken": 578,
+    "kandidaten": 45,
+    "metAnker": 45,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -35,6 +35,45 @@
     "rood": 1
   },
   "top": [
+    {
+      "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796",
+      "soort": "nieuws",
+      "kop": "Implementatie nieuw metronetwerk en maatregelen",
+      "S": 0.37,
+      "Sa": 0.37,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.64,
+      "Kp": 0.39,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "implementati",
+        "metronetwerk",
+        "terugkom",
+        "verdelsleutel",
+        "cofinanciering",
+        "matregel",
+        "matregelenpakket"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-09T23:00:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Nieuw metronetwerk Amsterdam"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg"
+        }
+      ]
+    },
     {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
       "soort": "nieuws",
@@ -986,35 +1025,6 @@
       "ankers": [
         "hollandlied",
         "zoekt"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Nieuwe_archeologische_kroniek_bundelt_kennis_uit_de_bodem",
-      "soort": "nieuws",
-      "kop": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "kroniek",
-        "bundelt",
-        "archeologisch",
-        "kennis",
-        "jelle",
-        "bemsterboer",
-        "bodem",
-        "gedeputerd",
-        "culturel",
-        "bundeling",
-        "vondst",
-        "veranderend"
       ],
       "bewijs": []
     }
@@ -2681,6 +2691,14 @@
       }
     },
     "2026-11-17": {
+      "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796": {
+        "kop": "Implementatie nieuw metronetwerk en maatregelen",
+        "S": 0.37,
+        "route": "aanhoudend",
+        "K": 0.64,
+        "n": 2,
+        "bronnen": 1
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden": {
         "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
         "S": 0.22,
@@ -2870,14 +2888,6 @@
         "S": 0,
         "route": "geen",
         "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:e05ce9e961": {
-        "kop": "De Fabriek: Laatbloeier met High Tea",
-        "S": 0,
-        "route": "geen",
-        "K": 0.1,
         "n": 0,
         "bronnen": 0
       }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T16:00:51.834Z",
+  "gegenereerdOp": "2026-11-17T17:00:49.542Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -440,7 +440,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "e64e2ac147-v1",
@@ -505,7 +506,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -522,6 +523,43 @@
       },
       "checklistBron": "patroon",
       "tagVersie": 2
+    },
+    {
+      "id": "ec17a6d2b5-v1",
+      "groepId": "ec17a6d2b5",
+      "versie": 1,
+      "url": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796",
+      "kop": "Implementatie nieuw metronetwerk en maatregelen",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-16T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 38,
+      "afgekapt": false,
+      "bronId": "vervoerregio-overzichten",
+      "bronNaam": "Vervoerregio: Overzichten (iBabs)",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-17T17:00:49.542Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
+      "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
+      "bronLengte": 343,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
     },
     {
       "id": "52a638fb09-v1",
@@ -543,7 +581,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -581,7 +619,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -619,7 +657,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -657,7 +695,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T16:00:51.834Z",
+      "gecontroleerdOp": "2026-11-17T17:00:49.542Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {

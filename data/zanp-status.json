@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T16:00:51.834Z",
+  "gegenereerdOp": "2026-11-17T17:00:49.542Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
-      "gevonden": 15,
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
+      "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
       "laatsteFout": {
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
-      "gevonden": 0,
-      "opeenvolgendLeeg": 56,
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
+      "gevonden": 1,
+      "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 64,
+      "opeenvolgendLeeg": 65,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,9 +96,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 109,
+      "opeenvolgendLeeg": 110,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-17T10:00:55.145Z",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-17T16:00:51.834Z",
+      "laatsteScrape": "2026-11-17T17:00:49.542Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     }
   },
@@ -357,12 +357,12 @@
     "berichten": {
       "nieuw": 1,
       "update": 0,
-      "opnieuw": 5,
+      "opnieuw": 6,
       "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 36,
+      "vergeleken": 45,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -390,9 +390,9 @@
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 99,
-      "stukken": 577,
-      "kandidaten": 44,
-      "metAnker": 44,
+      "stukken": 578,
+      "kandidaten": 45,
+      "metAnker": 45,
       "zonderAnker": 0,
       "afgelast": 2,
       "dubbel": 0,
@@ -417,8 +417,8 @@
     "dossiers": {
       "stubsNieuw": 1,
       "stubsVerlopen": 0,
-      "stubsTotaal": 328,
-      "verhalen": 305,
+      "stubsTotaal": 329,
+      "verhalen": 306,
       "kandidaten": 2,
       "aiControles": 0,
       "aiJa": 0,

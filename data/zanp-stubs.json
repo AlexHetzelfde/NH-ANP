@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-17T16:00:51.834Z",
+  "bijgewerkt": "2026-11-17T17:00:49.542Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3607,6 +3607,17 @@
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-17T15:43:55.000Z",
+      "c": null,
+      "r": "VER"
+    },
+    "ec17a6d2b5": {
+      "g": "ec17a6d2b5",
+      "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796",
+      "k": "Implementatie nieuw metronetwerk en maatregelen",
+      "bt": "",
+      "b": "vervoerregio-overzichten",
+      "n": "Vervoerregio: Overzichten (iBabs)",
+      "t": "2026-11-16T23:00:00.000Z",
       "c": null,
       "r": "VER"
     }
