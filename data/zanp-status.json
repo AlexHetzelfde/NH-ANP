@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T10:00:55.145Z",
+  "gegenereerdOp": "2026-11-17T11:00:47.352Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,13 +15,13 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 50,
+      "opeenvolgendLeeg": 51,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 58,
+      "opeenvolgendLeeg": 59,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,10 +96,10 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 103,
-      "opeenvolgendFout": 3,
+      "opeenvolgendLeeg": 104,
+      "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-17T10:00:55.145Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 403",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-17T10:00:55.145Z",
+      "laatsteScrape": "2026-11-17T11:00:47.352Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 24,
+      "opeenvolgendLeeg": 25,
       "opeenvolgendFout": 0
     }
   },
@@ -355,9 +355,9 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
-      "opnieuw": 4,
+      "opnieuw": 5,
       "ongewijzigd": 0,
       "seed": 0
     },
@@ -381,8 +381,8 @@
       "ai": false,
       "formule": "v4-22806000",
       "tekst": {
-        "werklijst": 1,
-        "lokaal": 1,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -415,7 +415,7 @@
       "alRood": 1
     },
     "dossiers": {
-      "stubsNieuw": 1,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 326,
       "verhalen": 303,
