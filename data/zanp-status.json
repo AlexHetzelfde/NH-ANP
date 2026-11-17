@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T11:00:47.352Z",
+  "gegenereerdOp": "2026-11-17T12:00:45.167Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,14 +15,14 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
       "laatsteFout": {
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 51,
+      "opeenvolgendLeeg": 52,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 59,
+      "opeenvolgendLeeg": 60,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,9 +96,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 104,
+      "opeenvolgendLeeg": 105,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-17T10:00:55.145Z",
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-17T11:00:47.352Z",
+      "laatsteScrape": "2026-11-17T12:00:45.167Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 25,
+      "opeenvolgendLeeg": 26,
       "opeenvolgendFout": 0
     }
   },
