@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T08:00:54.004Z",
+  "gegenereerdOp": "2026-11-17T09:00:55.804Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,13 +15,13 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -79,15 +79,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 48,
+      "opeenvolgendLeeg": 49,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 56,
+      "opeenvolgendLeeg": 57,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-16T15:00:52.190Z",
@@ -96,12 +96,12 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 101,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 102,
+      "opeenvolgendFout": 2,
       "laatsteFout": {
-        "tijd": "2026-11-17T08:00:54.004Z",
+        "tijd": "2026-11-17T09:00:55.804Z",
         "bericht": "RSS-feed ophalen mislukt: HTTP 403",
         "duurSec": null
       }
@@ -113,9 +113,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-17T08:00:54.004Z",
+      "laatsteScrape": "2026-11-17T09:00:55.804Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 22,
+      "opeenvolgendLeeg": 23,
       "opeenvolgendFout": 0
     }
   },
