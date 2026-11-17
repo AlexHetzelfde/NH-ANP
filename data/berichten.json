@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-17T21:00:46.390Z",
+  "gegenereerdOp": "2026-11-17T21:43:50.862Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -506,7 +506,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -544,7 +544,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Dagje stroomstoring aan Hogendijk",
       "bronLengte": 525,
       "checklist": {
@@ -583,7 +583,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
       "bronLengte": 2796,
       "checklist": {
@@ -622,7 +622,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
       "bronLengte": 2533,
       "checklist": {
@@ -661,7 +661,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Automobilist mist bocht bij A7 en rijdt zo de sloot in",
       "bronLengte": 1247,
       "checklist": {
@@ -700,7 +700,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’",
       "bronLengte": 5788,
       "checklist": {
@@ -739,7 +739,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "UWV Walk-out voor loonsverhoging (ook beetje Run-in)",
       "bronLengte": 2394,
       "checklist": {
@@ -778,7 +778,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "De Orkaan in 2 minuten: 17 november 🎧",
       "bronLengte": 326,
       "checklist": {
@@ -817,7 +817,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Zomaar een Zaans minuutje: Den Uylbrug… 🎥",
       "bronLengte": 3286,
       "checklist": {
@@ -856,7 +856,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Kapot? Het Repair Café krijgt het aan de praat 🎥",
       "bronLengte": 2649,
       "checklist": {
@@ -895,7 +895,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Napoleon, een verre voorvader en een bijna oorlogstrauma",
       "bronLengte": 4272,
       "checklist": {
@@ -934,7 +934,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Het Blauwe Pand dichtgespijkerd",
       "bronLengte": 1468,
       "checklist": {
@@ -973,7 +973,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "50woordenfoto: noodlanding…",
       "bronLengte": 569,
       "checklist": {
@@ -1012,7 +1012,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
@@ -1050,7 +1050,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T07:00:49.814Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Provincie zoekt woorden voor Noord-Hollandlied",
       "bronLengte": 2240,
       "checklist": {
@@ -1088,7 +1088,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T16:00:57.823Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Nieuwe archeologische kroniek bundelt kennis uit de bodem",
       "bronLengte": 1532,
       "checklist": {
@@ -1126,7 +1126,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T15:00:52.190Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Noord-Holland legt spelregels voor meedenken vast",
       "bronLengte": 1790,
       "checklist": {
@@ -1164,7 +1164,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-16T10:00:47.538Z",
-      "gecontroleerdOp": "2026-11-17T21:00:46.390Z",
+      "gecontroleerdOp": "2026-11-17T21:43:50.862Z",
       "bronTitel": "Bewonersavond over N206 tussen Vogelenzang en Aerdenhout",
       "bronLengte": 1959,
       "checklist": {
