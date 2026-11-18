@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T16:00:58.809Z",
+  "gegenereerdOp": "2026-11-18T17:00:48.287Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,18 +8,18 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "vergeten": 1,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 615,
-    "kandidaten": 58,
-    "metAnker": 58,
+    "stukken": 617,
+    "kandidaten": 59,
+    "metAnker": 59,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -43,15 +43,15 @@
       "Sa": 0.61,
       "Sp": 0.66,
       "route": "piek",
-      "K": 0.96,
+      "K": 0.95,
       "Kp": 0.6,
       "n": 5,
       "dagen": 2,
       "bronnen": 2,
       "ankers": [
         "zanderhorn",
-        "stromstoring",
         "spiersweg",
+        "stromstoring",
         "symon",
         "hemkad"
       ],
@@ -191,8 +191,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-18-faa512",
       "soort": "nieuws",
       "kop": "Stroomstoring in Krommenie",
-      "S": 0.34,
-      "Sa": 0.34,
+      "S": 0.33,
+      "Sa": 0.33,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.81,
@@ -238,6 +238,56 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-3fba32",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.33,
+      "Sa": 0.33,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.81,
+      "Kp": 0.6,
+      "n": 4,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "joachim",
+        "kleinsorgstrat",
+        "bloemgracht",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:24:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zuidoostbeemster"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/PAS_melders_op_Texel_kunnen_natuurvergunning_aanvragen",
       "soort": "nieuws",
       "kop": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
@@ -268,11 +318,11 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec",
       "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.33,
-      "Sa": 0.33,
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.32,
+      "Sa": 0.32,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.81,
@@ -281,40 +331,40 @@
       "dagen": 1,
       "bronnen": 1,
       "ankers": [
-        "broek",
-        "waterland",
-        "eilandweg",
-        "hellingweg",
+        "bloemstrat",
+        "geugjesstrat",
+        "kleimanstrat",
+        "bloemgracht",
         "stromstoring"
       ],
       "bewijs": [
         {
           "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:24:00.000Z",
-          "c": 0.96,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zuidoostbeemster"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T07:01:00.000Z",
-          "c": 0.89,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "bron": "stroomstoringkaart",
           "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.89,
+          "c": 0.93,
           "plek": "kop",
           "titel": "Stroomstoring in Krommenie"
         },
         {
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T12:05:00.000Z",
-          "c": 0.89,
+          "c": 0.93,
           "plek": "kop",
           "titel": "Stroomstoring in Warder"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:24:00.000Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zuidoostbeemster"
         }
       ]
     },
@@ -366,108 +416,6 @@
           "c": 0.9,
           "plek": "kop",
           "titel": "Stroomstoring in Zuidoostbeemster"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.32,
-      "Sa": 0.32,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.81,
-      "Kp": 0.6,
-      "n": 4,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "bloemgracht",
-        "bloemstrat",
-        "geugjesstrat",
-        "kleimanstrat",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.93,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T12:05:00.000Z",
-          "c": 0.93,
-          "plek": "kop",
-          "titel": "Stroomstoring in Warder"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 0.9,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:24:00.000Z",
-          "c": 0.9,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zuidoostbeemster"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.32,
-      "Sa": 0.32,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.8,
-      "Kp": 0.6,
-      "n": 4,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "dokter",
-        "zuideind",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:24:00.000Z",
-          "c": 0.93,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zuidoostbeemster"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T07:01:00.000Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T12:05:00.000Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Stroomstoring in Warder"
         }
       ]
     },
@@ -1218,8 +1166,8 @@
         "radsbesluit",
         "wissel",
         "regiovisi",
-        "schan",
         "gouwpark",
+        "schan",
         "netuitbreiding"
       ],
       "bewijs": []
@@ -1318,6 +1266,28 @@
       "bronnen": 0,
       "ankers": [
         "dicte"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:a24756ce32",
+      "soort": "agenda",
+      "kop": "Dag voor de Raad 2026!",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "antropia",
+        "drieberg",
+        "dagprogramma",
+        "zeist",
+        "vereniging"
       ],
       "bewijs": []
     }
@@ -3234,6 +3204,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-3fba32": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.33,
+        "route": "aanhoudend",
+        "K": 0.81,
+        "n": 4,
+        "bronnen": 1
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109": {
         "kop": "Stroomstoring in Zaandam",
         "S": 0.32,
@@ -3376,14 +3354,6 @@
         "route": "aanhoudend",
         "K": 0.15,
         "n": 2,
-        "bronnen": 1
-      },
-      "a:54bf0d34fe": {
-        "kop": "Verkeersbesluit plaatsen laadpaal voor elektrische auto's locatie Kaaikhof te Assendelft",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.15,
-        "n": 1,
         "bronnen": 1
       }
     }
