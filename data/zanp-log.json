@@ -1,161 +1,7 @@
 {
-  "gegenereerdOp": "2026-11-18T21:00:47.398Z",
+  "gegenereerdOp": "2026-11-18T21:20:35.652Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
-    {
-      "tijd": "2026-11-16T05:00:44.689Z",
-      "duurMs": 13120,
-      "onderdelen": {
-        "bronnen": {
-          "tellers": {
-            "gescrapet": 5,
-            "fout": 1,
-            "leegZonderFout": 2
-          },
-          "waarden": {
-            "leegZonderFoutLijst": [
-              "vervoerregio-overzichten",
-              "zaanstad-moties"
-            ]
-          }
-        },
-        "tekst": {
-          "tellers": {
-            "oudeBestandenOvergezet": 0,
-            "dagbestandenVerwijderd": 0,
-            "bytesVerwijderd": 0
-          },
-          "waarden": {
-            "oudsteDagbestand": "2026-11-02",
-            "dekkingPct": 98,
-            "berichtenZonderTekst": 6,
-            "dekkingPerBron": {
-              "DeOrkaan": {
-                "berichten": 141,
-                "metTekst": 141,
-                "pct": 100,
-                "gemTekens": 2675
-              },
-              "nh-actueel": {
-                "berichten": 20,
-                "metTekst": 20,
-                "pct": 100,
-                "gemTekens": 3052
-              },
-              "bekendmakingen": {
-                "berichten": 30,
-                "metTekst": 30,
-                "pct": 100,
-                "gemTekens": 1225
-              },
-              "vervoerregio-overzichten": {
-                "berichten": 7,
-                "metTekst": 4,
-                "pct": 57,
-                "gemTekens": 8599
-              },
-              "zaanstad-moties": {
-                "berichten": 43,
-                "metTekst": 43,
-                "pct": 100,
-                "gemTekens": 1054
-              },
-              "ibabs-collegeberichten": {
-                "berichten": 18,
-                "metTekst": 17,
-                "pct": 94,
-                "gemTekens": 5817
-              },
-              "ibabs-ingekomen-stukken": {
-                "berichten": 40,
-                "metTekst": 38,
-                "pct": 95,
-                "gemTekens": 2061
-              },
-              "vervoerregio-persberichten": {
-                "berichten": 4,
-                "metTekst": 4,
-                "pct": 100,
-                "gemTekens": 766
-              },
-              "wetenregelgeving": {
-                "berichten": 4,
-                "metTekst": 4,
-                "pct": 100,
-                "gemTekens": 3696
-              },
-              "zaanstad-ted": {
-                "berichten": 2,
-                "metTekst": 2,
-                "pct": 100,
-                "gemTekens": 74
-              },
-              "zaansche-molen": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 1620
-              },
-              "rechtspraak-noord-holland": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 6002
-              },
-              "omgevingsdienstnoordzeekanaal": {
-                "berichten": 2,
-                "metTekst": 2,
-                "pct": 100,
-                "gemTekens": 3328
-              }
-            }
-          }
-        },
-        "jubileum": {
-          "tellers": {
-            "nieuwsRood": 0,
-            "agendaRood": 0,
-            "uitgesloten": 0,
-            "alRoodDoorPrioriteit": 1
-          },
-          "waarden": {}
-        },
-        "dossiers": {
-          "tellers": {
-            "stubsNieuw": 0,
-            "stubsVerlopen": 0,
-            "aiControles": 0,
-            "aiJa": 0,
-            "aiNee": 0,
-            "aiFout": 0,
-            "nieuweDossiers": 0,
-            "itemsToegevoegd": 0,
-            "dossiersVerlopen": 0
-          },
-          "waarden": {
-            "kandidatenDezeRun": [
-              "schan (5)"
-            ],
-            "stubsTotaal": 319,
-            "verhalen": 296,
-            "kandidaten": 1,
-            "dossiersActief": 0,
-            "modus": "log",
-            "dossiers": []
-          }
-        },
-        "run": {
-          "tellers": {},
-          "waarden": {
-            "berichten": 326,
-            "agendaItems": 230,
-            "aiVerzoeken": 0,
-            "geminiDagGebruikt": "0/80",
-            "duurSeconden": 13
-          }
-        }
-      }
-    },
     {
       "tijd": "2026-11-16T06:00:49.860Z",
       "duurMs": 16864,
@@ -7853,18 +7699,7 @@
               "zaanstad-camera",
               "stroomstoringkaart"
             ]
-          },
-          "voorbeelden": [
-            {
-              "bron": "zaanstad-moties",
-              "bericht": "Lijst ophalen mislukt: This operation was aborted",
-              "duurSec": null,
-              "opeenvolgendFout": 1
-            }
-          ],
-          "regels": [
-            "[zaanstad-moties] scrapen mislukt (1x achter elkaar): Lijst ophalen mislukt: This operation was aborted"
-          ]
+          }
         },
         "tekst": {
           "tellers": {
@@ -7970,24 +7805,7 @@
                 "gemTekens": 2533
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "DeOrkaan",
-              "methode": "run",
-              "kop": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
-              "tekensVoor": 4023,
-              "tekensNa": 4031,
-              "alineas": 9,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": true,
-              "begin": "De sinds 12 september vermiste zeiler uit Zaandam is dood teruggevonden op het Duitse Waddeneiland Norderney. Zijn lichaam spoelde daar op 25 september aan. Twee dagen eerder werd op het nabijgelegen Langeoog een verlate",
-              "eind": " van Nordwest-Zeitung. Ook is contact opgenomen met de politie en gebruik gemaakt van eerder nieuws van de Waddenomroep."
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 285/285 berichten (100%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -7996,18 +7814,14 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 1
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "bronRood": {
           "tellers": {
             "rood": 0,
             "alRood": 0
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "dossiers": {
           "tellers": {
@@ -8033,9 +7847,7 @@
             "dossiersActief": 0,
             "modus": "log",
             "dossiers": []
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "run": {
           "tellers": {},
@@ -8045,9 +7857,7 @@
             "aiVerzoeken": 0,
             "geminiDagGebruikt": "0/80",
             "duurSeconden": 111
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -12913,6 +12723,193 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-18T21:20:35.652Z",
+      "duurMs": 483,
+      "onderdelen": {
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 0,
+            "fout": 0,
+            "leegZonderFout": 0
+          },
+          "waarden": {
+            "leegZonderFoutLijst": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "tekst": {
+          "tellers": {
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-04",
+            "dekkingPct": 100,
+            "berichtenZonderTekst": 0,
+            "dekkingPerBron": {
+              "stroomstoringkaart": {
+                "berichten": 11,
+                "metTekst": 11,
+                "pct": 100,
+                "gemTekens": 341
+              },
+              "nh-actueel": {
+                "berichten": 26,
+                "metTekst": 26,
+                "pct": 100,
+                "gemTekens": 2831
+              },
+              "DeOrkaan": {
+                "berichten": 142,
+                "metTekst": 142,
+                "pct": 100,
+                "gemTekens": 2551
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 22,
+                "metTekst": 22,
+                "pct": 100,
+                "gemTekens": 5972
+              },
+              "zaanstad-schriftelijke-vragen": {
+                "berichten": 3,
+                "metTekst": 3,
+                "pct": 100,
+                "gemTekens": 8365
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 25,
+                "metTekst": 25,
+                "pct": 100,
+                "gemTekens": 2546
+              },
+              "bekendmakingen": {
+                "berichten": 26,
+                "metTekst": 26,
+                "pct": 100,
+                "gemTekens": 1260
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 5,
+                "metTekst": 5,
+                "pct": 100,
+                "gemTekens": 6947
+              },
+              "zaanstad-moties": {
+                "berichten": 43,
+                "metTekst": 43,
+                "pct": 100,
+                "gemTekens": 1054
+              },
+              "vervoerregio-persberichten": {
+                "berichten": 3,
+                "metTekst": 3,
+                "pct": 100,
+                "gemTekens": 956
+              },
+              "wetenregelgeving": {
+                "berichten": 4,
+                "metTekst": 4,
+                "pct": 100,
+                "gemTekens": 3696
+              },
+              "zaanstad-ted": {
+                "berichten": 2,
+                "metTekst": 2,
+                "pct": 100,
+                "gemTekens": 74
+              },
+              "zaansche-molen": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 1620
+              },
+              "rechtspraak-noord-holland": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 6002
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 2533
+              }
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Dekking volledige tekst: 315/315 berichten (100%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 1
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "bronRood": {
+          "tellers": {
+            "rood": 0,
+            "alRood": 12
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 0,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [
+              "vragen (8)",
+              "extra (5)",
+              "schriftelijk (5)",
+              "schan (5)"
+            ],
+            "stubsTotaal": 353,
+            "verhalen": 329,
+            "kandidaten": 4,
+            "dossiersActief": 0,
+            "modus": "log",
+            "dossiers": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 332,
+            "agendaItems": 218,
+            "aiVerzoeken": 0,
+            "geminiDagGebruikt": "0/80",
+            "duurSeconden": 0
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -13216,7 +13213,7 @@
       }
     },
     "2026-11-18": {
-      "runs": 24,
+      "runs": 25,
       "tellers": {
         "bronnen": {
           "gescrapet": 208,
@@ -13243,11 +13240,11 @@
           "nieuwsRood": 0,
           "agendaRood": 0,
           "uitgesloten": 0,
-          "alRoodDoorPrioriteit": 24
+          "alRoodDoorPrioriteit": 25
         },
         "bronRood": {
           "rood": 12,
-          "alRood": 132
+          "alRood": 144
         },
         "dossiers": {
           "stubsNieuw": 20,
