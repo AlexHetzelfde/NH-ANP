@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T04:00:44.878Z",
+  "gegenereerdOp": "2026-11-18T05:00:54.833Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "6fb6ca592e-v1",
+      "groepId": "6fb6ca592e",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T04:11:00.000Z",
+      "heeftTijd": true,
+      "woorden": 51,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-18T05:00:54.833Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
+      "bronTitel": "Stroomstoring in Broek in Waterland",
+      "bronLengte": 352,
+      "rood": {
+        "sinds": "2026-11-18T05:00:54.833Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "536360693f-v2",
       "groepId": "536360693f",
       "versie": 2,
@@ -425,7 +456,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T00:00:49.197Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "bronLengte": 4023,
       "checklist": {
@@ -464,7 +495,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -545,7 +576,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -812,7 +843,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Dagje stroomstoring aan Hogendijk",
       "bronLengte": 525,
       "checklist": {
@@ -851,7 +882,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
       "bronLengte": 2796,
       "checklist": {
@@ -890,7 +921,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
       "bronLengte": 2533,
       "checklist": {
@@ -929,7 +960,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Automobilist mist bocht bij A7 en rijdt zo de sloot in",
       "bronLengte": 1247,
       "checklist": {
@@ -968,7 +999,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’",
       "bronLengte": 5788,
       "checklist": {
@@ -1007,7 +1038,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "UWV Walk-out voor loonsverhoging (ook beetje Run-in)",
       "bronLengte": 2394,
       "checklist": {
@@ -1046,7 +1077,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "De Orkaan in 2 minuten: 17 november 🎧",
       "bronLengte": 326,
       "checklist": {
@@ -1085,7 +1116,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Zomaar een Zaans minuutje: Den Uylbrug… 🎥",
       "bronLengte": 3286,
       "checklist": {
@@ -1124,7 +1155,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Kapot? Het Repair Café krijgt het aan de praat 🎥",
       "bronLengte": 2649,
       "checklist": {
@@ -1163,7 +1194,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Napoleon, een verre voorvader en een bijna oorlogstrauma",
       "bronLengte": 4272,
       "checklist": {
@@ -1202,7 +1233,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Het Blauwe Pand dichtgespijkerd",
       "bronLengte": 1468,
       "checklist": {
@@ -1280,7 +1311,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-18T03:38:25.892Z",
+      "gecontroleerdOp": "2026-11-18T05:00:54.833Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
