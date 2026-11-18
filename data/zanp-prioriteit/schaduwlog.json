@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T12:00:53.900Z",
+  "gegenereerdOp": "2026-11-18T12:56:43.772Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 4,
-      "lokaal": 4,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -17,16 +17,16 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 607,
-    "kandidaten": 54,
-    "metAnker": 54,
+    "stukken": 609,
+    "kandidaten": 55,
+    "metAnker": 55,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
-      "boven": 0,
-      "wacht": 0,
+      "boven": 1,
+      "wacht": 1,
       "onderdrukt": 0,
       "veto": 0,
       "nieuwRood": 0,
@@ -36,16 +36,67 @@
   },
   "top": [
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.63,
+      "Sa": 0.58,
+      "Sp": 0.63,
+      "route": "piek",
+      "K": 0.94,
+      "Kp": 0.59,
+      "n": 4,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "zanderhorn",
+        "stromstoring",
+        "spiersweg",
+        "symon",
+        "hemkad"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.99,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.99,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.99,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        },
+        {
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "c": 0.85,
+          "plek": "kop",
+          "titel": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
-      "S": 0.42,
-      "Sa": 0.38,
-      "Sp": 0.42,
+      "S": 0.48,
+      "Sa": 0.43,
+      "Sp": 0.48,
       "route": "piek",
-      "K": 0.79,
-      "Kp": 0.59,
-      "n": 3,
+      "K": 0.81,
+      "Kp": 0.6,
+      "n": 4,
       "dagen": 2,
       "bronnen": 2,
       "ankers": [
@@ -68,6 +119,13 @@
           "titel": "Stroomstoring in Krommenie"
         },
         {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        },
+        {
           "bron": "DeOrkaan",
           "datum": "2026-11-16T23:00:00.000Z",
           "c": 0.87,
@@ -80,8 +138,8 @@
       "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796",
       "soort": "nieuws",
       "kop": "Implementatie nieuw metronetwerk en maatregelen",
-      "S": 0.35,
-      "Sa": 0.35,
+      "S": 0.34,
+      "Sa": 0.34,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.62,
@@ -119,13 +177,13 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-18-faa512",
       "soort": "nieuws",
       "kop": "Stroomstoring in Krommenie",
-      "S": 0.24,
-      "Sa": 0.24,
+      "S": 0.3,
+      "Sa": 0.3,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.77,
-      "Kp": 0.58,
-      "n": 2,
+      "K": 0.8,
+      "Kp": 0.6,
+      "n": 3,
       "dagen": 1,
       "bronnen": 1,
       "ankers": [
@@ -144,10 +202,239 @@
         },
         {
           "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        },
+        {
+          "bron": "stroomstoringkaart",
           "datum": "2026-11-18T04:11:00.000Z",
           "c": 1,
           "plek": "kop",
           "titel": "Stroomstoring in Broek in Waterland"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.29,
+      "Sa": 0.29,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.79,
+      "Kp": 0.59,
+      "n": 3,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "durgerdamstrat",
+        "edamstrat",
+        "jozuapad",
+        "ilpendamstrat",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.29,
+      "Sa": 0.29,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.79,
+      "Kp": 0.59,
+      "n": 3,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "bloemgracht",
+        "bloemstrat",
+        "geugjesstrat",
+        "kleimanstrat",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.28,
+      "Sa": 0.28,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.79,
+      "Kp": 0.59,
+      "n": 3,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "eilandweg",
+        "hellingweg",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T07:01:00.000Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.28,
+      "Sa": 0.28,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.78,
+      "Kp": 0.59,
+      "n": 3,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "lieftinckweg",
+        "uiterdijk",
+        "vredeweg",
+        "stromstoring",
+        "wibautstrat",
+        "zuiddijk",
+        "pieter"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.28,
+      "Sa": 0.28,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.79,
+      "Kp": 0.59,
+      "n": 3,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "dokter",
+        "zuideind",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T07:01:00.000Z",
+          "c": 0.86,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.86,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T12:05:00.000Z",
+          "c": 0.86,
+          "plek": "kop",
+          "titel": "Stroomstoring in Warder"
         }
       ]
     },
@@ -193,230 +480,6 @@
           "c": 0.72,
           "plek": "intro",
           "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.24,
-      "Sa": 0.24,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.57,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "zanderhorn",
-        "stromstoring",
-        "spiersweg",
-        "symon",
-        "hemkad"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 0.99,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.99,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.23,
-      "Sa": 0.23,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.58,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "durgerdamstrat",
-        "edamstrat",
-        "jozuapad",
-        "ilpendamstrat",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.23,
-      "Sa": 0.23,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.58,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "bloemgracht",
-        "bloemstrat",
-        "geugjesstrat",
-        "kleimanstrat",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.23,
-      "Sa": 0.23,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.57,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "eilandweg",
-        "hellingweg",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T07:01:00.000Z",
-          "c": 0.89,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.89,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.23,
-      "Sa": 0.23,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.57,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "dokter",
-        "zuideind",
-        "stromstoring"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T07:01:00.000Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.23,
-      "Sa": 0.23,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.75,
-      "Kp": 0.57,
-      "n": 2,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "lieftinckweg",
-        "uiterdijk",
-        "vredeweg",
-        "stromstoring",
-        "wibautstrat",
-        "zuiddijk",
-        "pieter"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 0.9,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.9,
-          "plek": "kop",
-          "titel": "Stroomstoring in Krommenie"
         }
       ]
     },
@@ -611,7 +674,7 @@
       "Sa": 0.07,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.32,
+      "K": 0.31,
       "Kp": 0.22,
       "n": 1,
       "dagen": 1,
@@ -3048,17 +3111,25 @@
       }
     },
     "2026-11-18": {
-      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-18-faa512": {
-        "kop": "Stroomstoring in Krommenie",
-        "S": 0.43,
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.63,
         "route": "piek",
-        "K": 0.79,
-        "n": 3,
+        "K": 0.94,
+        "n": 4,
         "bronnen": 2
       },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9": {
         "kop": "Stroomstoring in Zaandam",
-        "S": 0.42,
+        "S": 0.48,
+        "route": "piek",
+        "K": 0.81,
+        "n": 4,
+        "bronnen": 2
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-18-faa512": {
+        "kop": "Stroomstoring in Krommenie",
+        "S": 0.43,
         "route": "piek",
         "K": 0.79,
         "n": 3,
@@ -3072,12 +3143,44 @@
         "n": 2,
         "bronnen": 1
       },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0": {
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109": {
         "kop": "Stroomstoring in Zaandam",
-        "S": 0.24,
+        "S": 0.29,
         "route": "aanhoudend",
-        "K": 0.76,
-        "n": 2,
+        "K": 0.79,
+        "n": 3,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.29,
+        "route": "aanhoudend",
+        "K": 0.79,
+        "n": 3,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.28,
+        "route": "aanhoudend",
+        "K": 0.79,
+        "n": 3,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.28,
+        "route": "aanhoudend",
+        "K": 0.79,
+        "n": 3,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.28,
+        "route": "aanhoudend",
+        "K": 0.78,
+        "n": 3,
         "bronnen": 1
       },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden": {
@@ -3086,46 +3189,6 @@
         "route": "aanhoudend",
         "K": 0.59,
         "n": 3,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109": {
-        "kop": "Stroomstoring in Zaandam",
-        "S": 0.23,
-        "route": "aanhoudend",
-        "K": 0.76,
-        "n": 2,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9": {
-        "kop": "Stroomstoring in Broek in Waterland",
-        "S": 0.23,
-        "route": "aanhoudend",
-        "K": 0.76,
-        "n": 2,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-a694ec": {
-        "kop": "Stroomstoring in Zaandam",
-        "S": 0.23,
-        "route": "aanhoudend",
-        "K": 0.76,
-        "n": 2,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d": {
-        "kop": "Stroomstoring in Broek in Waterland",
-        "S": 0.23,
-        "route": "aanhoudend",
-        "K": 0.76,
-        "n": 2,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99": {
-        "kop": "Stroomstoring in Zaandam",
-        "S": 0.23,
-        "route": "aanhoudend",
-        "K": 0.75,
-        "n": 2,
         "bronnen": 1
       },
       "a:a0100eb92c": {

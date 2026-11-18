@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T12:00:53.900Z",
+  "gegenereerdOp": "2026-11-18T12:56:43.772Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,7 +15,7 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,8 +26,8 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
-      "gevonden": 3,
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
+      "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
       "laatsteFout": {
@@ -84,15 +84,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 84,
+      "opeenvolgendLeeg": 85,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-18T03:01:00.152Z",
@@ -101,9 +101,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 129,
+      "opeenvolgendLeeg": 130,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-18T11:00:49.668Z",
@@ -118,25 +118,25 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 22,
+      "opeenvolgendLeeg": 23,
       "opeenvolgendFout": 0
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-18T12:00:53.900Z",
+      "laatsteScrape": "2026-11-18T12:56:43.772Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
@@ -378,14 +378,14 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 3,
-      "update": 1,
-      "opnieuw": 13,
+      "nieuw": 2,
+      "update": 0,
+      "opnieuw": 14,
       "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 253,
+      "vergeleken": 276,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -404,8 +404,8 @@
       "ai": false,
       "formule": "v4-22806000",
       "tekst": {
-        "werklijst": 4,
-        "lokaal": 4,
+        "werklijst": 2,
+        "lokaal": 2,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -413,16 +413,16 @@
       "vergeten": 0,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
-      "stukken": 607,
-      "kandidaten": 54,
-      "metAnker": 54,
+      "stukken": 609,
+      "kandidaten": 55,
+      "metAnker": 55,
       "zonderAnker": 0,
       "afgelast": 2,
       "dubbel": 0,
       "tau": 0.5,
       "besluit": {
-        "boven": 0,
-        "wacht": 0,
+        "boven": 1,
+        "wacht": 1,
         "onderdrukt": 0,
         "veto": 0,
         "nieuwRood": 0,
@@ -438,14 +438,14 @@
       "alRood": 1
     },
     "bronRood": {
-      "rood": 2,
-      "alRood": 7
+      "rood": 1,
+      "alRood": 9
     },
     "dossiers": {
-      "stubsNieuw": 2,
+      "stubsNieuw": 1,
       "stubsVerlopen": 0,
-      "stubsTotaal": 341,
-      "verhalen": 317,
+      "stubsTotaal": 342,
+      "verhalen": 318,
       "kandidaten": 3,
       "aiControles": 0,
       "aiJa": 0,

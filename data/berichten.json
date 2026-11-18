@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T12:00:53.900Z",
+  "gegenereerdOp": "2026-11-18T12:56:43.772Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "dd85c92841-v1",
+      "groepId": "dd85c92841",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/warder-2026-11-18-44474a",
+      "kop": "Stroomstoring in Warder",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T12:05:00.000Z",
+      "heeftTijd": true,
+      "woorden": 47,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-18T12:56:43.772Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
+      "bronTitel": "Stroomstoring in Warder",
+      "bronLengte": 354,
+      "rood": {
+        "sinds": "2026-11-18T12:56:43.772Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "8e442b6b76-v2",
       "groepId": "8e442b6b76",
       "versie": 2,
@@ -425,7 +456,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’ 🎧",
       "bronLengte": 5872,
       "checklist": {
@@ -441,7 +472,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "1c984dcd8a-v1",
@@ -472,7 +504,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "e40f9ebc8c-v2",
@@ -535,7 +568,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "46cfb7294f-v1",
@@ -749,7 +783,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T00:00:49.197Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "bronLengte": 4023,
       "checklist": {
@@ -767,6 +801,44 @@
       "checklistBron": "patroon",
       "alleenAgenda": true,
       "tagVersie": 2
+    },
+    {
+      "id": "04e803f0d3-v1",
+      "groepId": "04e803f0d3",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zozan-edjer-tijdelijk-fractievoorzitter-pro-zaanstad/",
+      "kop": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-17T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 141,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-18T12:56:43.772Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
+      "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
+      "bronLengte": 912,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
     },
     {
       "id": "b7644a7add-v1",
@@ -788,7 +860,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 332,
       "checklist": {
@@ -804,7 +876,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "f53274c080-v1",
@@ -826,7 +899,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -865,7 +938,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
@@ -904,7 +977,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T10:00:51.669Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied",
       "bronLengte": 4413,
       "checklist": {
@@ -943,7 +1016,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T09:00:47.474Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Dit komt aan de Czarinastraat (voormalige Fondue & Fondue) #bouwmarathon",
       "bronLengte": 2957,
       "checklist": {
@@ -982,7 +1055,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T08:01:00.845Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Roltrappen rollen weer… 🎥",
       "bronLengte": 876,
       "checklist": {
@@ -1021,7 +1094,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -1102,7 +1175,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -1140,7 +1213,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T07:00:43.910Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Hyundai in de rondte na botsing op kruising in Zaandijk",
       "bronLengte": 1302,
       "checklist": {
@@ -1447,7 +1520,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
       "bronLengte": 2796,
       "checklist": {
@@ -1486,7 +1559,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
       "bronLengte": 2533,
       "checklist": {
@@ -1876,7 +1949,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:56:43.772Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {

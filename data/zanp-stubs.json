@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-18T12:00:53.900Z",
+  "bijgewerkt": "2026-11-18T12:56:43.772Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3750,6 +3750,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-18T10:30:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "dd85c92841": {
+      "g": "dd85c92841",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/warder-2026-11-18-44474a",
+      "k": "Stroomstoring in Warder",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-18T12:05:00.000Z",
       "c": null,
       "r": "112"
     }
