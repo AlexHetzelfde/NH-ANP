@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T14:00:46.005Z",
+  "gegenereerdOp": "2026-11-18T15:00:52.109Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,16 +8,16 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 5,
-      "lokaal": 4,
-      "opgehaald": 1,
+      "werklijst": 2,
+      "lokaal": 2,
+      "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 614,
+    "stukken": 615,
     "kandidaten": 60,
     "metAnker": 60,
     "zonderAnker": 0,
@@ -26,13 +26,13 @@
     "tau": 0.5,
     "besluit": {
       "boven": 1,
-      "wacht": 1,
+      "wacht": 0,
       "onderdrukt": 0,
       "veto": 0,
-      "nieuwRood": 0,
+      "nieuwRood": 1,
       "noodrem": false
     },
-    "rood": 2
+    "rood": 3
   },
   "top": [
     {
@@ -521,6 +521,39 @@
           "c": 0.9,
           "plek": "kop",
           "titel": "Stroomstoring in Zuidoostbeemster"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Zo_brengen_natuurherstel_en_samenwerking_vergunningen_op_Texel_dichterbij",
+      "soort": "nieuws",
+      "kop": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
+      "S": 0.29,
+      "Sa": 0.29,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.36,
+      "Kp": 0.2,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "texel",
+        "dichterbij",
+        "branco",
+        "verheij",
+        "naturherstel",
+        "programmatisch",
+        "breng",
+        "stikstof"
+      ],
+      "bewijs": [
+        {
+          "bron": "nh-actueel",
+          "datum": "2026-11-18T15:00:52.109Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "PAS-melders op Texel kunnen natuurvergunning aanvragen"
         }
       ]
     },
@@ -1178,11 +1211,11 @@
       "ankers": [
         "radzal",
         "bestursopdracht",
-        "radsbesluit",
         "vergaderzal",
         "vragenur",
         "pauze",
         "opschort",
+        "radsbesluit",
         "wissel",
         "regiovisi",
         "schan",
@@ -1285,28 +1318,6 @@
       "bronnen": 0,
       "ankers": [
         "dicte"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:a24756ce32",
-      "soort": "agenda",
-      "kop": "Dag voor de Raad 2026!",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "antropia",
-        "drieberg",
-        "dagprogramma",
-        "zeist",
-        "vereniging"
       ],
       "bewijs": []
     }
@@ -3255,6 +3266,14 @@
         "n": 4,
         "bronnen": 1
       },
+      "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Zo_brengen_natuurherstel_en_samenwerking_vergunningen_op_Texel_dichterbij": {
+        "kop": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
+        "S": 0.29,
+        "route": "aanhoudend",
+        "K": 0.36,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden": {
         "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
         "S": 0.24,
@@ -3366,14 +3385,6 @@
         "K": 0.15,
         "n": 1,
         "bronnen": 1
-      },
-      "a:d687f6b7ef": {
-        "kop": "Bestuurlijke boete kamerverhuur Klipperstraat 37 te Zaandam - Microsoft Teams",
-        "S": 0,
-        "route": "geen",
-        "K": 0.15,
-        "n": 0,
-        "bronnen": 0
       }
     }
   }
