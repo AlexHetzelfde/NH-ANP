@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T02:00:49.082Z",
+  "gegenereerdOp": "2026-11-18T03:01:00.152Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T00:00:49.197Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "bronLengte": 4023,
       "checklist": {
@@ -464,7 +464,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -545,7 +545,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -812,7 +812,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Dagje stroomstoring aan Hogendijk",
       "bronLengte": 525,
       "checklist": {
@@ -851,7 +851,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
       "bronLengte": 2796,
       "checklist": {
@@ -890,7 +890,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
       "bronLengte": 2533,
       "checklist": {
@@ -929,7 +929,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Automobilist mist bocht bij A7 en rijdt zo de sloot in",
       "bronLengte": 1247,
       "checklist": {
@@ -968,7 +968,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’",
       "bronLengte": 5788,
       "checklist": {
@@ -1007,7 +1007,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "UWV Walk-out voor loonsverhoging (ook beetje Run-in)",
       "bronLengte": 2394,
       "checklist": {
@@ -1046,7 +1046,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "De Orkaan in 2 minuten: 17 november 🎧",
       "bronLengte": 326,
       "checklist": {
@@ -1085,7 +1085,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Zomaar een Zaans minuutje: Den Uylbrug… 🎥",
       "bronLengte": 3286,
       "checklist": {
@@ -1124,7 +1124,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Kapot? Het Repair Café krijgt het aan de praat 🎥",
       "bronLengte": 2649,
       "checklist": {
@@ -1163,7 +1163,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Napoleon, een verre voorvader en een bijna oorlogstrauma",
       "bronLengte": 4272,
       "checklist": {
@@ -1202,7 +1202,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Het Blauwe Pand dichtgespijkerd",
       "bronLengte": 1468,
       "checklist": {
@@ -1280,7 +1280,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-18T02:00:49.082Z",
+      "gecontroleerdOp": "2026-11-18T03:01:00.152Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {

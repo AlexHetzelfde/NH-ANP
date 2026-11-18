@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T02:00:49.082Z",
+  "gegenereerdOp": "2026-11-18T03:01:00.152Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,13 +15,13 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -79,30 +79,30 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 74,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 75,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-18T00:00:49.197Z",
+        "tijd": "2026-11-18T03:01:00.152Z",
         "bericht": "Lijst ophalen mislukt: This operation was aborted",
         "duurSec": null
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 119,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 120,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-17T19:00:47.711Z",
-        "bericht": "RSS-feed ophalen mislukt: HTTP 504",
+        "tijd": "2026-11-18T03:01:00.152Z",
+        "bericht": "RSS-feed ophalen mislukt: HTTP 403",
         "duurSec": null
       }
     },
@@ -113,27 +113,27 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 12,
+      "opeenvolgendLeeg": 13,
       "opeenvolgendFout": 0
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-18T02:00:49.082Z",
+      "laatsteScrape": "2026-11-18T03:01:00.152Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 7,
+      "opeenvolgendLeeg": 8,
       "opeenvolgendFout": 0
     }
   },
