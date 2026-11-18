@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T11:00:49.668Z",
+  "gegenereerdOp": "2026-11-18T12:00:53.900Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 604,
-    "kandidaten": 52,
-    "metAnker": 52,
+    "stukken": 607,
+    "kandidaten": 54,
+    "metAnker": 54,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -49,11 +49,8 @@
       "dagen": 2,
       "bronnen": 2,
       "ankers": [
-        "stromstoring",
         "houtveldweg",
-        "postcode",
-        "stromstoringkart",
-        "netbeherder"
+        "stromstoring"
       ],
       "bewijs": [
         {
@@ -133,24 +130,69 @@
       "bronnen": 1,
       "ankers": [
         "hermesstrat",
-        "stromstoring",
         "vlusch",
+        "stromstoring",
         "kuijperkad"
       ],
       "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T04:11:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Stroomstoring in Broek in Waterland"
-        },
         {
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T07:01:00.000Z",
           "c": 1,
           "plek": "kop",
           "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
+      "soort": "nieuws",
+      "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
+      "S": 0.24,
+      "Sa": 0.24,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.59,
+      "Kp": 0.37,
+      "n": 3,
+      "dagen": 3,
+      "bronnen": 1,
+      "ankers": [
+        "wibautstrat",
+        "thorbeckeweg",
+        "kruispunt",
+        "wegen",
+        "n516",
+        "dicht"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-06T23:00:00.000Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-10T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
         }
       ]
     },
@@ -266,6 +308,43 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.23,
+      "Sa": 0.23,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.76,
+      "Kp": 0.57,
+      "n": 2,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "eilandweg",
+        "hellingweg",
+        "stromstoring"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T07:01:00.000Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
@@ -281,68 +360,63 @@
       "ankers": [
         "broek",
         "waterland",
-        "stromstoring",
         "dokter",
-        "zuideind"
+        "zuideind",
+        "stromstoring"
       ],
       "bewijs": [
         {
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T07:01:00.000Z",
-          "c": 0.87,
+          "c": 0.86,
           "plek": "kop",
           "titel": "Stroomstoring in Zaandam"
         },
         {
           "bron": "stroomstoringkaart",
           "datum": "2026-11-18T11:00:49.668Z",
-          "c": 0.87,
+          "c": 0.86,
           "plek": "kop",
           "titel": "Stroomstoring in Krommenie"
         }
       ]
     },
     {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99",
       "soort": "nieuws",
-      "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
-      "S": 0.21,
-      "Sa": 0.21,
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.23,
+      "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.58,
-      "Kp": 0.37,
-      "n": 3,
-      "dagen": 3,
+      "K": 0.75,
+      "Kp": 0.57,
+      "n": 2,
+      "dagen": 1,
       "bronnen": 1,
       "ankers": [
+        "lieftinckweg",
+        "uiterdijk",
+        "vredeweg",
+        "stromstoring",
         "wibautstrat",
-        "thorbeckeweg",
-        "kruispunt",
-        "wegen",
-        "n516"
+        "zuiddijk",
+        "pieter"
       ],
       "bewijs": [
         {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-06T23:00:00.000Z",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
           "c": 0.9,
           "plek": "kop",
-          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
+          "titel": "Stroomstoring in Broek in Waterland"
         },
         {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "c": 0.72,
-          "plek": "intro",
-          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-10T23:00:00.000Z",
-          "c": 0.42,
-          "plek": "tekst",
-          "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T11:00:49.668Z",
+          "c": 0.9,
+          "plek": "kop",
+          "titel": "Stroomstoring in Krommenie"
         }
       ]
     },
@@ -1106,52 +1180,6 @@
         "achterhoek",
         "twent",
         "dinxperlo"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:022a912b1c",
-      "soort": "agenda",
-      "kop": "Margriet Eshuijs Popkoor",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "margriet",
-        "eshuij",
-        "popkor",
-        "autumn",
-        "jerney"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:8154ec62c3",
-      "soort": "agenda",
-      "kop": "Panelgesprek: Het thema van OTW 2026 is : Allemaal in actie – Met mannen en jongens tegen geweld.",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "panelgesprek",
-        "allemal",
-        "thema",
-        "postjesweg",
-        "geweld",
-        "jongen",
-        "actie"
       ],
       "bewijs": []
     }
@@ -3052,6 +3080,14 @@
         "n": 2,
         "bronnen": 1
       },
+      "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden": {
+        "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
+        "S": 0.24,
+        "route": "aanhoudend",
+        "K": 0.59,
+        "n": 3,
+        "bronnen": 1
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109": {
         "kop": "Stroomstoring in Zaandam",
         "S": 0.23,
@@ -3076,12 +3112,20 @@
         "n": 2,
         "bronnen": 1
       },
-      "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden": {
-        "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
-        "S": 0.22,
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.23,
         "route": "aanhoudend",
-        "K": 0.58,
-        "n": 3,
+        "K": 0.76,
+        "n": 2,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.23,
+        "route": "aanhoudend",
+        "K": 0.75,
+        "n": 2,
         "bronnen": 1
       },
       "a:a0100eb92c": {
@@ -3201,22 +3245,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.13,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:63d1539b24": {
-        "kop": "Dag van de Mantelzorg",
-        "S": 0,
-        "route": "geen",
-        "K": 0.2,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:e41b9aa2a8": {
-        "kop": "Kelapa Muda: Kinderen van de Molukken",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
         "n": 0,
         "bronnen": 0
       }

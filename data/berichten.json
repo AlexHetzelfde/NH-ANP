@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T11:00:49.668Z",
+  "gegenereerdOp": "2026-11-18T12:00:53.900Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,75 @@
   ],
   "berichten": [
     {
+      "id": "8e442b6b76-v2",
+      "groepId": "8e442b6b76",
+      "versie": 2,
+      "url": "https://www.deorkaan.nl/giftige-struiken-op-speelplaats-de-dorpsakker-zaanstad-de-meeste-kinderen-eten-niet-zomaar-bladeren/",
+      "kop": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’ 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T12:00:53.900Z",
+      "heeftTijd": true,
+      "woorden": 898,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’ 🎧",
+      "bronLengte": 5872,
+      "checklist": {
+        "gevaar": true,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": true,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "1c984dcd8a-v1",
+      "groepId": "1c984dcd8a",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-4d1b99",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T11:19:00.000Z",
+      "heeftTijd": true,
+      "woorden": 54,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 405,
+      "rood": {
+        "sinds": "2026-11-18T12:00:53.900Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "e40f9ebc8c-v2",
       "groepId": "e40f9ebc8c",
       "versie": 2,
@@ -430,6 +499,38 @@
       "bronLengte": 375,
       "rood": {
         "sinds": "2026-11-18T11:00:49.668Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "389c779626-v1",
+      "groepId": "389c779626",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T10:30:00.000Z",
+      "heeftTijd": true,
+      "woorden": 49,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "bronTitel": "Stroomstoring in Broek in Waterland",
+      "bronLengte": 340,
+      "rood": {
+        "sinds": "2026-11-18T12:00:53.900Z",
         "score": 1,
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
@@ -465,7 +566,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "e40f9ebc8c-v1",
@@ -647,7 +749,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T00:00:49.197Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "bronLengte": 4023,
       "checklist": {
@@ -665,6 +767,44 @@
       "checklistBron": "patroon",
       "alleenAgenda": true,
       "tagVersie": 2
+    },
+    {
+      "id": "b7644a7add-v1",
+      "groepId": "b7644a7add",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-19-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 19 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-17T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 56,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-18T12:00:53.900Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
+      "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
+      "bronLengte": 332,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
     },
     {
       "id": "f53274c080-v1",
@@ -686,7 +826,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -702,7 +842,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "d39388a079-v1",
@@ -724,7 +865,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
@@ -740,7 +881,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "fb44646510-v1",
@@ -762,7 +904,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T10:00:51.669Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied",
       "bronLengte": 4413,
       "checklist": {
@@ -801,7 +943,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T09:00:47.474Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Dit komt aan de Czarinastraat (voormalige Fondue & Fondue) #bouwmarathon",
       "bronLengte": 2957,
       "checklist": {
@@ -840,7 +982,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T08:01:00.845Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Roltrappen rollen weer… 🎥",
       "bronLengte": 876,
       "checklist": {
@@ -879,7 +1021,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -960,7 +1102,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -998,7 +1140,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T07:00:43.910Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Hyundai in de rondte na botsing op kruising in Zaandijk",
       "bronLengte": 1302,
       "checklist": {
@@ -1266,7 +1408,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Dagje stroomstoring aan Hogendijk",
       "bronLengte": 525,
       "checklist": {
@@ -1305,7 +1447,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Info-avond FvD ‘Krommenie Aardgasvrij’, UPDATE: pilot afgeschoten",
       "bronLengte": 2796,
       "checklist": {
@@ -1344,7 +1486,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T20:00:50.326Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Sina Schipper na honderdzes jaar thuisgekomen",
       "bronLengte": 2533,
       "checklist": {
@@ -1734,7 +1876,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-18T11:00:49.668Z",
+      "gecontroleerdOp": "2026-11-18T12:00:53.900Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
@@ -13981,44 +14123,6 @@
       "analyse": true,
       "tagVersie": 2,
       "alleenAgenda": true
-    },
-    {
-      "id": "65a001ee37-v1",
-      "groepId": "65a001ee37",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_verwijdert_zieke_en_doden_bomen_langs_verschillende_N_wegen",
-      "kop": "Provincie kapt vanaf medio januari 2027 zieke en dode bomen langs N-wegen",
-      "tekst": "De provincie Noord-Holland verwijdert vanaf medio januari 2027 in totaal 137 zieke en dode bomen langs provinciale wegen in Alkmaar en omgeving, West-Friesland en Zuid-Kennemerland. De werkzaamheden duren naar verwachting drie weken en zijn nodig voor de verkeersveiligheid. Na afronding plant de provincie op een later moment nieuwe jonge bomen terug.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-04T11:18:42.000Z",
-      "heeftTijd": true,
-      "woorden": 377,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-04T10:46:22.507Z",
-      "gecontroleerdOp": "2026-11-05T09:00:52.176Z",
-      "bronTitel": "Provincie verwijdert zieke en doden bomen langs verschillende N-wegen",
-      "bronLengte": 2375,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
     }
   ]
 }
