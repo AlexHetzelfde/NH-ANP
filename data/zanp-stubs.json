@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-18T10:00:51.669Z",
+  "bijgewerkt": "2026-11-18T11:00:49.668Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3694,7 +3694,7 @@
       "bt": "",
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "t": "2026-11-18T09:00:52.003Z",
+      "t": "2026-11-18T11:00:49.668Z",
       "c": null,
       "r": "112"
     },
@@ -3717,6 +3717,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-18T07:58:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "46cfb7294f": {
+      "g": "46cfb7294f",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
+      "k": "Stroomstoring in Zaandam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-18T10:09:00.000Z",
       "c": null,
       "r": "112"
     }
