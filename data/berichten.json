@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T19:00:47.879Z",
+  "gegenereerdOp": "2026-11-18T20:00:46.532Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -457,7 +457,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -495,7 +495,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -533,7 +533,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -571,7 +571,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -641,7 +641,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Giftige struiken bij De Dorpsakker, Zaanstad: ‘meeste kinderen eten niet zomaar bladeren’ 🎧",
       "bronLengte": 5872,
       "checklist": {
@@ -1038,7 +1038,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T00:00:49.197Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "bronLengte": 4023,
       "checklist": {
@@ -1106,7 +1106,8 @@
       "agendapuntenBron": "patroon",
       "agendaIds": [
         "01a5028a6b"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "81a1e73cb5-v1",
@@ -1143,7 +1144,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "b2229bfe20-v1",
@@ -1180,7 +1182,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "9712308ac9-v1",
@@ -1217,7 +1220,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "e835848297-v1",
@@ -1254,7 +1258,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "f826b26178-v1",
@@ -1276,7 +1281,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T17:00:48.287Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Vanaf 13 december rijden sommige Zaanse bussen anders",
       "bronLengte": 2033,
       "checklist": {
@@ -1315,7 +1320,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -1354,7 +1359,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -1393,7 +1398,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -1432,7 +1437,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 332,
       "checklist": {
@@ -1471,7 +1476,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -1510,7 +1515,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
@@ -1549,7 +1554,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T10:00:51.669Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied",
       "bronLengte": 4413,
       "checklist": {
@@ -1588,7 +1593,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T09:00:47.474Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Dit komt aan de Czarinastraat (voormalige Fondue & Fondue) #bouwmarathon",
       "bronLengte": 2957,
       "checklist": {
@@ -1627,7 +1632,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T08:01:00.845Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Roltrappen rollen weer… 🎥",
       "bronLengte": 876,
       "checklist": {
@@ -1666,7 +1671,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T16:00:51.834Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
       "bronLengte": 2776,
       "checklist": {
@@ -1747,7 +1752,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T10:00:55.145Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Maak kennis met techniek op een PET Event",
       "bronLengte": 2234,
       "checklist": {
@@ -2521,7 +2526,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-17T17:00:49.542Z",
-      "gecontroleerdOp": "2026-11-18T19:00:47.879Z",
+      "gecontroleerdOp": "2026-11-18T20:00:46.532Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 343,
       "checklist": {
