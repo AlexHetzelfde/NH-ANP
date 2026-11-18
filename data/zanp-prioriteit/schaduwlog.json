@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-18T07:00:43.910Z",
+  "gegenereerdOp": "2026-11-18T08:01:00.845Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,8 +8,8 @@
     "ai": false,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -17,9 +17,9 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 594,
-    "kandidaten": 50,
-    "metAnker": 50,
+    "stukken": 596,
+    "kandidaten": 51,
+    "metAnker": 51,
     "zonderAnker": 0,
     "afgelast": 2,
     "dubbel": 0,
@@ -44,7 +44,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.63,
-      "Kp": 0.38,
+      "Kp": 0.37,
       "n": 2,
       "dagen": 2,
       "bronnen": 1,
@@ -115,6 +115,69 @@
           "c": 0.42,
           "plek": "tekst",
           "titel": "Fietstunnel Skoon bijna open, Verlengde Stellingweg weekend dicht"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.16,
+      "Sa": 0.16,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.71,
+      "Kp": 0.54,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "stromstoring",
+        "durgerdamstrat",
+        "edamstrat",
+        "jozuapad",
+        "ilpendamstrat",
+        "postcode",
+        "stromstoringkart",
+        "netbeherder"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T04:11:00.000Z",
+          "c": 0.99,
+          "plek": "kop",
+          "titel": "Stroomstoring in Broek in Waterland"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.16,
+      "Sa": 0.16,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.7,
+      "Kp": 0.54,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "stromstoring",
+        "dokter",
+        "zuideind"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T07:01:00.000Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "Stroomstoring in Zaandam"
         }
       ]
     },
@@ -1008,59 +1071,6 @@
         "emotie",
         "workshop",
         "relevant"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:a3ff11919d",
-      "soort": "agenda",
-      "kop": "Symposium: Een stabielere samenleving begint thuis",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "stabieler",
-        "samenleving",
-        "congrescentrum",
-        "thuis",
-        "zeist",
-        "begint",
-        "achmea"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:a7d8a22d6c",
-      "soort": "agenda",
-      "kop": "WC-Symposium",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "ranglijst",
-        "nederlander",
-        "jarlijks",
-        "wereld",
-        "buitenshuis",
-        "iederewctelt",
-        "mdlfond",
-        "vriendelijkheid",
-        "toiletvriendelijkheid",
-        "stappenplan",
-        "zomlink",
-        "handreiking"
       ],
       "bewijs": []
     }
@@ -2945,6 +2955,22 @@
         "n": 3,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-c7f109": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.16,
+        "route": "aanhoudend",
+        "K": 0.71,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-293fb9": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.16,
+        "route": "aanhoudend",
+        "K": 0.7,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:a0100eb92c": {
         "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
         "S": 0.13,
@@ -3110,22 +3136,6 @@
         "S": 0,
         "route": "geen",
         "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:3acacdce09": {
-        "kop": "lunchwebinar: dilemma’s voorleggen aan inwoners",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:37e36d019e": {
-        "kop": "Zaanstad Beraad",
-        "S": 0,
-        "route": "geen",
-        "K": 0.25,
         "n": 0,
         "bronnen": 0
       }
