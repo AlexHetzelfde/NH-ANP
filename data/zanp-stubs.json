@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T09:00:48.733Z",
+  "bijgewerkt": "2026-11-19T10:00:45.333Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3926,6 +3926,39 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-19T09:00:52.530Z",
+      "c": null,
+      "r": "112"
+    },
+    "a32ccfa762": {
+      "g": "a32ccfa762",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer",
+      "k": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-19T10:10:15.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "194a76a2a0": {
+      "g": "194a76a2a0",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-9295d2",
+      "k": "Stroomstoring in Krommenie",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T10:00:50.329Z",
+      "c": null,
+      "r": "112"
+    },
+    "ee3b4f991e": {
+      "g": "ee3b4f991e",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
+      "k": "Stroomstoring in Oostzaan",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T10:00:50.329Z",
       "c": null,
       "r": "112"
     }

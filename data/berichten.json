@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T09:00:48.733Z",
+  "gegenereerdOp": "2026-11-19T10:00:45.333Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,105 @@
   ],
   "berichten": [
     {
+      "id": "a32ccfa762-v1",
+      "groepId": "a32ccfa762",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer",
+      "kop": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-19T10:10:15.000Z",
+      "heeftTijd": true,
+      "woorden": 509,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-19T10:00:45.333Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
+      "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
+      "bronLengte": 3427,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
+      "id": "194a76a2a0-v1",
+      "groepId": "194a76a2a0",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-9295d2",
+      "kop": "Stroomstoring in Krommenie",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T10:00:50.329Z",
+      "heeftTijd": true,
+      "woorden": 16,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-19T10:00:45.333Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
+      "bronTitel": "Stroomstoring in Krommenie",
+      "bronLengte": 131,
+      "rood": {
+        "sinds": "2026-11-19T10:00:45.333Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "ee3b4f991e-v1",
+      "groepId": "ee3b4f991e",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
+      "kop": "Stroomstoring in Oostzaan",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T10:00:50.329Z",
+      "heeftTijd": true,
+      "woorden": 16,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-19T10:00:45.333Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
+      "bronTitel": "Stroomstoring in Oostzaan",
+      "bronLengte": 130,
+      "rood": {
+        "sinds": "2026-11-19T10:00:45.333Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "0c58d5c3cb-v1",
       "groepId": "0c58d5c3cb",
       "versie": 1,
@@ -434,7 +533,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "46043b15da-v1",
@@ -533,6 +633,44 @@
       "tagVersie": 2
     },
     {
+      "id": "fec0b4898e-v1",
+      "groepId": "fec0b4898e",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/is-meer-toezicht-in-het-damgebied-nodig/",
+      "kop": "Is meer toezicht in het Damgebied nodig?",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 773,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-19T10:00:45.333Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
+      "bronTitel": "Is meer toezicht in het Damgebied nodig?",
+      "bronLengte": 4754,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "eb6da81aad-v1",
       "groepId": "eb6da81aad",
       "versie": 1,
@@ -552,7 +690,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T09:00:48.733Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "bronLengte": 5785,
       "checklist": {
@@ -568,7 +706,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "f21f46380f-v1",
@@ -590,7 +729,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
@@ -661,7 +800,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -699,7 +838,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -737,7 +876,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -775,7 +914,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -1281,7 +1420,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T07:00:48.202Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "bronLengte": 1237,
       "checklist": {
@@ -1320,7 +1459,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T21:00:47.398Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Vakbonden kondigen stakingen aan in streekvervoer",
       "bronLengte": 1007,
       "checklist": {
@@ -1563,7 +1702,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T17:00:48.287Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Vanaf 13 december rijden sommige Zaanse bussen anders",
       "bronLengte": 2033,
       "checklist": {
@@ -1602,7 +1741,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -1641,7 +1780,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -1680,7 +1819,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -1719,7 +1858,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 332,
       "checklist": {
@@ -1758,7 +1897,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -1797,7 +1936,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T10:00:45.333Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
