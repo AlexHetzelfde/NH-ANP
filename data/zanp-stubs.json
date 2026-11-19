@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T22:00:44.304Z",
+  "bijgewerkt": "2026-11-19T23:00:44.960Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4130,11 +4130,11 @@
     "071b337972": {
       "g": "071b337972",
       "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/033800bb-4736-4659-acc0-c408aa3899e0",
-      "k": "Regioraad neemt motie aan om tarieven openbaar vervoer te verlagen",
+      "k": "Regioraad aanvaardt motie om tarieven openbaar vervoer te verlagen",
       "bt": "Verlaag tarieven OV",
       "b": "vervoerregio-overzichten",
       "n": "Vervoerregio: Overzichten (iBabs)",
-      "t": "2026-11-19T20:00:48.743Z",
+      "t": "2026-11-19T23:00:44.960Z",
       "c": null,
       "r": "PRV"
     },
@@ -4148,6 +4148,17 @@
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
       "r": "WON"
+    },
+    "fdc48e0b2d": {
+      "g": "fdc48e0b2d",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
+      "k": "Stroomstoring in Krommenie en Uitgeest",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T22:25:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

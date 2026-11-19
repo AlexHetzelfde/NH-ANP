@@ -1,21 +1,144 @@
 {
-  "gegenereerdOp": "2026-11-19T22:00:44.304Z",
+  "gegenereerdOp": "2026-11-19T23:00:44.960Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 632,
-    "verhalen": 514,
-    "metMeerStukken": 64,
+    "stukken": 628,
+    "verhalen": 510,
+    "metMeerStukken": 63,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 2,
-    "aiBanden": 2,
-    "metRoute": 3,
+    "aiBanden": 0,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 0
   },
   "verhalen": [
+    {
+      "id": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
+      "kop": "Bezwaren tegen verdwijnen poller stapelen zich op",
+      "meting": {
+        "stukken": 5,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 5,
+        "eerste": "2026-10-21T22:00:00.000Z",
+        "laatste": "2026-11-19T08:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 28 dagen met stukken op 5 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-21T22:00:00.000Z",
+          "type": null,
+          "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-22T22:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Daar is-ie weer: poller meegepakt"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
+        }
+      ]
+    },
+    {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
+      "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
+      "meting": {
+        "stukken": 6,
+        "media": 1,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 5,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-19T12:00:53.705Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 5 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenbo…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/oekrainers-uit-saendenborch-gebouw-rijp-voor-de-sloop/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-31T23:00:00.000Z",
+          "type": null,
+          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Brief aan omwonenden Saendenborch"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wethouder-harrie-van-der-laan-buren-van-saendenborch-niet-bedreigd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": "overig",
+          "titel": "Schriftelijke inspraak Saendenborch (Engels)"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-19T12:00:53.705Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Oostzaan"
+        }
+      ]
+    },
     {
       "id": "n:https://www.deorkaan.nl/hoge-nood-op-weg-naar-ade/",
       "kop": "Hoge nood op weg naar ADE",
@@ -29,13 +152,7 @@
         "eerste": "2026-10-23T22:00:00.000Z",
         "laatste": "2026-11-18T23:00:00.000Z"
       },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 26 dagen met stukken op 6 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
+      "routes": [],
       "leden": [
         {
           "k": "n:https://www.deorkaan.nl/hoge-nood-op-weg-naar-ade/",
@@ -120,115 +237,6 @@
           "datum": "2026-11-18T23:00:00.000Z",
           "type": null,
           "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
-      "kop": "Bezwaren tegen verdwijnen poller stapelen zich op",
-      "meting": {
-        "stukken": 5,
-        "media": 2,
-        "mediaStukken": 4,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 5,
-        "eerste": "2026-10-21T22:00:00.000Z",
-        "laatste": "2026-11-19T08:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 28 dagen met stukken op 5 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-21T22:00:00.000Z",
-          "type": null,
-          "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-10-22T22:00:00.000Z",
-          "type": null,
-          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "type": null,
-          "titel": "Daar is-ie weer: poller meegepakt"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T08:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
-        }
-      ]
-    },
-    {
-      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
-      "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
-      "meting": {
-        "stukken": 4,
-        "media": 1,
-        "mediaStukken": 1,
-        "echo": 0,
-        "onafhankelijk": 4,
-        "dagen": 4,
-        "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-19T12:00:53.705Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 22 dagen met stukken op 4 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "type": null,
-          "titel": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenbo…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/oekrainers-uit-saendenborch-gebouw-rijp-voor-de-sloop/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-31T23:00:00.000Z",
-          "type": null,
-          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "type": "overig",
-          "titel": "Schriftelijke inspraak Saendenborch (Engels)"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-19T12:00:53.705Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Oostzaan"
         }
       ]
     },
@@ -529,6 +537,10 @@
   },
   "dagen": {
     "2026-11-19": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-20": {
       "nieuwRood": [],
       "zonderDoel": []
     }
