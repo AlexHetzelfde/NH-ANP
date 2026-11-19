@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T15:00:55.523Z",
+  "gegenereerdOp": "2026-11-19T16:00:46.001Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -821,7 +821,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "6cc22f6e04-v1",
@@ -858,7 +859,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "dc6f35d715-v1",
@@ -896,6 +898,7 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "economie",
@@ -939,7 +942,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "a478b3fdc7-v1",
@@ -976,7 +980,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "07087dfb5b-v1",
@@ -1013,7 +1018,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "fc8e578bc2-v1",
@@ -1050,7 +1056,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "ccfd82acb0-v1",
@@ -1087,7 +1094,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "ai"
+      "checklistBron": "ai",
+      "tagVersie": 2
     },
     {
       "id": "8c325d2762-v1",
@@ -1124,7 +1132,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "ai"
+      "checklistBron": "ai",
+      "tagVersie": 2
     },
     {
       "id": "52893a72e4-v1",
@@ -1161,7 +1170,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "ai"
+      "checklistBron": "ai",
+      "tagVersie": 2
     },
     {
       "id": "c8fbdac0de-v1",
@@ -1198,7 +1208,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "ai"
+      "checklistBron": "ai",
+      "tagVersie": 2
     },
     {
       "id": "9b0f134139-v1",
@@ -1256,7 +1267,8 @@
       ],
       "agendaIds": [
         "cc90ca49c2"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "d66ecdd449-v1",
@@ -1265,8 +1277,8 @@
       "url": "https://www.deorkaan.nl/cafe-van-ouds-oost-indie-in-zaandijk-te-koop/",
       "kop": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "BED",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -1276,15 +1288,15 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T16:00:46.001Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
         "gevaar": false,
         "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": true,
+        "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
@@ -1293,8 +1305,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "alleenAgenda": true
+      "checklistBron": "ai",
+      "alleenAgenda": true,
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "2357fc68ff-v1",
@@ -1314,15 +1328,15 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T16:00:46.001Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {
         "gevaar": false,
         "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": true,
+        "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
@@ -1331,8 +1345,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "alleenAgenda": true
+      "checklistBron": "ai",
+      "alleenAgenda": true,
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "071b337972-v1",
@@ -1369,7 +1385,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "ai"
+      "checklistBron": "ai",
+      "tagVersie": 2
     },
     {
       "id": "3a8f046f24-v1",
@@ -2378,7 +2395,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "c0221c3b8b-v1",
