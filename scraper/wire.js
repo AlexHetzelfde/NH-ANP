@@ -69,6 +69,13 @@ const BERICHTEN_MAX_AANTAL = 1500;
 const SEED_MAX_DAGEN = 7;
 
 const MIN_TEKST_VOOR_AI = 80;
+// Modus "kop" (2026-11-19): elk nieuwsbericht krijgt een AI-kop. Berichten die niet langs de
+// AI gingen (geenAi: moties, schriftelijke vragen, aanbestedingen) krijgen alleen een kop en
+// een soort. Twee bronnen blijven buiten: de stroomstoringkaart en de camerabesluiten, want hun
+// kop is al een vaste, feitelijke regel uit de gegevens.
+const MIN_TEKST_VOOR_KOP = 40;
+const KOP_UITGESLOTEN_BRONNEN = new Set(["stroomstoringkaart", "zaanstad-camera"]);
+const SOORTEN = ["incident", "uitkomst", "gepland", "overig"];
 const MAX_AGENDAPUNTEN_PER_BERICHT = 3;
 const TITEL_DUBBEL_DREMPEL = 0.5;
 const AFGEKAPT_VANAF_TEKENS = 5900; // ARTIKEL_MAX_TEKENS is 6000
@@ -678,11 +685,18 @@ function maakBerichtRecord(b, profiel, versie, tekst, nu, opties = {}) {
 // tekst; "analyse" haalt alleen checklist en agendapunten eruit (voor
 // bronnen die we nooit herschrijven).
 function maakInvoer(record, b, profiel, tekst) {
-  if (b.geenAi || tekst.length < MIN_TEKST_VOOR_AI) return null;
-  const mag = profiel.herschrijf && profiel.herkomst !== "signaal";
+  let modus = null;
+  if (b.geenAi) {
+    // Geen analyse, wel een kop (modus "kop"), behalve de uitgesloten bronnen.
+    if (!KOP_UITGESLOTEN_BRONNEN.has(b.bronId) && !b.camera && tekst.length >= MIN_TEKST_VOOR_KOP) modus = "kop";
+  } else if (tekst.length >= MIN_TEKST_VOOR_AI) {
+    const mag = profiel.herschrijf && profiel.herkomst !== "signaal";
+    modus = mag ? "volledig" : "analyse";
+  }
+  if (!modus) return null;
   return {
     id: record.id,
-    modus: mag ? "volledig" : "analyse",
+    modus,
     titel: b.titel || "",
     tekst,
     bronNaam: b.bronNaam || "",
@@ -694,6 +708,11 @@ function maakInvoer(record, b, profiel, tekst) {
 
 function wilOpnieuw(vorige, invoer) {
   if (!invoer || vorige.seed) return false;
+  // Een bericht dat tot nu toe geen AI kreeg ("geen-ai") komt alsnog aan de beurt voor een kop,
+  // zolang het in het venster valt (de achterstand van moties en vragen loopt zo vanzelf leeg).
+  if (invoer.modus === "kop") {
+    return !vorige.ai && (vorige.controle === null || vorige.controle === "ai-fout" || vorige.controle === "geen-ai");
+  }
   if (!(vorige.controle === null || vorige.controle === "ai-fout")) return false;
   return invoer.modus === "volledig" ? !vorige.ai : !vorige.analyse;
 }
@@ -897,6 +916,19 @@ function verifieerAgendapunten(raw, bron, publicatieDag) {
 }
 
 /**
+ * Het soort bericht van de AI (incident, uitkomst, gepland, overig), met een zin als bewijs.
+ * Een soort anders dan "overig" telt alleen als de zin letterlijk in de bron staat (kop of
+ * tekst); anders wordt het "overig". Geeft null als de AI niets bruikbaars gaf.
+ */
+function controleerType(type, bron) {
+  if (!type || typeof type !== "object" || !SOORTEN.includes(type.soort)) return null;
+  if (type.soort === "overig") return { soort: "overig" };
+  const zin = String(type.zin || "").trim();
+  if (zin.length < 12 || !normaliseer(bron).includes(normaliseer(zin))) return { soort: "overig", afgekeurd: type.soort };
+  return { soort: type.soort, zin: zin.slice(0, 240) };
+}
+
+/**
  * Verwerkt het resultaat van Gemini voor één bericht.
  * resultaat: { melding: { kop?, prio?, tag?, checklist?, agendapunten? } }
  *          | { onvoldoende: true } | { fout }
@@ -908,6 +940,23 @@ function verwerkMelding({ record, invoer }, resultaat) {
 
   const m = resultaat.melding;
   const bron = `${invoer.titel} ${invoer.tekst}`;
+
+  // Modus "kop": alleen een kop en het soort. Tag, checklist, agendapunten en prio van het
+  // bericht blijven zoals de scraper ze zette.
+  if (invoer.modus === "kop") {
+    if (!cijfersKloppen(m.kop, bron)) return { ...record, controle: "cijfers-afgekeurd" };
+    const spelKop = spelling.controleerKop(m.kop, bron, record.kop);
+    const typeKop = controleerType(m.type, bron);
+    return {
+      ...record,
+      kop: schoneKop(spelKop.kop),
+      ...(spelKop.status === "hersteld" || spelKop.status === "terugval" ? { kopSpelling: spelKop.status } : {}),
+      ...(typeKop ? { persType: typeKop } : {}),
+      ai: true,
+      controle: "cijfers-ok",
+    };
+  }
+
   const basis = { ...record, checklist: maakChecklist(m.checklist, bron), checklistBron: "ai" };
   const agendapunten = verifieerAgendapunten(m.agendapunten, bron, invoer.publicatieDag);
   delete basis.agendapuntenBron;
@@ -926,6 +975,8 @@ function verwerkMelding({ record, invoer }, resultaat) {
   basis.tagBron = tag.bron;
 
   if (invoer.modus === "analyse") return { ...basis, analyse: true, controle: "analyse-ok" };
+  const type = controleerType(m.type, bron);
+  if (type) basis.persType = type;
 
   // De AI schrijft sinds 2026-11-11 alleen nog een kop (geen samenvatting): de
   // cijfercontrole gaat dus over de kop.
@@ -1008,6 +1059,9 @@ module.exports = {
   BERICHTEN_MAX_DAGEN,
   BERICHTEN_MAX_AANTAL,
   MIN_TEKST_VOOR_AI,
+  MIN_TEKST_VOOR_KOP,
+  KOP_UITGESLOTEN_BRONNEN,
+  controleerType,
   bouwAgenda,
   agendaTeVerrijken,
   koppelAgendaAanBerichten,

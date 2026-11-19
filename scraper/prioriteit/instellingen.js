@@ -10,6 +10,17 @@
 //
 // AI-CONTROLE (omgevingsvariabele ZANP_PRIORITEIT_AI): 0 zet de AI-controle uit,
 // alles anders (ook niets) laat hem aan. Zonder AI beslist de berekening.
+//
+// ROUTES NAAR ROOD (omgevingsvariabele ZANP_ROOD_ROUTES; zie routes.js):
+//   uit      geen verhalen en routes
+//   schaduw  (standaard) verhalen en routes rekenen en loggen (routelog.json),
+//            niets kleuren
+//   aan      rood komt van de routes (brekend, uitkomst, gepland moment, breed
+//            opgepikt); de oude score met drempel kleurt dan niets meer
+// ZANP_ROOD_AI_VETO: 1 laat de AI een rood verhaal mogen afkeuren (alleen
+//   afkeuren, nooit rood maken). Standaard 0: de AI-mening wordt alleen gelogd.
+// ZANP_VERHAAL_AI: 0 zet de AI-indeling van losse stukken in verhalen uit.
+// ZANP_BEWIJS: 0 zet het ophalen van de bewijsbronnen (Rodi, Zaanstad.nieuws) uit.
 
 "use strict";
 
@@ -75,6 +86,65 @@ const FORMULE = Object.freeze({
   aiPerVerzoek: 6, // zoveel items per verzoek
 });
 
+// De routes naar rood (routes.js). Alle getallen zijn startwaarden voor de schaduwrun:
+// pas ze aan op wat routelog.json laat zien. Rood is een absolute lat per route, geen
+// quotum: een dag met 1 rood bericht en een week met 10 zijn allebei goed.
+const ROUTES = Object.freeze({
+  // Welke stukken welke rol hebben
+  mediaBronnen: ["DeOrkaan", "rodi-zaanstad", "zaanstad-nieuws"],
+  hulpdienstBronnen: ["veiligheidsregio-nieuws", "stroomstoringkaart"],
+  // Bronnen die dezelfde stukken publiceren tellen samen als één bron.
+  spiegelGroepen: [["bekendmakingen", "wetenregelgeving"]],
+  // Een stuk van deze media met bijna dezelfde kop als een overheidsstuk in het
+  // verhaal is een herschreven bericht: het telt niet als extra medium.
+  echoBronnen: ["zaanstad-nieuws"],
+  echoJaccard: 0.4,
+
+  // Verhalen (verhalen.js)
+  vensterDagen: 30, // stukken ouder dan dit doen niet meer mee
+  maxVerhaalGrootte: 15, // groter = een algemeen woord rijgt alles aan elkaar: strenger snijden
+  band: { sterkC: 0.7, sterkDekking: 0.3, randC: 0.45, randDekking: 0.5, minTreffers: 2, ontheffingDekking: 0.5 },
+  bandStreng: { sterkC: 0.85, sterkDekking: 0.5, randC: 0.85, randDekking: 0.7, minTreffers: 2, ontheffingDekking: 0.7 },
+
+  // 1. Brekend: een incident met meerdere onafhankelijke bronnen kort na elkaar
+  brekendUren: 6,
+  brekendMinBronnen: 2, // onafhankelijke bronnen, waarvan minstens één medium of hulpdienst
+  brekendVersUren: 24, // het nieuwste stuk is hooguit zo oud
+
+  // 2. Beslissende uitkomst: een uitkomst van een verhaal dat eerder al aandacht had
+  uitkomstVersUren: 48,
+  uitkomstTerugDagen: 14,
+  uitkomstMinStukken: 2,
+  uitkomstMinMedia: 2,
+
+  // 3. Groot gepland moment: een agendapunt dat al leeft
+  geplandVooruitUren: 48,
+  geplandTerugDagen: 30,
+  geplandMinStukken: 3,
+  geplandMinMedia: 2,
+
+  // 4. Breed opgepikt: veel verschillende media in korte tijd
+  breedUren: 48,
+  breedMinMedia: 3,
+  breedVersUren: 48,
+
+  // 5. Vervolg (alleen schaduw): een langlopend verhaal met een nieuw stuk
+  vervolgMinDagen: 7,
+  vervolgMinStukDagen: 3,
+  vervolgVersUren: 24,
+
+  // AI-indeling van losse stukken (verhaal-ai.js)
+  aiLosVensterUren: 48, // alleen stukken van de laatste 48 uur zonder verhaal
+  aiVerhalenMax: 25, // zoveel lopende verhalen gaan mee in de vraag
+  aiVerzoekenMax: 2,
+  aiPerVerzoek: 12,
+
+  // Logboek
+  logVerhalen: 30,
+  logDagen: 14,
+});
+const ROUTES_VERSIE = 1;
+
 function getal(env, naam, standaard) {
   if (!env || env[naam] === undefined || String(env[naam]).trim() === "") return standaard;
   const v = Number(env[naam]);
@@ -84,10 +154,16 @@ function getal(env, naam, standaard) {
 function leesInstellingen(env = process.env) {
   const gevraagd = String((env && env.ZANP_PRIORITEIT_MODUS) || "").trim().toLowerCase();
   const modus = ["uit", "schaduw", "aan"].includes(gevraagd) ? gevraagd : "schaduw";
+  const routesGevraagd = String((env && env.ZANP_ROOD_ROUTES) || "").trim().toLowerCase();
   return {
     modus,
     ai: getal(env, "ZANP_PRIORITEIT_AI", 1) > 0,
     formule: FORMULE,
+    routes: ROUTES,
+    routesModus: ["uit", "schaduw", "aan"].includes(routesGevraagd) ? routesGevraagd : "schaduw",
+    routesAiVeto: getal(env, "ZANP_ROOD_AI_VETO", 0) > 0,
+    verhaalAi: getal(env, "ZANP_VERHAAL_AI", 1) > 0,
+    bewijs: getal(env, "ZANP_BEWIJS", 1) > 0,
     // Tekst ophalen (tekst.js)
     tekstMaxPerRun: getal(env, "ZANP_PRIORITEIT_TEKST_MAX", 80),
     tekstMaxSeconden: getal(env, "ZANP_PRIORITEIT_TEKST_SECONDEN", 240),
@@ -113,4 +189,15 @@ function formuleStempel() {
   return `v${FORMULE_VERSIE}-${hash}`;
 }
 
-module.exports = { FORMULE, FORMULE_VERSIE, formuleStempel, leesInstellingen };
+// De stempel van de routes: verandert een constante in ROUTES (of ROUTES_VERSIE bij
+// nieuwe rekenregels), dan worden de bewaarde fases en het route-rood uit de
+// schaduwtijd gewist, net als bij de formule.
+const ROUTES_NIET_IN_STEMPEL = ["aiLosVensterUren", "aiVerhalenMax", "aiVerzoekenMax", "aiPerVerzoek", "logVerhalen", "logDagen"];
+
+function routesStempel() {
+  const telt = Object.fromEntries(Object.entries(ROUTES).filter(([k]) => !ROUTES_NIET_IN_STEMPEL.includes(k)));
+  const hash = crypto.createHash("sha1").update(JSON.stringify(telt)).digest("hex").slice(0, 8);
+  return `r${ROUTES_VERSIE}-${hash}`;
+}
+
+module.exports = { FORMULE, FORMULE_VERSIE, formuleStempel, ROUTES, ROUTES_VERSIE, routesStempel, leesInstellingen };

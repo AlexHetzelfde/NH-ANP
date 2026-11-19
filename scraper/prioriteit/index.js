@@ -21,6 +21,14 @@
 //  4. In modus "aan": het veld `rood` op de items zetten. In modus "schaduw"
 //     alleen rekenen en loggen.
 //
+// Sinds 2026-11-19 loopt daarnaast de tweede manier van rood bepalen: de routes naar rood
+// (verhalen.js, routes.js), naar het voorbeeld van het ANP-persalarm. Eerst worden alle
+// stukken (agenda, nieuws, en de bewijsstukken van Rodi en Zaanstad.nieuws) in verhalen
+// ingedeeld; daarna beslissen vier routes (brekend, uitkomst, gepland moment, breed
+// opgepikt) elk met een eigen reden. De modus staat in ZANP_ROOD_ROUTES: "schaduw"
+// (standaard) rekent en logt in routelog.json, "aan" kleurt alleen via de routes (de oude
+// formule kleurt dan niets), "uit" slaat ze over.
+//
 // Raakt `prio` van berichten niet aan. De frontend vertaalt `rood` naar kleur.
 // Een fout in deze functie mag de ZANP-run nooit stoppen: zanp.js vangt hem op.
 
@@ -28,7 +36,7 @@
 
 const path = require("path");
 const { kalenderdagAmsterdam } = require("../hulpmiddelen");
-const { leesInstellingen, formuleStempel } = require("./instellingen");
+const { leesInstellingen, formuleStempel, routesStempel } = require("./instellingen");
 const { analyseer, schoon, AFGELAST } = require("./taal");
 const {
   maakVingerafdruk,
@@ -40,6 +48,9 @@ const {
 } = require("./analyse");
 const { berekenImpact, berekenScore, bepaalTau, PIEK_CATS } = require("./score");
 const { maakAiVeto } = require("./ai");
+const { maakAiVerhaal } = require("./verhaal-ai");
+const { bouwVerhalen } = require("./verhalen");
+const { beoordeelVerhalen, pasRoodToe } = require("./routes");
 const { beslis } = require("./beslis");
 const { cameraRood, vraagRood } = require("./regels");
 const tekstarchief = require("../tekstarchief");
@@ -51,6 +62,7 @@ const {
   ruimOp,
   ruimTekstenOp,
   schrijfSchaduwlog,
+  schrijfRoutelog,
   voegTekstenToe,
 } = require("./geheugen");
 
@@ -69,7 +81,7 @@ function eigenGroepen(item) {
 }
 
 function openbaar(e) {
-  return { sinds: e.sinds, score: e.score, route: e.route, reden: e.reden };
+  return { sinds: e.sinds, score: e.score, route: e.route, reden: e.reden, ...(e.label ? { label: e.label } : {}) };
 }
 
 // Dezelfde kop op dezelfde startdag is hetzelfde agenda-item, ook als meer
@@ -89,6 +101,154 @@ function maakReden(k, s, evidentie, F) {
   );
 }
 
+// ---------------------------------------------------------------------------
+// Routes naar rood
+// ---------------------------------------------------------------------------
+
+function bewaarBewijsDocs({ geheugen, bewijs, F }) {
+  let nieuw = 0;
+  for (const it of bewijs) {
+    if (!it || !it.key || !it.titel) continue;
+    const oud = geheugen.docs[it.key];
+    if (oud && (oud.volledig || !it.tekst)) continue; // alleen bijwerken als er nu een volledige tekst is
+    const tekst = it.tekst || it.teaser || "";
+    const a = analyseer({ kop: it.titel, tekst });
+    const fp = maakVingerafdruk(
+      a,
+      {
+        key: it.key,
+        url: it.url,
+        bron: it.bron,
+        datum: it.datum,
+        groep: null,
+        versie: 1,
+        soort: "bewijs",
+        kop: it.titel,
+        volledig: Boolean(it.tekst),
+        pogingen: it.tekst ? 1 : 0,
+        methode: it.tekst ? "artikel" : "teaser",
+      },
+      F
+    );
+    fp.rubriek = it.rubriek || "";
+    if (!oud) nieuw++;
+    geheugen.docs[it.key] = fp;
+  }
+  return nieuw;
+}
+
+function kortLog(t, max = 70) {
+  const s = String(t || "").replace(/\s+/g, " ").trim();
+  return s.length > max ? `${s.slice(0, max - 1).trimEnd()}…` : s;
+}
+
+// Welke losse stukken en lopende verhalen gaan naar de AI? Alleen de laatste 48 uur en alleen
+// stukken die de AI nog niet beoordeeld heeft.
+function kiesVoorAi(bouw, geheugen, R, nu) {
+  const grens = nu.getTime() - R.aiLosVensterUren * 3600 * 1000;
+  const losse = bouw.verhalen
+    .filter((v) => v.leden.length === 1 && !v.leden[0].agenda && v.leden[0].tijd !== null && v.leden[0].tijd >= grens)
+    .map((v) => v.leden[0])
+    .filter((s) => !geheugen.aiBanden[s.k])
+    .sort((a, b) => b.tijd - a.tijd)
+    .slice(0, R.aiPerVerzoek * R.aiVerzoekenMax)
+    .map((s) => ({ k: s.k, titel: s.fp.titel, bron: s.bron, datum: s.fp.datum, kern: s.fp.kern }));
+  const weekGrens = nu.getTime() - 7 * 24 * 3600 * 1000;
+  const lopende = bouw.verhalen
+    .filter((v) => v.leden.length > 1 && !v.teGroot && v.leden.some((s) => !s.agenda && s.tijd !== null && s.tijd >= weekGrens))
+    .map((v) => {
+      const nieuws = v.leden.filter((s) => !s.agenda);
+      const laatste = Math.max(...nieuws.map((s) => s.tijd || 0));
+      return { v, nieuws, laatste, bronnen: new Set(nieuws.map((s) => s.bron)).size };
+    })
+    .sort((a, b) => b.bronnen - a.bronnen || b.laatste - a.laatste)
+    .slice(0, R.aiVerhalenMax)
+    .map(({ v, nieuws }) => ({
+      id: v.id,
+      titel: nieuws[nieuws.length - 1].fp.titel,
+      stukken: nieuws.slice(-3).map((s) => ({ titel: s.fp.titel, bron: s.bron, datum: s.fp.datum })),
+    }));
+  return { losse, lopende };
+}
+
+/**
+ * Verhalen bouwen, door de routes laten beoordelen en het rood vastleggen in het geheugen.
+ * Verandert `geheugen` (routeRood, verhalen, aiBanden) en geeft de uitkomst terug.
+ */
+async function routesStap({ geheugen, records, agendaItems, agendaKandidaten, inst, F, nu, aiVerhaal, bronNaam, log }) {
+  const R = inst.routes;
+  const iso = nu.toISOString();
+
+  // Per nieuwsbericht: het soort (AI of bron) en de rubriek.
+  const recVanKey = new Map();
+  for (const r of laatstePerGroep(records)) if (r.url) recVanKey.set(`n:${r.url}`, r);
+  const agendaStart = new Map();
+  for (const i of agendaItems) {
+    const sleutel = `a:${i.id}`;
+    const t = Date.parse(i.start);
+    if (agendaKandidaten.has(sleutel) && Number.isFinite(t)) agendaStart.set(sleutel, t);
+  }
+  const doelKeys = new Set();
+  for (const [sleutel, r] of recVanKey) {
+    if (r.alleenAgenda || r.camera || r.seed) continue; // De Orkaan, camerabesluiten en kale signalen kleuren we niet
+    doelKeys.add(sleutel);
+  }
+
+  const stukken = [];
+  for (const fp of Object.values(geheugen.docs)) {
+    if (!fp || !fp.k) continue;
+    if (fp.k.startsWith("a:") && !agendaStart.has(fp.k)) continue;
+    if (fp.k.startsWith("b:") && !inst.bewijs) continue;
+    const r = recVanKey.get(fp.k);
+    stukken.push(r ? { ...fp, type: r.persType || null, rubriek: r.rubriek || fp.rubriek } : fp);
+  }
+  const agendaKoppen = agendaItems.filter((i) => i.afkomst === "bron").map((i) => i.kop || "");
+  const ctx = bouwContext(stukken, agendaKoppen, F);
+
+  let bouw = bouwVerhalen({ stukken, ctx, F, R, nu, aiBanden: geheugen.aiBanden });
+  const stats = { ...bouw.stats, aiGevraagd: 0, aiBanden: 0 };
+
+  if (aiVerhaal && inst.verhaalAi) {
+    try {
+      const { losse, lopende } = kiesVoorAi(bouw, geheugen, R, nu);
+      if (losse.length && (lopende.length || losse.length > 1)) {
+        const uit = await aiVerhaal({ losse, lopende }, { maxVerzoeken: R.aiVerzoekenMax, perVerzoek: R.aiPerVerzoek });
+        stats.aiGevraagd = losse.length;
+        for (const [k, b] of uit) {
+          geheugen.aiBanden[k] = { met: b.met, op: iso };
+          if (b.met) stats.aiBanden++;
+        }
+        if (stats.aiBanden) bouw = bouwVerhalen({ stukken, ctx, F, R, nu, aiBanden: geheugen.aiBanden, bandenCache: bouw.banden });
+      }
+    } catch (fout) {
+      log.error(`[prioriteit] AI-indeling van verhalen mislukte (de code deelt alleen in): ${fout.stack || fout.message}`);
+    }
+  }
+
+  const beoordeeld = beoordeelVerhalen({ verhalen: bouw.verhalen, nu, R, doelKeys, agendaStart, bronNaam });
+  const toegepast = pasRoodToe(beoordeeld, { verhalen: geheugen.verhalen, rood: geheugen.routeRood }, nu);
+
+  // Voor het logboek: de verhalen met routes of met aandacht van meerdere media, de grootste eerst.
+  const metRoute = (b) => b.routes.length;
+  const logVerhalen = beoordeeld
+    .filter((b) => b.meting && (metRoute(b) || b.meting.media >= 2))
+    .sort((a, b) => metRoute(b) - metRoute(a) || b.meting.media - a.meting.media || b.meting.stukken - a.meting.stukken)
+    .slice(0, R.logVerhalen)
+    .map((b) => ({
+      id: b.id,
+      kop: b.kop,
+      meting: b.meting,
+      routes: b.routes.map((r) => ({ route: r.route, reden: r.reden, doel: r.doel })),
+      leden: b.verhaal.leden.map((s) => ({ k: s.k, bron: s.bron, datum: s.fp.datum, type: s.type, titel: kortLog(s.fp.titel) })),
+    }));
+
+  stats.metRoute = beoordeeld.filter(metRoute).length;
+  stats.nieuwRood = toegepast.nieuwRood.length;
+  stats.zonderDoel = toegepast.zonderDoel.length;
+  stats.routeRood = Object.keys(geheugen.routeRood).length;
+  return { stats, logVerhalen, beoordeeld, aiVeto: {}, ...toegepast };
+}
+
 async function draaiPrioriteit(opties) {
   const {
     records,
@@ -100,13 +260,16 @@ async function draaiPrioriteit(opties) {
     cameraReeksen = [],
     nietOphalen = () => false,
     aiVeto = null,
+    bewijs = [],
+    aiVerhaal = null,
     log = console,
   } = opties;
 
   const inst = leesInstellingen(env);
   const F = inst.formule;
   const stats = { modus: inst.modus, ai: Boolean(aiVeto) && inst.ai };
-  if (inst.modus === "uit") return { records, agendaItems, stats };
+  if (inst.modus === "uit" && inst.routesModus === "uit") return { records, agendaItems, stats };
+  stats.routesModus = inst.routesModus;
 
   const map = mapVan(env);
   const { geheugen, voor } = await leesGeheugen(map);
@@ -128,6 +291,21 @@ async function draaiPrioriteit(opties) {
   geheugen.stempel = stempel;
   geheugen.modus = inst.modus;
   stats.formule = stempel;
+
+  // Hetzelfde voor de routes: rood uit de schaduwtijd is geen echt rood.
+  const rStempel = routesStempel();
+  const routesNieuw = geheugen.routesStempel !== rStempel;
+  const routesNaarAan = inst.routesModus === "aan" && geheugen.routesModus !== "aan";
+  const routesGewist = (routesNieuw && inst.routesModus !== "aan") || routesNaarAan;
+  if (routesGewist) {
+    stats.routeRoodGewist = Object.keys(geheugen.routeRood).length;
+    geheugen.routeRood = {};
+    geheugen.verhalen = {};
+    log.log(`[prioriteit] ${routesNaarAan ? "Start van routes-modus aan" : `Nieuwe routes ${rStempel}`}: route-rood leeggemaakt (${stats.routeRoodGewist} item(s)).`);
+  }
+  geheugen.routesStempel = rStempel;
+  geheugen.routesModus = inst.routesModus;
+  stats.routes = rStempel;
 
   // 1. Teksten ophalen en vingerafdrukken maken
   try {
@@ -182,6 +360,15 @@ async function draaiPrioriteit(opties) {
     log.error(`[prioriteit] Teksten ophalen mislukte (er wordt gerekend met wat al bewaard is): ${fout.stack || fout.message}`);
   }
 
+  // Bewijsstukken (Rodi, Zaanstad.nieuws): alleen een vingerafdruk, nooit nieuws of agenda.
+  if (inst.bewijs && inst.routesModus !== "uit") {
+    try {
+      stats.bewijsNieuw = bewaarBewijsDocs({ geheugen, bewijs, F });
+    } catch (fout) {
+      log.error(`[prioriteit] Bewijsstukken verwerken mislukte: ${fout.stack || fout.message}`);
+    }
+  }
+
   stats.vergeten = ruimOp(geheugen, nu, F);
   try {
     stats.tekstenOpgeruimd = await ruimTekstenOp(map, vandaag, F);
@@ -198,8 +385,11 @@ async function draaiPrioriteit(opties) {
   } catch (fout) {
     log.error(`[prioriteit] Dekking van het tekstarchief berekenen mislukte: ${fout.message}`);
   }
-  const vingerafdrukken = Object.values(geheugen.docs);
+  // De oude formule kent de bewijsstukken niet: haar cijfers blijven zoals ze waren.
+  const vingerafdrukken = Object.values(geheugen.docs).filter((fp) => !String(fp.k).startsWith("b:"));
   stats.stukken = vingerafdrukken.length;
+  stats.bewijsStukken = Object.keys(geheugen.docs).length - vingerafdrukken.length;
+  const oudAan = inst.modus !== "uit";
 
   // 2. Kandidaten: wat kan rood worden?
   const kandidaten = [];
@@ -270,7 +460,7 @@ async function draaiPrioriteit(opties) {
   const ctx = bouwContext(vingerafdrukken, agendaKoppen, F);
   const gescoord = [];
   let zonderAnker = 0;
-  for (const k of kandidaten) {
+  for (const k of oudAan ? kandidaten : []) {
     const fp = geheugen.docs[k.key];
     const a = fp ? analyseUitVingerafdruk(fp) : analyseer({ kop: k.kop, tekst: "" });
     const vraag = bouwZoekvraag(a, ctx, F);
@@ -301,16 +491,18 @@ async function draaiPrioriteit(opties) {
   const tau = bepaalTau(gescoord.map((k) => k.score.S), F);
 
   // 4. Beslissen
-  const besluit = await beslis({
-    kandidaten: gescoord,
-    tau,
-    geheugen,
-    nu,
-    vandaag,
-    F,
-    aiVeto: inst.ai ? aiVeto : null,
-    log,
-  });
+  const besluit = oudAan
+    ? await beslis({
+        kandidaten: gescoord,
+        tau,
+        geheugen,
+        nu,
+        vandaag,
+        F,
+        aiVeto: inst.ai ? aiVeto : null,
+        log,
+      })
+    : { nieuwRood: [], stats: {} };
   stats.kandidaten = kandidaten.length;
   stats.metAnker = gescoord.length;
   stats.zonderAnker = zonderAnker;
@@ -321,6 +513,60 @@ async function draaiPrioriteit(opties) {
   stats.rood = Object.keys(geheugen.rood).length;
   for (const k of besluit.nieuwRood) {
     log.log(`  ROOD (${inst.modus}) ${k.soort}: ${k.kop.slice(0, 70)} — ${k.reden}`);
+  }
+
+  // 4b. Routes naar rood
+  let routeUit = null;
+  if (inst.routesModus !== "uit") {
+    try {
+      const naam = new Map();
+      for (const r of records) if (r.bronId && r.bronNaam) naam.set(r.bronId, r.bronNaam);
+      for (const it of bewijs) if (it.bron && it.bronNaam) naam.set(it.bron, it.bronNaam);
+      routeUit = await routesStap({
+        geheugen,
+        records,
+        agendaItems,
+        agendaKandidaten: new Set(kandidaten.filter((k) => k.soort === "agenda").map((k) => k.key)),
+        inst,
+        F,
+        nu,
+        aiVerhaal,
+        bronNaam: (id) => naam.get(id) || id,
+        log,
+      });
+      stats.verhalen = routeUit.stats;
+      // AI-controle van het nieuwe route-rood: standaard alleen loggen (ZANP_ROOD_AI_VETO=1: ook tegenhouden).
+      if (aiVeto && inst.ai && routeUit.nieuwRood.length) {
+        try {
+          const items = routeUit.nieuwRood.map((k) => {
+            const b = routeUit.beoordeeld.find((x) => x.id === k.verhaal);
+            return {
+              key: k.key,
+              soort: k.key.startsWith("a:") ? "agenda" : "nieuws",
+              kop: k.kop,
+              ankers: [],
+              reden: k.reden,
+              bewijs: ((b && b.verhaal.leden) || []).slice(-5).map((s) => ({ bron: s.bron, datum: s.fp.datum, titel: s.fp.titel })),
+            };
+          });
+          const antwoord = await aiVeto(items, { maxVerzoeken: inst.routes.aiVerzoekenMax, perVerzoek: inst.routes.aiPerVerzoek });
+          for (const [key, groot] of antwoord) {
+            routeUit.aiVeto[key] = groot;
+            if (groot === false && inst.routesAiVeto) {
+              delete geheugen.routeRood[key];
+              stats.aiVetoTegengehouden = (stats.aiVetoTegengehouden || 0) + 1;
+            }
+          }
+        } catch (fout) {
+          log.error(`[prioriteit] AI-controle van het route-rood mislukte (het rood blijft): ${fout.message}`);
+        }
+      }
+      for (const k of routeUit.nieuwRood) {
+        log.log(`  ROOD-ROUTE (${inst.routesModus}) ${k.key.startsWith("a:") ? "agenda" : "nieuws"}: ${kortLog(k.kop)} — ${k.label}: ${k.reden}`);
+      }
+    } catch (fout) {
+      log.error(`[prioriteit] Routes naar rood mislukten (de oude formule en de rest gaan door): ${fout.stack || fout.message}`);
+    }
   }
 
   // 5. Opslaan
@@ -353,6 +599,16 @@ async function draaiPrioriteit(opties) {
       F,
       formuleNieuw
     );
+    if (routeUit) {
+      await schrijfRoutelog(
+        map,
+        { gegenereerdOp: nu.toISOString(), modus: inst.routesModus, stempel: rStempel, stats: routeUit.stats, verhalen: routeUit.logVerhalen, aiVeto: routeUit.aiVeto },
+        vandaag,
+        routeUit,
+        inst.routes,
+        routesNieuw
+      );
+    }
   } catch (fout) {
     log.error(`[prioriteit] Opslaan mislukte: ${fout.stack || fout.message}`);
   }
@@ -372,18 +628,21 @@ async function draaiPrioriteit(opties) {
     log.error(`[prioriteit] Rood op regel (camera of vragen) mislukte: ${fout.stack || fout.message}`);
   }
 
-  // 6. Kleuren, alleen in modus "aan"
-  if (inst.modus !== "aan") return { records, agendaItems, stats };
+  // 6. Kleuren. Staan de routes op "aan", dan kleuren alleen zij (en de vaste regels); de oude
+  // formule doet dan niet mee. Anders kleurt de oude formule, alleen in modus "aan".
+  const viaRoutes = inst.routesModus === "aan";
+  if (!viaRoutes && inst.modus !== "aan") return { records, agendaItems, stats };
+  const roodBron = viaRoutes ? geheugen.routeRood : geheugen.rood;
   const nieuweRecords = records.map((r) => {
-    const e = geheugen.rood[`n:${r.url}`] || regelRood.get(`n:${r.url}`);
+    const e = roodBron[`n:${r.url}`] || regelRood.get(`n:${r.url}`);
     return e ? { ...r, rood: openbaar(e) } : r;
   });
   const nieuweAgenda = agendaItems.map((i) => {
     const sleutel = `a:${i.id}`;
-    const e = geheugen.rood[sleutel] || geheugen.rood[aliasVan.get(sleutel)];
+    const e = roodBron[sleutel] || roodBron[aliasVan.get(sleutel)];
     return e ? { ...i, rood: openbaar(e) } : i;
   });
   return { records: nieuweRecords, agendaItems: nieuweAgenda, stats };
 }
 
-module.exports = { draaiPrioriteit, leesInstellingen, maakAiVeto };
+module.exports = { draaiPrioriteit, leesInstellingen, maakAiVeto, maakAiVerhaal, mapVan };

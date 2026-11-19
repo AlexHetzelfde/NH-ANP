@@ -27,7 +27,14 @@
 // gehaald. Het criteria-filter, de pitchprompts (beoordeelBerichten,
 // genereerPitches) en de bijbehorende modellen zijn hier verwijderd.
 
-const PROMPT_VERSIE_WIRE = "2026-11-11-batch-kop-tag-checklist-agendapunten";
+// Sinds 2026-11-19: elk nieuwsbericht krijgt een AI-kop. Berichten die tot nu toe nooit langs
+// de AI gingen (moties, schriftelijke vragen, aanbestedingen) krijgen de modus "kop": alleen een
+// kop en het soort bericht. Alle modi met een kop geven ook "soort" (incident, uitkomst,
+// gepland of overig) met een zin uit de bron als bewijs; de routes naar rood
+// (prioriteit/routes.js) gebruiken dat om een incident of een uitkomst te herkennen.
+const PROMPT_VERSIE_WIRE = "2026-11-19-batch-kop-soort-tag-checklist-agendapunten";
+
+const SOORTEN = Object.freeze(["incident", "uitkomst", "gepland", "overig"]);
 
 // ZANP gebruikt alleen "wire", op Flash-Lite met een ruimer quotum.
 const MODELLEN = {
@@ -69,6 +76,9 @@ function parseAntwoord(tekst) {
 //               organisatiebronnen die we mogen herschrijven); geen samenvatting
 //   "analyse"   alleen tag + checklist + agendapunten, GEEN kop en geen tekst
 //               (artikelen van andere redacties en onbekende bronnen)
+//   "kop"       alleen kop + soort, geen tag, checklist of agendapunten (moties,
+//               schriftelijke vragen, aanbestedingen: berichten waarvan de kop
+//               uit de scraper komt en die nooit langs de AI gingen)
 // Alles wat de AI teruggeeft wordt in wire.js gecontroleerd tegen de bron.
 //
 // BATCHES. Het gratis quotum telt VERZOEKEN, geen tokens. Daarom gaan er per
@@ -181,6 +191,15 @@ const CHECKLIST_VOORBEELD = `"checklist": {
     },
     "agendapunten": []`;
 
+// Het soort bericht, met een bewijszin. Geen woordenlijst: de AI leest, de code controleert
+// alleen dat de zin echt in de bron staat (wire.js).
+const SOORT_UITLEG = `SOORT (kies precies één):
+  incident: iets dat nu gebeurt of net gebeurd is en direct aandacht vraagt (ongeval, brand, stroomstoring, ontruiming, vermissing, grote politie-inzet, gewonden).
+  uitkomst: de afloop of de beslissing van iets dat al langer speelde (uitspraak van een rechter, raadsbesluit, stemming, benoeming, aftreden, definitief besluit).
+  gepland: een aankondiging van een vaste, geplande gebeurtenis in de toekomst (zitting, hoorzitting, stemming, opening, evenement).
+  overig: alles anders, ook routine en gewone mededelingen. Twijfel je, kies dan overig.
+SOORTZIN: kopieer bij incident, uitkomst en gepland LETTERLIJK één zin of zinsdeel uit de bron (titel of tekst) die je keuze onderbouwt. Bij overig: een lege tekst "".`;
+
 // De tag (kolom) van een bericht: waar gaat het OVER, niet waar komt het
 // vandaan. tags = [{ code, naam, hint }] uit rubrieken.json (zie tags.js).
 function tagUitleg(tags) {
@@ -206,14 +225,15 @@ ${tekst || "(geen tekst beschikbaar)"}`;
  * bewust verzonnen, zodat het model het niet overneemt.
  */
 function bouwMeldingBatchPrompt(items, modus = "volledig", tags = []) {
-  const volledig = modus !== "analyse";
   const n = items.length;
+  if (modus === "kop") return bouwKopBatchPrompt(items);
+  const volledig = modus !== "analyse";
   const tag = tagUitleg(tags);
   const tagVeld = tag ? `\n      "tag": "<code uit de lijst>",` : "";
 
   const intro = volledig
     ? `Je bent redacteur bij een regionale nieuwsdienst voor Zaanstreek-Waterland, in de stijl van een persbureau: kort, feitelijk en neutraal.
-Hieronder staan ${n} bron(nen). Schrijf voor ELKE bron een kop, kies een prio${tag ? ", een tag" : ""}, vul een checklist in en haal eventuele agendapunten uit de bron. Je schrijft geen samenvatting: de lezer krijgt de volledige tekst van de bron te zien. Behandel elke bron los van de andere: gebruik voor een kop alleen de tekst van die ene bron.
+Hieronder staan ${n} bron(nen). Schrijf voor ELKE bron een kop, kies een prio${tag ? ", een tag" : ""} en het soort bericht, vul een checklist in en haal eventuele agendapunten uit de bron. Je schrijft geen samenvatting: de lezer krijgt de volledige tekst van de bron te zien. Behandel elke bron los van de andere: gebruik voor een kop alleen de tekst van die ene bron.
 
 kop
 Eis: maximaal 14 woorden, tegenwoordige tijd, feitelijk. Noem wie of wat en de kern. Geen vraag, geen aanloktaal, geen uitroepteken.
@@ -241,6 +261,8 @@ Een geheel getal van 2 tot en met 4:
       "nr": 1,
       "kop": "...",
       "prio": 3,${tagVeld}
+      "soort": "overig",
+      "soortZin": "",
       ${CHECKLIST_VOORBEELD}
     }`
     : `    {
@@ -250,7 +272,7 @@ Een geheel getal van 2 tot en met 4:
 
   return `${intro}
 
-${tag ? `${tag}\n\n` : ""}${CHECKLIST_UITLEG}
+${tag ? `${tag}\n\n` : ""}${volledig ? `${SOORT_UITLEG}\n\n` : ""}${CHECKLIST_UITLEG}
 
 ${AGENDAPUNTEN_UITLEG}
 
@@ -266,9 +288,37 @@ ${voorbeeld}
 ${items.map((item, i) => bronBlok(item, i + 1)).join("\n\n")}`;
 }
 
-// Geeft { onvoldoende: true } of { kop, prio, tag, checklist, agendapunten }
+// Modus "kop": alleen een kop en het soort bericht. Voor berichten waarvan de
+// kop uit de scraper komt (moties, schriftelijke vragen, aanbestedingen).
+function bouwKopBatchPrompt(items) {
+  return `Je bent redacteur bij een regionale nieuwsdienst voor Zaanstreek-Waterland, in de stijl van een persbureau: kort, feitelijk en neutraal.
+Hieronder staan ${items.length} bron(nen). Schrijf voor ELKE bron een kop en geef het soort bericht. Behandel elke bron los van de andere: gebruik voor een kop alleen de tekst van die ene bron.
+
+kop
+Eis: maximaal 14 woorden, tegenwoordige tijd, feitelijk. Noem wie of wat en de kern. Geen vraag, geen aanloktaal, geen uitroepteken. Noem een uitkomst (aangenomen, verworpen, beantwoord) alleen als die in de bron staat.
+Voorbeeld: "Gemeenteraad wil extra geld voor onderhoud van de Zaanse bruggen"
+
+${SOORT_UITLEG}
+
+REGELS:
+- Gebruik alleen wat in de bron staat. Staat iets er niet in, laat het dan weg. Verzin geen namen, getallen, data of plaatsen.
+- Neem getallen letterlijk over; reken niets om en tel niets op.
+- Is de brontekst te kort of te onduidelijk voor een kop, antwoord voor die bron dan {"nr": <nummer>, "onvoldoende": true}.
+- Schrijf de kop in correct, helder Nederlands. Gebruik alleen woorden en namen zoals ze in de bron staan of gewone Nederlandse woorden; verzin geen woorden.
+
+Geef ALLEEN geldige JSON terug, geen markdown-fences en geen andere tekst. Precies één object per bron, met het nummer van die bron, in dezelfde volgorde:
+{
+  "resultaten": [
+    { "nr": 1, "kop": "...", "soort": "overig", "soortZin": "" }
+  ]
+}
+
+${items.map((item, i) => bronBlok(item, i + 1)).join("\n\n")}`;
+}
+
+// Geeft { onvoldoende: true } of { kop, prio, tag, checklist, agendapunten, type }
 // terug (modus "analyse": { checklist, agendapunten, tag }), of null bij een
-// onbruikbaar antwoord. Een eventueel meegestuurde "tekst" wordt genegeerd. Checklist, agendapunten en tag
+// onbruikbaar antwoord (modus "kop": { kop, type }). Een eventueel meegestuurde "tekst" wordt genegeerd. Checklist, agendapunten en tag
 // gaan ongecontroleerd door; wire.js controleert ze tegen de bron en de lijst.
 function valideerMelding(data, modus = "volledig") {
   if (!data || typeof data !== "object") return null;
@@ -286,6 +336,12 @@ function valideerMelding(data, modus = "volledig") {
   if (typeof data.kop !== "string" || !data.kop.trim()) return null;
   const kop = data.kop.trim();
   if (kop.length > 160) return null;
+  // Het soort: een onbekende waarde of een ontbrekende zin geeft geen soort (wire.js
+  // controleert daarna of de zin in de bron staat).
+  const soort = typeof data.soort === "string" ? data.soort.trim().toLowerCase() : "";
+  const soortZin = typeof data.soortZin === "string" ? data.soortZin.trim().slice(0, 400) : "";
+  const type = SOORTEN.includes(soort) ? { soort, zin: soortZin } : null;
+  if (modus === "kop") return { kop, type };
   const prio = Number(data.prio);
   return {
     kop,
@@ -293,6 +349,7 @@ function valideerMelding(data, modus = "volledig") {
     tag,
     checklist,
     agendapunten,
+    type,
   };
 }
 
@@ -301,9 +358,9 @@ function valideerMelding(data, modus = "volledig") {
 // eerste item.
 function maakBatches(items, grootte) {
   const batches = [];
-  const open = { volledig: null, analyse: null };
+  const open = { volledig: null, analyse: null, kop: null };
   for (const item of items) {
-    const modus = item.modus === "analyse" ? "analyse" : "volledig";
+    const modus = item.modus === "analyse" ? "analyse" : item.modus === "kop" ? "kop" : "volledig";
     let batch = open[modus];
     if (!batch) {
       batch = { modus, items: [] };
@@ -490,6 +547,8 @@ module.exports = {
   BATCH_GROOTTE,
   ZELFDE_PER_VERZOEK,
   bouwMeldingBatchPrompt,
+  bouwKopBatchPrompt,
+  SOORTEN,
   bouwZelfdeBatchPrompt,
   maakBatches,
   valideerMelding,

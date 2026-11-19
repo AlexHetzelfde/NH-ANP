@@ -63,6 +63,7 @@ const jubileum = require("./jubileum");
 const bronRood = require("./bron-rood");
 const dossiers = require("./dossiers");
 const spelling = require("./spelling");
+const bewijsModule = require("./bewijs");
 
 // ZANP-prioriteit (2026-11-04): agenda-items en berichten rood kleuren als een
 // onderwerp groot leeft. Staat in scraper/prioriteit/. Een fout bij het laden
@@ -800,8 +801,45 @@ async function draai(deps = {}) {
               },
             })
           : null;
+      // Bewijsstukken van Rodi en Zaanstad.nieuws (bewijs-bronnen.js): alleen als aandachtsbewijs voor
+      // de routes naar rood, nooit nieuws of agenda. Een fout hier stopt niets.
+      let bewijsItems = [];
+      const prioInst = prioriteit.leesInstellingen(env);
+      if (prioInst.bewijs && prioInst.routesModus !== "uit") {
+        try {
+          const bewijsMap = prioriteit.mapVan(env);
+          const { staat, voor } = await bewijsModule.leesBewijsStaat(bewijsMap);
+          const b = await bewijsModule.haalBewijs({ staat, nu });
+          await bewijsModule.schrijfBewijsStaat(bewijsMap, b.staat, voor);
+          bewijsItems = b.items;
+          samenvatting.bewijs = b.stats;
+          console.log(`Bewijsbronnen: ${JSON.stringify(b.stats)}`);
+        } catch (fout) {
+          console.error(`Bewijsbronnen ophalen mislukte (de routes rekenen met wat al bewaard is): ${fout.stack || fout.message}`);
+        }
+      }
+      // De AI helpt bij het indelen van losse stukken in verhalen. Het quotum wordt pas bij de
+      // aanroep bepaald, want de controle hierboven kan er al verzoeken van hebben gebruikt.
+      const aiVerhaal =
+        apiKey && prioriteit.maakAiVerhaal && !(status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu)
+          ? (invoer, o) =>
+              prioriteit.maakAiVerhaal({
+                roep: roepGeminiWire,
+                apiKey,
+                ruimte: Math.max(0, inst.dagcap - status.gemini.gebruikt),
+                telVerzoeken: (n) => {
+                  status.gemini.gebruikt += n;
+                  run.verzoeken += n;
+                },
+                bijQuotum: (tekst) => {
+                  status.gemini.wachtTot = wachtTotNaQuotum(tekst, nu);
+                },
+              })(invoer, o)
+          : null;
       const uit = await prioriteit.draaiPrioriteit({
         aiVeto,
+        aiVerhaal,
+        bewijs: bewijsItems,
         records,
         agendaItems,
         ruwe,
