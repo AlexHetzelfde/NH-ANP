@@ -26,6 +26,18 @@
 #   ZANP_RUNCAP   AI-aanroepen per run (standaard 25).
 #   ZANP_DOSSIER_MODUS  "log" (standaard: dossiers berekenen en bewaren, maar de
 #                 app toont ze niet), "aan" (tab Dossiers tonen) of "uit".
+#   ZANP_ROOD_ROUTES  Rood volgens het persalarm, met meerdere routes (brekend,
+#                 uitkomst, gepland moment, breed opgepikt): "schaduw" (standaard:
+#                 rekenen en loggen in data/zanp-prioriteit/routelog.json, niets
+#                 kleuren), "aan" (alleen deze routes kleuren; de oude formule
+#                 kleurt dan niets) of "uit".
+#   ZANP_ROOD_AI_VETO  "1": de AI mag een route-rood tegenhouden. Standaard 0: de
+#                 AI-controle wordt alleen gelogd.
+#   ZANP_VERHAAL_AI  "0": de AI helpt niet bij het indelen van losse stukken in
+#                 verhalen. Standaard 1 (alleen met een API-sleutel).
+#   ZANP_BEWIJS   "0": Rodi en Zaanstad.nieuws niet ophalen. Standaard 1. Die twee
+#                 bronnen tellen alleen mee als bewijs van aandacht en komen nooit
+#                 in de nieuwsdienst of de agenda.
 #
 # Handmatig starten kan ook (Actions-tab); kies "alles" om ook de rustige
 # bronnen en agendabronnen te scrapen.
@@ -99,6 +111,11 @@ jobs:
           # Prioriteit (rood kleuren): uit, schaduw of aan. Leeg = schaduw (rekenen en loggen, niets kleuren).
           ZANP_PRIORITEIT_MODUS: ${{ vars.ZANP_PRIORITEIT_MODUS }}
           ZANP_DOSSIER_MODUS: ${{ vars.ZANP_DOSSIER_MODUS }}
+          # Rood volgens het persalarm: leeg = schaduw. Zie de uitleg bovenaan.
+          ZANP_ROOD_ROUTES: ${{ vars.ZANP_ROOD_ROUTES }}
+          ZANP_ROOD_AI_VETO: ${{ vars.ZANP_ROOD_AI_VETO }}
+          ZANP_VERHAAL_AI: ${{ vars.ZANP_VERHAAL_AI }}
+          ZANP_BEWIJS: ${{ vars.ZANP_BEWIJS }}
         run: node zanp.js
 
       # Alleen de eigen bestanden van ZANP, nooit data/*.json: de pitchrun
