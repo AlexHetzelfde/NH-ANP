@@ -1099,6 +1099,7 @@ function renderWireItem(r, kolomCode) {
     <article class="wire-item prioriteit-${prio}${r.rood ? " rood-prio" : ""}${heeftAlert ? ` heeft-alert alert-${r.alert.niveau}` : ""}" data-id="${escapeHtml(r.id)}"${r.rood ? ` title="${escapeHtml(r.rood.reden || "Groot onderwerp")}"` : ""}>
       <div class="title-row">
         <button type="button" class="wire-kop" aria-haspopup="dialog">${isNieuw ? '<span class="nieuw-stip">nieuw</span> ' : ""}${escapeHtml(r.kop)}${r.versie > 1 ? ` <span class="versie-suffix">(${r.versie})</span>` : ""}</button>
+        ${r.rood && r.rood.label ? `<span class="chip chip-rood" title="${escapeHtml(r.rood.reden || "")}">${escapeHtml(r.rood.label)}</span>` : ""}
       </div>
       <dl class="wire-meta">
         <div><dt>tijd</dt><dd>${tijd}</dd></div>
