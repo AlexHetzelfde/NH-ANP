@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T16:00:46.001Z",
+  "gegenereerdOp": "2026-11-19T17:00:48.590Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -787,6 +787,58 @@
       "tagVersie": 2
     },
     {
+      "id": "20986d9d24-v1",
+      "groepId": "20986d9d24",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/wethouder-harrie-van-der-laan-buren-van-saendenborch-niet-bedreigd/",
+      "kop": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 846,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-19T17:00:48.590Z",
+      "gecontroleerdOp": "2026-11-19T17:00:48.590Z",
+      "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
+      "bronLengte": 5390,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": true,
+        "betrokkenen": null,
+        "geldbedragEuro": 12500,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "project Saendenborch op de agenda van het Zaanstad Beraad",
+          "dag": "2026-11-19",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "ee7f407d65"
+      ]
+    },
+    {
       "id": "8f2ea40071-v1",
       "groepId": "8f2ea40071",
       "versie": 1,
@@ -1408,7 +1460,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T14:00:52.522Z",
-      "gecontroleerdOp": "2026-11-19T14:00:52.522Z",
+      "gecontroleerdOp": "2026-11-19T17:00:48.590Z",
       "bronTitel": "BMW rijdt door raam Babypark in Wormerveer",
       "bronLengte": 929,
       "checklist": {

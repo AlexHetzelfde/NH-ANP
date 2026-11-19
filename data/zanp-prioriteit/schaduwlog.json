@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T16:00:46.001Z",
+  "gegenereerdOp": "2026-11-19T17:00:48.590Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -8,18 +8,18 @@
     "ai": true,
     "formule": "v4-22806000",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "vergeten": 1,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 653,
-    "kandidaten": 83,
-    "metAnker": 80,
+    "stukken": 654,
+    "kandidaten": 82,
+    "metAnker": 79,
     "zonderAnker": 3,
     "afgelast": 1,
     "dubbel": 0,
@@ -44,7 +44,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.9,
-      "Kp": 0.52,
+      "Kp": 0.51,
       "n": 2,
       "dagen": 2,
       "bronnen": 2,
@@ -54,8 +54,8 @@
         "evenement",
         "hembrugterrein",
         "zorgpunt",
-        "insprak",
         "initiatief",
+        "insprak",
         "achtergrond",
         "ghijsenlan",
         "hierbij"
@@ -85,7 +85,7 @@
       "Sa": 0.37,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.79,
+      "K": 0.78,
       "Kp": 0.51,
       "n": 1,
       "dagen": 1,
@@ -177,6 +177,39 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
+      "soort": "nieuws",
+      "kop": "Brief aan omwonenden Saendenborch",
+      "S": 0.36,
+      "Sa": 0.36,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.7,
+      "Kp": 0.52,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "saendenborch"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-10-31T23:00:00.000Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
@@ -255,8 +288,8 @@
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/PAS_melders_op_Texel_kunnen_natuurvergunning_aanvragen",
       "soort": "nieuws",
       "kop": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
-      "S": 0.31,
-      "Sa": 0.31,
+      "S": 0.3,
+      "Sa": 0.3,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.36,
@@ -318,8 +351,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.26,
-      "Sa": 0.26,
+      "S": 0.25,
+      "Sa": 0.25,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.69,
@@ -376,8 +409,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/db4ee134-621a-4dda-8024-f831c14dd2da",
       "soort": "nieuws",
       "kop": "Energiebesparingsakkoord 2027-2030",
-      "S": 0.25,
-      "Sa": 0.25,
+      "S": 0.24,
+      "Sa": 0.24,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.77,
@@ -546,44 +579,6 @@
           "c": 0.7,
           "plek": "intro",
           "titel": "Zaanstad Beraad Raadzaal"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kruispunt_Wibautstraat_Thorbeckeweg_N516_in_Zaandam_4_maanden_dicht_wegens_werkzaamheden",
-      "soort": "nieuws",
-      "kop": "Kruispunt Wibautstraat/Thorbeckeweg (N516) in Zaandam 4 maanden dicht wegens werkzaamheden",
-      "S": 0.13,
-      "Sa": 0.13,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.57,
-      "Kp": 0.37,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "wibautstrat",
-        "thorbeckeweg",
-        "kruispunt",
-        "wegen",
-        "n516",
-        "dicht"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-06T23:00:00.000Z",
-          "c": 0.9,
-          "plek": "kop",
-          "titel": "Thorbeckeweg: bouwput wordt eindelijk echte tunnel"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "c": 0.69,
-          "plek": "intro",
-          "titel": "Volgend weekend (13-16 november) Den Uylbrug afgesloten"
         }
       ]
     },
@@ -789,32 +784,6 @@
           "c": 0.89,
           "plek": "kop",
           "titel": "Raadsvergadering: Begroting"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
-      "soort": "nieuws",
-      "kop": "Brief aan omwonenden Saendenborch",
-      "S": 0.06,
-      "Sa": 0.06,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.29,
-      "Kp": 0.2,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "saendenborch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-31T23:00:00.000Z",
-          "c": 0.88,
-          "plek": "kop",
-          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
         }
       ]
     },
@@ -1190,6 +1159,26 @@
       "bronnen": 0,
       "ankers": [
         "werkom"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:daf1d6b222",
+      "soort": "agenda",
+      "kop": "Coverband Back Noise",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "noise",
+        "coverband",
+        "back"
       ],
       "bewijs": []
     }
@@ -3372,6 +3361,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f": {
+        "kop": "Brief aan omwonenden Saendenborch",
+        "S": 0.36,
+        "route": "aanhoudend",
+        "K": 0.7,
+        "n": 2,
+        "bronnen": 1
+      },
       "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/593d6a59-4139-4b53-b3f6-9f52ba69d796": {
         "kop": "Implementatie nieuw metronetwerk en maatregelen",
         "S": 0.33,
@@ -3450,14 +3447,6 @@
         "route": "aanhoudend",
         "K": 0.16,
         "n": 2,
-        "bronnen": 1
-      },
-      "a:a0100eb92c": {
-        "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
-        "S": 0.12,
-        "route": "aanhoudend",
-        "K": 0,
-        "n": 1,
         "bronnen": 1
       }
     }
