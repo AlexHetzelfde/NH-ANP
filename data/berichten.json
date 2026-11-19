@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T19:00:46.890Z",
+  "gegenereerdOp": "2026-11-19T20:00:48.743Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,47 @@
   ],
   "berichten": [
     {
+      "id": "071b337972-v2",
+      "groepId": "071b337972",
+      "versie": 2,
+      "url": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/033800bb-4736-4659-acc0-c408aa3899e0",
+      "kop": "Regioraad neemt motie aan om tarieven openbaar vervoer te verlagen",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-19T20:00:48.743Z",
+      "heeftTijd": true,
+      "woorden": 374,
+      "afgekapt": false,
+      "bronId": "vervoerregio-overzichten",
+      "bronNaam": "Vervoerregio: Overzichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-19T20:00:48.743Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
+      "bronTitel": "Verlaag tarieven OV",
+      "bronLengte": 2419,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Soort: Aangenomen moties."
+      }
+    },
+    {
       "id": "c5005dbdac-v1",
       "groepId": "c5005dbdac",
       "versie": 1,
@@ -500,7 +541,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Eerste bomen voor dorpsbos Ursem",
       "bronLengte": 2026,
       "checklist": {
@@ -538,7 +579,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
       "bronLengte": 1837,
       "checklist": {
@@ -576,7 +617,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
       "bronLengte": 3427,
       "checklist": {
@@ -847,7 +888,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T17:00:48.590Z",
-      "gecontroleerdOp": "2026-11-19T17:00:48.590Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
       "bronLengte": 5390,
       "checklist": {
@@ -1517,7 +1558,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T14:00:52.522Z",
-      "gecontroleerdOp": "2026-11-19T17:00:48.590Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "BMW rijdt door raam Babypark in Wormerveer",
       "bronLengte": 929,
       "checklist": {
@@ -1557,7 +1598,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:50:47.631Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Nieuw Westzaan loopt vertraging op #bouwmarathon",
       "bronLengte": 2145,
       "checklist": {
@@ -1597,7 +1638,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:00:53.705Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 338,
       "checklist": {
@@ -1637,7 +1678,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "bronLengte": 5987,
       "checklist": {
@@ -1677,7 +1718,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "bronLengte": 1233,
       "checklist": {
@@ -1717,7 +1758,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Is meer toezicht in het Damgebied nodig?",
       "bronLengte": 4754,
       "checklist": {
@@ -1757,7 +1798,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T09:00:48.733Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "bronLengte": 5785,
       "checklist": {
@@ -1797,7 +1838,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
@@ -2530,7 +2571,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T07:00:48.202Z",
-      "gecontroleerdOp": "2026-11-19T18:00:43.570Z",
+      "gecontroleerdOp": "2026-11-19T20:00:48.743Z",
       "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "bronLengte": 1237,
       "checklist": {

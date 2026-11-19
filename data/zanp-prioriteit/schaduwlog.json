@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T19:00:46.890Z",
+  "gegenereerdOp": "2026-11-19T20:00:48.743Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -44,7 +44,7 @@
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 12,
-      "aiBanden": 0,
+      "aiBanden": 2,
       "metRoute": 3,
       "nieuwRood": 0,
       "zonderDoel": 0,
@@ -56,8 +56,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
       "soort": "nieuws",
       "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
-      "S": 0.45,
-      "Sa": 0.45,
+      "S": 0.44,
+      "Sa": 0.44,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.9,
@@ -121,6 +121,42 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/9021ddc7-6cd7-4561-89b1-6a77b3c564a3",
+      "soort": "nieuws",
+      "kop": "Kennisgeving wethouder Groenewoud: persbericht warmtenet Krommenie",
+      "S": 0.36,
+      "Sa": 0.36,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.28,
+      "Kp": 0.12,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "groenewoud",
+        "warmtenet",
+        "voruitlopend",
+        "ardgasvrij"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Kennisgeving wethouder Groenewoud: Aanvraag windturbines Westelijk Havengebied"
+        },
+        {
+          "bron": "zaanstad-schriftelijke-vragen",
+          "datum": "2026-11-19T12:00:55.757Z",
+          "c": 0.64,
+          "plek": "intro",
+          "titel": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden"
+        }
+      ]
+    },
+    {
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
@@ -154,42 +190,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/9021ddc7-6cd7-4561-89b1-6a77b3c564a3",
-      "soort": "nieuws",
-      "kop": "Kennisgeving wethouder Groenewoud: persbericht warmtenet Krommenie",
-      "S": 0.36,
-      "Sa": 0.36,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.28,
-      "Kp": 0.12,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "groenewoud",
-        "warmtenet",
-        "voruitlopend",
-        "ardgasvrij"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Kennisgeving wethouder Groenewoud: Aanvraag windturbines Westelijk Havengebied"
-        },
-        {
-          "bron": "zaanstad-schriftelijke-vragen",
-          "datum": "2026-11-19T12:00:55.757Z",
-          "c": 0.64,
-          "plek": "intro",
-          "titel": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden"
         }
       ]
     },
@@ -467,8 +467,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
-      "S": 0.18,
-      "Sa": 0.18,
+      "S": 0.17,
+      "Sa": 0.17,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.77,

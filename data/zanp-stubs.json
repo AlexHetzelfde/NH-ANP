@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T19:00:46.890Z",
+  "bijgewerkt": "2026-11-19T20:00:48.743Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4130,13 +4130,13 @@
     "071b337972": {
       "g": "071b337972",
       "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/033800bb-4736-4659-acc0-c408aa3899e0",
-      "k": "Regioraad aanvaardt motie om tarieven openbaar vervoer te verlagen vanuit verhoging BDU",
+      "k": "Regioraad neemt motie aan om tarieven openbaar vervoer te verlagen",
       "bt": "Verlaag tarieven OV",
       "b": "vervoerregio-overzichten",
       "n": "Vervoerregio: Overzichten (iBabs)",
-      "t": "2026-11-18T23:00:00.000Z",
+      "t": "2026-11-19T20:00:48.743Z",
       "c": null,
-      "r": "VER"
+      "r": "PRV"
     },
     "102617846c": {
       "g": "102617846c",
