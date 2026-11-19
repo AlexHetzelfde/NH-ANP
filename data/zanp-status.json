@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T18:51:16.422Z",
+  "gegenereerdOp": "2026-11-19T19:00:46.890Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -149,7 +149,7 @@
     "wachtTot": null,
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 4
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {},
   "kwaliteit": {
@@ -367,8 +367,8 @@
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 37,
-      "behouden": 158,
+      "bijgewerkt": 0,
+      "behouden": 195,
       "verdwenen": 0,
       "verlopen": 0,
       "uitBerichten": 19,
@@ -378,10 +378,10 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 1,
+      "nieuw": 0,
       "update": 0,
-      "opnieuw": 13,
-      "ongewijzigd": 7,
+      "opnieuw": 0,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -413,7 +413,7 @@
         }
       },
       "nieuw": 0,
-      "artikelen": 5,
+      "artikelen": 0,
       "artikelFouten": 0
     },
     "prioriteit": {
@@ -423,8 +423,8 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 1,
-        "lokaal": 1,
+        "werklijst": 0,
+        "lokaal": 0,
         "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
@@ -452,12 +452,12 @@
       "rood": 3,
       "verhalen": {
         "stukken": 644,
-        "verhalen": 522,
+        "verhalen": 517,
         "metMeerStukken": 65,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 24,
-        "aiBanden": 5,
+        "aiGevraagd": 12,
+        "aiBanden": 0,
         "metRoute": 3,
         "nieuwRood": 0,
         "zonderDoel": 0,
@@ -476,7 +476,7 @@
       "alRood": 19
     },
     "dossiers": {
-      "stubsNieuw": 1,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 377,
       "verhalen": 353,
@@ -489,20 +489,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 0
-    },
-    "kwaliteit": {
-      "verzoeken": 2,
-      "berichten": 14,
-      "ok": 8,
-      "analyseOk": 0,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 6,
-      "overgeslagen": 0,
-      "tagAi": 7,
-      "tagTrefwoord": 0,
-      "tagBron": 1,
-      "tagGeen": 0
     }
   }
 }
