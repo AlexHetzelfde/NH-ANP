@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T14:00:52.522Z",
+  "bijgewerkt": "2026-11-19T15:00:55.523Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3994,6 +3994,149 @@
       "t": "2026-11-19T12:00:55.757Z",
       "c": null,
       "r": "GEM"
+    },
+    "8f2ea40071": {
+      "g": "8f2ea40071",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f1482969-a201-4bdc-9b0d-40a138ea964b",
+      "k": "GEHEIM Voortgang RON ASP I BV",
+      "bt": "",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "6cc22f6e04": {
+      "g": "6cc22f6e04",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
+      "k": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+      "bt": "",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "dc6f35d715": {
+      "g": "dc6f35d715",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/db4ee134-621a-4dda-8024-f831c14dd2da",
+      "k": "Energiebesparingsakkoord 2027-2030",
+      "bt": "",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "520436e6fb": {
+      "g": "520436e6fb",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4ab21e85-09dc-46e4-a7a6-08fb25dba9d9",
+      "k": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
+      "bt": "",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "a478b3fdc7": {
+      "g": "a478b3fdc7",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33ffaf27-3a8c-4395-8c1f-5b302571e308",
+      "k": "Het Mantelzorgkompas is nu verkrijgbaar!",
+      "bt": "",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "07087dfb5b": {
+      "g": "07087dfb5b",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/27efc4b2-8208-4195-a1bd-432f1c8da033",
+      "k": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
+      "bt": "",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "fc8e578bc2": {
+      "g": "fc8e578bc2",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5950d2cb-5396-4073-a381-5ce977a34c40",
+      "k": "Besluit AB l Stichting KCR2",
+      "bt": "",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "ccfd82acb0": {
+      "g": "ccfd82acb0",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/95338186-273d-465a-b47c-7447e48f0f21",
+      "k": "Stichting Arbeidsmigratie Werkt publiceert publicatie over verantwoordelijkheid werkgevers en werknemers",
+      "bt": "publicatie ‘Arbeidsmigratie heeft een gezicht: tien werkgevers en werknemers aan het woord",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "8c325d2762": {
+      "g": "8c325d2762",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8e3dd282-e38b-4d3d-a2e7-c09e46c1bae3",
+      "k": "Inwoner stelt vragen aan gemeenteraad over afnemend winkelaanbod in Zaandam",
+      "bt": "Brief Zaandam bouwt woningen, maar waar blijven de winkels?",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
+    },
+    "52893a72e4": {
+      "g": "52893a72e4",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/30d997a6-7275-4cb1-9c85-a50ff80dac23",
+      "k": "MDL Fonds publiceert nieuwe ranglijst wc-vriendelijkheid bij gemeenten op Wereld WC-dag",
+      "bt": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "c8fbdac0de": {
+      "g": "c8fbdac0de",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/45a11a8e-ecd3-4b5c-887b-57fdfbcd66b4",
+      "k": "Gemeenteraad Gulpen-Wittem aangenomen motie over aanval op politieke ambtsdragers",
+      "bt": "Motie \"een aanval op één is een aanval op allen\"",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "9b0f134139": {
+      "g": "9b0f134139",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/9f5a15ba-0bdf-4ceb-93d8-11aa2a15b504",
+      "k": "Metropoolregio Amsterdam publiceert maandelijks raads- en statenleden bericht voor november 2026",
+      "bt": "Editie 109 - 'MRA Raads- en Statenleden Bericht' (maandelijks) - 17 november 2026",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "071b337972": {
+      "g": "071b337972",
+      "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/033800bb-4736-4659-acc0-c408aa3899e0",
+      "k": "Regioraad aanvaardt motie om tarieven openbaar vervoer te verlagen vanuit verhoging BDU",
+      "bt": "Verlaag tarieven OV",
+      "b": "vervoerregio-overzichten",
+      "n": "Vervoerregio: Overzichten (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-19T14:00:52.522Z",
+  "bijgewerkt": "2026-11-19T15:00:55.523Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -68,6 +68,16 @@
       "aantal": 5,
       "tijd": "2026-11-19T13:00:47.558Z",
       "reden": "te-weinig-bij-elkaar"
+    },
+    "publiceert": {
+      "aantal": 5,
+      "tijd": "2026-11-19T15:00:55.523Z",
+      "reden": "ai-nee"
+    },
+    "woning": {
+      "aantal": 5,
+      "tijd": "2026-11-19T15:00:55.523Z",
+      "reden": "ai-nee"
     }
   }
 }
