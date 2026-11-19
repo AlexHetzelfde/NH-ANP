@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T10:00:45.333Z",
+  "gegenereerdOp": "2026-11-19T11:00:50.515Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -9,17 +9,17 @@
     "formule": "v4-22806000",
     "tekst": {
       "werklijst": 4,
-      "lokaal": 4,
-      "opgehaald": 0,
+      "lokaal": 3,
+      "opgehaald": 1,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "vergeten": 0,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 630,
-    "kandidaten": 67,
-    "metAnker": 64,
+    "stukken": 633,
+    "kandidaten": 68,
+    "metAnker": 65,
     "zonderAnker": 3,
     "afgelast": 1,
     "dubbel": 0,
@@ -35,6 +35,48 @@
     "rood": 3
   },
   "top": [
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
+      "soort": "nieuws",
+      "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
+      "S": 0.46,
+      "Sa": 0.46,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.9,
+      "Kp": 0.52,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "schriftelijk",
+        "hemkad",
+        "evenement",
+        "hembrugterrein",
+        "zorgpunt",
+        "insprak",
+        "initiatief",
+        "achtergrond",
+        "ghijsenlan",
+        "hierbij"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "c": 0.93,
+          "plek": "kop",
+          "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
+        },
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-12T07:50:59.785Z",
+          "c": 0.74,
+          "plek": "intro",
+          "titel": "Zaanstad Beraad"
+        }
+      ]
+    },
     {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
       "soort": "nieuws",
@@ -80,7 +122,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.6,
-      "Kp": 0.36,
+      "Kp": 0.35,
       "n": 2,
       "dagen": 2,
       "bronnen": 1,
@@ -210,6 +252,32 @@
       ]
     },
     {
+      "key": "a:69587e1f80",
+      "soort": "agenda",
+      "kop": "Groot Dictee der Nederlandse Taal",
+      "S": 0.2,
+      "Sa": 0.2,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "dicte"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
@@ -297,41 +365,6 @@
           "c": 1,
           "plek": "kop",
           "titel": "Molens openen ’s avonds hun deuren ter ere van 80 jaar UNESCO"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
-      "soort": "nieuws",
-      "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
-      "S": 0.1,
-      "Sa": 0.1,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.35,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "schriftelijk",
-        "hemkad",
-        "evenement",
-        "hembrugterrein",
-        "zorgpunt",
-        "insprak",
-        "initiatief",
-        "achtergrond",
-        "ghijsenlan",
-        "hierbij"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-12T07:50:59.785Z",
-          "c": 0.75,
-          "plek": "intro",
-          "titel": "Zaanstad Beraad"
         }
       ]
     },
@@ -916,24 +949,6 @@
       "ankers": [
         "latbloeier",
         "high"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:69587e1f80",
-      "soort": "agenda",
-      "kop": "Groot Dictee der Nederlandse Taal",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "dicte"
       ],
       "bewijs": []
     },
@@ -3188,6 +3203,14 @@
         "n": 6,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09": {
+        "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
+        "S": 0.46,
+        "route": "aanhoudend",
+        "K": 0.9,
+        "n": 2,
+        "bronnen": 2
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-3fba32": {
         "kop": "Stroomstoring in Zaandam",
         "S": 0.45,
@@ -3268,19 +3291,19 @@
         "n": 3,
         "bronnen": 1
       },
-      "a:a0100eb92c": {
-        "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
-        "S": 0.12,
+      "a:69587e1f80": {
+        "kop": "Groot Dictee der Nederlandse Taal",
+        "S": 0.2,
         "route": "aanhoudend",
         "K": 0,
         "n": 1,
         "bronnen": 1
       },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09": {
-        "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
-        "S": 0.1,
+      "a:a0100eb92c": {
+        "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
+        "S": 0.12,
         "route": "aanhoudend",
-        "K": 0.35,
+        "K": 0,
         "n": 1,
         "bronnen": 1
       },
@@ -3346,14 +3369,6 @@
         "route": "aanhoudend",
         "K": 0,
         "n": 1,
-        "bronnen": 1
-      },
-      "a:df64e6f44d": {
-        "kop": "Zaanstad Beraad",
-        "S": 0.05,
-        "route": "aanhoudend",
-        "K": 0.13,
-        "n": 2,
         "bronnen": 1
       }
     }

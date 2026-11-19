@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T10:00:45.333Z",
+  "bijgewerkt": "2026-11-19T11:00:50.515Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3961,6 +3961,28 @@
       "t": "2026-11-19T10:00:50.329Z",
       "c": null,
       "r": "112"
+    },
+    "40f03c0acc": {
+      "g": "40f03c0acc",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Eerste_bomen_voor_dorpsbos_Ursem",
+      "k": "Eerste bomen voor dorpsbos Ursem",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-19T11:16:28.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "66568c2e7b": {
+      "g": "66568c2e7b",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_laat_onafhankelijk_onderzoek_doen_naar_Leimuiderbrug",
+      "k": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-19T11:05:37.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
