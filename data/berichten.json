@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T06:00:44.965Z",
+  "gegenereerdOp": "2026-11-19T07:00:48.202Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -457,7 +457,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -495,7 +495,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -533,7 +533,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -571,7 +571,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -1058,6 +1058,44 @@
       "tagVersie": 2
     },
     {
+      "id": "c0221c3b8b-v1",
+      "groepId": "c0221c3b8b",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/schuur-volledig-verwoest-door-brand-in-krommenie-%f0%9f%93%b8%f0%9f%8e%a5/",
+      "kop": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-17T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 196,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-19T07:00:48.202Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
+      "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
+      "bronLengte": 1237,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "e91bd84485-v1",
       "groepId": "e91bd84485",
       "versie": 1,
@@ -1077,7 +1115,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T21:00:47.398Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Vakbonden kondigen stakingen aan in streekvervoer",
       "bronLengte": 1007,
       "checklist": {
@@ -1320,7 +1358,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T17:00:48.287Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Vanaf 13 december rijden sommige Zaanse bussen anders",
       "bronLengte": 2033,
       "checklist": {
@@ -1359,7 +1397,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -1398,7 +1436,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -1437,7 +1475,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -1476,7 +1514,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 332,
       "checklist": {
@@ -1515,7 +1553,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -1554,7 +1592,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
@@ -1593,7 +1631,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T10:00:51.669Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied",
       "bronLengte": 4413,
       "checklist": {
@@ -1632,7 +1670,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T09:00:47.474Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Dit komt aan de Czarinastraat (voormalige Fondue & Fondue) #bouwmarathon",
       "bronLengte": 2957,
       "checklist": {
@@ -1671,7 +1709,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T08:01:00.845Z",
-      "gecontroleerdOp": "2026-11-19T06:00:44.965Z",
+      "gecontroleerdOp": "2026-11-19T07:00:48.202Z",
       "bronTitel": "Roltrappen rollen weer… 🎥",
       "bronLengte": 876,
       "checklist": {
