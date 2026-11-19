@@ -4,6 +4,7 @@
 //  - de statusregel van een verwijderde bron wordt opgeruimd
 //  - de rubrieken-controle kent bronnen.js en zanp-bronnen.js samen
 // Geen echt netwerk: alleen een lokale testserver op dit apparaat.
+process.env.ZANP_AI_PAUZE_MS = "0"; // de 503-test hieronder mag niet echt wachten op herpogingen
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("fs");
