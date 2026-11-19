@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T07:00:48.202Z",
+  "bijgewerkt": "2026-11-19T08:00:46.100Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3884,6 +3884,39 @@
       "t": "2026-11-17T23:00:00.000Z",
       "c": null,
       "r": "GEM"
+    },
+    "46043b15da": {
+      "g": "46043b15da",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-19-02b4fa",
+      "k": "Stroomstoring in Assendelft",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T07:42:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "8d92927d3f": {
+      "g": "8d92927d3f",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-19-66c8e3",
+      "k": "Stroomstoring in Zaandijk",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T07:24:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "972947fb0b": {
+      "g": "972947fb0b",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-19-786546",
+      "k": "Stroomstoring in Assendelft",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T07:18:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }
