@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T08:00:46.100Z",
+  "gegenereerdOp": "2026-11-19T09:00:48.733Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "0c58d5c3cb-v1",
+      "groepId": "0c58d5c3cb",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-19-0c3217",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T09:00:52.530Z",
+      "heeftTijd": true,
+      "woorden": 16,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 130,
+      "rood": {
+        "sinds": "2026-11-19T09:00:48.733Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "46043b15da-v1",
       "groepId": "46043b15da",
       "versie": 1,
@@ -434,7 +465,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "8d92927d3f-v1",
@@ -465,7 +497,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "972947fb0b-v1",
@@ -496,7 +529,46 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "eb6da81aad-v1",
+      "groepId": "eb6da81aad",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/voetbalclub-overstag-buren-blijven-tegen-padelbanen-westzaan/",
+      "kop": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 901,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-19T09:00:48.733Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
+      "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
+      "bronLengte": 5785,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
     },
     {
       "id": "f21f46380f-v1",
@@ -518,7 +590,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
@@ -534,7 +606,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "9f3f6f5233-v1",
@@ -588,7 +661,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -626,7 +699,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -664,7 +737,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -702,7 +775,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -1208,7 +1281,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T07:00:48.202Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "bronLengte": 1237,
       "checklist": {
@@ -1247,7 +1320,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T21:00:47.398Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Vakbonden kondigen stakingen aan in streekvervoer",
       "bronLengte": 1007,
       "checklist": {
@@ -1490,7 +1563,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T17:00:48.287Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Vanaf 13 december rijden sommige Zaanse bussen anders",
       "bronLengte": 2033,
       "checklist": {
@@ -1529,7 +1602,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -1568,7 +1641,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -1607,7 +1680,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -1646,7 +1719,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:00:53.900Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 332,
       "checklist": {
@@ -1685,7 +1758,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Westzaan weer Sint-dorp 🎥",
       "bronLengte": 1753,
       "checklist": {
@@ -1724,7 +1797,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T11:00:49.668Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "Het nieuwe ‘Oud & Nieuw’ in Zaanstad: drones, lichtjes of vuurpijlen?",
       "bronLengte": 5445,
       "checklist": {
@@ -1763,7 +1836,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T10:00:51.669Z",
-      "gecontroleerdOp": "2026-11-19T08:00:46.100Z",
+      "gecontroleerdOp": "2026-11-19T09:00:48.733Z",
       "bronTitel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied",
       "bronLengte": 4413,
       "checklist": {
@@ -13880,44 +13953,6 @@
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
-    },
-    {
-      "id": "bc1aa449b0-v1",
-      "groepId": "bc1aa449b0",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Oog_voor_verbinding_tijdens_ambtsbezoek_aan_gemeente_Zaanstad",
-      "kop": "Commissaris van de Koning Arthur van Dijk brengt ambtsbezoek aan Zaanstad",
-      "tekst": "Commissaris van de Koning Arthur van Dijk heeft op 4 november een ambtsbezoek gebracht aan de gemeente Zaanstad. Hij werd in Krommeniedijk ontvangen door burgemeester Jan Hamming voor gesprekken over onder meer bestuurskracht, regionale samenwerking en de financiële opgaven. Daarnaast sprak Van Dijk met inwoners, maatschappelijke organisaties en de gemeenteraad over sociale verbinding en leefbaarheid.",
-      "rubriek": "GEM",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-05T08:59:23.000Z",
-      "heeftTijd": true,
-      "woorden": 747,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-05T10:01:01.472Z",
-      "gecontroleerdOp": "2026-11-06T09:00:53.862Z",
-      "bronTitel": "Oog voor verbinding tijdens ambtsbezoek aan gemeente Zaanstad",
-      "bronLengte": 4992,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
       },
       "checklistBron": "ai",
       "tagVersie": 2
