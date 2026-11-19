@@ -1,15 +1,15 @@
 {
-  "gegenereerdOp": "2026-11-19T21:23:26.148Z",
+  "gegenereerdOp": "2026-11-19T22:00:44.304Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 644,
-    "verhalen": 516,
-    "metMeerStukken": 66,
+    "stukken": 632,
+    "verhalen": 514,
+    "metMeerStukken": 64,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
-    "aiBanden": 0,
+    "aiGevraagd": 2,
+    "aiBanden": 2,
     "metRoute": 3,
     "nieuwRood": 0,
     "zonderDoel": 0,
@@ -124,39 +124,46 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/russische-buurt-voert-actie-laat-de-poller-omhoog/",
-      "kop": "Russische Buurt voert actie: ‘Laat de poller omhoog’",
+      "id": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
+      "kop": "Bezwaren tegen verdwijnen poller stapelen zich op",
       "meting": {
-        "stukken": 4,
+        "stukken": 5,
         "media": 2,
         "mediaStukken": 4,
         "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 4,
-        "eerste": "2026-10-20T22:00:00.000Z",
+        "onafhankelijk": 3,
+        "dagen": 5,
+        "eerste": "2026-10-21T22:00:00.000Z",
         "laatste": "2026-11-19T08:00:00.000Z"
       },
       "routes": [
         {
           "route": "vervolg",
-          "reden": "Vervolg: verhaal van 29 dagen met stukken op 4 dagen en een nieuw stuk",
+          "reden": "Vervolg: verhaal van 28 dagen met stukken op 5 dagen en een nieuw stuk",
           "doel": null
         }
       ],
       "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/russische-buurt-voert-actie-laat-de-poller-omhoog/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-20T22:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt voert actie: ‘Laat de poller omhoog’"
-        },
         {
           "k": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
           "bron": "DeOrkaan",
           "datum": "2026-10-21T22:00:00.000Z",
           "type": null,
           "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-22T22:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Daar is-ie weer: poller meegepakt"
         },
         {
           "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
@@ -222,44 +229,6 @@
           "datum": "2026-11-19T12:00:53.705Z",
           "type": "incident",
           "titel": "Stroomstoring in Oostzaan"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/ov-staking-voorlopig-van-de-baan/",
-      "kop": "OV-staking voorlopig van de baan",
-      "meting": {
-        "stukken": 3,
-        "media": 2,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 3,
-        "eerste": "2026-10-20T22:00:00.000Z",
-        "laatste": "2026-11-18T15:17:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/ov-staking-voorlopig-van-de-baan/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-20T22:00:00.000Z",
-          "type": null,
-          "titel": "OV-staking voorlopig van de baan"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-17T23:00:00.000Z",
-          "type": null,
-          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-18T15:17:00.000Z",
-          "type": null,
-          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
         }
       ]
     },
@@ -398,6 +367,37 @@
           "datum": "2026-11-18T09:10:00.000Z",
           "type": null,
           "titel": "Van banketletters tot cadeautasjes: Sinterklaasmuseum in Westzaan too…"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-18T15:17:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": null,
+          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T15:17:00.000Z",
+          "type": null,
+          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
         }
       ]
     },
