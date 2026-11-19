@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-19T12:50:47.631Z",
+  "bijgewerkt": "2026-11-19T13:00:47.558Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -53,6 +53,21 @@
       "aantal": 6,
       "tijd": "2026-11-19T12:50:47.631Z",
       "reden": "ai-nee"
+    },
+    "bomen": {
+      "aantal": 5,
+      "tijd": "2026-11-19T13:00:47.558Z",
+      "reden": "ai-nee"
+    },
+    "extra": {
+      "aantal": 5,
+      "tijd": "2026-11-19T13:00:47.558Z",
+      "reden": "ai-nee"
+    },
+    "schan": {
+      "aantal": 5,
+      "tijd": "2026-11-19T13:00:47.558Z",
+      "reden": "te-weinig-bij-elkaar"
     }
   }
 }
