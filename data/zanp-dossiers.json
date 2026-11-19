@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-19T12:00:53.705Z",
+  "bijgewerkt": "2026-11-19T12:50:47.631Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -35,13 +35,23 @@
       "reden": "ai-nee"
     },
     "vragen": {
-      "aantal": 5,
-      "tijd": "2026-11-13T21:54:23.050Z",
+      "aantal": 9,
+      "tijd": "2026-11-19T12:50:47.631Z",
       "reden": "te-weinig-bij-elkaar"
     },
     "bouwmarathon": {
       "aantal": 5,
       "tijd": "2026-11-14T16:05:59.095Z",
+      "reden": "ai-nee"
+    },
+    "stroomstoring": {
+      "aantal": 16,
+      "tijd": "2026-11-19T12:50:47.631Z",
+      "reden": "ai-nee"
+    },
+    "schriftelijk": {
+      "aantal": 6,
+      "tijd": "2026-11-19T12:50:47.631Z",
       "reden": "ai-nee"
     }
   }

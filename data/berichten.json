@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T12:00:53.705Z",
+  "gegenereerdOp": "2026-11-19T12:50:47.631Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -445,7 +445,8 @@
         "portefeuillehouders": [
           "Groenewoud, S."
         ]
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "ee3b4f991e-v2",
@@ -476,17 +477,18 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "40f03c0acc-v1",
       "groepId": "40f03c0acc",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Eerste_bomen_voor_dorpsbos_Ursem",
-      "kop": "Eerste bomen voor dorpsbos Ursem",
+      "kop": "Ursem krijgt nieuw dorpsbos met subsidie van provincie en gemeente",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-19T11:16:28.000Z",
@@ -495,10 +497,10 @@
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Eerste bomen voor dorpsbos Ursem",
       "bronLengte": 2026,
       "checklist": {
@@ -509,11 +511,11 @@
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
         "betrokkenen": null,
-        "geldbedragEuro": 800000,
+        "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -521,22 +523,22 @@
       "groepId": "66568c2e7b",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_laat_onafhankelijk_onderzoek_doen_naar_Leimuiderbrug",
-      "kop": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
+      "kop": "Provincie laat onafhankelijk onderzoek doen naar functioneren Leimuiderbrug",
       "tekst": null,
-      "rubriek": "PRV",
-      "tagBron": "trefwoord",
+      "rubriek": "VER",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 3,
+      "prio": 2,
       "tijd": "2026-11-19T11:05:37.000Z",
       "heeftTijd": true,
       "woorden": 270,
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
       "bronLengte": 1837,
       "checklist": {
@@ -551,7 +553,7 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -559,22 +561,22 @@
       "groepId": "a32ccfa762",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer",
-      "kop": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
+      "kop": "Commissaris van de Koning Arthur van Dijk brengt ambtsbezoek aan Opmeer",
       "tekst": null,
       "rubriek": "GEM",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 3,
+      "prio": 4,
       "tijd": "2026-11-19T10:10:15.000Z",
       "heeftTijd": true,
       "woorden": 509,
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
       "bronLengte": 3427,
       "checklist": {
@@ -589,7 +591,7 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -785,6 +787,45 @@
       "tagVersie": 2
     },
     {
+      "id": "61c8034995-v1",
+      "groepId": "61c8034995",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/nieuw-westzaan-loopt-vertraging-op-bouwmarathon/",
+      "kop": "Nieuw Westzaan loopt vertraging op #bouwmarathon",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 351,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-19T12:50:47.631Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
+      "bronTitel": "Nieuw Westzaan loopt vertraging op #bouwmarathon",
+      "bronLengte": 2145,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "93b264591a-v1",
       "groepId": "93b264591a",
       "versie": 1,
@@ -802,9 +843,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:00:53.705Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 338,
       "checklist": {
@@ -819,8 +860,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "alleenAgenda": true
+      "checklistBron": "ai",
+      "alleenAgenda": true,
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "2375983246-v1",
@@ -829,8 +872,8 @@
       "url": "https://www.deorkaan.nl/cda-dz-kan-je-feesten-en-wonen-op-hembrugterrein/",
       "kop": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "tekst": null,
-      "rubriek": "WON",
-      "tagBron": "trefwoord",
+      "rubriek": "GEM",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -840,9 +883,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "bronLengte": 5987,
       "checklist": {
@@ -850,16 +893,17 @@
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
+        "besluitMetGrootGevolg": true,
         "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": 30000,
+        "betrokkenen": 300000,
+        "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "23e4e169c0-v1",
@@ -868,8 +912,8 @@
       "url": "https://www.deorkaan.nl/waarheen-groot-dictee-bel-canto-operette-blues-aan-de-zaan/",
       "kop": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "CUL",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -879,9 +923,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "bronLengte": 1233,
       "checklist": {
@@ -896,9 +940,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "fec0b4898e-v1",
@@ -907,8 +952,8 @@
       "url": "https://www.deorkaan.nl/is-meer-toezicht-in-het-damgebied-nodig/",
       "kop": "Is meer toezicht in het Damgebied nodig?",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "GEM",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -918,9 +963,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Is meer toezicht in het Damgebied nodig?",
       "bronLengte": 4754,
       "checklist": {
@@ -928,16 +973,17 @@
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
+        "besluitMetGrootGevolg": true,
         "tijdkritisch": false,
         "betrokkenen": null,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "eb6da81aad-v1",
@@ -947,7 +993,7 @@
       "kop": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "tekst": null,
       "rubriek": "SPO",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -957,9 +1003,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T09:00:48.733Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "bronLengte": 5785,
       "checklist": {
@@ -974,9 +1020,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "f21f46380f-v1",
@@ -985,8 +1032,8 @@
       "url": "https://www.deorkaan.nl/lijntrekken-op-de-dorpsstraat-assendelft/",
       "kop": "Lijntrekken op de Dorpsstraat, Assendelft",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "VER",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -996,9 +1043,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
@@ -1013,9 +1060,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "9f3f6f5233-v1",
@@ -1054,22 +1102,22 @@
       "groepId": "a2ba122ae1",
       "versie": 2,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/PAS_melders_op_Texel_kunnen_natuurvergunning_aanvragen",
-      "kop": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
+      "kop": "PAS-melders op Texel kunnen weer natuurvergunning aanvragen",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 3,
+      "prio": 2,
       "tijd": "2026-11-18T15:00:52.109Z",
       "heeftTijd": true,
       "woorden": 820,
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -1077,14 +1125,14 @@
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
+        "besluitMetGrootGevolg": true,
         "tijdkritisch": false,
         "betrokkenen": null,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -1092,10 +1140,10 @@
       "groepId": "54b8f687c7",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Begroting_2027_afronden_en_doorbouwen",
-      "kop": "Begroting 2027: afronden en doorbouwen",
+      "kop": "Provincie Noord-Holland stelt begroting voor 2027 vast",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "trefwoord",
+      "rubriek": "PRV",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-18T14:24:57.000Z",
@@ -1104,10 +1152,10 @@
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -1115,14 +1163,14 @@
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
+        "besluitMetGrootGevolg": true,
         "tijdkritisch": false,
         "betrokkenen": null,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -1130,10 +1178,10 @@
       "groepId": "29057ede33",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_sluit_energiebesparingsakkoord_4_miljoen_extra_voor_toezicht_en_handhaving",
-      "kop": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
+      "kop": "Noord-Holland sluit energiebesparingsakkoord en stelt 4 miljoen euro beschikbaar",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-18T14:08:38.000Z",
@@ -1142,10 +1190,10 @@
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -1155,12 +1203,12 @@
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
-        "betrokkenen": null,
+        "betrokkenen": 15000,
         "geldbedragEuro": 4000000,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -1168,10 +1216,10 @@
       "groepId": "96c48d4a58",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Zo_brengen_natuurherstel_en_samenwerking_vergunningen_op_Texel_dichterbij",
-      "kop": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
+      "kop": "Natuurherstel en samenwerking brengen vergunningen op Texel dichterbij",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-18T13:41:48.000Z",
@@ -1180,10 +1228,10 @@
       "afgekapt": true,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": null,
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -1198,7 +1246,7 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2
     },
     {
@@ -1677,7 +1725,7 @@
       "kop": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "tekst": null,
       "rubriek": "112",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -1687,13 +1735,13 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T07:00:48.202Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "bronLengte": 1237,
       "checklist": {
-        "gevaar": false,
+        "gevaar": true,
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
@@ -1704,9 +1752,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "e91bd84485-v1",
@@ -1715,8 +1764,8 @@
       "url": "https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
       "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "BED",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -1726,9 +1775,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-18T21:00:47.398Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Vakbonden kondigen stakingen aan in streekvervoer",
       "bronLengte": 1007,
       "checklist": {
@@ -1743,9 +1792,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "5928e04c7b-v1",
@@ -2008,9 +2058,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -2025,9 +2075,10 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "4f787b683c-v1",
@@ -2036,8 +2087,8 @@
       "url": "https://www.deorkaan.nl/zaanse-vissers-mogen-lood-blijven-gebruiken-gemeente-mist-deadline-voor-verbod/",
       "kop": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "trefwoord",
+      "rubriek": "PRV",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -2047,9 +2098,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -2059,14 +2110,15 @@
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
-        "betrokkenen": null,
+        "betrokkenen": 4800,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "04e803f0d3-v1",
@@ -2075,8 +2127,8 @@
       "url": "https://www.deorkaan.nl/zozan-edjer-tijdelijk-fractievoorzitter-pro-zaanstad/",
       "kop": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "tekst": null,
-      "rubriek": "ALG",
-      "tagBron": "geen",
+      "rubriek": "GEM",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -2086,9 +2138,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": null,
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:50:47.631Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -2103,9 +2155,23 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "agendapunten": [
+        {
+          "titel": "Raadsvergadering met installatie tijdelijk raadslid",
+          "dag": "2026-11-26",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "agendaIds": [
+        "4ccd0d09b0"
+      ]
     },
     {
       "id": "b7644a7add-v1",
