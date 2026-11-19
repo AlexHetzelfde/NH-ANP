@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T18:00:43.570Z",
+  "gegenereerdOp": "2026-11-19T18:51:16.422Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -787,6 +787,46 @@
       "tagVersie": 2
     },
     {
+      "id": "102617846c-v1",
+      "groepId": "102617846c",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
+      "kop": "Inwoner dient schriftelijke inspraak in over project Saendenborch",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 2178,
+      "afgekapt": true,
+      "bronId": "ibabs-ingekomen-stukken",
+      "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "bronTitel": "Schriftelijke inspraak Saendenborch (Engels)",
+      "bronLengte": 15027,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "20986d9d24-v1",
       "groepId": "20986d9d24",
       "versie": 1,
@@ -859,7 +899,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "GEHEIM Voortgang RON ASP I BV",
       "bronLengte": 108,
       "checklist": {
@@ -897,7 +937,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
       "bronLengte": 8611,
       "checklist": {
@@ -935,7 +975,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Energiebesparingsakkoord 2027-2030",
       "bronLengte": 11692,
       "checklist": {
@@ -965,22 +1005,22 @@
       "groepId": "520436e6fb",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4ab21e85-09dc-46e4-a7a6-08fb25dba9d9",
-      "kop": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
+      "kop": "Regionale raadsledenbijeenkomst Zaanstreek-Waterland bespreekt NOVEX-MRA",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "bron",
+      "rubriek": "PRV",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 4,
+      "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
       "heeftTijd": false,
       "woorden": 611,
       "afgekapt": false,
       "bronId": "ibabs-ingekomen-stukken",
       "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
       "bronLengte": 4636,
       "checklist": {
@@ -995,15 +1035,19 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "gepland",
+        "zin": "Regionale Raadledenbijeenkomst Zaanstreek-Waterland, 18 november 2026"
+      }
     },
     {
       "id": "a478b3fdc7-v1",
       "groepId": "a478b3fdc7",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33ffaf27-3a8c-4395-8c1f-5b302571e308",
-      "kop": "Het Mantelzorgkompas is nu verkrijgbaar!",
+      "kop": "FC Klap brengt Mantelzorgkompas uit voor mantelzorgers",
       "tekst": null,
       "rubriek": "GEM",
       "tagBron": "bron",
@@ -1015,10 +1059,10 @@
       "afgekapt": false,
       "bronId": "ibabs-ingekomen-stukken",
       "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Het Mantelzorgkompas is nu verkrijgbaar!",
       "bronLengte": 2969,
       "checklist": {
@@ -1029,22 +1073,25 @@
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
         "betrokkenen": null,
-        "geldbedragEuro": 17,
+        "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "07087dfb5b-v1",
       "groepId": "07087dfb5b",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/27efc4b2-8208-4195-a1bd-432f1c8da033",
-      "kop": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
+      "kop": "De Corner kondigt VrijMiBo aan",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "bron",
+      "rubriek": "BED",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 4,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -1053,10 +1100,10 @@
       "afgekapt": false,
       "bronId": "ibabs-ingekomen-stukken",
       "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
       "bronLengte": 221,
       "checklist": {
@@ -1071,18 +1118,22 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "gepland",
+        "zin": "Nog 1 week tot De Corner VrijMiBo"
+      }
     },
     {
       "id": "fc8e578bc2-v1",
       "groepId": "fc8e578bc2",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5950d2cb-5396-4073-a381-5ce977a34c40",
-      "kop": "Besluit AB l Stichting KCR2",
+      "kop": "Veiligheidsregio informeert gemeenteraden over definitieve besluitvorming oprichting stichting KCR2",
       "tekst": null,
       "rubriek": "GEM",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 4,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -1091,10 +1142,10 @@
       "afgekapt": false,
       "bronId": "ibabs-ingekomen-stukken",
       "bronNaam": "Zaanstad — Ingekomen stukken (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Besluit AB l Stichting KCR2",
       "bronLengte": 4783,
       "checklist": {
@@ -1109,8 +1160,12 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Met deze brief informeren wij u over de uitkomst van deze procedure en de wijze waarop het Algemeen Bestuur de ontvangen reacties heeft betrokken bij de definitieve besluitvorming."
+      }
     },
     {
       "id": "ccfd82acb0-v1",
@@ -1132,7 +1187,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "publicatie ‘Arbeidsmigratie heeft een gezicht: tien werkgevers en werknemers aan het woord",
       "bronLengte": 15060,
       "checklist": {
@@ -1170,7 +1225,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Brief Zaandam bouwt woningen, maar waar blijven de winkels?",
       "bronLengte": 3836,
       "checklist": {
@@ -1208,7 +1263,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd",
       "bronLengte": 12453,
       "checklist": {
@@ -1246,7 +1301,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Motie \"een aanval op één is een aanval op allen\"",
       "bronLengte": 2816,
       "checklist": {
@@ -1284,7 +1339,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Editie 109 - 'MRA Raads- en Statenleden Bericht' (maandelijks) - 17 november 2026",
       "bronLengte": 4353,
       "checklist": {
@@ -1343,7 +1398,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T16:00:46.001Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
@@ -1383,7 +1438,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T16:00:46.001Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {
@@ -2418,10 +2473,10 @@
       "groepId": "327b825a61",
       "versie": 1,
       "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536280.html",
-      "kop": "Melding graven bodem - Nabij Botenmakersstraat 105 Zaandam , 4 meter richting noorden",
+      "kop": "Omgevingsdienst ontvangt melding voor graven in bodem nabij Botenmakersstraat in Zaandam",
       "tekst": null,
       "rubriek": "GEM",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 4,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -2430,10 +2485,10 @@
       "afgekapt": false,
       "bronId": "bekendmakingen",
       "bronNaam": "Officiële bekendmakingen — Zaanstad",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Melding graven bodem - Nabij Botenmakersstraat 105 Zaandam , 4 meter richting noorden",
       "bronLengte": 428,
       "checklist": {
@@ -2448,8 +2503,11 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "c0221c3b8b-v1",
@@ -2551,7 +2609,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-18T19:00:47.879Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Kennisgeving Wethouder Van der Laan: Participatieverslag 3 november 2026 TV Westzaan",
       "bronLengte": 1412,
       "checklist": {
@@ -2603,7 +2661,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-18T19:00:47.879Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Besluitenlijst B&W 10-11-2026",
       "bronLengte": 11774,
       "checklist": {
@@ -2641,7 +2699,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-18T19:00:47.879Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Uitvoering Motie vreemd: Geen lood in de sloot",
       "bronLengte": 5569,
       "checklist": {
@@ -2664,10 +2722,10 @@
       "groepId": "9712308ac9",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/80063958-7e5d-4836-b17b-34c083ceea72",
-      "kop": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
+      "kop": "Gemeente Zaanstad stelt parameters 2027 voor erfpacht vast",
       "tekst": null,
-      "rubriek": "BED",
-      "tagBron": "trefwoord",
+      "rubriek": "GEM",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -2676,10 +2734,10 @@
       "afgekapt": true,
       "bronId": "ibabs-collegeberichten",
       "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T19:00:47.879Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
       "bronLengte": 6190,
       "checklist": {
@@ -2690,22 +2748,26 @@
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
         "betrokkenen": null,
-        "geldbedragEuro": 440000,
+        "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "De parameters 2027 voor het omzetten van het recht van erfpacht naar vol eigendom zijn vastgesteld op:"
+      }
     },
     {
       "id": "e835848297-v1",
       "groepId": "e835848297",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/620cdfc3-9c82-4018-ab03-3129661ef80f",
-      "kop": "Aanvragen omgevingsvergunning voor het kappen van bomen voor project POOORT Zaandam Oost",
+      "kop": "College Zaanstad verleent vergunning voor kappen bomen project POOORT",
       "tekst": null,
       "rubriek": "GEM",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-17T23:00:00.000Z",
@@ -2714,10 +2776,10 @@
       "afgekapt": true,
       "bronId": "ibabs-collegeberichten",
       "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-18T19:00:47.879Z",
-      "gecontroleerdOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
       "bronTitel": "Aanvragen omgevingsvergunning voor het kappen van bomen voor project POOORT Zaandam Oost",
       "bronLengte": 7556,
       "checklist": {
@@ -2727,13 +2789,17 @@
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
-        "betrokkenen": 320,
+        "betrokkenen": null,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Het college heeft besloten om beide kapaanvragen te verlenen, om de realisatie van het project de Poort van Zaandam Oost (hierna: POOORT) mogelijk te maken."
+      }
     },
     {
       "id": "f826b26178-v1",

@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T18:00:43.570Z",
+  "bijgewerkt": "2026-11-19T18:51:16.422Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3866,19 +3866,19 @@
     "9712308ac9": {
       "g": "9712308ac9",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/80063958-7e5d-4836-b17b-34c083ceea72",
-      "k": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
-      "bt": "",
+      "k": "Gemeente Zaanstad stelt parameters 2027 voor erfpacht vast",
+      "bt": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-17T23:00:00.000Z",
       "c": null,
-      "r": "BED"
+      "r": "GEM"
     },
     "e835848297": {
       "g": "e835848297",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/620cdfc3-9c82-4018-ab03-3129661ef80f",
-      "k": "Aanvragen omgevingsvergunning voor het kappen van bomen voor project POOORT Zaandam Oost",
-      "bt": "",
+      "k": "College Zaanstad verleent vergunning voor kappen bomen project POOORT",
+      "bt": "Aanvragen omgevingsvergunning voor het kappen van bomen voor project POOORT Zaandam Oost",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-17T23:00:00.000Z",
@@ -4031,19 +4031,19 @@
     "520436e6fb": {
       "g": "520436e6fb",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4ab21e85-09dc-46e4-a7a6-08fb25dba9d9",
-      "k": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
-      "bt": "",
+      "k": "Regionale raadsledenbijeenkomst Zaanstreek-Waterland bespreekt NOVEX-MRA",
+      "bt": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "PRV"
     },
     "a478b3fdc7": {
       "g": "a478b3fdc7",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33ffaf27-3a8c-4395-8c1f-5b302571e308",
-      "k": "Het Mantelzorgkompas is nu verkrijgbaar!",
-      "bt": "",
+      "k": "FC Klap brengt Mantelzorgkompas uit voor mantelzorgers",
+      "bt": "Het Mantelzorgkompas is nu verkrijgbaar!",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
@@ -4053,19 +4053,19 @@
     "07087dfb5b": {
       "g": "07087dfb5b",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/27efc4b2-8208-4195-a1bd-432f1c8da033",
-      "k": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
-      "bt": "",
+      "k": "De Corner kondigt VrijMiBo aan",
+      "bt": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "BED"
     },
     "fc8e578bc2": {
       "g": "fc8e578bc2",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5950d2cb-5396-4073-a381-5ce977a34c40",
-      "k": "Besluit AB l Stichting KCR2",
-      "bt": "",
+      "k": "Veiligheidsregio informeert gemeenteraden over definitieve besluitvorming oprichting stichting KCR2",
+      "bt": "Besluit AB l Stichting KCR2",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
@@ -4137,6 +4137,17 @@
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
       "r": "VER"
+    },
+    "102617846c": {
+      "g": "102617846c",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
+      "k": "Inwoner dient schriftelijke inspraak in over project Saendenborch",
+      "bt": "Schriftelijke inspraak Saendenborch (Engels)",
+      "b": "ibabs-ingekomen-stukken",
+      "n": "Zaanstad — Ingekomen stukken (iBabs)",
+      "t": "2026-11-18T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
     }
   }
 }
