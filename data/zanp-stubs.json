@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-19T11:00:50.515Z",
+  "bijgewerkt": "2026-11-19T12:00:53.705Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3958,7 +3958,7 @@
       "bt": "",
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
-      "t": "2026-11-19T10:00:50.329Z",
+      "t": "2026-11-19T12:00:53.705Z",
       "c": null,
       "r": "112"
     },
@@ -3983,6 +3983,17 @@
       "t": "2026-11-19T11:05:37.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "c5005dbdac": {
+      "g": "c5005dbdac",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6e6d7ec1-c2c8-4e03-a4ef-372db1058e89",
+      "k": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden",
+      "bt": "",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-19T12:00:55.757Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

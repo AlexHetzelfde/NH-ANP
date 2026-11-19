@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T11:00:50.515Z",
+  "gegenereerdOp": "2026-11-19T12:00:53.705Z",
   "promptVersie": "2026-11-11-batch-kop-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,79 @@
   ],
   "berichten": [
     {
+      "id": "c5005dbdac-v1",
+      "groepId": "c5005dbdac",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6e6d7ec1-c2c8-4e03-a4ef-372db1058e89",
+      "kop": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-19T12:00:55.757Z",
+      "heeftTijd": true,
+      "woorden": 2012,
+      "afgekapt": true,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "bronTitel": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden",
+      "bronLengte": 14997,
+      "vraag": {
+        "status": "beantwoord",
+        "nummer": "1025",
+        "onderwerp": "Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden",
+        "datumVraag": "2026-07-31",
+        "datumAntwoord": "2026-11-19",
+        "verwachteAfdoening": "2026-10-02",
+        "raadsleden": [
+          "Rot, Juliette"
+        ],
+        "steunfractieleden": [],
+        "partijen": [
+          "DZ"
+        ],
+        "portefeuillehouders": [
+          "Groenewoud, S."
+        ]
+      }
+    },
+    {
+      "id": "ee3b4f991e-v2",
+      "groepId": "ee3b4f991e",
+      "versie": 2,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
+      "kop": "Stroomstoring in Oostzaan",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T12:00:53.705Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "bronTitel": "Stroomstoring in Oostzaan",
+      "bronLengte": 342,
+      "rood": {
+        "sinds": "2026-11-19T12:00:53.705Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "40f03c0acc-v1",
       "groepId": "40f03c0acc",
       "versie": 1,
@@ -425,7 +498,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Eerste bomen voor dorpsbos Ursem",
       "bronLengte": 2026,
       "checklist": {
@@ -440,7 +513,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "66568c2e7b-v1",
@@ -462,7 +536,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
       "bronLengte": 1837,
       "checklist": {
@@ -477,7 +551,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "a32ccfa762-v1",
@@ -499,7 +574,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
       "bronLengte": 3427,
       "checklist": {
@@ -710,6 +785,44 @@
       "tagVersie": 2
     },
     {
+      "id": "93b264591a-v1",
+      "groepId": "93b264591a",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-19-november-%f0%9f%8e%a7-2/",
+      "kop": "De Orkaan in 2 minuten: 19 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 55,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": null,
+      "eerstGezienOp": "2026-11-19T12:00:53.705Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
+      "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
+      "bronLengte": 338,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "2375983246-v1",
       "groepId": "2375983246",
       "versie": 1,
@@ -729,7 +842,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "bronLengte": 5987,
       "checklist": {
@@ -745,7 +858,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "23e4e169c0-v1",
@@ -767,7 +881,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "bronLengte": 1233,
       "checklist": {
@@ -783,7 +897,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "fec0b4898e-v1",
@@ -805,7 +920,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Is meer toezicht in het Damgebied nodig?",
       "bronLengte": 4754,
       "checklist": {
@@ -844,7 +959,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T09:00:48.733Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "bronLengte": 5785,
       "checklist": {
@@ -883,7 +998,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
@@ -954,7 +1069,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "PAS-melders op Texel kunnen natuurvergunning aanvragen",
       "bronLengte": 5475,
       "checklist": {
@@ -992,7 +1107,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Begroting 2027: afronden en doorbouwen",
       "bronLengte": 1525,
       "checklist": {
@@ -1030,7 +1145,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
       "bronLengte": 2431,
       "checklist": {
@@ -1068,7 +1183,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T14:00:46.005Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
       "bronLengte": 5998,
       "checklist": {
@@ -1574,7 +1689,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-19T07:00:48.202Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Schuur volledig verwoest door brand in Krommenie 📸 🎥",
       "bronLengte": 1237,
       "checklist": {
@@ -1613,7 +1728,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T21:00:47.398Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Vakbonden kondigen stakingen aan in streekvervoer",
       "bronLengte": 1007,
       "checklist": {
@@ -1856,7 +1971,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T17:00:48.287Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Vanaf 13 december rijden sommige Zaanse bussen anders",
       "bronLengte": 2033,
       "checklist": {
@@ -1895,7 +2010,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T16:00:58.809Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Enige brievenbus Oost-Knollendam propvol, schiet de Sint te hulp?",
       "bronLengte": 1690,
       "checklist": {
@@ -1934,7 +2049,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T15:00:52.109Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Zaanse vissers mogen lood blijven gebruiken: gemeente mist deadline voor verbod",
       "bronLengte": 5773,
       "checklist": {
@@ -1973,7 +2088,7 @@
       "ai": false,
       "controle": null,
       "eerstGezienOp": "2026-11-18T12:56:43.772Z",
-      "gecontroleerdOp": "2026-11-19T11:00:50.515Z",
+      "gecontroleerdOp": "2026-11-19T12:00:53.705Z",
       "bronTitel": "Zozan Ejder tijdelijk fractievoorzitter PRO Zaanstad",
       "bronLengte": 912,
       "checklist": {
@@ -14130,44 +14245,6 @@
         "tijdkritisch": false,
         "betrokkenen": null,
         "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
-    },
-    {
-      "id": "633edb0e48-v1",
-      "groepId": "633edb0e48",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/11_5_miljoen_extra_voor_agrarisch_natuurbeheer_gerichte_bescherming_van_Natura_2000_gebieden_en_de_grutto",
-      "kop": "Provincie stelt ruim 11,5 miljoen euro extra beschikbaar voor agrarisch natuurbeheer",
-      "tekst": "Grondeigenaren en terreinbeheerders kunnen extra subsidie aanvragen voor de ontwikkeling en het beheer van natuur op landbouwgrond. Voor de jaren 2027 en 2028 is ruim 11,5 miljoen euro extra beschikbaar gesteld door het Ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur. Het geld wordt ingezet in prioritaire gebieden voor de versterking van boerenlandvogels zoals de grutto en het herstel van Natura 2000-gebieden.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-05T12:00:28.000Z",
-      "heeftTijd": true,
-      "woorden": 270,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-05T12:00:57.086Z",
-      "gecontroleerdOp": "2026-11-06T11:59:05.014Z",
-      "bronTitel": "€11,5 miljoen extra voor agrarisch natuurbeheer: gerichte bescherming van Natura 2000-gebieden en de grutto",
-      "bronLengte": 1917,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": 11500000,
         "banen": null,
         "inRegio": false
       },
