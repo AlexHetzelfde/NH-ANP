@@ -1,79 +1,21 @@
 {
-  "gegenereerdOp": "2026-11-20T07:00:44.586Z",
+  "gegenereerdOp": "2026-11-20T08:00:47.114Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 631,
-    "verhalen": 512,
+    "stukken": 635,
+    "verhalen": 516,
     "metMeerStukken": 64,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
+    "aiGevraagd": 4,
     "aiBanden": 0,
-    "metRoute": 2,
+    "metRoute": 1,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 0
   },
   "verhalen": [
-    {
-      "id": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
-      "kop": "Bezwaren tegen verdwijnen poller stapelen zich op",
-      "meting": {
-        "stukken": 5,
-        "media": 2,
-        "mediaStukken": 4,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 5,
-        "eerste": "2026-10-21T22:00:00.000Z",
-        "laatste": "2026-11-19T08:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 28 dagen met stukken op 5 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-21T22:00:00.000Z",
-          "type": null,
-          "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-10-22T22:00:00.000Z",
-          "type": null,
-          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "type": null,
-          "titel": "Daar is-ie weer: poller meegepakt"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T08:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
-        }
-      ]
-    },
     {
       "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
       "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
@@ -237,6 +179,58 @@
           "datum": "2026-11-18T23:00:00.000Z",
           "type": null,
           "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
+      "kop": "Bezwaren tegen verdwijnen poller stapelen zich op",
+      "meting": {
+        "stukken": 5,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 5,
+        "eerste": "2026-10-21T22:00:00.000Z",
+        "laatste": "2026-11-19T08:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/bezwaren-tegen-verdwijnen-poller-stapelen-zich-op/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-21T22:00:00.000Z",
+          "type": null,
+          "titel": "Bezwaren tegen verdwijnen poller stapelen zich op"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-22T22:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Daar is-ie weer: poller meegepakt"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
         }
       ]
     },

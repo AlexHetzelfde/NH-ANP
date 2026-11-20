@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T07:00:44.586Z",
+  "gegenereerdOp": "2026-11-20T08:00:47.114Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,99 @@
   ],
   "berichten": [
     {
+      "id": "3a4dafcf28-v1",
+      "groepId": "3a4dafcf28",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-20-f99e00",
+      "kop": "Stroomstoring in Zaandijk",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T07:18:00.000Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "bronTitel": "Stroomstoring in Zaandijk",
+      "bronLengte": 337,
+      "rood": {
+        "sinds": "2026-11-20T08:00:47.114Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "70ca1d7b73-v1",
+      "groepId": "70ca1d7b73",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-69b6fe",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T07:00:00.000Z",
+      "heeftTijd": true,
+      "woorden": 50,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 363,
+      "rood": {
+        "sinds": "2026-11-20T08:00:47.114Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "8dcd97ec71-v1",
+      "groepId": "8dcd97ec71",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-20-508113",
+      "kop": "Stroomstoring in Zaandijk",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T07:00:00.000Z",
+      "heeftTijd": true,
+      "woorden": 49,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "bronTitel": "Stroomstoring in Zaandijk",
+      "bronLengte": 365,
+      "rood": {
+        "sinds": "2026-11-20T08:00:47.114Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "90ca5bdb76-v1",
       "groepId": "90ca5bdb76",
       "versie": 1,
@@ -434,7 +527,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "071b337972-v3",
@@ -477,6 +571,45 @@
         "zin": "Soort: Aangenomen moties."
       },
       "tagVersie": 2
+    },
+    {
+      "id": "f5f2ff9f7f-v1",
+      "groepId": "f5f2ff9f7f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/waarheen-doe-maar-hans-en-candy-dulfer-pieter-jouke-%f0%9f%8e%99/",
+      "kop": "Waarheen: Doe Maar, Hans en Candy Dulfer, Pieter Jouke 🎙",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 195,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "bronTitel": "Waarheen: Doe Maar, Hans en Candy Dulfer, Pieter Jouke 🎙",
+      "bronLengte": 1157,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "fdc48e0b2d-v1",
@@ -983,7 +1116,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "9b1f0250f9"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "102617846c-v1",
@@ -1598,7 +1732,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T05:00:46.878Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
@@ -1638,7 +1772,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T05:00:46.878Z",
+      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {
