@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T11:20:55.650Z",
+  "gegenereerdOp": "2026-11-20T12:04:16.376Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -595,7 +595,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-20T09:00:48.422Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 317,
       "rood": {
@@ -755,7 +755,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T23:00:44.960Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Verlaag tarieven OV",
       "bronLengte": 4827,
       "checklist": {
@@ -776,6 +776,45 @@
         "zin": "Soort: Aangenomen moties."
       },
       "tagVersie": 2
+    },
+    {
+      "id": "f957cdf0fd-v1",
+      "groepId": "f957cdf0fd",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-20-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 20 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 55,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "bronTitel": "De Orkaan in 2 minuten: 20 november 🎧",
+      "bronLengte": 326,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "904b64ceaa-v1",
@@ -877,7 +916,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T10:00:54.788Z",
-      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans",
       "bronLengte": 5995,
       "checklist": {
@@ -917,7 +956,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T09:00:48.422Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade",
       "bronLengte": 2972,
       "checklist": {
@@ -970,7 +1009,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T08:00:47.114Z",
-      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Waarheen: Doe Maar, Hans en Candy Dulfer, Pieter Jouke 🎙",
       "bronLengte": 1157,
       "checklist": {
@@ -1497,7 +1536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T07:00:44.586Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Streep door GTA VI en weer de pleintjes op: “Wij zetten de eerste stap”⚽️🎙",
       "bronLengte": 1088,
       "checklist": {
@@ -1591,7 +1630,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T17:00:48.590Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
       "bronLengte": 5390,
       "checklist": {
@@ -2143,7 +2182,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
@@ -2183,7 +2222,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {
@@ -2261,7 +2300,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T14:00:52.522Z",
-      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
       "bronTitel": "BMW rijdt door raam Babypark in Wormerveer",
       "bronLengte": 929,
       "checklist": {
