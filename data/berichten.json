@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T03:00:49.817Z",
+  "gegenereerdOp": "2026-11-20T04:00:44.019Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T23:00:44.960Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Verlaag tarieven OV",
       "bronLengte": 4827,
       "checklist": {
@@ -616,7 +616,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Eerste bomen voor dorpsbos Ursem",
       "bronLengte": 2026,
       "checklist": {
@@ -654,7 +654,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
       "bronLengte": 1837,
       "checklist": {
@@ -692,7 +692,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
       "bronLengte": 3427,
       "checklist": {
@@ -963,7 +963,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T17:00:48.590Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
       "bronLengte": 5390,
       "checklist": {
@@ -1633,7 +1633,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T14:00:52.522Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "BMW rijdt door raam Babypark in Wormerveer",
       "bronLengte": 929,
       "checklist": {
@@ -1673,7 +1673,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:50:47.631Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Nieuw Westzaan loopt vertraging op #bouwmarathon",
       "bronLengte": 2145,
       "checklist": {
@@ -1713,7 +1713,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:00:53.705Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 338,
       "checklist": {
@@ -1753,7 +1753,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "bronLengte": 5987,
       "checklist": {
@@ -1793,7 +1793,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "bronLengte": 1233,
       "checklist": {
@@ -1833,7 +1833,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Is meer toezicht in het Damgebied nodig?",
       "bronLengte": 4754,
       "checklist": {
@@ -1873,7 +1873,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T09:00:48.733Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Voetbalclub overstag, buren blijven tegen padelbanen Westzaan",
       "bronLengte": 5785,
       "checklist": {
@@ -1913,7 +1913,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T08:00:46.100Z",
-      "gecontroleerdOp": "2026-11-20T01:00:46.400Z",
+      "gecontroleerdOp": "2026-11-20T04:00:44.019Z",
       "bronTitel": "Lijntrekken op de Dorpsstraat, Assendelft",
       "bronLengte": 1327,
       "checklist": {
