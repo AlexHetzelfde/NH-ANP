@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-20T14:01:04.791Z",
+  "gegenereerdOp": "2026-11-20T15:00:50.406Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 655,
-    "verhalen": 521,
-    "metMeerStukken": 72,
+    "stukken": 659,
+    "verhalen": 522,
+    "metMeerStukken": 73,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
+    "aiGevraagd": 2,
     "aiBanden": 0,
     "metRoute": 4,
     "nieuwRood": 0,
@@ -133,6 +133,57 @@
       ]
     },
     {
+      "id": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
+      "kop": "Zestien koereigers aan het lopend buffet bij Krommenie 📸",
+      "meting": {
+        "stukken": 4,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-20T14:40:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 23 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-19T22:25:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Krommenie en Uitgeest"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-20T06:33:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Krommenie en Uitgeest"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-858e2b",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-20T14:40:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Krommenie en Uitgeest"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/martin-rep-beatles-pelgrim-op-het-zebrapad/",
       "kop": "Martin Rep: Beatles-pelgrim op het zebrapad",
       "meting": {
@@ -177,64 +228,27 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
-      "kop": "Zestien koereigers aan het lopend buffet bij Krommenie 📸",
+      "id": "n:https://www.deorkaan.nl/ade-gaat-vannacht-los-niet-parkeren-afsluitingen-en-uitstapverbod/",
+      "kop": "ADE gaat vannacht los: niet parkeren, afsluitingen en uitstapverbod",
       "meting": {
-        "stukken": 3,
-        "media": 1,
-        "mediaStukken": 1,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 3,
-        "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-20T06:33:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "type": null,
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-19T22:25:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-20T06:33:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/hoge-nood-op-weg-naar-ade/",
-      "kop": "Hoge nood op weg naar ADE",
-      "meting": {
-        "stukken": 12,
+        "stukken": 13,
         "media": 2,
-        "mediaStukken": 6,
+        "mediaStukken": 7,
         "echo": 0,
         "onafhankelijk": 4,
-        "dagen": 6,
-        "eerste": "2026-10-23T22:00:00.000Z",
+        "dagen": 7,
+        "eerste": "2026-10-21T22:00:00.000Z",
         "laatste": "2026-11-18T23:00:00.000Z"
       },
       "routes": [],
       "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/ade-gaat-vannacht-los-niet-parkeren-afsluitingen-en-uitstapverbod/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-21T22:00:00.000Z",
+          "type": null,
+          "titel": "ADE gaat vannacht los: niet parkeren, afsluitingen en uitstapverbod"
+        },
         {
           "k": "n:https://www.deorkaan.nl/hoge-nood-op-weg-naar-ade/",
           "bron": "DeOrkaan",
@@ -468,7 +482,7 @@
           "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
           "bron": "ibabs-collegeberichten",
           "datum": "2026-11-18T23:00:00.000Z",
-          "type": null,
+          "type": "uitkomst",
           "titel": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO"
         },
         {

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T14:01:04.791Z",
+  "gegenereerdOp": "2026-11-20T15:00:50.406Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,77 @@
   ],
   "berichten": [
     {
+      "id": "aa1bdb6bec-v1",
+      "groepId": "aa1bdb6bec",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-858e2b",
+      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T14:40:00.000Z",
+      "heeftTijd": true,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T15:00:50.406Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
+      "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
+      "bronLengte": 357,
+      "rood": {
+        "sinds": "2026-11-20T15:00:50.406Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "8c17c54e9d-v1",
+      "groepId": "8c17c54e9d",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Keti_Koti_dialoogtafel_Wie_zich_kan_inleven_in_de_pijn_van_een_ander_kan_het_verschil_maken",
+      "kop": "Provincie Noord-Holland organiseert Keti Koti dialoogtafel in Noorderkerk in Hoorn",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-20T14:20:53.000Z",
+      "heeftTijd": true,
+      "woorden": 865,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-20T15:00:50.406Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
+      "bronTitel": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
+      "bronLengte": 5424,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "9b92bbd794-v1",
       "groepId": "9b92bbd794",
       "versie": 1,
@@ -425,7 +496,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Stroomstoring in Assendelft",
       "bronLengte": 331,
       "rood": {
@@ -457,7 +528,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
       "bronLengte": 5996,
       "checklist": {
@@ -498,7 +569,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Eerste kilometer van langste heg van Nederland geplant",
       "bronLengte": 1742,
       "checklist": {
@@ -668,7 +739,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-20T09:00:48.422Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 317,
       "rood": {
@@ -828,7 +899,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T23:00:44.960Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Verlaag tarieven OV",
       "bronLengte": 4827,
       "checklist": {
@@ -887,7 +958,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "cd7c072d15-v1",
@@ -909,7 +981,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Torenhoog verzet tegen Saendenborch, besluit opnieuw uitgesteld",
       "bronLengte": 6000,
       "checklist": {
@@ -949,7 +1021,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T12:04:16.376Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "De Orkaan in 2 minuten: 20 november 🎧",
       "bronLengte": 326,
       "checklist": {
@@ -989,7 +1061,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Slijterij Drinks & Gifts in Krommenie krijgt vanaf januari nieuwe eigenaren",
       "bronLengte": 1469,
       "checklist": {
@@ -1029,7 +1101,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-20T13:00:48.702Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Van de Casbah naar de Cavern – waar The Beatles echt begonnen",
       "bronLengte": 5997,
       "checklist": {
@@ -1069,7 +1141,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T10:00:54.788Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans",
       "bronLengte": 5995,
       "checklist": {
@@ -1109,7 +1181,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T09:00:48.422Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade",
       "bronLengte": 2972,
       "checklist": {
@@ -1162,7 +1234,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T08:00:47.114Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Waarheen: Doe Maar, Hans en Candy Dulfer, Pieter Jouke 🎙",
       "bronLengte": 1157,
       "checklist": {
@@ -1689,7 +1761,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T07:00:44.586Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Streep door GTA VI en weer de pleintjes op: “Wij zetten de eerste stap”⚽️🎙",
       "bronLengte": 1088,
       "checklist": {
@@ -1742,7 +1814,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T18:51:16.422Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Schriftelijke inspraak Saendenborch (Engels)",
       "bronLengte": 15027,
       "checklist": {
@@ -1783,7 +1855,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T17:00:48.590Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
       "bronLengte": 5390,
       "checklist": {
@@ -1821,22 +1893,22 @@
       "groepId": "8f2ea40071",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f1482969-a201-4bdc-9b0d-40a138ea964b",
-      "kop": "GEHEIM Voortgang RON ASP I BV",
+      "kop": "Geheime voortgang RON ASP I BV besproken in raadsinformatiebrief Zaanstad",
       "tekst": null,
       "rubriek": "GEM",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 3,
+      "prio": 4,
       "tijd": "2026-11-18T23:00:00.000Z",
       "heeftTijd": false,
       "woorden": 15,
       "afgekapt": false,
       "bronId": "ibabs-collegeberichten",
       "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "GEHEIM Voortgang RON ASP I BV",
       "bronLengte": 108,
       "checklist": {
@@ -1851,18 +1923,21 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "6cc22f6e04-v1",
       "groepId": "6cc22f6e04",
       "versie": 1,
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
-      "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+      "kop": "College Zaanstad dient negatieve zienswijzen in tegen aanvragen nieuwe scholen",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "trefwoord",
+      "rubriek": "ONW",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-18T23:00:00.000Z",
@@ -1871,12 +1946,61 @@
       "afgekapt": true,
       "bronId": "ibabs-collegeberichten",
       "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
       "bronLengte": 8611,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Het college heeft van deze mogelijkheid gebruikgemaakt en drie separate negatieve zienswijzen afgegeven."
+      },
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "bestuur",
+        "reden": "besluit met groot gevolg (officiële bron)",
+        "aangemaaktOp": "2026-11-20T15:00:50.406Z",
+        "tot": "2026-11-21T15:00:50.406Z"
+      }
+    },
+    {
+      "id": "dc6f35d715-v1",
+      "groepId": "dc6f35d715",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/db4ee134-621a-4dda-8024-f831c14dd2da",
+      "kop": "Zaanstad zet samenwerking voort in Energiebesparingsakkoord 2027-2030",
+      "tekst": null,
+      "rubriek": "BED",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-18T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 1616,
+      "afgekapt": true,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-19T15:00:55.523Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
+      "bronTitel": "Energiebesparingsakkoord 2027-2030",
+      "bronLengte": 11692,
       "checklist": {
         "gevaar": false,
         "evacuatieOfNlAlert": false,
@@ -1889,52 +2013,11 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
-    },
-    {
-      "id": "dc6f35d715-v1",
-      "groepId": "dc6f35d715",
-      "versie": 1,
-      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/db4ee134-621a-4dda-8024-f831c14dd2da",
-      "kop": "Energiebesparingsakkoord 2027-2030",
-      "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "trefwoord",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-18T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 1616,
-      "afgekapt": true,
-      "bronId": "ibabs-collegeberichten",
-      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
-      "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
-      "bronTitel": "Energiebesparingsakkoord 2027-2030",
-      "bronLengte": 11692,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": 4000000,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "economie",
-        "reden": "bedrag van 4 miljoen euro (officiële bron)",
-        "aangemaaktOp": "2026-11-19T15:00:55.523Z",
-        "tot": "2026-11-20T15:00:55.523Z"
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Daarom zet Zaanstad de succesvolle samenwerking met de provincie, gemeenten en OD’s voort."
       }
     },
     {
@@ -1957,7 +2040,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Presentaties Regionale raadsledenbijeenkomst ZaWa 18 november",
       "bronLengte": 4636,
       "checklist": {
@@ -1999,7 +2082,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Het Mantelzorgkompas is nu verkrijgbaar!",
       "bronLengte": 2969,
       "checklist": {
@@ -2040,7 +2123,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
       "bronLengte": 221,
       "checklist": {
@@ -2082,7 +2165,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Besluit AB l Stichting KCR2",
       "bronLengte": 4783,
       "checklist": {
@@ -2124,7 +2207,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "publicatie ‘Arbeidsmigratie heeft een gezicht: tien werkgevers en werknemers aan het woord",
       "bronLengte": 15060,
       "checklist": {
@@ -2162,7 +2245,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Brief Zaandam bouwt woningen, maar waar blijven de winkels?",
       "bronLengte": 3836,
       "checklist": {
@@ -2200,7 +2283,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd",
       "bronLengte": 12453,
       "checklist": {
@@ -2238,7 +2321,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Motie \"een aanval op één is een aanval op allen\"",
       "bronLengte": 2816,
       "checklist": {
@@ -2276,7 +2359,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T18:51:16.422Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Editie 109 - 'MRA Raads- en Statenleden Bericht' (maandelijks) - 17 november 2026",
       "bronLengte": 4353,
       "checklist": {
@@ -2335,7 +2418,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T12:04:16.376Z",
+      "gecontroleerdOp": "2026-11-20T15:00:50.406Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {

@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T14:01:04.791Z",
+  "bijgewerkt": "2026-11-20T15:00:50.406Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -3998,8 +3998,8 @@
     "8f2ea40071": {
       "g": "8f2ea40071",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/f1482969-a201-4bdc-9b0d-40a138ea964b",
-      "k": "GEHEIM Voortgang RON ASP I BV",
-      "bt": "",
+      "k": "Geheime voortgang RON ASP I BV besproken in raadsinformatiebrief Zaanstad",
+      "bt": "GEHEIM Voortgang RON ASP I BV",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
@@ -4009,24 +4009,24 @@
     "6cc22f6e04": {
       "g": "6cc22f6e04",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
-      "k": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
-      "bt": "",
+      "k": "College Zaanstad dient negatieve zienswijzen in tegen aanvragen nieuwe scholen",
+      "bt": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "ONW"
     },
     "dc6f35d715": {
       "g": "dc6f35d715",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/db4ee134-621a-4dda-8024-f831c14dd2da",
-      "k": "Energiebesparingsakkoord 2027-2030",
-      "bt": "",
+      "k": "Zaanstad zet samenwerking voort in Energiebesparingsakkoord 2027-2030",
+      "bt": "Energiebesparingsakkoord 2027-2030",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-18T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "BED"
     },
     "520436e6fb": {
       "g": "520436e6fb",
@@ -4302,6 +4302,28 @@
       "t": "2026-11-20T10:58:52.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "aa1bdb6bec": {
+      "g": "aa1bdb6bec",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-858e2b",
+      "k": "Stroomstoring in Krommenie en Uitgeest",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T14:40:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "8c17c54e9d": {
+      "g": "8c17c54e9d",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Keti_Koti_dialoogtafel_Wie_zich_kan_inleven_in_de_pijn_van_een_ander_kan_het_verschil_maken",
+      "k": "Provincie Noord-Holland organiseert Keti Koti dialoogtafel in Noorderkerk in Hoorn",
+      "bt": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-20T14:20:53.000Z",
+      "c": null,
+      "r": "CUL"
     }
   }
 }
