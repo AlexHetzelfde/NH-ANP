@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T09:00:48.422Z",
+  "bijgewerkt": "2026-11-20T10:00:54.788Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4223,6 +4223,28 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-19T16:56:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "5a6c60af02": {
+      "g": "5a6c60af02",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-70d253",
+      "k": "Stroomstoring in Koog aan de Zaan",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T10:00:59.185Z",
+      "c": null,
+      "r": "112"
+    },
+    "9094f716b3": {
+      "g": "9094f716b3",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-1bf0df",
+      "k": "Stroomstoring in Koog aan de Zaan",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T09:36:00.000Z",
       "c": null,
       "r": "112"
     }

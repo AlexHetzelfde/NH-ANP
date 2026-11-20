@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T09:00:48.422Z",
+  "gegenereerdOp": "2026-11-20T10:00:54.788Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,68 @@
   ],
   "berichten": [
     {
+      "id": "5a6c60af02-v1",
+      "groepId": "5a6c60af02",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-70d253",
+      "kop": "Stroomstoring in Koog aan de Zaan",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T10:00:59.185Z",
+      "heeftTijd": true,
+      "woorden": 19,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "bronTitel": "Stroomstoring in Koog aan de Zaan",
+      "bronLengte": 138,
+      "rood": {
+        "sinds": "2026-11-20T10:00:54.788Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "9094f716b3-v1",
+      "groepId": "9094f716b3",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-1bf0df",
+      "kop": "Stroomstoring in Koog aan de Zaan",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T09:36:00.000Z",
+      "heeftTijd": true,
+      "woorden": 50,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "bronTitel": "Stroomstoring in Koog aan de Zaan",
+      "bronLengte": 341,
+      "rood": {
+        "sinds": "2026-11-20T10:00:54.788Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "6613be2168-v1",
       "groepId": "6613be2168",
       "versie": 1,
@@ -434,7 +496,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "3a4dafcf28-v1",
@@ -456,7 +519,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-20T08:00:47.114Z",
-      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Zaandijk",
       "bronLengte": 337,
       "rood": {
@@ -520,7 +583,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-20T08:00:47.114Z",
-      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Stroomstoring in Zaandijk",
       "bronLengte": 365,
       "rood": {
@@ -607,6 +670,45 @@
       "tagVersie": 2
     },
     {
+      "id": "3821a3d980-v1",
+      "groepId": "3821a3d980",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/wethouder-karst-onderworpen-aan-vragenvuur-over-zaanse-schans/",
+      "kop": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 968,
+      "afgekapt": true,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T10:00:54.788Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
+      "bronTitel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans",
+      "bronLengte": 5995,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 1700000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "8dbf23aa0e-v1",
       "groepId": "8dbf23aa0e",
       "versie": 1,
@@ -656,7 +758,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "6eb7a4dc59"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "f5f2ff9f7f-v1",
@@ -678,7 +781,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T08:00:47.114Z",
-      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Waarheen: Doe Maar, Hans en Candy Dulfer, Pieter Jouke 🎙",
       "bronLengte": 1157,
       "checklist": {
@@ -801,7 +904,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "c5005dbdac-v1",
@@ -1850,7 +1954,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
@@ -1890,7 +1994,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-20T08:00:47.114Z",
+      "gecontroleerdOp": "2026-11-20T10:00:54.788Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {
