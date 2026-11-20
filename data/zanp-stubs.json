@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T10:00:54.788Z",
+  "bijgewerkt": "2026-11-20T11:00:47.560Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4245,6 +4245,39 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-20T09:36:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "e2c2ce2c2b": {
+      "g": "e2c2ce2c2b",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Eerste_kilometer_van_langste_heg_van_Nederland_geplant",
+      "k": "Eerste kilometer van langste heg van Nederland geplant op landgoed Rorik",
+      "bt": "Eerste kilometer van langste heg van Nederland geplant",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-20T10:52:56.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "3499e5f5d6": {
+      "g": "3499e5f5d6",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-774bac",
+      "k": "Stroomstoring in Koog aan de Zaan",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T10:36:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "8be147b9e9": {
+      "g": "8be147b9e9",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-20-bb8497",
+      "k": "Stroomstoring in Broek in Waterland",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T10:10:00.000Z",
       "c": null,
       "r": "112"
     }
