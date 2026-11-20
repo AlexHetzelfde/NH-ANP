@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-20T22:00:50.699Z",
+  "gegenereerdOp": "2026-11-20T23:00:48.659Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 644,
-    "verhalen": 511,
+    "stukken": 640,
+    "verhalen": 507,
     "metMeerStukken": 72,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
     "aiBanden": 0,
-    "metRoute": 5,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 1,
     "routeRood": 0
@@ -57,136 +57,6 @@
           "datum": "2026-11-19T23:00:00.000Z",
           "type": null,
           "titel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade"
-        }
-      ]
-    },
-    {
-      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
-      "kop": "Besluitenlijst BW Zaanstad 06-10-26",
-      "meting": {
-        "stukken": 5,
-        "media": 2,
-        "mediaStukken": 4,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 4,
-        "eerste": "2026-10-22T22:00:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 28 dagen met stukken op 4 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-10-22T22:00:00.000Z",
-          "type": null,
-          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "type": null,
-          "titel": "Daar is-ie weer: poller meegepakt"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T08:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Poller omlaag: winst of verlies?"
-        }
-      ]
-    },
-    {
-      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
-      "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
-      "meting": {
-        "stukken": 7,
-        "media": 1,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 4,
-        "dagen": 5,
-        "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 22 dagen met stukken op 5 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "type": null,
-          "titel": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenbo…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/oekrainers-uit-saendenborch-gebouw-rijp-voor-de-sloop/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-31T23:00:00.000Z",
-          "type": null,
-          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "type": null,
-          "titel": "Brief aan omwonenden Saendenborch"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/wethouder-harrie-van-der-laan-buren-van-saendenborch-niet-bedreigd/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "type": null,
-          "titel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3d426257-99cb-4d64-83f0-ce44dea3acb1",
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "type": "overig",
-          "titel": "Schriftelijke inspraak Saendenborch (Engels)"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/oostzaan-2026-11-19-aaa798",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-19T12:00:53.705Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Oostzaan"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/torenhoog-verzet-tegen-saendenborch-besluit-opnieuw-uitgesteld/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Torenhoog verzet tegen Saendenborch, besluit opnieuw uitgesteld"
         }
       ]
     },
@@ -238,50 +108,6 @@
           "datum": "2026-11-20T14:40:00.000Z",
           "type": "incident",
           "titel": "Stroomstoring in Krommenie en Uitgeest"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/martin-rep-beatles-pelgrim-op-het-zebrapad/",
-      "kop": "Martin Rep: Beatles-pelgrim op het zebrapad",
-      "meting": {
-        "stukken": 3,
-        "media": 1,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 1,
-        "dagen": 3,
-        "eerste": "2026-11-03T23:00:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 16 dagen met stukken op 3 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/martin-rep-beatles-pelgrim-op-het-zebrapad/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "type": null,
-          "titel": "Martin Rep: Beatles-pelgrim op het zebrapad"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/martin-rep-the-beatles-op-het-vissershop/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Martin Rep: The Beatles op het Vissershop"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/van-de-casbah-naar-de-cavern-waar-the-beatles-echt-begonnen/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Van de Casbah naar de Cavern – waar The Beatles echt begonnen"
         }
       ]
     },
@@ -376,6 +202,58 @@
           "datum": "2026-11-18T23:00:00.000Z",
           "type": null,
           "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
+        }
+      ]
+    },
+    {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
+      "kop": "Besluitenlijst BW Zaanstad 06-10-26",
+      "meting": {
+        "stukken": 5,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 4,
+        "eerste": "2026-10-22T22:00:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/aa2f91db-30b1-46fe-a0fb-bf1aa2765342",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-10-22T22:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst BW Zaanstad 06-10-26"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/daar-is-ie-weer-poller-meegepakt/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "type": null,
+          "titel": "Daar is-ie weer: poller meegepakt"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Poller omlaag: winst of verlies?"
         }
       ]
     },
@@ -788,6 +666,18 @@
           "route": "breed",
           "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
           "sinds": "2026-11-20T09:00:48.422Z"
+        }
+      ]
+    },
+    "2026-11-21": {
+      "nieuwRood": [],
+      "zonderDoel": [
+        {
+          "verhaal": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+          "route": "breed",
+          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
+          "sinds": "2026-11-20T23:00:48.659Z"
         }
       ]
     }
