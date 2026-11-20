@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T16:01:01.019Z",
+  "gegenereerdOp": "2026-11-20T17:00:49.086Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -960,7 +960,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "445d74bde2-v1",
@@ -1012,7 +1013,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "6157987fdf"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "440c93292b-v1",
@@ -1034,7 +1036,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T14:01:04.791Z",
-      "gecontroleerdOp": "2026-11-20T14:01:04.791Z",
+      "gecontroleerdOp": "2026-11-20T17:00:49.086Z",
       "bronTitel": "Zaanstad wil islamitische scholen weren én de wet veranderen",
       "bronLengte": 5993,
       "checklist": {
