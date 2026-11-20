@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T19:58:55.078Z",
+  "gegenereerdOp": "2026-11-20T20:00:45.622Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
