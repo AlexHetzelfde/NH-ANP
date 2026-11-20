@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T13:00:48.702Z",
+  "gegenereerdOp": "2026-11-20T14:01:04.791Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "0e37e08311-v1",
@@ -474,7 +475,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "e2c2ce2c2b-v1",
@@ -849,6 +851,45 @@
       "tagVersie": 2
     },
     {
+      "id": "440c93292b-v1",
+      "groepId": "440c93292b",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zaanstad-wil-islamitische-scholen-weren-en-de-wet-veranderen/",
+      "kop": "Zaanstad wil islamitische scholen weren én de wet veranderen",
+      "tekst": null,
+      "rubriek": "ONW",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 874,
+      "afgekapt": true,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T14:01:04.791Z",
+      "gecontroleerdOp": "2026-11-20T14:01:04.791Z",
+      "bronTitel": "Zaanstad wil islamitische scholen weren én de wet veranderen",
+      "bronLengte": 5993,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "cd7c072d15-v1",
       "groepId": "cd7c072d15",
       "versie": 1,
@@ -885,7 +926,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "f957cdf0fd-v1",
@@ -14931,46 +14973,6 @@
       "gecontroleerdOp": "2026-11-07T12:00:53.600Z",
       "bronTitel": "Pinnen bij Kruidvat in Zaandam? Winkel kan meekijken – update",
       "bronLengte": 3798,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "3f583e41be-v2",
-      "groepId": "3f583e41be",
-      "versie": 2,
-      "url": "https://www.deorkaan.nl/pinnen-bij-kruidvat-in-zaandam-de-hele-winkel-kan-meekijken/",
-      "kop": "Pinnen bij Kruidvat in Zaandam? Winkel kan meekijken – update",
-      "tekst": null,
-      "rubriek": "BED",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-06T14:00:58.360Z",
-      "heeftTijd": true,
-      "woorden": 536,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-06T14:00:58.360Z",
-      "gecontroleerdOp": "2026-11-06T17:01:00.473Z",
-      "bronTitel": "Pinnen bij Kruidvat in Zaandam? Winkel kan meekijken – update",
-      "bronLengte": 3460,
       "checklist": {
         "gevaar": false,
         "evacuatieOfNlAlert": false,

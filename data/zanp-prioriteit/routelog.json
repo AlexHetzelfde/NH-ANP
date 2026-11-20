@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-20T13:00:48.702Z",
+  "gegenereerdOp": "2026-11-20T14:01:04.791Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 653,
-    "verhalen": 520,
-    "metMeerStukken": 71,
+    "stukken": 655,
+    "verhalen": 521,
+    "metMeerStukken": 72,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 3,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 4,
     "nieuwRood": 0,
@@ -450,6 +450,44 @@
       ]
     },
     {
+      "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
+      "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 2,
+        "eerste": "2026-11-18T23:00:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/college-tegen-extra-islamitische-scholen-ook-middelbare",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T14:00:00.000Z",
+          "type": null,
+          "titel": "College tegen extra islamitische scholen, ook middelbare"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/zaanstad-wil-islamitische-scholen-weren-en-de-wet-veranderen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/vermiste-zeiler-uit-zaandam-dood-gevonden-op-duits-waddeneiland/",
       "kop": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "meting": {
@@ -632,6 +670,37 @@
           "datum": "2026-11-20T12:45:00.000Z",
           "type": null,
           "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/513084/counter-schenkt-vijftig-prentenboeken-aan-zaanse-gezinnen-voor-meer-leesplezier",
+      "kop": "Counter schenkt vijftig prentenboeken aan Zaanse gezinnen voor meer leesplezier",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-19T11:51:00.000Z",
+        "laatste": "2026-11-19T15:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513084/counter-schenkt-vijftig-prentenboeken-aan-zaanse-gezinnen-voor-meer-leesplezier",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-19T11:51:00.000Z",
+          "type": null,
+          "titel": "Counter schenkt vijftig prentenboeken aan Zaanse gezinnen voor meer l…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/samenwerking-om-voorlezen-verder-te-verspreiden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T15:00:00.000Z",
+          "type": null,
+          "titel": "Samenwerking om voorlezen verder te verspreiden"
         }
       ]
     }

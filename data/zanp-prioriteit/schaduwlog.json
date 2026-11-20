@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T13:00:48.702Z",
+  "gegenereerdOp": "2026-11-20T14:01:04.791Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 1,
-      "opgehaald": 2,
+      "werklijst": 1,
+      "lokaal": 0,
+      "opgehaald": 1,
       "mislukt": 0,
       "uitgesteld": 0
     },
     "bewijsNieuw": 2,
-    "vergeten": 0,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 664,
-    "bewijsStukken": 34,
-    "kandidaten": 77,
-    "metAnker": 73,
+    "bewijsStukken": 36,
+    "kandidaten": 73,
+    "metAnker": 69,
     "zonderAnker": 4,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 653,
-      "verhalen": 520,
-      "metMeerStukken": 71,
+      "stukken": 655,
+      "verhalen": 521,
+      "metMeerStukken": 72,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 3,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 4,
       "nieuwRood": 0,
@@ -53,28 +53,44 @@
   },
   "top": [
     {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_sluit_energiebesparingsakkoord_4_miljoen_extra_voor_toezicht_en_handhaving",
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
       "soort": "nieuws",
-      "kop": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
-      "S": 0.34,
-      "Sa": 0.34,
+      "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+      "S": 0.41,
+      "Sa": 0.41,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.77,
-      "Kp": 0.51,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
+      "K": 0.84,
+      "Kp": 0.46,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
       "ankers": [
-        "energiebesparingsakkord"
+        "indien",
+        "schol",
+        "lobbybrief",
+        "interregional",
+        "islamitisch",
+        "zienswijz",
+        "wetenschap",
+        "onderwij",
+        "cultur",
+        "doeve"
       ],
       "bewijs": [
         {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.98,
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "c": 1,
           "plek": "kop",
-          "titel": "Energiebesparingsakkoord 2027-2030"
+          "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
+        },
+        {
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "c": 0.41,
+          "plek": "tekst",
+          "titel": "Gemeente Den Haag geeft het voorbeeld"
         }
       ]
     },
@@ -123,7 +139,7 @@
       "Sa": 0.29,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.36,
+      "K": 0.35,
       "Kp": 0.19,
       "n": 1,
       "dagen": 1,
@@ -142,39 +158,6 @@
           "c": 1,
           "plek": "kop",
           "titel": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Zo_brengen_natuurherstel_en_samenwerking_vergunningen_op_Texel_dichterbij",
-      "soort": "nieuws",
-      "kop": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
-      "S": 0.25,
-      "Sa": 0.25,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.35,
-      "Kp": 0.19,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "texel",
-        "dichterbij",
-        "branco",
-        "verheij",
-        "programmatisch",
-        "naturherstel",
-        "breng",
-        "stikstof"
-      ],
-      "bewijs": [
-        {
-          "bron": "nh-actueel",
-          "datum": "2026-11-18T15:00:52.109Z",
-          "c": 0.88,
-          "plek": "kop",
-          "titel": "PAS-melders op Texel kunnen natuurvergunning aanvragen"
         }
       ]
     },
@@ -659,42 +642,6 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
-      "soort": "nieuws",
-      "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
-      "S": 0.04,
-      "Sa": 0.04,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.75,
-      "Kp": 0.41,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "lobbybrief",
-        "indien",
-        "schol",
-        "interregional",
-        "islamitisch",
-        "zienswijz",
-        "wetenschap",
-        "onderwij",
-        "cultur",
-        "doeve",
-        "basisschol"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.41,
-          "plek": "tekst",
-          "titel": "Gemeente Den Haag geeft het voorbeeld"
-        }
-      ]
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/27efc4b2-8208-4195-a1bd-432f1c8da033",
       "soort": "nieuws",
       "kop": "Nog 1 week tot De Corner VrijMiBo...Meld je snel aan!",
@@ -1116,6 +1063,59 @@
         "zeist",
         "begint",
         "achmea"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:93b5ea70bf",
+      "soort": "agenda",
+      "kop": "Mini-conferentie Nieuwe Normen, Oude Inzichten",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "inzicht",
+        "conferenti",
+        "mini",
+        "landgoederij",
+        "camminghalan",
+        "bunnik",
+        "norm"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kalk_en_steenmeel_voor_bodemverbetering_op_de_Gooise_heide",
+      "soort": "nieuws",
+      "kop": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.35,
+      "Kp": 0.23,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stenmel",
+        "bodemverbetering",
+        "heide",
+        "naturreservat",
+        "gois",
+        "kalk",
+        "variati",
+        "biodiversiteit",
+        "gezonder",
+        "herontdek",
+        "bodemlev",
+        "nerwarts"
       ],
       "bewijs": []
     }
@@ -3396,6 +3396,14 @@
         "n": 6,
         "bronnen": 3
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10": {
+        "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
+        "S": 0.41,
+        "route": "aanhoudend",
+        "K": 0.84,
+        "n": 2,
+        "bronnen": 2
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_sluit_energiebesparingsakkoord_4_miljoen_extra_voor_toezicht_en_handhaving": {
         "kop": "Noord-Holland sluit energiebesparingsakkoord: € 4 miljoen extra voor toezicht en handhaving",
         "S": 0.36,
@@ -3577,14 +3585,6 @@
         "S": 0.07,
         "route": "aanhoudend",
         "K": 0.39,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:ced2c284f8": {
-        "kop": "Zaanstad Beraad Raadzaal",
-        "S": 0.07,
-        "route": "aanhoudend",
-        "K": 0.16,
         "n": 1,
         "bronnen": 1
       }
