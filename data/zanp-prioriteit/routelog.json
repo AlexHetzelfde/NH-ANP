@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-20T06:00:43.815Z",
+  "gegenereerdOp": "2026-11-20T07:00:44.586Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 629,
-    "verhalen": 511,
-    "metMeerStukken": 63,
+    "stukken": 631,
+    "verhalen": 512,
+    "metMeerStukken": 64,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -437,6 +437,37 @@
           "datum": "2026-11-19T09:49:00.000Z",
           "type": null,
           "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512921/het-plein-is-van-ons-studenten-van-hva-organiseren-voetbalmiddag-in-poelenburg-zaandam",
+      "kop": "‘Het Plein Is Van Ons’: Studenten van HvA organiseren voetbalmiddag in Poelenburg Zaandam",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-18T10:50:00.000Z",
+        "laatste": "2026-11-18T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512921/het-plein-is-van-ons-studenten-van-hva-organiseren-voetbalmiddag-in-poelenburg-zaandam",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T10:50:00.000Z",
+          "type": null,
+          "titel": "‘Het Plein Is Van Ons’: Studenten van HvA organiseren voetbalmiddag i…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/streep-door-gta-vi-en-weer-de-pleintjes-op-wij-zetten-de-eerste-stap/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "type": null,
+          "titel": "Streep door GTA VI en weer de pleintjes op: “Wij zetten de eerste sta…"
         }
       ]
     },

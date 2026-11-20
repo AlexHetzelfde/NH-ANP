@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T06:00:43.815Z",
+  "bijgewerkt": "2026-11-20T07:00:44.586Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4157,6 +4157,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-19T22:25:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "90ca5bdb76": {
+      "g": "90ca5bdb76",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
+      "k": "Stroomstoring in Krommenie en Uitgeest",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T06:33:00.000Z",
       "c": null,
       "r": "112"
     }
