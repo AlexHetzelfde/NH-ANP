@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T08:00:47.114Z",
+  "gegenereerdOp": "2026-11-20T09:00:48.422Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 4,
-      "lokaal": 4,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 650,
+    "stukken": 653,
     "bewijsStukken": 30,
-    "kandidaten": 76,
-    "metAnker": 73,
+    "kandidaten": 75,
+    "metAnker": 72,
     "zonderAnker": 3,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,16 +38,16 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 635,
-      "verhalen": 516,
-      "metMeerStukken": 64,
+      "stukken": 638,
+      "verhalen": 514,
+      "metMeerStukken": 66,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 4,
-      "aiBanden": 0,
-      "metRoute": 1,
+      "aiGevraagd": 2,
+      "aiBanden": 1,
+      "metRoute": 3,
       "nieuwRood": 0,
-      "zonderDoel": 0,
+      "zonderDoel": 1,
       "routeRood": 0
     }
   },
@@ -87,7 +87,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.77,
-      "Kp": 0.48,
+      "Kp": 0.47,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -112,42 +112,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-bbd5c0",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.31,
-      "Sa": 0.31,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.44,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "zanderhorn",
-        "spiersweg",
-        "symon",
-        "hemkad"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-30T23:00:00.000Z",
-          "c": 0.75,
-          "plek": "intro",
-          "titel": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸"
         }
       ]
     },
@@ -218,8 +182,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-18-ace54d",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.24,
-      "Sa": 0.24,
+      "S": 0.25,
+      "Sa": 0.25,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.69,
@@ -237,7 +201,7 @@
         {
           "bron": "ibabs-ingekomen-stukken",
           "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.7,
+          "c": 0.74,
           "plek": "intro",
           "titel": "Besluit AB l Stichting KCR2"
         }
@@ -251,7 +215,7 @@
       "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.77,
+      "K": 0.76,
       "Kp": 0.51,
       "n": 1,
       "dagen": 1,
@@ -358,6 +322,108 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0.13,
+      "Sa": 0.13,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.59,
+      "Kp": 0.46,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "bolkad",
+        "gerrit"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-02T23:00:00.000Z",
+          "c": 0.66,
+          "plek": "intro",
+          "titel": "Audi alleen gelaten…"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-13T15:17:06.529Z",
+          "c": 0.65,
+          "plek": "intro",
+          "titel": "Drie auto’s verwoest door felle brand in Zaandam"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "S": 0.11,
+      "Sa": 0.11,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.63,
+      "Kp": 0.44,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "uitgest",
+        "busch"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-10T23:08:49.684Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Nachttrein"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "S": 0.11,
+      "Sa": 0.11,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.63,
+      "Kp": 0.44,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "uitgest",
+        "busch"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-10T23:08:49.684Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Nachttrein"
+        }
+      ]
+    },
+    {
       "key": "a:a0100eb92c",
       "soort": "agenda",
       "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
@@ -388,8 +454,8 @@
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer",
       "soort": "nieuws",
       "kop": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
-      "S": 0.09,
-      "Sa": 0.09,
+      "S": 0.08,
+      "Sa": 0.08,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.49,
@@ -542,7 +608,7 @@
       "Sa": 0.05,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.71,
+      "K": 0.7,
       "Kp": 0.53,
       "n": 1,
       "dagen": 1,
@@ -678,60 +744,6 @@
           "c": 0.72,
           "plek": "intro",
           "titel": "Nieuwsbrief november 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "S": 0.02,
-      "Sa": 0.02,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "uitgest",
-        "busch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "S": 0.02,
-      "Sa": 0.02,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "uitgest",
-        "busch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
         }
       ]
     },
@@ -3486,6 +3498,14 @@
         "n": 2,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1": {
+        "kop": "Stroomstoring in Zaandam",
+        "S": 0.13,
+        "route": "aanhoudend",
+        "K": 0.59,
+        "n": 2,
+        "bronnen": 1
+      },
       "a:a0100eb92c": {
         "kop": "Molens openen deuren ter ere van 80 jaar UNESCO",
         "S": 0.11,
@@ -3493,6 +3513,22 @@
         "K": 0,
         "n": 1,
         "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463": {
+        "kop": "Stroomstoring in Krommenie en Uitgeest",
+        "S": 0.11,
+        "route": "aanhoudend",
+        "K": 0.63,
+        "n": 2,
+        "bronnen": 2
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4": {
+        "kop": "Stroomstoring in Krommenie en Uitgeest",
+        "S": 0.11,
+        "route": "aanhoudend",
+        "K": 0.63,
+        "n": 2,
+        "bronnen": 2
       },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer": {
         "kop": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
@@ -3547,30 +3583,6 @@
         "S": 0.06,
         "route": "aanhoudend",
         "K": 0.71,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:ce4ae67b87": {
-        "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-        "S": 0.05,
-        "route": "aanhoudend",
-        "K": 0,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:4b9ea65ea4": {
-        "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-        "S": 0.05,
-        "route": "aanhoudend",
-        "K": 0,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10": {
-        "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
-        "S": 0.04,
-        "route": "aanhoudend",
-        "K": 0.75,
         "n": 1,
         "bronnen": 1
       }

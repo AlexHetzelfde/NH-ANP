@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T08:00:47.114Z",
+  "gegenereerdOp": "2026-11-20T09:00:48.422Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "6613be2168-v1",
+      "groepId": "6613be2168",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T07:57:00.000Z",
+      "heeftTijd": true,
+      "woorden": 45,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 317,
+      "rood": {
+        "sinds": "2026-11-20T09:00:48.422Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "3a4dafcf28-v1",
       "groepId": "3a4dafcf28",
       "versie": 1,
@@ -434,7 +465,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "70ca1d7b73-v1",
@@ -465,7 +497,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "8dcd97ec71-v1",
@@ -496,7 +529,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "90ca5bdb76-v1",
@@ -550,7 +584,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T23:00:44.960Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Verlaag tarieven OV",
       "bronLengte": 4827,
       "checklist": {
@@ -571,6 +605,58 @@
         "zin": "Soort: Aangenomen moties."
       },
       "tagVersie": 2
+    },
+    {
+      "id": "8dbf23aa0e-v1",
+      "groepId": "8dbf23aa0e",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/kunstgalerie-unknown-moet-wijken-voor-nieuwbouw-oostkade/",
+      "kop": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 513,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "bronTitel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade",
+      "bronLengte": 2972,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Feestelijk open huis kunstgalerie UNKnowN",
+          "dag": "2026-11-28",
+          "start": "2026-11-28T12:00:00.000Z",
+          "eind": "2026-11-28T17:00:00.000Z",
+          "plaats": "Oostkade in Zaandam",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "6eb7a4dc59"
+      ]
     },
     {
       "id": "f5f2ff9f7f-v1",
@@ -609,7 +695,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "fdc48e0b2d-v1",
@@ -684,6 +771,37 @@
         "zin": "Soort: Aangenomen moties."
       },
       "tagVersie": 2
+    },
+    {
+      "id": "94b375a428-v1",
+      "groepId": "94b375a428",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-19-34ee0c",
+      "kop": "Stroomstoring in Amsterdam en Jisp",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T16:56:00.000Z",
+      "heeftTijd": true,
+      "woorden": 65,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-20T09:00:48.422Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
+      "bronTitel": "Stroomstoring in Amsterdam en Jisp",
+      "bronLengte": 430,
+      "rood": {
+        "sinds": "2026-11-20T09:00:48.422Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
     },
     {
       "id": "c5005dbdac-v1",
@@ -780,7 +898,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Eerste bomen voor dorpsbos Ursem",
       "bronLengte": 2026,
       "checklist": {
@@ -818,7 +936,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Provincie laat onafhankelijk onderzoek doen naar Leimuiderbrug",
       "bronLengte": 1837,
       "checklist": {
@@ -856,7 +974,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
       "bronLengte": 3427,
       "checklist": {
@@ -1086,7 +1204,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T07:00:44.586Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Streep door GTA VI en weer de pleintjes op: “Wij zetten de eerste stap”⚽️🎙",
       "bronLengte": 1088,
       "checklist": {
@@ -1180,7 +1298,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T17:00:48.590Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd",
       "bronLengte": 5390,
       "checklist": {
@@ -1850,7 +1968,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T14:00:52.522Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "BMW rijdt door raam Babypark in Wormerveer",
       "bronLengte": 929,
       "checklist": {
@@ -1890,7 +2008,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:50:47.631Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Nieuw Westzaan loopt vertraging op #bouwmarathon",
       "bronLengte": 2145,
       "checklist": {
@@ -1930,7 +2048,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T12:00:53.705Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "De Orkaan in 2 minuten: 19 november 🎧",
       "bronLengte": 338,
       "checklist": {
@@ -1970,7 +2088,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)",
       "bronLengte": 5987,
       "checklist": {
@@ -2010,7 +2128,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T11:00:50.515Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Waarheen: Groot Dictee, Bel Canto Operette, Blues aan de Zaan",
       "bronLengte": 1233,
       "checklist": {
@@ -2050,7 +2168,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T10:00:45.333Z",
-      "gecontroleerdOp": "2026-11-20T07:00:44.586Z",
+      "gecontroleerdOp": "2026-11-20T09:00:48.422Z",
       "bronTitel": "Is meer toezicht in het Damgebied nodig?",
       "bronLengte": 4754,
       "checklist": {

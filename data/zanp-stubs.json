@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T08:00:47.114Z",
+  "bijgewerkt": "2026-11-20T09:00:48.422Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4201,6 +4201,28 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-20T07:00:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "6613be2168": {
+      "g": "6613be2168",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
+      "k": "Stroomstoring in Zaandam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T07:57:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "94b375a428": {
+      "g": "94b375a428",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-19-34ee0c",
+      "k": "Stroomstoring in Amsterdam en Jisp",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-19T16:56:00.000Z",
       "c": null,
       "r": "112"
     }

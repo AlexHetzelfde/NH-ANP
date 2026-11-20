@@ -1,21 +1,65 @@
 {
-  "gegenereerdOp": "2026-11-20T08:00:47.114Z",
+  "gegenereerdOp": "2026-11-20T09:00:48.422Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 635,
-    "verhalen": 516,
-    "metMeerStukken": 64,
+    "stukken": 638,
+    "verhalen": 514,
+    "metMeerStukken": 66,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 4,
-    "aiBanden": 0,
-    "metRoute": 1,
+    "aiGevraagd": 2,
+    "aiBanden": 1,
+    "metRoute": 3,
     "nieuwRood": 0,
-    "zonderDoel": 0,
+    "zonderDoel": 1,
     "routeRood": 0
   },
   "verhalen": [
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+      "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+      "meting": {
+        "stukken": 3,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 1,
+        "eerste": "2026-11-19T08:39:00.000Z",
+        "laatste": "2026-11-19T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "breed",
+          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-19T08:39:00.000Z",
+          "type": null,
+          "titel": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/unknown-art-gallery-zaandam-sluit-af-met-daverend-feest",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T09:49:00.000Z",
+          "type": null,
+          "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/kunstgalerie-unknown-moet-wijken-voor-nieuwbouw-oostkade/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Kunstgalerie UNKnowN moet wijken voor nieuwbouw Oostkade"
+        }
+      ]
+    },
     {
       "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/5594841d-ba02-43d5-b010-ab47bc9ccbdb",
       "kop": "Kennisgeving wethouder Van der Laan: Sluiting en oplevering Saendenborch",
@@ -78,6 +122,50 @@
           "datum": "2026-11-19T12:00:53.705Z",
           "type": "incident",
           "titel": "Stroomstoring in Oostzaan"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
+      "kop": "Zestien koereigers aan het lopend buffet bij Krommenie 📸",
+      "meting": {
+        "stukken": 3,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-20T06:33:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-19T22:25:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Krommenie en Uitgeest"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-20T06:33:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Krommenie en Uitgeest"
         }
       ]
     },
@@ -404,37 +492,6 @@
       ]
     },
     {
-      "id": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
-      "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 1,
-        "eerste": "2026-11-19T08:39:00.000Z",
-        "laatste": "2026-11-19T09:49:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-19T08:39:00.000Z",
-          "type": null,
-          "titel": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid…"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/agenda/unknown-art-gallery-zaandam-sluit-af-met-daverend-feest",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T09:49:00.000Z",
-          "type": null,
-          "titel": "UnKnown Art Gallery Zaandam sluit af met daverend feest"
-        }
-      ]
-    },
-    {
       "id": "b:https://www.rodi.nl/zaanstad/nieuws/512921/het-plein-is-van-ons-studenten-van-hva-organiseren-voetbalmiddag-in-poelenburg-zaandam",
       "kop": "‘Het Plein Is Van Ons’: Studenten van HvA organiseren voetbalmiddag in Poelenburg Zaandam",
       "meting": {
@@ -567,7 +624,15 @@
     },
     "2026-11-20": {
       "nieuwRood": [],
-      "zonderDoel": []
+      "zonderDoel": [
+        {
+          "verhaal": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
+          "kop": "Appartementen vervangen kunstgalerie UNKnowN: Zaandam viert afscheid met feest",
+          "route": "breed",
+          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
+          "sinds": "2026-11-20T09:00:48.422Z"
+        }
+      ]
     }
   }
 }
