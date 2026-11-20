@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T23:00:44.960Z",
+  "gegenereerdOp": "2026-11-20T00:00:45.765Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Soort: Aangenomen moties."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "fdc48e0b2d-v1",
@@ -475,7 +476,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "071b337972-v2",
@@ -1513,7 +1515,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T21:00:45.194Z",
+      "gecontroleerdOp": "2026-11-20T00:00:45.765Z",
       "bronTitel": "Café Van Ouds Oost-Indië in Zaandijk te koop",
       "bronLengte": 1680,
       "checklist": {
@@ -1553,7 +1555,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-19T15:00:55.523Z",
-      "gecontroleerdOp": "2026-11-19T21:00:45.194Z",
+      "gecontroleerdOp": "2026-11-20T00:00:45.765Z",
       "bronTitel": "Onze 1 aprilgrap is nu geschiedenis. Met dank aan Google AI 🐸",
       "bronLengte": 3564,
       "checklist": {

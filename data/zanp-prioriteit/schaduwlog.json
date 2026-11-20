@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-19T23:00:44.960Z",
+  "gegenereerdOp": "2026-11-20T00:00:45.765Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,40 +10,40 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 1,
     "vergeten": 0,
-    "tekstenOpgeruimd": 1,
+    "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 644,
-    "bewijsStukken": 29,
-    "kandidaten": 78,
-    "metAnker": 75,
+    "bewijsStukken": 30,
+    "kandidaten": 73,
+    "metAnker": 70,
     "zonderAnker": 3,
     "afgelast": 0,
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
-      "boven": 1,
+      "boven": 0,
       "wacht": 0,
       "onderdrukt": 0,
       "veto": 0,
-      "nieuwRood": 1,
+      "nieuwRood": 0,
       "noodrem": false
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 628,
-      "verhalen": 510,
+      "stukken": 629,
+      "verhalen": 511,
       "metMeerStukken": 63,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 2,
+      "aiGevraagd": 0,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -52,69 +52,6 @@
     }
   },
   "top": [
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d39bb1f7-1061-4d1c-8ee5-da7a05ef8d09",
-      "soort": "nieuws",
-      "kop": "Schriftelijke inspraak agenda-initiatief Evenementen op de Hemkade en het Hembrugterrein",
-      "S": 0.65,
-      "Sa": 0.65,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.98,
-      "Kp": 0.59,
-      "n": 6,
-      "dagen": 5,
-      "bronnen": 3,
-      "ankers": [
-        "hemkad",
-        "schriftelijk",
-        "evenement",
-        "hembrugterrein",
-        "zorgpunt",
-        "initiatief",
-        "insprak",
-        "achtergrond",
-        "ghijsenlan",
-        "hierbij"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.93,
-          "plek": "kop",
-          "titel": "Feesten én wonen op Hembrugterrein (met ‘aanvaardbare overlast’)"
-        },
-        {
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-12T07:50:59.785Z",
-          "c": 0.74,
-          "plek": "intro",
-          "titel": "Zaanstad Beraad"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-21T22:00:00.000Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "ADE gaat vannacht los: niet parkeren, afsluitingen en uitstapverbod"
-        },
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "c": 0.68,
-          "plek": "intro",
-          "titel": "Verzoek om spreektijd en verspreiding stukken TAETS – Zaanstad Beraad 17 november, agendapunt 5"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.66,
-          "plek": "intro",
-          "titel": "JOY x FLOW onder vuur: 96 boetes, verkeerschaos en toch ‘ordentelijk verlopen’?"
-        }
-      ]
-    },
     {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Noord_Holland_sluit_energiebesparingsakkoord_4_miljoen_extra_voor_toezicht_en_handhaving",
       "soort": "nieuws",
@@ -138,42 +75,6 @@
           "c": 0.98,
           "plek": "kop",
           "titel": "Energiebesparingsakkoord 2027-2030"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/9021ddc7-6cd7-4561-89b1-6a77b3c564a3",
-      "soort": "nieuws",
-      "kop": "Kennisgeving wethouder Groenewoud: persbericht warmtenet Krommenie",
-      "S": 0.35,
-      "Sa": 0.35,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.28,
-      "Kp": 0.11,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "groenewoud",
-        "warmtenet",
-        "voruitlopend",
-        "ardgasvrij"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Kennisgeving wethouder Groenewoud: Aanvraag windturbines Westelijk Havengebied"
-        },
-        {
-          "bron": "zaanstad-schriftelijke-vragen",
-          "datum": "2026-11-19T12:00:55.757Z",
-          "c": 0.64,
-          "plek": "intro",
-          "titel": "Antwoord op schriftelijke vragen: Artikel 51 vragen DZ inzake Archivering bestuurlijke whatsapp- en tekstberichten collegeleden"
         }
       ]
     },
@@ -211,39 +112,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/93fa08b9-02ff-4a71-9a81-625b73c0c95f",
-      "soort": "nieuws",
-      "kop": "Brief aan omwonenden Saendenborch",
-      "S": 0.35,
-      "Sa": 0.35,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.69,
-      "Kp": 0.51,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "saendenborch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Wethouder Harrie van der Laan: buren van Saendenborch niet bedreigd"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-31T23:00:00.000Z",
-          "c": 0.88,
-          "plek": "kop",
-          "titel": "Oekraïners uit Saendenborch: gebouw kan gesloopt #bouwmarathon"
         }
       ]
     },
@@ -317,8 +185,8 @@
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Zo_brengen_natuurherstel_en_samenwerking_vergunningen_op_Texel_dichterbij",
       "soort": "nieuws",
       "kop": "Zo brengen natuurherstel en samenwerking vergunningen op Texel dichterbij",
-      "S": 0.27,
-      "Sa": 0.27,
+      "S": 0.26,
+      "Sa": 0.26,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.35,
@@ -665,34 +533,6 @@
           "c": 0.88,
           "plek": "kop",
           "titel": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-535233.html",
-      "soort": "nieuws",
-      "kop": "Beschikking saneringsevaluatie - Zeeheldenbuurt, Wormerveer",
-      "S": 0.07,
-      "Sa": 0.07,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.39,
-      "Kp": 0.24,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "zeheldenburt",
-        "saneringsevaluati",
-        "beschikking"
-      ],
-      "bewijs": [
-        {
-          "bron": "bekendmakingen",
-          "datum": "2026-11-04T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Beschikking instemmen saneringsevaluatie - Noorddijk, Wormerveer"
         }
       ]
     },
@@ -1178,6 +1018,92 @@
         "dierenbescherming",
         "atelier300c",
         "soesterweg"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:876bc64aab",
+      "soort": "agenda",
+      "kop": "Inspiratiesessie Zaans Preventiemodel (ZPM)",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "inspiratiesessi",
+        "preventiemodel",
+        "stomhal",
+        "pakhuisplein",
+        "preventi"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:f14947adc5",
+      "soort": "agenda",
+      "kop": "Opening Virtueel TIJDmuseum",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "virtuel",
+        "tijdmuseum"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:0074fed529",
+      "soort": "agenda",
+      "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "participati",
+        "opvanglocatie",
+        "emotie",
+        "workshop"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "a:a3ff11919d",
+      "soort": "agenda",
+      "kop": "Symposium: Een stabielere samenleving begint thuis",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stabieler",
+        "samenleving",
+        "congrescentrum",
+        "thuis",
+        "zeist",
+        "begint",
+        "achmea"
       ],
       "bewijs": []
     }
