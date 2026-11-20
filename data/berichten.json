@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-20T15:00:50.406Z",
+  "gegenereerdOp": "2026-11-20T16:01:01.019Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "8c17c54e9d-v1",
@@ -474,7 +475,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "9b92bbd794-v1",
@@ -920,6 +922,97 @@
         "zin": "Soort: Aangenomen moties."
       },
       "tagVersie": 2
+    },
+    {
+      "id": "36bfd52d61-v1",
+      "groepId": "36bfd52d61",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
+      "kop": "Poller omlaag: winst of verlies?",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 430,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T16:01:01.019Z",
+      "gecontroleerdOp": "2026-11-20T16:01:01.019Z",
+      "bronTitel": "Poller omlaag: winst of verlies?",
+      "bronLengte": 2505,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "445d74bde2-v1",
+      "groepId": "445d74bde2",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/21e-jaarboek-van-historisch-genootschap-wormer/",
+      "kop": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-19T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 177,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-20T16:01:01.019Z",
+      "gecontroleerdOp": "2026-11-20T16:01:01.019Z",
+      "bronTitel": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
+      "bronLengte": 1133,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Presentatie Jaarboek 2026 Historisch Genootschap Wormer",
+          "dag": "2026-11-21",
+          "start": "2026-11-21T09:00:00.000Z",
+          "eind": "2026-11-21T15:00:00.000Z",
+          "plaats": "De Stoomhal in Wormer",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "6157987fdf"
+      ]
     },
     {
       "id": "440c93292b-v1",
