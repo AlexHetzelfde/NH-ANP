@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-20T12:04:16.376Z",
+  "bijgewerkt": "2026-11-20T13:00:48.702Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4280,6 +4280,28 @@
       "t": "2026-11-20T10:10:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "9b92bbd794": {
+      "g": "9b92bbd794",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/assendelft-2026-11-20-96570c",
+      "k": "Stroomstoring in Assendelft",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-20T12:42:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "0e37e08311": {
+      "g": "0e37e08311",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kalk_en_steenmeel_voor_bodemverbetering_op_de_Gooise_heide",
+      "k": "Goois Natuurreservaat gebruikt kalk en steenmeel voor bodemverbetering op heide",
+      "bt": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-20T10:58:52.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
