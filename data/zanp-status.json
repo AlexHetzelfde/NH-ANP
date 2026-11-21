@@ -1,21 +1,21 @@
 {
-  "gegenereerdOp": "2026-11-21T10:00:50.730Z",
+  "gegenereerdOp": "2026-11-21T11:00:49.362Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
-      "gevonden": 3,
-      "opeenvolgendLeeg": 0,
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
       "opeenvolgendFout": 0
     },
     "ibabs-ingekomen-stukken": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
-      "gevonden": 10,
-      "opeenvolgendLeeg": 0,
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,7 +26,7 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -37,25 +37,25 @@
       }
     },
     "zaanstad-hoorzittingen": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 8,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "omgevingsdienstnoordzeekanaal": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "rechtspraak-noord-holland": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 2,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "bekendmakingen": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 150,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -66,33 +66,33 @@
       }
     },
     "wetenregelgeving": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 50,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-kalender": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 39,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "vervoerregio-aanbesteding": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 24,
+      "opeenvolgendLeeg": 25,
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 12,
+      "opeenvolgendLeeg": 13,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 155,
+      "opeenvolgendLeeg": 156,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-21T00:00:49.302Z",
@@ -101,9 +101,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 200,
+      "opeenvolgendLeeg": 201,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-21T04:00:47.568Z",
@@ -112,15 +112,15 @@
       }
     },
     "rekenkamer-amsterdam-zaanstad": {
-      "laatsteScrape": "2026-11-20T15:00:50.406Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 100,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 47,
+      "opeenvolgendLeeg": 48,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-21T00:00:49.302Z",
@@ -129,32 +129,32 @@
       }
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-21T10:00:50.730Z",
-      "gevonden": 1,
-      "opeenvolgendLeeg": 0,
+      "laatsteScrape": "2026-11-21T11:00:49.362Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
       "opeenvolgendFout": 0
     }
   },
   "bronnenZonderRubriek": [],
   "gemini": {
     "dag": "2026-11-21",
-    "gebruikt": 6,
+    "gebruikt": 8,
     "wachtTot": null,
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 1
+    "verzoekenDezeRun": 2
   },
   "clusterBeslissingen": {},
   "kwaliteit": {
@@ -354,31 +354,31 @@
       "runs": 12
     },
     "2026-11-21": {
-      "verzoeken": 5,
-      "berichten": 5,
+      "verzoeken": 6,
+      "berichten": 6,
       "ok": 0,
-      "analyseOk": 5,
+      "analyseOk": 6,
       "cijfersAfgekeurd": 0,
       "onvoldoende": 0,
       "fout": 0,
       "overgeslagen": 0,
-      "tagAi": 5,
+      "tagAi": 6,
       "tagTrefwoord": 0,
       "tagBron": 0,
       "tagGeen": 0,
-      "runs": 5
+      "runs": 6
     }
   },
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 0,
-      "behouden": 166,
+      "bijgewerkt": 33,
+      "behouden": 133,
       "verdwenen": 0,
       "verlopen": 0,
-      "uitBerichten": 22,
+      "uitBerichten": 23,
       "uitCamera": 4,
-      "zichtbaar": 74,
+      "zichtbaar": 75,
       "verborgen": 115,
       "inAfwachting": 0
     },
@@ -386,11 +386,11 @@
       "nieuw": 1,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 12,
+      "ongewijzigd": 1,
       "seed": 0
     },
     "cluster": {
-      "vergeleken": 1326,
+      "vergeleken": 1225,
       "automatisch": 0,
       "aiGevraagd": 0,
       "aiJa": 0,
@@ -413,12 +413,12 @@
         },
         "zaanstad-nieuws": {
           "gevonden": 15,
-          "nieuw": 0,
+          "nieuw": 1,
           "fouten": []
         }
       },
-      "nieuw": 0,
-      "artikelen": 0,
+      "nieuw": 1,
+      "artikelen": 1,
       "artikelFouten": 0
     },
     "prioriteit": {
@@ -434,12 +434,12 @@
         "mislukt": 0,
         "uitgesteld": 0
       },
-      "bewijsNieuw": 0,
-      "vergeten": 0,
+      "bewijsNieuw": 1,
+      "vergeten": 1,
       "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
       "stukken": 659,
-      "bewijsStukken": 38,
+      "bewijsStukken": 39,
       "kandidaten": 60,
       "metAnker": 58,
       "zonderAnker": 2,
@@ -456,13 +456,13 @@
       },
       "rood": 4,
       "verhalen": {
-        "stukken": 647,
-        "verhalen": 510,
+        "stukken": 648,
+        "verhalen": 511,
         "metMeerStukken": 74,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 0,
-        "aiBanden": 0,
+        "aiGevraagd": 2,
+        "aiBanden": 1,
         "metRoute": 2,
         "nieuwRood": 0,
         "zonderDoel": 1,

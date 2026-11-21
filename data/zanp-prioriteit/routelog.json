@@ -1,15 +1,15 @@
 {
-  "gegenereerdOp": "2026-11-21T10:00:50.730Z",
+  "gegenereerdOp": "2026-11-21T11:00:49.362Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 647,
-    "verhalen": 510,
+    "stukken": 648,
+    "verhalen": 511,
     "metMeerStukken": 74,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
-    "aiBanden": 0,
+    "aiGevraagd": 2,
+    "aiBanden": 1,
     "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 1,
@@ -372,6 +372,44 @@
       ]
     },
     {
+      "id": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
+      "kop": "'Aanknopingspunten' voor fusie Wormerland en Purmerend",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-20T12:06:00.000Z",
+        "laatste": "2026-11-20T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-20T12:06:00.000Z",
+          "type": null,
+          "titel": "'Aanknopingspunten' voor fusie Wormerland en Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/oostzaan-wil-verder-praten-met-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-20T23:00:00.000Z",
+          "type": null,
+          "titel": "Oostzaan wil verder praten met Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wormerland-en-oostzaan-nemen-stap-richting-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-20T23:00:00.000Z",
+          "type": null,
+          "titel": "Wormerland en Oostzaan zetten stap richting Purmerend"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/vermiste-zeiler-uit-zaandam-dood-gevonden-op-duits-waddeneiland/",
       "kop": "Vermiste zeiler uit Zaandam dood gevonden op Duits Waddeneiland",
       "meting": {
@@ -585,37 +623,6 @@
           "datum": "2026-11-19T15:00:00.000Z",
           "type": null,
           "titel": "Samenwerking om voorlezen verder te verspreiden"
-        }
-      ]
-    },
-    {
-      "id": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
-      "kop": "'Aanknopingspunten' voor fusie Wormerland en Purmerend",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 1,
-        "eerste": "2026-11-20T12:06:00.000Z",
-        "laatste": "2026-11-20T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-20T12:06:00.000Z",
-          "type": null,
-          "titel": "'Aanknopingspunten' voor fusie Wormerland en Purmerend"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/wormerland-en-oostzaan-nemen-stap-richting-purmerend/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-20T23:00:00.000Z",
-          "type": null,
-          "titel": "Wormerland en Oostzaan zetten stap richting Purmerend"
         }
       ]
     }
