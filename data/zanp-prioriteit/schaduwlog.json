@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T09:37:28.395Z",
+  "gegenereerdOp": "2026-11-21T10:00:50.730Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,11 +20,11 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 658,
+    "stukken": 659,
     "bewijsStukken": 38,
-    "kandidaten": 62,
-    "metAnker": 59,
-    "zonderAnker": 3,
+    "kandidaten": 60,
+    "metAnker": 58,
+    "zonderAnker": 2,
     "afgelast": 0,
     "dubbel": 1,
     "tau": 0.5,
@@ -38,13 +38,13 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 646,
-      "verhalen": 511,
-      "metMeerStukken": 73,
+      "stukken": 647,
+      "verhalen": 510,
+      "metMeerStukken": 74,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
-      "aiBanden": 1,
+      "aiGevraagd": 0,
+      "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
       "zonderDoel": 1,
@@ -441,36 +441,6 @@
           "c": 1,
           "plek": "kop",
           "titel": "Molens openen ’s avonds hun deuren ter ere van 80 jaar UNESCO"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Grote_betrokkenheid_tijdens_ambtsbezoek_aan_Opmeer",
-      "soort": "nieuws",
-      "kop": "Grote betrokkenheid tijdens ambtsbezoek aan Opmeer",
-      "S": 0.08,
-      "Sa": 0.08,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.49,
-      "Kp": 0.21,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "opmer",
-        "ambtsbezoek",
-        "betrokkenheid",
-        "wiersema",
-        "westfries"
-      ],
-      "bewijs": [
-        {
-          "bron": "nh-actueel",
-          "datum": "2026-11-05T08:59:23.000Z",
-          "c": 0.86,
-          "plek": "kop",
-          "titel": "Oog voor verbinding tijdens ambtsbezoek aan gemeente Zaanstad"
         }
       ]
     },
@@ -1143,6 +1113,25 @@
         "afgetrapt",
         "landgoed",
         "kilometerslang"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-774bac",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Koog aan de Zaan",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "parallelweg",
+        "leliestrat"
       ],
       "bewijs": []
     }

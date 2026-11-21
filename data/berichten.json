@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T09:37:28.395Z",
+  "gegenereerdOp": "2026-11-21T10:00:50.730Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,47 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "fcde259d6f-v1",
+      "groepId": "fcde259d6f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vergeten-brievenbus-in-oostknollendam-was-foutje-van-postnl/",
+      "kop": "Vergeten brievenbus in Oostknollendam was foutje van PostNL",
+      "tekst": null,
+      "rubriek": "BED",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 249,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "bronTitel": "Vergeten brievenbus in Oostknollendam was foutje van PostNL",
+      "bronLengte": 1575,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "f51abdaed2-v1",
@@ -496,7 +536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T08:00:47.454Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
       "bronLengte": 1005,
       "checklist": {
@@ -638,7 +678,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T15:00:50.406Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
       "bronLengte": 5424,
       "checklist": {
@@ -711,7 +751,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
       "bronLengte": 5996,
       "checklist": {
@@ -752,7 +792,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Eerste kilometer van langste heg van Nederland geplant",
       "bronLengte": 1742,
       "checklist": {
@@ -1124,7 +1164,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T06:00:46.505Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Motor geschept door auto op de Watering",
       "bronLengte": 623,
       "checklist": {
@@ -1164,7 +1204,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Lintjes voor Fabriek-vrijwilligers",
       "bronLengte": 2611,
       "checklist": {
@@ -1204,7 +1244,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Schoolstaking tegen dienstplicht: zeer bescheiden opkomst",
       "bronLengte": 3416,
       "checklist": {
@@ -1244,7 +1284,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Poller omlaag: winst of verlies?",
       "bronLengte": 2505,
       "checklist": {
@@ -1284,7 +1324,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
       "bronLengte": 1133,
       "checklist": {
@@ -1337,7 +1377,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T14:01:04.791Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Zaanstad wil islamitische scholen weren én de wet veranderen",
       "bronLengte": 5993,
       "checklist": {
@@ -1377,7 +1417,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "Torenhoog verzet tegen Saendenborch, besluit opnieuw uitgesteld",
       "bronLengte": 6000,
       "checklist": {
@@ -1417,7 +1457,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T12:04:16.376Z",
-      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
       "bronTitel": "De Orkaan in 2 minuten: 20 november 🎧",
       "bronLengte": 326,
       "checklist": {
