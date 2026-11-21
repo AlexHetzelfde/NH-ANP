@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-21T06:00:46.505Z",
+  "gegenereerdOp": "2026-11-21T07:00:46.513Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 641,
+    "stukken": 642,
     "verhalen": 508,
-    "metMeerStukken": 72,
+    "metMeerStukken": 73,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
+    "aiGevraagd": 0,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -585,6 +585,37 @@
           "datum": "2026-11-19T15:00:00.000Z",
           "type": null,
           "titel": "Samenwerking om voorlezen verder te verspreiden"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
+      "kop": "'Aanknopingspunten' voor fusie Wormerland en Purmerend",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-20T12:06:00.000Z",
+        "laatste": "2026-11-20T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/aanknopingspunten-voor-fusie-wormerland-en-purmerend",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-20T12:06:00.000Z",
+          "type": null,
+          "titel": "'Aanknopingspunten' voor fusie Wormerland en Purmerend"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wormerland-en-oostzaan-nemen-stap-richting-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-20T23:00:00.000Z",
+          "type": null,
+          "titel": "Wormerland en Oostzaan zetten stap richting Purmerend"
         }
       ]
     }

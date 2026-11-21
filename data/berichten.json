@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T06:00:46.505Z",
+  "gegenereerdOp": "2026-11-21T07:00:46.513Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,75 @@
     }
   ],
   "berichten": [
+    {
+      "id": "398383e553-v1",
+      "groepId": "398383e553",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/wormerland-en-oostzaan-nemen-stap-richting-purmerend/",
+      "kop": "Wormerland en Oostzaan zetten stap richting Purmerend",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 321,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T07:00:46.513Z",
+      "gecontroleerdOp": "2026-11-21T07:00:46.513Z",
+      "bronTitel": "Wormerland en Oostzaan zetten stap richting Purmerend",
+      "bronLengte": 2130,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Voorrondes gemeenteraad Wormerland",
+          "dag": "2026-12-07",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "letterlijk"
+        },
+        {
+          "titel": "Besluit gemeenteraad Wormerland over vervolg",
+          "dag": "2026-12-15",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Bespreek quickscan commissie Oostzaan",
+          "dag": "2026-12-03",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "letterlijk"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "33927ef641",
+        "4396e1ee29"
+      ]
+    },
     {
       "id": "aa1bdb6bec-v1",
       "groepId": "aa1bdb6bec",
@@ -960,7 +1029,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "7008d52a54-v1",
