@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T11:00:49.362Z",
+  "gegenereerdOp": "2026-11-21T12:00:49.476Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -487,7 +487,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "1914049969"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "fcde259d6f-v1",
@@ -629,7 +630,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T07:00:46.513Z",
-      "gecontroleerdOp": "2026-11-21T09:37:28.395Z",
+      "gecontroleerdOp": "2026-11-21T12:00:49.476Z",
       "bronTitel": "Wormerland en Oostzaan zetten stap richting Purmerend",
       "bronLengte": 2130,
       "checklist": {
