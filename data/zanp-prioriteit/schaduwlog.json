@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T21:00:45.372Z",
+  "gegenereerdOp": "2026-11-21T22:00:46.302Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,10 +17,10 @@
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 0,
+    "vergeten": 15,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 663,
+    "stukken": 648,
     "bewijsStukken": 43,
     "kandidaten": 43,
     "metAnker": 41,
@@ -38,9 +38,9 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 656,
-      "verhalen": 517,
-      "metMeerStukken": 75,
+      "stukken": 641,
+      "verhalen": 509,
+      "metMeerStukken": 72,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 0,
@@ -851,9 +851,9 @@
         "agendapunt",
         "opening",
         "vaststel",
+        "besluitenlijst",
         "anbiedingsbrief",
-        "netuitbreiding",
-        "besluitenlijst"
+        "netuitbreiding"
       ],
       "bewijs": []
     },
