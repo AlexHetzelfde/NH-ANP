@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T09:00:45.959Z",
+  "gegenereerdOp": "2026-11-21T09:37:28.395Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "d3636015a0-v1",
+      "groepId": "d3636015a0",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
+      "kop": "Stroomstoring in Zaandam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-21T09:06:00.000Z",
+      "heeftTijd": true,
+      "woorden": 45,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-21T09:37:28.395Z",
+      "gecontroleerdOp": "2026-11-21T09:37:28.395Z",
+      "bronTitel": "Stroomstoring in Zaandam",
+      "bronLengte": 317,
+      "rood": {
+        "sinds": "2026-11-21T09:37:28.395Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "f51abdaed2-v1",
       "groepId": "f51abdaed2",
       "versie": 1,
@@ -442,7 +473,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4444725e02-v1",
@@ -504,7 +536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T07:00:46.513Z",
-      "gecontroleerdOp": "2026-11-21T07:00:46.513Z",
+      "gecontroleerdOp": "2026-11-21T09:37:28.395Z",
       "bronTitel": "Wormerland en Oostzaan zetten stap richting Purmerend",
       "bronLengte": 2130,
       "checklist": {
