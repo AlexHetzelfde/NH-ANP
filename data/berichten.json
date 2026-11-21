@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T15:00:52.188Z",
+  "gegenereerdOp": "2026-11-21T16:00:45.799Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -436,6 +436,45 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "99fa95e8a9-v1",
+      "groepId": "99fa95e8a9",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/50woordenfoto-perongelukkunst/",
+      "kop": "50woordenfoto: perongelukkunst…",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 109,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T16:00:45.799Z",
+      "gecontroleerdOp": "2026-11-21T16:00:45.799Z",
+      "bronTitel": "50woordenfoto: perongelukkunst…",
+      "bronLengte": 632,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "3f6a5f0e7a-v1",
