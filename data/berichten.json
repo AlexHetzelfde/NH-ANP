@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T18:00:45.082Z",
+  "gegenereerdOp": "2026-11-21T19:00:46.466Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -438,6 +438,45 @@
       "tagVersie": 2
     },
     {
+      "id": "1ef10215fc-v1",
+      "groepId": "1ef10215fc",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/sinterklaas-groots-onthaald-in-wormerveer-%f0%9f%93%b8/",
+      "kop": "Sinterklaas groots onthaald in Wormerveer",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 128,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T19:00:46.466Z",
+      "gecontroleerdOp": "2026-11-21T19:00:46.466Z",
+      "bronTitel": "Sinterklaas groots onthaald in Wormerveer",
+      "bronLengte": 745,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "04e53c1bf9-v1",
       "groepId": "04e53c1bf9",
       "versie": 1,
@@ -474,7 +513,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "99fa95e8a9-v1",
@@ -496,7 +536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T16:00:45.799Z",
-      "gecontroleerdOp": "2026-11-21T16:00:45.799Z",
+      "gecontroleerdOp": "2026-11-21T19:00:46.466Z",
       "bronTitel": "50woordenfoto: perongelukkunst…",
       "bronLengte": 632,
       "checklist": {
