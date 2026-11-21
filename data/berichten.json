@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T07:00:46.513Z",
+  "gegenereerdOp": "2026-11-21T08:00:47.454Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,45 @@
   ],
   "berichten": [
     {
+      "id": "4444725e02-v1",
+      "groepId": "4444725e02",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/peugeot-boxer-verwoest-bij-autobrand-wormerveer-%f0%9f%93%b8/",
+      "kop": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 168,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T08:00:47.454Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
+      "bronTitel": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
+      "bronLengte": 1005,
+      "checklist": {
+        "gevaar": true,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "398383e553-v1",
       "groepId": "398383e553",
       "versie": 1,
@@ -472,7 +511,8 @@
       "agendaIds": [
         "33927ef641",
         "4396e1ee29"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "aa1bdb6bec-v1",
@@ -526,7 +566,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T15:00:50.406Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
       "bronLengte": 5424,
       "checklist": {
@@ -599,7 +639,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
       "bronLengte": 5996,
       "checklist": {
@@ -640,7 +680,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Eerste kilometer van langste heg van Nederland geplant",
       "bronLengte": 1742,
       "checklist": {
@@ -1012,7 +1052,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T06:00:46.505Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Motor geschept door auto op de Watering",
       "bronLengte": 623,
       "checklist": {
@@ -1052,7 +1092,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Lintjes voor Fabriek-vrijwilligers",
       "bronLengte": 2611,
       "checklist": {
@@ -1092,7 +1132,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Schoolstaking tegen dienstplicht: zeer bescheiden opkomst",
       "bronLengte": 3416,
       "checklist": {
@@ -1132,7 +1172,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Poller omlaag: winst of verlies?",
       "bronLengte": 2505,
       "checklist": {
@@ -1172,7 +1212,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
       "bronLengte": 1133,
       "checklist": {
@@ -1225,7 +1265,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T14:01:04.791Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Zaanstad wil islamitische scholen weren én de wet veranderen",
       "bronLengte": 5993,
       "checklist": {
@@ -1265,7 +1305,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Torenhoog verzet tegen Saendenborch, besluit opnieuw uitgesteld",
       "bronLengte": 6000,
       "checklist": {
@@ -1305,7 +1345,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T12:04:16.376Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "De Orkaan in 2 minuten: 20 november 🎧",
       "bronLengte": 326,
       "checklist": {
@@ -1345,7 +1385,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Slijterij Drinks & Gifts in Krommenie krijgt vanaf januari nieuwe eigenaren",
       "bronLengte": 1469,
       "checklist": {
@@ -1385,7 +1425,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T11:00:47.560Z",
-      "gecontroleerdOp": "2026-11-21T06:00:46.505Z",
+      "gecontroleerdOp": "2026-11-21T08:00:47.454Z",
       "bronTitel": "Van de Casbah naar de Cavern – waar The Beatles echt begonnen",
       "bronLengte": 5997,
       "checklist": {
