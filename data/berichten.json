@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T14:00:47.024Z",
+  "gegenereerdOp": "2026-11-21T15:00:52.188Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -474,7 +474,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "fc3905d563-v1",
@@ -496,7 +497,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T13:00:47.408Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Bruna in financiële problemen, winkels blijven voorlopig open",
       "bronLengte": 2835,
       "checklist": {
@@ -589,7 +590,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T10:00:50.730Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Vergeten brievenbus in Oostknollendam was foutje van PostNL",
       "bronLengte": 1575,
       "checklist": {
@@ -669,7 +670,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T08:00:47.454Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
       "bronLengte": 1005,
       "checklist": {
@@ -709,7 +710,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T07:00:46.513Z",
-      "gecontroleerdOp": "2026-11-21T12:00:49.476Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Wormerland en Oostzaan zetten stap richting Purmerend",
       "bronLengte": 2130,
       "checklist": {
@@ -1297,7 +1298,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T06:00:46.505Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Motor geschept door auto op de Watering",
       "bronLengte": 623,
       "checklist": {
@@ -1337,7 +1338,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Lintjes voor Fabriek-vrijwilligers",
       "bronLengte": 2611,
       "checklist": {
@@ -1377,7 +1378,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Schoolstaking tegen dienstplicht: zeer bescheiden opkomst",
       "bronLengte": 3416,
       "checklist": {
@@ -1417,7 +1418,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Poller omlaag: winst of verlies?",
       "bronLengte": 2505,
       "checklist": {
@@ -1457,7 +1458,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T15:00:52.188Z",
       "bronTitel": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
       "bronLengte": 1133,
       "checklist": {
