@@ -1,18 +1,18 @@
 {
-  "gegenereerdOp": "2026-11-21T22:00:46.302Z",
+  "gegenereerdOp": "2026-11-21T23:00:46.822Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 641,
-    "verhalen": 509,
-    "metMeerStukken": 72,
+    "stukken": 639,
+    "verhalen": 507,
+    "metMeerStukken": 73,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
     "aiBanden": 0,
-    "metRoute": 1,
+    "metRoute": 0,
     "nieuwRood": 0,
-    "zonderDoel": 1,
+    "zonderDoel": 0,
     "routeRood": 0
   },
   "verhalen": [
@@ -29,13 +29,7 @@
         "eerste": "2026-11-19T08:39:00.000Z",
         "laatste": "2026-11-19T23:00:00.000Z"
       },
-      "routes": [
-        {
-          "route": "breed",
-          "reden": "Breed opgepikt: 3 media in 14 uur (Rodi (Zaanstad), Zaanstad.nieuws.nl, DeOrkaan)",
-          "doel": null
-        }
-      ],
+      "routes": [],
       "leden": [
         {
           "k": "b:https://www.rodi.nl/zaanstad/nieuws/512983/appartementen-vervangen-kunstgalerie-unknown-zaandam-viert-afscheid-met-feest",
@@ -684,6 +678,10 @@
           "sinds": "2026-11-20T23:00:48.659Z"
         }
       ]
+    },
+    "2026-11-22": {
+      "nieuwRood": [],
+      "zonderDoel": []
     }
   }
 }
