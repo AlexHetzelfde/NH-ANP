@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-21T12:00:49.476Z",
+  "gegenereerdOp": "2026-11-21T13:00:47.408Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 648,
-    "verhalen": 510,
-    "metMeerStukken": 74,
+    "stukken": 651,
+    "verhalen": 512,
+    "metMeerStukken": 75,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 2,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -623,6 +623,37 @@
           "datum": "2026-11-19T15:00:00.000Z",
           "type": null,
           "titel": "Samenwerking om voorlezen verder te verspreiden"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/lintjes-voor-fabriek-vrijwilligers/",
+      "kop": "Lintjes voor Fabriek-vrijwilligers",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-19T23:00:00.000Z",
+        "laatste": "2026-11-21T13:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/lintjes-voor-fabriek-vrijwilligers/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Lintjes voor Fabriek-vrijwilligers"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/vier-lintjes-en-twee-erepenningen-van-zaanstad-op-een-dag",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-21T13:00:00.000Z",
+          "type": null,
+          "titel": "Vier lintjes en twee erepenningen van Zaanstad op één dag"
         }
       ]
     }

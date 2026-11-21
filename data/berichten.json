@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T12:00:49.476Z",
+  "gegenereerdOp": "2026-11-21T13:00:47.408Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -438,6 +438,45 @@
       "tagVersie": 2
     },
     {
+      "id": "fc3905d563-v1",
+      "groepId": "fc3905d563",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/bruna-in-financiele-problemen-winkels-blijven-voorlopig-open/",
+      "kop": "Bruna in financiële problemen, winkels blijven voorlopig open",
+      "tekst": null,
+      "rubriek": "BED",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 430,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-21T13:00:47.408Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
+      "bronTitel": "Bruna in financiële problemen, winkels blijven voorlopig open",
+      "bronLengte": 2835,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": true,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 9000000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "328742694e-v1",
       "groepId": "328742694e",
       "versie": 1,
@@ -510,7 +549,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T10:00:50.730Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Vergeten brievenbus in Oostknollendam was foutje van PostNL",
       "bronLengte": 1575,
       "checklist": {
@@ -590,7 +629,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T08:00:47.454Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
       "bronLengte": 1005,
       "checklist": {
@@ -732,7 +771,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T15:00:50.406Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
       "bronLengte": 5424,
       "checklist": {
@@ -805,7 +844,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-20T13:00:48.702Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Kalk en steenmeel voor bodemverbetering op de Gooise heide",
       "bronLengte": 5996,
       "checklist": {
@@ -1218,7 +1257,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T06:00:46.505Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Motor geschept door auto op de Watering",
       "bronLengte": 623,
       "checklist": {
@@ -1258,7 +1297,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Lintjes voor Fabriek-vrijwilligers",
       "bronLengte": 2611,
       "checklist": {
@@ -1298,7 +1337,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T19:00:49.377Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Schoolstaking tegen dienstplicht: zeer bescheiden opkomst",
       "bronLengte": 3416,
       "checklist": {
@@ -1338,7 +1377,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Poller omlaag: winst of verlies?",
       "bronLengte": 2505,
       "checklist": {
@@ -1378,7 +1417,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T16:01:01.019Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Wormerse dokters in 21e jaarboek Historisch Genootschap",
       "bronLengte": 1133,
       "checklist": {
@@ -1431,7 +1470,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-20T14:01:04.791Z",
-      "gecontroleerdOp": "2026-11-21T10:00:50.730Z",
+      "gecontroleerdOp": "2026-11-21T13:00:47.408Z",
       "bronTitel": "Zaanstad wil islamitische scholen weren én de wet veranderen",
       "bronLengte": 5993,
       "checklist": {
@@ -15144,46 +15183,6 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2
-    },
-    {
-      "id": "c2c16a516b-v2",
-      "groepId": "c2c16a516b",
-      "versie": 2,
-      "url": "https://www.deorkaan.nl/grote-politie-inzet-na-melding-steekpartij-bij-bedrijf-in-zaandam/",
-      "kop": "Verdachte aangehouden na dodelijke steekpartij bij bedrijf in Zaandam 📸 – update",
-      "tekst": null,
-      "rubriek": "112",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-07T12:00:53.600Z",
-      "heeftTijd": true,
-      "woorden": 170,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-07T12:00:53.600Z",
-      "gecontroleerdOp": "2026-11-07T20:00:50.155Z",
-      "bronTitel": "Verdachte aangehouden na dodelijke steekpartij bij bedrijf in Zaandam 📸 – update",
-      "bronLengte": 1151,
-      "checklist": {
-        "gevaar": true,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": true,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
     }
   ]
 }
