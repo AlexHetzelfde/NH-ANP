@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-21T23:00:46.822Z",
+  "gegenereerdOp": "2026-11-21T23:03:23.605Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -380,7 +380,7 @@
       "bijgewerkt": 0,
       "behouden": 137,
       "verdwenen": 0,
-      "verlopen": 29,
+      "verlopen": 0,
       "uitBerichten": 22,
       "uitCamera": 4,
       "zichtbaar": 71,
@@ -441,7 +441,7 @@
       },
       "bewijsNieuw": 0,
       "vergeten": 0,
-      "tekstenOpgeruimd": 1,
+      "tekstenOpgeruimd": 0,
       "tekstDekkingPct": 100,
       "stukken": 648,
       "bewijsStukken": 43,
