@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T06:00:46.528Z",
+  "gegenereerdOp": "2026-11-22T07:00:51.849Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "d3636015a0-v1",
@@ -469,6 +470,45 @@
       "tagVersie": 2
     },
     {
+      "id": "e857f925db-v1",
+      "groepId": "e857f925db",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/geschiedenis-the-black-smith-opgetekend-in-fraai-boek/",
+      "kop": "Geschiedenis The Black Smith opgetekend in fraai boek",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-20T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 156,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-22T07:00:51.849Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
+      "bronTitel": "Geschiedenis The Black Smith opgetekend in fraai boek",
+      "bronLengte": 841,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "1ef10215fc-v1",
       "groepId": "1ef10215fc",
       "versie": 1,
@@ -488,7 +528,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T19:00:46.466Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Sinterklaas groots onthaald in Wormerveer",
       "bronLengte": 745,
       "checklist": {
@@ -528,7 +568,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T18:00:45.082Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Kapiteinskoor en beiaardier brengen sfeer op de Burcht 🎥",
       "bronLengte": 836,
       "checklist": {
@@ -568,7 +608,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T16:00:45.799Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "50woordenfoto: perongelukkunst…",
       "bronLengte": 632,
       "checklist": {
@@ -608,7 +648,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T14:00:47.024Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Dronedromen, melkbussen en camera’s in De Week van De Orkaan 🎙",
       "bronLengte": 1218,
       "checklist": {
@@ -648,7 +688,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T13:00:47.408Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Bruna in financiële problemen, winkels blijven voorlopig open",
       "bronLengte": 2835,
       "checklist": {
@@ -741,7 +781,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T10:00:50.730Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Vergeten brievenbus in Oostknollendam was foutje van PostNL",
       "bronLengte": 1575,
       "checklist": {
@@ -781,7 +821,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T09:00:45.959Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Waarheen: dictee, Sinterklaas, boekenmarkt 🎙",
       "bronLengte": 1847,
       "checklist": {
@@ -821,7 +861,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T08:00:47.454Z",
-      "gecontroleerdOp": "2026-11-22T05:00:47.751Z",
+      "gecontroleerdOp": "2026-11-22T07:00:51.849Z",
       "bronTitel": "Peugeot Boxer verwoest bij autobrand Wormerveer 📸",
       "bronLengte": 1005,
       "checklist": {

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T06:00:46.528Z",
+  "gegenereerdOp": "2026-11-22T07:00:51.849Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 648,
+    "stukken": 649,
     "bewijsStukken": 44,
-    "kandidaten": 40,
-    "metAnker": 38,
+    "kandidaten": 39,
+    "metAnker": 37,
     "zonderAnker": 2,
     "afgelast": 0,
     "dubbel": 1,
@@ -38,8 +38,8 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 640,
-      "verhalen": 508,
+      "stukken": 641,
+      "verhalen": 509,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
@@ -253,40 +253,6 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "S": 0.09,
-      "Sa": 0.09,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.62,
-      "Kp": 0.44,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "uitgest",
-        "busch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "c": 0.71,
-          "plek": "intro",
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-10T23:08:49.684Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Motie aangenomen: Nachttrein"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-22-356069",
       "soort": "nieuws",
       "kop": "Stroomstoring in Volendam",
@@ -437,8 +403,8 @@
       "key": "a:ced2c284f8",
       "soort": "agenda",
       "kop": "Zaanstad Beraad Raadzaal",
-      "S": 0.06,
-      "Sa": 0.06,
+      "S": 0.05,
+      "Sa": 0.05,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.16,
