@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T14:00:45.227Z",
+  "gegenereerdOp": "2026-11-22T15:00:49.185Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,45 @@
   ],
   "berichten": [
     {
+      "id": "0f2d9ea61b-v2",
+      "groepId": "0f2d9ea61b",
+      "versie": 2,
+      "url": "https://www.deorkaan.nl/hercules-bewijst-zich-in-zaandijk-%f0%9f%8e%a5/",
+      "kop": "Hercules bewijst zich in Zaandijk ⚽️/🎥",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T15:00:49.185Z",
+      "heeftTijd": true,
+      "woorden": 365,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-22T15:00:49.185Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
+      "bronTitel": "Hercules bewijst zich in Zaandijk ⚽️/🎥",
+      "bronLengte": 2216,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "4f6d43c2cd-v1",
       "groepId": "4f6d43c2cd",
       "versie": 1,
@@ -474,7 +513,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "a3cb47ca03-v1",
@@ -496,7 +536,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T13:00:47.245Z",
-      "gecontroleerdOp": "2026-11-22T13:00:47.245Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Sinterklaas ontvangen in Oostknollendam",
       "bronLengte": 753,
       "checklist": {
@@ -536,7 +576,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T12:00:47.601Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Fototijdreis: Militaireweg Krommenie",
       "bronLengte": 5408,
       "checklist": {
@@ -616,7 +656,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T10:00:46.973Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Uit De Schatkamer: Het Twiske in 1994 🎧",
       "bronLengte": 2561,
       "checklist": {
@@ -656,7 +696,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T09:00:47.387Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Snoep voor het oog: nachtelijk genieten in de Zaanbocht ✨📸",
       "bronLengte": 580,
       "checklist": {
@@ -696,7 +736,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T08:00:53.049Z",
-      "gecontroleerdOp": "2026-11-22T13:00:47.245Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙",
       "bronLengte": 1183,
       "checklist": {
@@ -768,7 +808,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T07:00:51.849Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Geschiedenis The Black Smith opgetekend in fraai boek",
       "bronLengte": 841,
       "checklist": {
@@ -808,7 +848,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T19:00:46.466Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Sinterklaas groots onthaald in Wormerveer",
       "bronLengte": 745,
       "checklist": {
@@ -848,7 +888,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T18:00:45.082Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "Kapiteinskoor en beiaardier brengen sfeer op de Burcht 🎥",
       "bronLengte": 836,
       "checklist": {
@@ -888,7 +928,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-21T16:00:45.799Z",
-      "gecontroleerdOp": "2026-11-22T12:00:47.601Z",
+      "gecontroleerdOp": "2026-11-22T15:00:49.185Z",
       "bronTitel": "50woordenfoto: perongelukkunst…",
       "bronLengte": 632,
       "checklist": {
