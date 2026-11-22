@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T09:00:47.387Z",
+  "gegenereerdOp": "2026-11-22T10:00:46.973Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,14 +16,14 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 651,
+    "stukken": 652,
     "bewijsStukken": 45,
-    "kandidaten": 36,
-    "metAnker": 34,
+    "kandidaten": 34,
+    "metAnker": 32,
     "zonderAnker": 2,
     "afgelast": 0,
     "dubbel": 1,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 644,
-      "verhalen": 512,
+      "stukken": 645,
+      "verhalen": 513,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 2,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 0,
       "nieuwRood": 0,
@@ -89,8 +89,8 @@
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
-      "S": 0.3,
-      "Sa": 0.3,
+      "S": 0.29,
+      "Sa": 0.29,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.7,
@@ -152,40 +152,6 @@
     },
     {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0.11,
-      "Sa": 0.11,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.58,
-      "Kp": 0.46,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "bolkad",
-        "gerrit"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-02T23:00:00.000Z",
-          "c": 0.66,
-          "plek": "intro",
-          "titel": "Audi alleen gelaten…"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-13T15:17:06.529Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Drie auto’s verwoest door felle brand in Zaandam"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
       "S": 0.11,
@@ -928,29 +894,6 @@
       "ankers": [
         "parallelweg",
         "leliestrat"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-19-34ee0c",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Amsterdam en Jisp",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "allard",
-        "piersonstrat",
-        "costakad",
-        "costaplein",
-        "costastrat",
-        "jisp"
       ],
       "bewijs": []
     }
