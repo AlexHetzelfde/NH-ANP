@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T17:00:53.233Z",
+  "gegenereerdOp": "2026-11-22T18:00:45.183Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,7 +17,7 @@
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 1,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 656,
