@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T05:00:47.751Z",
+  "gegenereerdOp": "2026-11-22T06:00:46.528Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -405,6 +405,37 @@
     }
   ],
   "berichten": [
+    {
+      "id": "4f6d43c2cd-v1",
+      "groepId": "4f6d43c2cd",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-22-356069",
+      "kop": "Stroomstoring in Volendam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T05:48:00.000Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-22T06:00:46.528Z",
+      "gecontroleerdOp": "2026-11-22T06:00:46.528Z",
+      "bronTitel": "Stroomstoring in Volendam",
+      "bronLengte": 319,
+      "rood": {
+        "sinds": "2026-11-22T06:00:46.528Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
     {
       "id": "d3636015a0-v1",
       "groepId": "d3636015a0",
