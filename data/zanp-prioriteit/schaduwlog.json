@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T04:00:45.634Z",
+  "gegenereerdOp": "2026-11-22T05:00:47.751Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -126,8 +126,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-20-bb8497",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.22,
-      "Sa": 0.22,
+      "S": 0.21,
+      "Sa": 0.21,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.69,
