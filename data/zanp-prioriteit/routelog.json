@@ -1,11 +1,11 @@
 {
-  "gegenereerdOp": "2026-11-22T22:00:51.839Z",
+  "gegenereerdOp": "2026-11-22T23:00:44.199Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 645,
-    "verhalen": 519,
-    "metMeerStukken": 72,
+    "stukken": 640,
+    "verhalen": 516,
+    "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 0,
@@ -645,6 +645,10 @@
       ]
     },
     "2026-11-22": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-23": {
       "nieuwRood": [],
       "zonderDoel": []
     }
