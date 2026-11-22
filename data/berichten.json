@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T10:00:46.973Z",
+  "gegenereerdOp": "2026-11-22T11:00:45.777Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -438,6 +438,45 @@
       "tagVersie": 2
     },
     {
+      "id": "0f2d9ea61b-v1",
+      "groepId": "0f2d9ea61b",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/hercules-bewijst-zich-in-zaandijk-%f0%9f%8e%a5/",
+      "kop": "Hercules bewijst zich in Zaandijk 🎥",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-21T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 365,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-22T11:00:45.777Z",
+      "gecontroleerdOp": "2026-11-22T11:00:45.777Z",
+      "bronTitel": "Hercules bewijst zich in Zaandijk 🎥",
+      "bronLengte": 2216,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "b3b8301da8-v1",
       "groepId": "b3b8301da8",
       "versie": 1,
@@ -474,7 +513,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "893c7117f0-v1",
@@ -536,7 +576,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T08:00:53.049Z",
-      "gecontroleerdOp": "2026-11-22T08:00:53.049Z",
+      "gecontroleerdOp": "2026-11-22T11:00:45.777Z",
       "bronTitel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙",
       "bronLengte": 1183,
       "checklist": {
