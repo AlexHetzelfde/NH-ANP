@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T08:00:53.049Z",
+  "gegenereerdOp": "2026-11-22T09:00:47.387Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,12 +16,12 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 1,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 650,
-    "bewijsStukken": 44,
+    "stukken": 651,
+    "bewijsStukken": 45,
     "kandidaten": 36,
     "metAnker": 34,
     "zonderAnker": 2,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 642,
-      "verhalen": 510,
+      "stukken": 644,
+      "verhalen": 512,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
+      "aiGevraagd": 2,
       "aiBanden": 0,
       "metRoute": 0,
       "nieuwRood": 0,
@@ -93,7 +93,7 @@
       "Sa": 0.3,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.71,
+      "K": 0.7,
       "Kp": 0.43,
       "n": 1,
       "dagen": 1,
@@ -480,7 +480,7 @@
         {
           "bron": "zaanstad-kalender",
           "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.65,
+          "c": 0.66,
           "plek": "intro",
           "titel": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie"
         }
@@ -509,7 +509,7 @@
         {
           "bron": "zaanstad-kalender",
           "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.65,
+          "c": 0.66,
           "plek": "intro",
           "titel": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie"
         }

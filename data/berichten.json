@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T08:00:53.049Z",
+  "gegenereerdOp": "2026-11-22T09:00:47.387Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -438,6 +438,45 @@
       "tagVersie": 2
     },
     {
+      "id": "893c7117f0-v1",
+      "groepId": "893c7117f0",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/snoep-voor-het-oog-nachtelijk-genieten-in-de-zaanbocht-%e2%9c%a8%f0%9f%93%b8/",
+      "kop": "Snoep voor het oog: nachtelijk genieten in de Zaanbocht ✨📸",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-21T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 94,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-22T09:00:47.387Z",
+      "gecontroleerdOp": "2026-11-22T09:00:47.387Z",
+      "bronTitel": "Snoep voor het oog: nachtelijk genieten in de Zaanbocht ✨📸",
+      "bronLengte": 580,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "b9c341041d-v1",
       "groepId": "b9c341041d",
       "versie": 1,
@@ -474,7 +513,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "d3636015a0-v1",
