@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T18:00:45.183Z",
+  "gegenereerdOp": "2026-11-22T18:27:17.810Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,10 +10,10 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
+      "werklijst": 1,
       "lokaal": 0,
       "opgehaald": 0,
-      "mislukt": 0,
+      "mislukt": 1,
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
