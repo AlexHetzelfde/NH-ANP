@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T11:00:45.777Z",
+  "gegenereerdOp": "2026-11-22T11:04:17.965Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 0,
+      "lokaal": 0,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 3,
-    "vergeten": 1,
+    "bewijsNieuw": 0,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 652,
     "bewijsStukken": 48,
-    "kandidaten": 32,
-    "metAnker": 31,
+    "kandidaten": 29,
+    "metAnker": 28,
     "zonderAnker": 1,
     "afgelast": 0,
     "dubbel": 1,
@@ -43,7 +43,7 @@
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 4,
+      "aiGevraagd": 0,
       "aiBanden": 0,
       "metRoute": 0,
       "nieuwRood": 0,
@@ -119,34 +119,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-20-bb8497",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.21,
-      "Sa": 0.21,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.68,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "dokter"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Besluit AB l Stichting KCR2"
         }
       ]
     },
@@ -828,53 +800,6 @@
         "herontdek",
         "bodemlev",
         "nerwarts"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Eerste_kilometer_van_langste_heg_van_Nederland_geplant",
-      "soort": "nieuws",
-      "kop": "Eerste kilometer van langste heg van Nederland geplant",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "langst",
-        "geplant",
-        "rorik",
-        "kapital",
-        "recreatieschap",
-        "kilometer",
-        "landschap",
-        "beverwijk",
-        "afgetrapt",
-        "landgoed",
-        "kilometerslang"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/koog-aan-de-zaan-2026-11-20-774bac",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Koog aan de Zaan",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "parallelweg",
-        "leliestrat"
       ],
       "bewijs": []
     }
