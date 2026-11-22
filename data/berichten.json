@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T21:00:47.629Z",
+  "gegenereerdOp": "2026-11-22T22:00:51.839Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -442,7 +442,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4f9759e4c4-v2",
@@ -504,7 +505,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T15:00:49.185Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Hercules bewijst zich in Zaandijk ⚽️/🎥",
       "bronLengte": 2216,
       "checklist": {
@@ -696,7 +697,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T13:00:47.245Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Sinterklaas ontvangen in Oostknollendam",
       "bronLengte": 753,
       "checklist": {
@@ -736,7 +737,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T12:00:47.601Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Fototijdreis: Militaireweg Krommenie",
       "bronLengte": 5408,
       "checklist": {
@@ -816,7 +817,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T10:00:46.973Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Uit De Schatkamer: Het Twiske in 1994 🎧",
       "bronLengte": 2561,
       "checklist": {
@@ -856,7 +857,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T09:00:47.387Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Snoep voor het oog: nachtelijk genieten in de Zaanbocht ✨📸",
       "bronLengte": 580,
       "checklist": {
@@ -896,7 +897,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T08:00:53.049Z",
-      "gecontroleerdOp": "2026-11-22T20:00:47.550Z",
+      "gecontroleerdOp": "2026-11-22T22:00:51.839Z",
       "bronTitel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙",
       "bronLengte": 1183,
       "checklist": {
