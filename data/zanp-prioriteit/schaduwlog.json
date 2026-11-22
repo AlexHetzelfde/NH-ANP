@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T15:00:49.185Z",
+  "gegenereerdOp": "2026-11-22T16:00:50.720Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 655,
+    "stukken": 657,
     "bewijsStukken": 49,
-    "kandidaten": 27,
-    "metAnker": 26,
+    "kandidaten": 25,
+    "metAnker": 24,
     "zonderAnker": 1,
     "afgelast": 0,
     "dubbel": 1,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 652,
-      "verhalen": 519,
+      "stukken": 654,
+      "verhalen": 521,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 2,
       "aiBanden": 0,
       "metRoute": 0,
       "nieuwRood": 0,
@@ -93,7 +93,7 @@
       "Sa": 0.29,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.7,
+      "K": 0.69,
       "Kp": 0.42,
       "n": 1,
       "dagen": 1,
@@ -184,40 +184,6 @@
           "c": 0.31,
           "plek": "tekst",
           "titel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-858e2b",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "S": 0.09,
-      "Sa": 0.09,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.62,
-      "Kp": 0.44,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "uitgest",
-        "busch"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "c": 0.71,
-          "plek": "intro",
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-10T23:08:49.684Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Motie aangenomen: Nachttrein"
         }
       ]
     },
@@ -717,33 +683,6 @@
         "camminghalan",
         "bunnik",
         "norm"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Keti_Koti_dialoogtafel_Wie_zich_kan_inleven_in_de_pijn_van_een_ander_kan_het_verschil_maken",
-      "soort": "nieuws",
-      "kop": "Keti Koti dialoogtafel: \"Wie zich kan inleven in de pijn van een ander, kan het verschil maken\"",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "dialogtafel",
-        "inlev",
-        "keti",
-        "koti",
-        "verschil",
-        "norderkerk",
-        "tafel",
-        "pijn",
-        "medegeorganiserd",
-        "bewustzijn"
       ],
       "bewijs": []
     }
