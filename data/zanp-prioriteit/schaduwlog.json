@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T00:00:50.892Z",
+  "gegenereerdOp": "2026-11-22T01:00:47.321Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,8 +16,8 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
-    "vergeten": 1,
+    "bewijsNieuw": 0,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 647,
@@ -93,7 +93,7 @@
       "Sa": 0.3,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.72,
+      "K": 0.71,
       "Kp": 0.44,
       "n": 1,
       "dagen": 1,
