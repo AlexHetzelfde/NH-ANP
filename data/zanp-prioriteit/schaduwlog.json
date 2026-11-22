@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-22T07:00:51.849Z",
+  "gegenereerdOp": "2026-11-22T08:00:53.049Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 649,
+    "stukken": 650,
     "bewijsStukken": 44,
-    "kandidaten": 39,
-    "metAnker": 37,
+    "kandidaten": 36,
+    "metAnker": 34,
     "zonderAnker": 2,
     "afgelast": 0,
     "dubbel": 1,
@@ -38,8 +38,8 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 641,
-      "verhalen": 509,
+      "stukken": 642,
+      "verhalen": 510,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
@@ -56,8 +56,8 @@
       "key": "a:69587e1f80",
       "soort": "agenda",
       "kop": "Groot Dictee der Nederlandse Taal",
-      "S": 0.31,
-      "Sa": 0.31,
+      "S": 0.3,
+      "Sa": 0.3,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0,
@@ -215,6 +215,37 @@
           "c": 0.65,
           "plek": "intro",
           "titel": "Drie auto’s verwoest door felle brand in Zaandam"
+        }
+      ]
+    },
+    {
+      "key": "a:504e7d4e30",
+      "soort": "agenda",
+      "kop": "Jay Jay’s Border Jazzmen",
+      "S": 0.1,
+      "Sa": 0.1,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "border",
+        "jazzm",
+        "achterhoek",
+        "twent",
+        "dinxperlo",
+        "wormervers"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-21T23:00:00.000Z",
+          "c": 0.31,
+          "plek": "tekst",
+          "titel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙"
         }
       ]
     },
@@ -550,28 +581,6 @@
         "dagprogramma",
         "zeist",
         "vereniging"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:504e7d4e30",
-      "soort": "agenda",
-      "kop": "Jay Jay’s Border Jazzmen",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "border",
-        "jazzm",
-        "achterhoek",
-        "twent",
-        "dinxperlo"
       ],
       "bewijs": []
     },
@@ -919,62 +928,6 @@
       "ankers": [
         "parallelweg",
         "leliestrat"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-20-f99e00",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandijk",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "bazuinhof"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-69b6fe",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandam",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "barkstrat",
-        "perim"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-20-508113",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandijk",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "steijnstrat",
-        "heinstrat"
       ],
       "bewijs": []
     },
@@ -3730,6 +3683,14 @@
         "n": 2,
         "bronnen": 2
       },
+      "a:504e7d4e30": {
+        "kop": "Jay Jay’s Border Jazzmen",
+        "S": 0.1,
+        "route": "aanhoudend",
+        "K": 0,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:daf1d6b222": {
         "kop": "Coverband Back Noise",
         "S": 0.09,
@@ -3812,14 +3773,6 @@
       },
       "a:a24756ce32": {
         "kop": "Dag voor de Raad 2026!",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:504e7d4e30": {
-        "kop": "Jay Jay’s Border Jazzmen",
         "S": 0,
         "route": "geen",
         "K": 0,
