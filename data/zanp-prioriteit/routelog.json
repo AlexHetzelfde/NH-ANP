@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-23T22:00:45.013Z",
+  "gegenereerdOp": "2026-11-23T23:00:45.239Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 660,
-    "verhalen": 526,
-    "metMeerStukken": 71,
+    "stukken": 663,
+    "verhalen": 528,
+    "metMeerStukken": 72,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
-    "metRoute": 5,
+    "metRoute": 3,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 0
@@ -147,71 +147,6 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/zaans-voor-t-hekje-steekpartij-en-explosie/",
-      "kop": "Zaans voor ’t hekje: steekpartij en explosie",
-      "meting": {
-        "stukken": 6,
-        "media": 1,
-        "mediaStukken": 6,
-        "echo": 0,
-        "onafhankelijk": 1,
-        "dagen": 5,
-        "eerste": "2026-10-25T23:00:00.000Z",
-        "laatste": "2026-11-22T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 28 dagen met stukken op 5 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/zaans-voor-t-hekje-steekpartij-en-explosie/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-25T23:00:00.000Z",
-          "type": null,
-          "titel": "Zaans voor ’t hekje: steekpartij en explosie"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/zaans-voor-t-hekje-pieter-latensteinstraat-moord-en-voorbije-dancefeesten/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-01T23:00:00.000Z",
-          "type": null,
-          "titel": "Zaans voor ’t hekje: Pieter Latensteinstraat-moord en (voorbije) danc…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/54-jarige-vrouw-uit-oostzaan-aangehouden-na-dodelijke-steekpartij-in-zaandam/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-06T23:00:00.000Z",
-          "type": null,
-          "titel": "54-jarige vrouw uit Oostzaan aangehouden na dodelijke steekpartij in…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/grote-politie-inzet-na-melding-steekpartij-bij-bedrijf-in-zaandam/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-07T12:00:53.600Z",
-          "type": null,
-          "titel": "Verdachte aangehouden na dodelijke steekpartij bij bedrijf in Zaandam…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/zaans-voor-t-hekje-mcdonalds-wormerveer-perim-camera/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-07T23:00:00.000Z",
-          "type": null,
-          "titel": "Zaans voor ’t hekje: McDonald’s Wormerveer & Perim-camera"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/zaans-voor-t-hekje-moord-pinasstraat-drugshandel/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-22T23:00:00.000Z",
-          "type": null,
-          "titel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel"
-        }
-      ]
-    },
-    {
       "id": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
       "kop": "Zestien koereigers aan het lopend buffet bij Krommenie 📸",
       "meting": {
@@ -266,57 +201,6 @@
           "datum": "2026-11-23T12:25:00.000Z",
           "type": "incident",
           "titel": "Stroomstoring in Krommenie en Uitgeest"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/sport-heren-zv-de-zaan-mogen-door-in-europa/",
-      "kop": "Sport: heren ZV de Zaan mogen door in Europa",
-      "meting": {
-        "stukken": 4,
-        "media": 1,
-        "mediaStukken": 4,
-        "echo": 0,
-        "onafhankelijk": 1,
-        "dagen": 4,
-        "eerste": "2026-10-25T23:00:00.000Z",
-        "laatste": "2026-11-22T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 28 dagen met stukken op 4 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/sport-heren-zv-de-zaan-mogen-door-in-europa/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-25T23:00:00.000Z",
-          "type": null,
-          "titel": "Sport: heren ZV de Zaan mogen door in Europa"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/sport-spokende-volleyballers-kolkende-waterpoloers-kraaien-halen-uit/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-01T23:00:00.000Z",
-          "type": null,
-          "titel": "Sport: Spokende volleyballers, kolkende waterpoloërs, Kraaien halen u…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/sport-zaalkorfbal-van-start-kolf-kampioenen-bekend/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-08T23:00:00.000Z",
-          "type": null,
-          "titel": "Sport: zaalkorfbal van start, kolf-kampioenen bekend"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/sport-laatste-kraaien-juich-in-wijdewormer-kz-onderuit/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-22T23:00:00.000Z",
-          "type": null,
-          "titel": "Sport: laatste Kraaien-juich in Wijdewormer, KZ onderuit"
         }
       ]
     },
@@ -929,6 +813,10 @@
       "zonderDoel": []
     },
     "2026-11-23": {
+      "nieuwRood": [],
+      "zonderDoel": []
+    },
+    "2026-11-24": {
       "nieuwRood": [],
       "zonderDoel": []
     }

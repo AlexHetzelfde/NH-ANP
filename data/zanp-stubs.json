@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-23T22:00:45.013Z",
+  "bijgewerkt": "2026-11-23T23:00:45.239Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4456,6 +4456,17 @@
       "t": "2026-11-23T15:50:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "85bdda2fb8": {
+      "g": "85bdda2fb8",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/ff388300-2126-4022-a835-c9f30f18907c",
+      "k": "Kennisgeving Wethouder Van der Laan: Concept Omgevingsvisie Noord-Holland en Nota van Beantwoording",
+      "bt": "",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-22T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }
