@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T11:00:53.103Z",
+  "gegenereerdOp": "2026-11-23T12:00:47.910Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 3,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 653,
-    "bewijsStukken": 51,
-    "kandidaten": 23,
-    "metAnker": 23,
+    "stukken": 655,
+    "bewijsStukken": 52,
+    "kandidaten": 24,
+    "metAnker": 24,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,8 +38,8 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 653,
-      "verhalen": 522,
+      "stukken": 656,
+      "verhalen": 525,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
@@ -96,7 +96,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.67,
-      "Kp": 0.41,
+      "Kp": 0.4,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -540,6 +540,27 @@
         "camminghalan",
         "bunnik",
         "norm"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-23-804b67",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zuidoostbeemster",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "zuidostbemster",
+        "verzetplein",
+        "wouter",
+        "sluislan"
       ],
       "bewijs": []
     },
@@ -3508,6 +3529,14 @@
       },
       "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-b29a46": {
         "kop": "Stroomstoring in Krommenie",
+        "S": 0,
+        "route": "geen",
+        "K": 0.56,
+        "n": 0,
+        "bronnen": 0
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-23-804b67": {
+        "kop": "Stroomstoring in Zuidoostbeemster",
         "S": 0,
         "route": "geen",
         "K": 0.56,

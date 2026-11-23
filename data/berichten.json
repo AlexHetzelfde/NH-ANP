@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T11:00:53.103Z",
+  "gegenereerdOp": "2026-11-23T12:00:47.910Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "00534dacc2-v1",
+      "groepId": "00534dacc2",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-23-804b67",
+      "kop": "Stroomstoring in Zuidoostbeemster",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T11:16:00.000Z",
+      "heeftTijd": true,
+      "woorden": 48,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-23T12:00:47.910Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
+      "bronTitel": "Stroomstoring in Zuidoostbeemster",
+      "bronLengte": 347,
+      "rood": {
+        "sinds": "2026-11-23T12:00:47.910Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "55e572924a-v1",
       "groepId": "55e572924a",
       "versie": 1,
@@ -540,7 +571,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "15b30f0bd7-v1",
@@ -573,6 +605,45 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "27e5d50716-v1",
+      "groepId": "27e5d50716",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-23-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 23 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-23T12:00:47.910Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
+      "bronTitel": "De Orkaan in 2 minuten: 23 november 🎧",
+      "bronLengte": 315,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "994a69cffe-v1",
@@ -611,7 +682,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "d9df0a1e47-v1",
@@ -650,7 +722,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "5d59f4bfe0-v1",
@@ -672,7 +745,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T10:00:46.396Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "OV-staking in de Zaanstreek: lang wachten op de bus",
       "bronLengte": 2731,
       "checklist": {
@@ -765,7 +838,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:00:45.795Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
       "bronLengte": 5030,
       "checklist": {
@@ -818,7 +891,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T07:00:50.070Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Twee dagen staking bij streekvervoer",
       "bronLengte": 1302,
       "checklist": {
@@ -858,7 +931,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T21:00:47.629Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Geslaagde boekpresentatie The Black Smith 🎥",
       "bronLengte": 617,
       "checklist": {
@@ -1010,7 +1083,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T06:00:44.648Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "SVA komt op stoom in 1e klasse ⚽️",
       "bronLengte": 2438,
       "checklist": {
@@ -1050,7 +1123,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T16:00:50.720Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Auto stort in de diepte na botsing",
       "bronLengte": 830,
       "checklist": {
@@ -1130,7 +1203,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T14:00:45.227Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Dit wordt het nieuwe terrein van hockeyclub De Kraaien 🎥",
       "bronLengte": 1315,
       "checklist": {
@@ -1170,7 +1243,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T13:00:47.245Z",
-      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T12:00:47.910Z",
       "bronTitel": "Sinterklaas ontvangen in Oostknollendam",
       "bronLengte": 753,
       "checklist": {
@@ -14674,95 +14747,6 @@
       "tagVersie": 2,
       "analyse": true,
       "alleenAgenda": true
-    },
-    {
-      "id": "9b8993a91d-v1",
-      "groepId": "9b8993a91d",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Koopvaardersschutsluis_in_Den_Helder_op_26_november_tijdelijk_gestremd",
-      "kop": "Koopvaardersschutsluis in Den Helder op 26 november tijdelijk gestremd voor scheepvaart",
-      "tekst": "De provincie Noord-Holland voert op 26 november werkzaamheden uit aan de Koopvaardersschutsluis in Den Helder. Hierdoor is de sluis gesloten voor scheepvaart van 8.00 uur tot 12.00 uur. Schippers wordt geadviseerd om hun reis tijdig te plannen of gebruik te maken van alternatieve routes.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-09T11:55:56.000Z",
-      "heeftTijd": true,
-      "woorden": 241,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-09T12:00:53.179Z",
-      "gecontroleerdOp": "2026-11-10T10:00:56.746Z",
-      "bronTitel": "Koopvaardersschutsluis in Den Helder op 26 november tijdelijk gestremd",
-      "bronLengte": 1669,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "agendapunten": [
-        {
-          "titel": "Werkzaamheden Koopvaardersschutsluis",
-          "dag": "2026-11-26",
-          "start": "2026-11-26T07:00:00.000Z",
-          "eind": "2026-11-26T11:00:00.000Z",
-          "plaats": "Den Helder",
-          "zekerheid": "afgeleid"
-        }
-      ],
-      "agendaIds": [
-        "59fe37a430"
-      ],
-      "tagVersie": 2
-    },
-    {
-      "id": "5e6eeaacc2-v1",
-      "groepId": "5e6eeaacc2",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_Fokkerweg_N232_in_Schiphol_Oost",
-      "kop": "Fokkerweg in Schiphol-Oost dicht voor onderhoud aan het asfalt",
-      "tekst": "De provincie Noord-Holland voert van 16 tot en met 20 november onderhoud uit aan het asfalt op de Fokkerweg in Schiphol-Oost. De weg is op verschillende dagen in zuidelijke of noordelijke richting afgesloten tussen 7.00 en 20.00 uur. Verkeer wordt omgeleid via de Bosrandbrug en de Waterwolftunnel.",
-      "rubriek": "VER",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 2,
-      "tijd": "2026-11-09T11:49:07.000Z",
-      "heeftTijd": true,
-      "woorden": 254,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-09T12:00:53.179Z",
-      "gecontroleerdOp": "2026-11-10T10:00:56.746Z",
-      "bronTitel": "Werkzaamheden Fokkerweg (N232) in Schiphol-Oost",
-      "bronLengte": 1649,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
     }
   ]
 }
