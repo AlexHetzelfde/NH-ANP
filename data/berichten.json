@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T17:00:49.033Z",
+  "gegenereerdOp": "2026-11-23T18:00:56.346Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -479,7 +479,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "994a69cffe-v2",
@@ -541,7 +542,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
+      "gecontroleerdOp": "2026-11-23T18:00:56.346Z",
       "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
       "bronLengte": 357,
       "rood": {
@@ -815,7 +816,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
+      "gecontroleerdOp": "2026-11-23T18:00:56.346Z",
       "bronTitel": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
       "bronLengte": 9212,
       "checklist": {
@@ -933,7 +934,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T13:00:47.161Z",
-      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
+      "gecontroleerdOp": "2026-11-23T18:00:56.346Z",
       "bronTitel": "Zwarte bladzijde Zaanse slavernijverleden kleurrijk in beeld",
       "bronLengte": 3162,
       "checklist": {
