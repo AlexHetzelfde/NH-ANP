@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T14:00:56.794Z",
+  "gegenereerdOp": "2026-11-23T15:00:52.920Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -11,8 +11,8 @@
     "routes": "r1-d3346bca",
     "tekst": {
       "werklijst": 2,
-      "lokaal": 1,
-      "opgehaald": 1,
+      "lokaal": 2,
+      "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 657,
-    "bewijsStukken": 54,
-    "kandidaten": 24,
-    "metAnker": 24,
+    "stukken": 659,
+    "bewijsStukken": 55,
+    "kandidaten": 25,
+    "metAnker": 25,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 660,
-      "verhalen": 528,
+      "stukken": 663,
+      "verhalen": 530,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
+      "aiGevraagd": 2,
       "aiBanden": 0,
-      "metRoute": 4,
+      "metRoute": 5,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 0
@@ -203,6 +203,40 @@
           "c": 0.72,
           "plek": "intro",
           "titel": "Besluit tot invordering last onder dwangsom illegale woningsplitsing De Weer 23 Zaandam"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "S": 0.08,
+      "Sa": 0.08,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.62,
+      "Kp": 0.44,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "uitgest",
+        "busch"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-10T23:08:49.684Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Motie aangenomen: Nachttrein"
         }
       ]
     },
@@ -3391,6 +3425,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64": {
+        "kop": "Stroomstoring in Krommenie en Uitgeest",
+        "S": 0.08,
+        "route": "aanhoudend",
+        "K": 0.62,
+        "n": 2,
+        "bronnen": 2
+      },
       "a:ced2c284f8": {
         "kop": "Zaanstad Beraad Raadzaal",
         "S": 0.05,
@@ -3529,14 +3571,6 @@
       },
       "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-b29a46": {
         "kop": "Stroomstoring in Krommenie",
-        "S": 0,
-        "route": "geen",
-        "K": 0.56,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-23-804b67": {
-        "kop": "Stroomstoring in Zuidoostbeemster",
         "S": 0,
         "route": "geen",
         "K": 0.56,

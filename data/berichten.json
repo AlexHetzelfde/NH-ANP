@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T14:00:56.794Z",
+  "gegenereerdOp": "2026-11-23T15:00:52.920Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -442,7 +442,39 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
+    },
+    {
+      "id": "27c579f9e7-v1",
+      "groepId": "27c579f9e7",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
+      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T12:25:00.000Z",
+      "heeftTijd": true,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-23T15:00:52.920Z",
+      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
+      "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
+      "bronLengte": 357,
+      "rood": {
+        "sinds": "2026-11-23T15:00:52.920Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
     },
     {
       "id": "00534dacc2-v1",
@@ -647,6 +679,44 @@
       "tagVersie": 2
     },
     {
+      "id": "7ef93d9141-v1",
+      "groepId": "7ef93d9141",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vier-mannen-veroordeeld-na-ontvoering-en-afpersingspoging-indigostraat/",
+      "kop": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
+      "tekst": null,
+      "rubriek": "REC",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 574,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-23T15:00:52.920Z",
+      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
+      "bronTitel": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
+      "bronLengte": 3359,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 10000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "a65d69974e-v1",
       "groepId": "a65d69974e",
       "versie": 1,
@@ -683,7 +753,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "a8f498720d-v1",
@@ -705,7 +776,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T13:00:47.161Z",
-      "gecontroleerdOp": "2026-11-23T13:00:47.161Z",
+      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
       "bronTitel": "Zwarte bladzijde Zaanse slavernijverleden kleurrijk in beeld",
       "bronLengte": 3162,
       "checklist": {
