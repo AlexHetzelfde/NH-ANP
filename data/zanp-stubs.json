@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-23T16:00:51.998Z",
+  "bijgewerkt": "2026-11-23T17:00:49.033Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4445,6 +4445,17 @@
       "t": "2026-11-22T23:00:00.000Z",
       "c": null,
       "r": "VER"
+    },
+    "43f0e417b0": {
+      "g": "43f0e417b0",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
+      "k": "Stroomstoring in Broek in Waterland",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-23T15:50:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

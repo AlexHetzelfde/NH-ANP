@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T16:00:51.998Z",
+  "gegenereerdOp": "2026-11-23T17:00:49.033Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 3,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 662,
+    "stukken": 663,
     "bewijsStukken": 56,
-    "kandidaten": 27,
-    "metAnker": 27,
+    "kandidaten": 28,
+    "metAnker": 28,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 667,
+      "stukken": 668,
       "verhalen": 534,
       "metMeerStukken": 70,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 4,
+      "aiGevraagd": 0,
       "aiBanden": 0,
       "metRoute": 5,
       "nieuwRood": 0,
@@ -56,8 +56,8 @@
       "key": "a:adb796eec6",
       "soort": "agenda",
       "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
-      "S": 0.34,
-      "Sa": 0.34,
+      "S": 0.33,
+      "Sa": 0.33,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.55,
@@ -165,6 +165,34 @@
           "c": 0.62,
           "plek": "intro",
           "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.19,
+      "Sa": 0.19,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.68,
+      "Kp": 0.44,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "dokter"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "c": 0.73,
+          "plek": "intro",
+          "titel": "Besluit AB l Stichting KCR2"
         }
       ]
     },
@@ -3468,6 +3496,14 @@
         "n": 2,
         "bronnen": 2
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.19,
+        "route": "aanhoudend",
+        "K": 0.68,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7": {
         "kop": "Stroomstoring in Zaandam",
         "S": 0.1,
@@ -3630,14 +3666,6 @@
       },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a": {
         "kop": "Stroomstoring in Zaandijk",
-        "S": 0,
-        "route": "geen",
-        "K": 0.61,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc": {
-        "kop": "Stroomstoring in Volendam",
         "S": 0,
         "route": "geen",
         "K": 0.61,

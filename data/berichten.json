@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T16:00:51.998Z",
+  "gegenereerdOp": "2026-11-23T17:00:49.033Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -447,6 +447,38 @@
         "portefeuillehouders": [
           "'t Veer, van J."
         ]
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "43f0e417b0-v1",
+      "groepId": "43f0e417b0",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T15:50:00.000Z",
+      "heeftTijd": true,
+      "woorden": 51,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-23T17:00:49.033Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
+      "bronTitel": "Stroomstoring in Broek in Waterland",
+      "bronLengte": 352,
+      "rood": {
+        "sinds": "2026-11-23T17:00:49.033Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
       }
     },
     {
@@ -469,7 +501,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T14:00:56.794Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Drie Oostzaanse wethouders bij Radio 9 📻",
       "bronLengte": 757,
       "checklist": {
@@ -731,7 +763,7 @@
       "kop": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer",
       "tekst": null,
       "rubriek": "112",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-22T23:00:00.000Z",
@@ -741,9 +773,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer",
       "bronLengte": 814,
       "checklist": {
@@ -758,8 +790,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "alleenAgenda": true
+      "checklistBron": "ai",
+      "alleenAgenda": true,
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "757a1f6bd8-v1",
@@ -781,7 +815,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
       "bronLengte": 9212,
       "checklist": {
@@ -796,7 +830,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "7ef93d9141-v1",
@@ -806,7 +841,7 @@
       "kop": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
       "tekst": null,
       "rubriek": "REC",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-22T23:00:00.000Z",
@@ -816,15 +851,15 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
       "bronLengte": 3359,
       "checklist": {
         "gevaar": false,
         "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": true,
+        "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
@@ -833,9 +868,10 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "a65d69974e-v1",
@@ -857,7 +893,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T14:00:56.794Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Groetjes uit de Villa – deel 6: Huub (‘Ik ben mijn hoofd kwijt’)",
       "bronLengte": 5999,
       "checklist": {
@@ -937,7 +973,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T12:00:47.910Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "De Orkaan in 2 minuten: 23 november 🎧",
       "bronLengte": 315,
       "checklist": {
@@ -1017,7 +1053,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T11:00:53.103Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Kettingbotsing met vier auto’s op Noorderveenweg, Assendelft",
       "bronLengte": 618,
       "checklist": {
@@ -1057,7 +1093,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T10:00:46.396Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "OV-staking in de Zaanstreek: lang wachten op de bus",
       "bronLengte": 2731,
       "checklist": {
@@ -1097,7 +1133,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:54:49.373Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Sport: laatste Kraaien-juich in Wijdewormer, KZ onderuit",
       "bronLengte": 5999,
       "checklist": {
@@ -1150,7 +1186,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:00:45.795Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
       "bronLengte": 5030,
       "checklist": {
@@ -1203,7 +1239,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T07:00:50.070Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "Twee dagen staking bij streekvervoer",
       "bronLengte": 1302,
       "checklist": {
@@ -1395,7 +1431,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T06:00:44.648Z",
-      "gecontroleerdOp": "2026-11-23T14:00:56.794Z",
+      "gecontroleerdOp": "2026-11-23T17:00:49.033Z",
       "bronTitel": "SVA komt op stoom in 1e klasse ⚽️",
       "bronLengte": 2438,
       "checklist": {
