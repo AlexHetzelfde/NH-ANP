@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T19:00:50.666Z",
+  "gegenereerdOp": "2026-11-23T20:00:48.270Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -793,7 +793,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "6d7b0be018-v1",
@@ -840,22 +841,22 @@
       "groepId": "757a1f6bd8",
       "versie": 1,
       "url": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4",
-      "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+      "kop": "Aanvullende vragen gesteld over nieuwe ov-abonnementenstructuur Waterland",
       "tekst": null,
       "rubriek": "VER",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 4,
+      "prio": 3,
       "tijd": "2026-11-22T23:00:00.000Z",
       "heeftTijd": false,
       "woorden": 1313,
       "afgekapt": true,
       "bronId": "vervoerregio-overzichten",
       "bronNaam": "Vervoerregio: Overzichten (iBabs)",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T19:00:50.666Z",
+      "gecontroleerdOp": "2026-11-23T20:00:48.270Z",
       "bronTitel": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
       "bronLengte": 9212,
       "checklist": {
@@ -870,8 +871,11 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "7ef93d9141-v1",
