@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T20:00:48.270Z",
+  "gegenereerdOp": "2026-11-23T21:00:46.875Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -542,7 +542,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T18:00:56.346Z",
+      "gecontroleerdOp": "2026-11-23T21:00:46.875Z",
       "bronTitel": "Stroomstoring in Krommenie en Uitgeest",
       "bronLengte": 357,
       "rood": {
@@ -977,7 +977,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T13:00:47.161Z",
-      "gecontroleerdOp": "2026-11-23T18:00:56.346Z",
+      "gecontroleerdOp": "2026-11-23T21:00:46.875Z",
       "bronTitel": "Zwarte bladzijde Zaanse slavernijverleden kleurrijk in beeld",
       "bronLengte": 3162,
       "checklist": {
