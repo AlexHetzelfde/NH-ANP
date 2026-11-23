@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-23T15:00:52.920Z",
+  "bijgewerkt": "2026-11-23T16:00:51.998Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4423,6 +4423,28 @@
       "t": "2026-11-23T12:25:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "17fb5aa9f9": {
+      "g": "17fb5aa9f9",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5a8422ec-6dec-4b3a-9e42-72664554b74b",
+      "k": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "bt": "",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-23T16:00:54.475Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "757a1f6bd8": {
+      "g": "757a1f6bd8",
+      "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4",
+      "k": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+      "bt": "",
+      "b": "vervoerregio-overzichten",
+      "n": "Vervoerregio: Overzichten (iBabs)",
+      "t": "2026-11-22T23:00:00.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }

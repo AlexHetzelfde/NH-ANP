@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T15:00:52.920Z",
+  "gegenereerdOp": "2026-11-23T16:00:51.998Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,50 @@
   ],
   "berichten": [
     {
+      "id": "17fb5aa9f9-v1",
+      "groepId": "17fb5aa9f9",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5a8422ec-6dec-4b3a-9e42-72664554b74b",
+      "kop": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-23T16:00:54.475Z",
+      "heeftTijd": true,
+      "woorden": 320,
+      "afgekapt": false,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "bronTitel": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "bronLengte": 2063,
+      "vraag": {
+        "status": "gesteld",
+        "nummer": "1040",
+        "onderwerp": "Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+        "datumVraag": "2026-11-23",
+        "datumAntwoord": null,
+        "verwachteAfdoening": null,
+        "raadsleden": [
+          "Barends, Menno",
+          "Velden, Perry van der"
+        ],
+        "steunfractieleden": [],
+        "partijen": [
+          "POV",
+          "PVV"
+        ],
+        "portefeuillehouders": [
+          "'t Veer, van J."
+        ]
+      }
+    },
+    {
       "id": "994a69cffe-v2",
       "groepId": "994a69cffe",
       "versie": 2,
@@ -474,7 +518,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "00534dacc2-v1",
@@ -679,6 +724,81 @@
       "tagVersie": 2
     },
     {
+      "id": "6d7b0be018-v1",
+      "groepId": "6d7b0be018",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/bromfietser-gewond-bij-aanrijding-op-rouenweg-in-wormer/",
+      "kop": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 134,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "bronTitel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer",
+      "bronLengte": 814,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "757a1f6bd8-v1",
+      "groepId": "757a1f6bd8",
+      "versie": 1,
+      "url": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4",
+      "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 1313,
+      "afgekapt": true,
+      "bronId": "vervoerregio-overzichten",
+      "bronNaam": "Vervoerregio: Overzichten (iBabs)",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-23T16:00:51.998Z",
+      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
+      "bronTitel": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+      "bronLengte": 9212,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon"
+    },
+    {
       "id": "7ef93d9141-v1",
       "groepId": "7ef93d9141",
       "versie": 1,
@@ -698,7 +818,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T15:00:52.920Z",
+      "gecontroleerdOp": "2026-11-23T16:00:51.998Z",
       "bronTitel": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
       "bronLengte": 3359,
       "checklist": {
@@ -714,7 +834,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "a65d69974e-v1",

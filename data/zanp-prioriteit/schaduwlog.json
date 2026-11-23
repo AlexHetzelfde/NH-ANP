@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T15:00:52.920Z",
+  "gegenereerdOp": "2026-11-23T16:00:51.998Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 659,
-    "bewijsStukken": 55,
-    "kandidaten": 25,
-    "metAnker": 25,
+    "stukken": 662,
+    "bewijsStukken": 56,
+    "kandidaten": 27,
+    "metAnker": 27,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 663,
-      "verhalen": 530,
-      "metMeerStukken": 71,
+      "stukken": 667,
+      "verhalen": 534,
+      "metMeerStukken": 70,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 2,
+      "aiGevraagd": 4,
       "aiBanden": 0,
       "metRoute": 5,
       "nieuwRood": 0,
@@ -121,6 +121,50 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
+        }
+      ]
+    },
+    {
+      "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4",
+      "soort": "nieuws",
+      "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+      "S": 0.19,
+      "Sa": 0.19,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.68,
+      "Kp": 0.4,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "abonnementenstructur",
+        "anvullend",
+        "vragensteller",
+        "haneveld",
+        "beantwording",
+        "albert",
+        "klein",
+        "regiorad",
+        "vervolgvrag",
+        "abonnementsstructur",
+        "kostenneutral",
+        "uitpak"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.65,
+          "plek": "intro",
+          "titel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "c": 0.62,
+          "plek": "intro",
+          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
         }
       ]
     },
@@ -574,6 +618,29 @@
         "camminghalan",
         "bunnik",
         "norm"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5a8422ec-6dec-4b3a-9e42-72664554b74b",
+      "soort": "nieuws",
+      "kop": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.1,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "opnam",
+        "gemenschappelijk",
+        "jagersveld",
+        "twisk",
+        "regeling",
+        "waterland"
       ],
       "bewijs": []
     },
@@ -3393,6 +3460,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4": {
+        "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
+        "S": 0.19,
+        "route": "aanhoudend",
+        "K": 0.68,
+        "n": 2,
+        "bronnen": 2
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7": {
         "kop": "Stroomstoring in Zaandam",
         "S": 0.1,
@@ -3566,14 +3641,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.61,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-b29a46": {
-        "kop": "Stroomstoring in Krommenie",
-        "S": 0,
-        "route": "geen",
-        "K": 0.56,
         "n": 0,
         "bronnen": 0
       }

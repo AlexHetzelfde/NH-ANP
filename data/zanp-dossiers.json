@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-23T15:00:52.920Z",
+  "bijgewerkt": "2026-11-23T16:00:51.998Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -77,6 +77,11 @@
     "woning": {
       "aantal": 5,
       "tijd": "2026-11-19T15:00:55.523Z",
+      "reden": "ai-nee"
+    },
+    "artikel": {
+      "aantal": 5,
+      "tijd": "2026-11-23T16:00:51.998Z",
       "reden": "ai-nee"
     }
   }
