@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T09:00:55.881Z",
+  "gegenereerdOp": "2026-11-23T10:00:46.396Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -544,6 +544,45 @@
       "tagVersie": 2
     },
     {
+      "id": "5d59f4bfe0-v1",
+      "groepId": "5d59f4bfe0",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/ov-staking-in-de-zaanstreek-lang-wachten-op-de-bus/",
+      "kop": "OV-staking in de Zaanstreek: lang wachten op de bus",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 439,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-23T10:00:46.396Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
+      "bronTitel": "OV-staking in de Zaanstreek: lang wachten op de bus",
+      "bronLengte": 2731,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "b44baf9c45-v1",
       "groepId": "b44baf9c45",
       "versie": 1,
@@ -616,7 +655,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:00:45.795Z",
-      "gecontroleerdOp": "2026-11-23T08:00:45.795Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
       "bronLengte": 5030,
       "checklist": {
@@ -669,7 +708,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T07:00:50.070Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Twee dagen staking bij streekvervoer",
       "bronLengte": 1302,
       "checklist": {
@@ -709,7 +748,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T21:00:47.629Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Geslaagde boekpresentatie The Black Smith 🎥",
       "bronLengte": 617,
       "checklist": {
@@ -789,7 +828,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T15:00:49.185Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Hercules bewijst zich in Zaandijk ⚽️/🎥",
       "bronLengte": 2216,
       "checklist": {
@@ -861,7 +900,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T06:00:44.648Z",
-      "gecontroleerdOp": "2026-11-23T08:00:45.795Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "SVA komt op stoom in 1e klasse ⚽️",
       "bronLengte": 2438,
       "checklist": {
@@ -901,7 +940,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T16:00:50.720Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Auto stort in de diepte na botsing",
       "bronLengte": 830,
       "checklist": {
@@ -981,7 +1020,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T14:00:45.227Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Dit wordt het nieuwe terrein van hockeyclub De Kraaien 🎥",
       "bronLengte": 1315,
       "checklist": {
@@ -1021,7 +1060,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T13:00:47.245Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Sinterklaas ontvangen in Oostknollendam",
       "bronLengte": 753,
       "checklist": {
@@ -1061,7 +1100,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T12:00:47.601Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Fototijdreis: Militaireweg Krommenie",
       "bronLengte": 5408,
       "checklist": {
@@ -1141,7 +1180,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T10:00:46.973Z",
-      "gecontroleerdOp": "2026-11-23T07:00:50.070Z",
+      "gecontroleerdOp": "2026-11-23T10:00:46.396Z",
       "bronTitel": "Uit De Schatkamer: Het Twiske in 1994 🎧",
       "bronLengte": 2561,
       "checklist": {

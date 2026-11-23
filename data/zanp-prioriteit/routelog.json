@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-23T09:00:55.881Z",
+  "gegenereerdOp": "2026-11-23T10:00:46.396Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 647,
-    "verhalen": 520,
+    "stukken": 649,
+    "verhalen": 521,
     "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -230,6 +230,51 @@
       ]
     },
     {
+      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
+      "meting": {
+        "stukken": 4,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-22T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": null,
+          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T15:17:00.000Z",
+          "type": null,
+          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/ov-staking-in-de-zaanstreek-lang-wachten-op-de-bus/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "type": null,
+          "titel": "OV-staking in de Zaanstreek: lang wachten op de bus"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/twee-dagen-staking-bij-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "type": null,
+          "titel": "Twee dagen staking bij streekvervoer"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/twee-bewoners-naar-ziekenhuis-na-uitslaande-woningbrand-in-zaandam-%f0%9f%93%b8/",
       "kop": "Twee bewoners naar ziekenhuis na uitslaande woningbrand in Zaandam 📸",
       "meting": {
@@ -340,44 +385,6 @@
           "datum": "2026-11-17T23:00:00.000Z",
           "type": null,
           "titel": "De dag die je wist dat zou komen: Noord-Holland krijgt eigen lied"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
-      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
-      "meting": {
-        "stukken": 3,
-        "media": 2,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 3,
-        "eerste": "2026-11-17T23:00:00.000Z",
-        "laatste": "2026-11-22T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-17T23:00:00.000Z",
-          "type": null,
-          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-18T15:17:00.000Z",
-          "type": null,
-          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/twee-dagen-staking-bij-streekvervoer/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-22T23:00:00.000Z",
-          "type": null,
-          "titel": "Twee dagen staking bij streekvervoer"
         }
       ]
     },
