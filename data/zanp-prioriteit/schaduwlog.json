@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T21:12:42.527Z",
+  "gegenereerdOp": "2026-11-23T22:00:45.013Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,10 +17,10 @@
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 0,
+    "vergeten": 9,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 664,
+    "stukken": 655,
     "bewijsStukken": 56,
     "kandidaten": 28,
     "metAnker": 28,
@@ -38,9 +38,9 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 669,
-      "verhalen": 535,
-      "metMeerStukken": 70,
+      "stukken": 660,
+      "verhalen": 526,
+      "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 0,
@@ -221,7 +221,7 @@
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-21T23:00:00.000Z",
-          "c": 0.31,
+          "c": 0.32,
           "plek": "tekst",
           "titel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙"
         }
