@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T03:00:45.348Z",
+  "gegenereerdOp": "2026-11-23T04:00:41.986Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -17,10 +17,10 @@
       "uitgesteld": 0
     },
     "bewijsNieuw": 0,
-    "vergeten": 0,
+    "vergeten": 7,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 648,
+    "stukken": 641,
     "bewijsStukken": 49,
     "kandidaten": 19,
     "metAnker": 19,
@@ -155,6 +155,57 @@
       ]
     },
     {
+      "key": "a:aea0d9f918",
+      "soort": "agenda",
+      "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
+      "S": 0.09,
+      "Sa": 0.09,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.16,
+      "Kp": 0,
+      "n": 4,
+      "dagen": 4,
+      "bronnen": 1,
+      "ankers": [
+        "bedrijfspand",
+        "sluiting",
+        "stadhuis",
+        "omschrijving",
+        "afgegev"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-hoorzittingen",
+          "datum": "2026-11-03T12:00:51.615Z",
+          "c": 0.96,
+          "plek": "kop",
+          "titel": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam"
+        },
+        {
+          "bron": "zaanstad-hoorzittingen",
+          "datum": "2026-10-30T08:00:10.425Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Invorderen dwangsom niet houden aan bestuursdwang verbouwen zonder vergunning Schoolpad 4 Zaandijk"
+        },
+        {
+          "bron": "zaanstad-hoorzittingen",
+          "datum": "2026-10-31T08:45:12.910Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Verkeersbesluit plaatsen laadpaal voor elektrische auto's locatie Kaaikhof te Assendelft"
+        },
+        {
+          "bron": "zaanstad-hoorzittingen",
+          "datum": "2026-11-05T04:00:52.742Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Besluit tot invordering last onder dwangsom illegale woningsplitsing De Weer 23 Zaandam"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-22-356069",
       "soort": "nieuws",
       "kop": "Stroomstoring in Volendam",
@@ -203,7 +254,7 @@
         {
           "bron": "zaanstad-hoorzittingen",
           "datum": "2026-11-10T10:00:56.746Z",
-          "c": 0.88,
+          "c": 0.91,
           "plek": "kop",
           "titel": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan"
         }
@@ -259,7 +310,7 @@
         {
           "bron": "zaanstad-kalender",
           "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.66,
+          "c": 0.65,
           "plek": "intro",
           "titel": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie"
         }
@@ -288,38 +339,9 @@
         {
           "bron": "zaanstad-kalender",
           "datum": "2026-11-05T04:00:52.742Z",
-          "c": 0.66,
+          "c": 0.65,
           "plek": "intro",
           "titel": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie"
-        }
-      ]
-    },
-    {
-      "key": "a:aea0d9f918",
-      "soort": "agenda",
-      "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
-      "S": 0.03,
-      "Sa": 0.03,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.15,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "bedrijfspand",
-        "sluiting",
-        "omschrijving",
-        "afgegev"
-      ],
-      "bewijs": [
-        {
-          "bron": "zaanstad-hoorzittingen",
-          "datum": "2026-11-03T12:00:51.615Z",
-          "c": 0.95,
-          "plek": "kop",
-          "titel": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam"
         }
       ]
     },
@@ -3245,6 +3267,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "a:aea0d9f918": {
+        "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
+        "S": 0.09,
+        "route": "aanhoudend",
+        "K": 0.16,
+        "n": 4,
+        "bronnen": 1
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-22-356069": {
         "kop": "Stroomstoring in Volendam",
         "S": 0.08,
@@ -3282,14 +3312,6 @@
         "S": 0.04,
         "route": "aanhoudend",
         "K": 0,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:aea0d9f918": {
-        "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
-        "S": 0.03,
-        "route": "aanhoudend",
-        "K": 0.15,
         "n": 1,
         "bronnen": 1
       },
