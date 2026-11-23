@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T08:54:49.373Z",
+  "gegenereerdOp": "2026-11-23T09:00:55.881Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -159,7 +159,7 @@
     "wachtTot": null,
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 2
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {},
   "kwaliteit": {
@@ -388,7 +388,7 @@
       "inAfwachting": 0
     },
     "berichten": {
-      "nieuw": 4,
+      "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
       "ongewijzigd": 0,
@@ -433,9 +433,9 @@
       "formule": "v4-22806000",
       "routes": "r1-d3346bca",
       "tekst": {
-        "werklijst": 4,
-        "lokaal": 3,
-        "opgehaald": 1,
+        "werklijst": 0,
+        "lokaal": 0,
+        "opgehaald": 0,
         "mislukt": 0,
         "uitgesteld": 0
       },
@@ -466,7 +466,7 @@
         "metMeerStukken": 71,
         "bijgesneden": 0,
         "teGroot": 0,
-        "aiGevraagd": 3,
+        "aiGevraagd": 0,
         "aiBanden": 0,
         "metRoute": 2,
         "nieuwRood": 0,
@@ -482,11 +482,11 @@
       "alRood": 0
     },
     "bronRood": {
-      "rood": 3,
-      "alRood": 34
+      "rood": 0,
+      "alRood": 37
     },
     "dossiers": {
-      "stubsNieuw": 3,
+      "stubsNieuw": 0,
       "stubsVerlopen": 0,
       "stubsTotaal": 399,
       "verhalen": 371,
@@ -499,20 +499,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 0
-    },
-    "kwaliteit": {
-      "verzoeken": 1,
-      "berichten": 1,
-      "ok": 0,
-      "analyseOk": 1,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 0,
-      "overgeslagen": 0,
-      "tagAi": 1,
-      "tagTrefwoord": 0,
-      "tagBron": 0,
-      "tagGeen": 0
     }
   }
 }
