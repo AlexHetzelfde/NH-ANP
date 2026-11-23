@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T07:00:50.070Z",
+  "gegenereerdOp": "2026-11-23T08:00:45.795Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,99 @@
   ],
   "berichten": [
     {
+      "id": "55e572924a-v1",
+      "groepId": "55e572924a",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Nachtelijke_werkzaamheden_N205_voor_proef_met_busvervoer",
+      "kop": "Nachtelijke werkzaamheden aan N205 voor proef met busvervoer in december",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-23T08:45:41.000Z",
+      "heeftTijd": true,
+      "woorden": 311,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-23T08:00:45.795Z",
+      "gecontroleerdOp": "2026-11-23T08:00:45.795Z",
+      "bronTitel": "Nachtelijke werkzaamheden N205 voor proef met busvervoer",
+      "bronLengte": 1974,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "gepland",
+        "zin": "Van maandag 7 december tot en met donderdag 10 december wordt er gewerkt aan de N205 ter hoogte van de tankstations Esso."
+      }
+    },
+    {
+      "id": "94ab11cc69-v1",
+      "groepId": "94ab11cc69",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zaans-voor-t-hekje-moord-pinasstraat-drugshandel/",
+      "kop": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
+      "tekst": null,
+      "rubriek": "REC",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-22T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 753,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-23T08:00:45.795Z",
+      "gecontroleerdOp": "2026-11-23T08:00:45.795Z",
+      "bronTitel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
+      "bronLengte": 5030,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Rechtszaak over reeks strafbare feiten",
+          "dag": "2026-11-23",
+          "start": null,
+          "eind": null,
+          "plaats": "Alkmaar",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "783b87ab9b"
+      ]
+    },
+    {
       "id": "24e8afcc64-v1",
       "groepId": "24e8afcc64",
       "versie": 1,
@@ -442,7 +535,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4f9759e4c4-v3",
@@ -616,7 +710,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T06:00:44.648Z",
-      "gecontroleerdOp": "2026-11-23T06:00:44.648Z",
+      "gecontroleerdOp": "2026-11-23T08:00:45.795Z",
       "bronTitel": "SVA komt op stoom in 1e klasse ⚽️",
       "bronLengte": 2438,
       "checklist": {
