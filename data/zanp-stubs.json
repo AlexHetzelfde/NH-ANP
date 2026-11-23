@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-23T08:00:45.795Z",
+  "bijgewerkt": "2026-11-23T08:54:49.373Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4357,6 +4357,39 @@
       "t": "2026-11-23T08:45:41.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "a6958e8d96": {
+      "g": "a6958e8d96",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/oosthuizen-2026-11-23-b3d10b",
+      "k": "Stroomstoring in Oosthuizen",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-23T08:44:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "7d7d48a411": {
+      "g": "7d7d48a411",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a",
+      "k": "Stroomstoring in Zaandijk",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-23T08:04:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "15b30f0bd7": {
+      "g": "15b30f0bd7",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc",
+      "k": "Stroomstoring in Volendam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-23T07:49:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

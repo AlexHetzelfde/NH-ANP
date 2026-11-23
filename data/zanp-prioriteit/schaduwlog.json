@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T08:00:45.795Z",
+  "gegenereerdOp": "2026-11-23T08:54:49.373Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,9 +10,9 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
-      "opgehaald": 0,
+      "werklijst": 4,
+      "lokaal": 3,
+      "opgehaald": 1,
       "mislukt": 0,
       "uitgesteld": 0
     },
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 645,
+    "stukken": 649,
     "bewijsStukken": 49,
-    "kandidaten": 20,
-    "metAnker": 20,
+    "kandidaten": 23,
+    "metAnker": 23,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 643,
-      "verhalen": 517,
+      "stukken": 647,
+      "verhalen": 520,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
+      "aiGevraagd": 3,
       "aiBanden": 0,
-      "metRoute": 1,
+      "metRoute": 2,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 0
@@ -498,8 +498,8 @@
         "stabieler",
         "samenleving",
         "congrescentrum",
-        "thuis",
         "zeist",
+        "thuis",
         "begint",
         "achmea"
       ],
@@ -596,6 +596,72 @@
         "nachtelijk",
         "n205",
         "rijstrok"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/oosthuizen-2026-11-23-b3d10b",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Oosthuizen",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "osthuiz",
+        "osteind"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandijk",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "antoni",
+        "vriesstrat",
+        "scharstrat",
+        "hendrik"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Volendam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "volendam",
+        "adrianus",
+        "bleijsstrat",
+        "anthoni",
+        "schotelstrat",
+        "heringstrat",
+        "henricus",
+        "rolstrat",
+        "georg"
       ],
       "bewijs": []
     }
@@ -3429,6 +3495,30 @@
         "S": 0,
         "route": "geen",
         "K": 0.41,
+        "n": 0,
+        "bronnen": 0
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/oosthuizen-2026-11-23-b3d10b": {
+        "kop": "Stroomstoring in Oosthuizen",
+        "S": 0,
+        "route": "geen",
+        "K": 0.56,
+        "n": 0,
+        "bronnen": 0
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a": {
+        "kop": "Stroomstoring in Zaandijk",
+        "S": 0,
+        "route": "geen",
+        "K": 0.61,
+        "n": 0,
+        "bronnen": 0
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc": {
+        "kop": "Stroomstoring in Volendam",
+        "S": 0,
+        "route": "geen",
+        "K": 0.61,
         "n": 0,
         "bronnen": 0
       }
