@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-23T06:00:44.648Z",
+  "gegenereerdOp": "2026-11-23T07:00:50.070Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 640,
+    "stukken": 641,
     "verhalen": 516,
     "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
+    "aiGevraagd": 0,
     "aiBanden": 0,
     "metRoute": 0,
     "nieuwRood": 0,
@@ -228,6 +228,44 @@
       ]
     },
     {
+      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-17T23:00:00.000Z",
+        "laatste": "2026-11-22T23:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-17T23:00:00.000Z",
+          "type": null,
+          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-18T15:17:00.000Z",
+          "type": null,
+          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/twee-dagen-staking-bij-streekvervoer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "type": null,
+          "titel": "Twee dagen staking bij streekvervoer"
+        }
+      ]
+    },
+    {
       "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
       "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
       "meting": {
@@ -362,37 +400,6 @@
           "datum": "2026-11-18T09:10:00.000Z",
           "type": null,
           "titel": "Van banketletters tot cadeautasjes: Sinterklaasmuseum in Westzaan too…"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
-      "kop": "Vakbonden kondigen stakingen aan in streekvervoer",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-17T23:00:00.000Z",
-        "laatste": "2026-11-18T15:17:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/vakbonden-kondigen-stakingen-aan-in-streekvervoer/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-17T23:00:00.000Z",
-          "type": null,
-          "titel": "Vakbonden kondigen stakingen aan in streekvervoer"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-18T15:17:00.000Z",
-          "type": null,
-          "titel": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat…"
         }
       ]
     },
