@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T02:00:45.479Z",
+  "gegenereerdOp": "2026-11-23T03:00:45.348Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -22,11 +22,11 @@
     "tekstDekkingPct": 100,
     "stukken": 648,
     "bewijsStukken": 49,
-    "kandidaten": 20,
+    "kandidaten": 19,
     "metAnker": 19,
-    "zonderAnker": 1,
+    "zonderAnker": 0,
     "afgelast": 0,
-    "dubbel": 1,
+    "dubbel": 0,
     "tau": 0.5,
     "besluit": {
       "boven": 0,
@@ -38,8 +38,8 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 640,
-      "verhalen": 516,
+      "stukken": 639,
+      "verhalen": 515,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,

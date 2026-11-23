@@ -1,21 +1,21 @@
 {
-  "gegenereerdOp": "2026-11-23T02:00:45.479Z",
+  "gegenereerdOp": "2026-11-23T03:00:45.348Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     },
     "ibabs-ingekomen-stukken": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 2,
+      "opeenvolgendLeeg": 3,
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,7 +26,7 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -37,25 +37,25 @@
       }
     },
     "zaanstad-hoorzittingen": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 8,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "omgevingsdienstnoordzeekanaal": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "rechtspraak-noord-holland": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 2,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "bekendmakingen": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 150,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -66,33 +66,33 @@
       }
     },
     "wetenregelgeving": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 50,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-kalender": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 39,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "vervoerregio-aanbesteding": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 26,
+      "opeenvolgendLeeg": 27,
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 53,
+      "opeenvolgendLeeg": 54,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 196,
+      "opeenvolgendLeeg": 197,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-21T00:00:49.302Z",
@@ -101,9 +101,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 241,
+      "opeenvolgendLeeg": 242,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-22T22:00:51.839Z",
@@ -112,15 +112,15 @@
       }
     },
     "rekenkamer-amsterdam-zaanstad": {
-      "laatsteScrape": "2026-11-22T07:00:51.849Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 100,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 88,
+      "opeenvolgendLeeg": 89,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-21T00:00:49.302Z",
@@ -129,7 +129,7 @@
       }
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -140,15 +140,15 @@
       }
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-23T02:00:45.479Z",
+      "laatsteScrape": "2026-11-23T03:00:45.348Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 19,
+      "opeenvolgendLeeg": 20,
       "opeenvolgendFout": 0
     }
   },
@@ -377,13 +377,13 @@
   "laatsteRun": {
     "agenda": {
       "nieuw": 0,
-      "bijgewerkt": 0,
-      "behouden": 114,
-      "verdwenen": 0,
+      "bijgewerkt": 31,
+      "behouden": 81,
+      "verdwenen": 2,
       "verlopen": 0,
       "uitBerichten": 21,
       "uitCamera": 3,
-      "zichtbaar": 69,
+      "zichtbaar": 67,
       "verborgen": 67,
       "inAfwachting": 0
     },
@@ -391,7 +391,7 @@
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 0,
+      "ongewijzigd": 9,
       "seed": 0
     },
     "cluster": {
@@ -445,11 +445,11 @@
       "tekstDekkingPct": 100,
       "stukken": 648,
       "bewijsStukken": 49,
-      "kandidaten": 20,
+      "kandidaten": 19,
       "metAnker": 19,
-      "zonderAnker": 1,
+      "zonderAnker": 0,
       "afgelast": 0,
-      "dubbel": 1,
+      "dubbel": 0,
       "tau": 0.5,
       "besluit": {
         "boven": 0,
@@ -461,8 +461,8 @@
       },
       "rood": 4,
       "verhalen": {
-        "stukken": 640,
-        "verhalen": 516,
+        "stukken": 639,
+        "verhalen": 515,
         "metMeerStukken": 71,
         "bijgesneden": 0,
         "teGroot": 0,

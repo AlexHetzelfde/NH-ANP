@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-23T02:00:45.479Z",
+  "gegenereerdOp": "2026-11-23T03:00:45.348Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T21:00:47.629Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Geslaagde boekpresentatie The Black Smith 🎥",
       "bronLengte": 617,
       "checklist": {
@@ -505,7 +505,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T15:00:49.185Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Hercules bewijst zich in Zaandijk ⚽️/🎥",
       "bronLengte": 2216,
       "checklist": {
@@ -577,7 +577,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T16:00:50.720Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Auto stort in de diepte na botsing",
       "bronLengte": 830,
       "checklist": {
@@ -657,7 +657,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T14:00:45.227Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Dit wordt het nieuwe terrein van hockeyclub De Kraaien 🎥",
       "bronLengte": 1315,
       "checklist": {
@@ -697,7 +697,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T13:00:47.245Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Sinterklaas ontvangen in Oostknollendam",
       "bronLengte": 753,
       "checklist": {
@@ -737,7 +737,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T12:00:47.601Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Fototijdreis: Militaireweg Krommenie",
       "bronLengte": 5408,
       "checklist": {
@@ -817,7 +817,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T10:00:46.973Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Uit De Schatkamer: Het Twiske in 1994 🎧",
       "bronLengte": 2561,
       "checklist": {
@@ -857,7 +857,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T09:00:47.387Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Snoep voor het oog: nachtelijk genieten in de Zaanbocht ✨📸",
       "bronLengte": 580,
       "checklist": {
@@ -897,7 +897,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-22T08:00:53.049Z",
-      "gecontroleerdOp": "2026-11-23T00:00:52.747Z",
+      "gecontroleerdOp": "2026-11-23T03:00:45.348Z",
       "bronTitel": "Waarheen: Blues aan de Zaan, Pim & Pom, cadeautjesmarkt 🎙",
       "bronLengte": 1183,
       "checklist": {
