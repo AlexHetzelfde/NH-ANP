@@ -507,4 +507,6 @@ module.exports = {
   parseNewsifierLijst,
   parseNewsifierArtikel,
   parseNieuwsSitemap,
+  artikelParser,
+  MAX_ARTIKEL_TEKENS,
 };

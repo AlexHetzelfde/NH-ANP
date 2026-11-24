@@ -5,6 +5,7 @@
 //  - blijft Google overbelast, dan starten er in die run geen nieuwe verzoeken meer
 // Geen echt netwerk: fetch wordt vervangen.
 process.env.ZANP_AI_PAUZE_MS = "0"; // geen echte pauzes in de tests
+process.env.ZANP_MODELLEN_LICHT = "gemini-flash-lite-latest"; // deze tests gaan over één model; de reeks met reserves wordt getest in gemini-ketens.test.js
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { geminiAntwoord } = require("./helpers");
@@ -14,6 +15,7 @@ const origineleFetch = global.fetch;
 test.afterEach(() => {
   global.fetch = origineleFetch;
   process.env.ZANP_AI_PAUZE_MS = "0";
+  g.resetModelStaat(); // de teller en wachttijd per model horen bij één run
 });
 
 const fout = (status, bericht = "The model is overloaded.") => ({

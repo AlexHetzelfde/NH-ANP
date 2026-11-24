@@ -35,17 +35,182 @@
 // kop en het soort bericht. Alle modi met een kop geven ook "soort" (incident, uitkomst,
 // gepland of overig) met een zin uit de bron als bewijs; de routes naar rood
 // (prioriteit/routes.js) gebruiken dat om een incident of een uitkomst te herkennen.
-const PROMPT_VERSIE_WIRE = "2026-11-19-batch-kop-soort-tag-checklist-agendapunten";
+const PROMPT_VERSIE_WIRE = "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten";
 
 const SOORTEN = Object.freeze(["incident", "uitkomst", "gepland", "overig"]);
 
-// ZANP gebruikt alleen "wire", op Flash-Lite met een ruimer quotum.
-const MODELLEN = {
-  wire: ["gemini-flash-lite-latest"], // ZANP: meldingen, analyses en dubbel nieuws
+// ZANP gebruikt twee klassen modellen, elk met een eerste keus en twee reserves (steeds
+// iets minder goed). Is een model vol of kapot, dan pakt roepGeminiWire het volgende.
+//   licht  koppen, tags, checklists, dubbel nieuws, verhalen indelen, dossiers
+//          (Flash-Lite: ruim quotum, 500 verzoeken per dag per model)
+//   zwaar  taken waar kwaliteit telt en die zelden voorkomen: de rode controle,
+//          samengesteld nieuws, raadsverslagen (Flash: 20 verzoeken per dag per model)
+// De namen met "-latest" bestaan zeker; de versies erachter zijn een gok die ontdekModellen()
+// bij de start van een run controleert. Een naam die niet bestaat wordt overgeslagen.
+// Aanpassen zonder code: de variabelen ZANP_MODELLEN_LICHT en ZANP_MODELLEN_ZWAAR
+// (namen gescheiden door komma's) in de GitHub-instellingen.
+const KETENS_STANDAARD = {
+  licht: ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
+  zwaar: ["gemini-flash-latest", "gemini-3.6-flash", "gemini-3-flash"],
 };
+const MODELLEN = {
+  licht: [...KETENS_STANDAARD.licht],
+  zwaar: [...KETENS_STANDAARD.zwaar],
+  get wire() {
+    return this.licht; // oude naam: ZANP draaide eerst alleen op Flash-Lite
+  },
+};
+
+// Hoeveel verzoeken per dag we hoogstens aan één model vragen. De echte limieten (gratis
+// account, 22 nov 2026): Flash-Lite 500, Flash 20, 2.5 Flash-Lite 20. We blijven eronder,
+// zodat er ruimte is voor herhalingen en voor wat je zelf in AI Studio doet.
+const CAP_STANDAARD = { licht: 300, zwaar: 15 };
+const CAP_PER_MODEL = { "gemini-2.5-flash-lite": 15 };
+const MIN_UITVOER_ZWAAR = 16384; // Flash-modellen "denken" eerst: ruimte voor het antwoord
+const TIJDSLIMIET_MS = { licht: 90_000, zwaar: 180_000 };
+const ZWAAR_PAUZE_MS = 13_000; // Flash: 5 verzoeken per minuut, dus ruim 12 seconden ertussen
 
 const TEMPERATUUR_WIRE = 0.1; // feiten overnemen, niet fantaseren
 const PARALLEL = 3;
+
+function ketenVoor(klasse) {
+  const ingesteld = process.env[`ZANP_MODELLEN_${String(klasse).toUpperCase()}`];
+  if (ingesteld && ingesteld.trim()) return ingesteld.split(",").map((m) => m.trim()).filter(Boolean);
+  return MODELLEN[klasse] || MODELLEN.licht;
+}
+
+function getalUitEnv(naam, standaard) {
+  const v = process.env[naam];
+  if (v === undefined || String(v).trim() === "") return standaard;
+  const n = Number(v);
+  return Number.isFinite(n) && n >= 0 ? n : standaard;
+}
+
+function capVoor(klasse, model) {
+  const klasseCap = getalUitEnv(`ZANP_CAP_${String(klasse).toUpperCase()}`, CAP_STANDAARD[klasse] ?? CAP_STANDAARD.licht);
+  return CAP_PER_MODEL[model] !== undefined ? Math.min(klasseCap, CAP_PER_MODEL[model]) : klasseCap;
+}
+
+// ---------------------------------------------------------------------------
+// Teller en onderbreker per model
+// ---------------------------------------------------------------------------
+// Per model: hoeveel verzoeken vandaag beantwoord zijn en tot wanneer we het model
+// overslaan (na een 429 of als de dagcap bereikt is). zanp.js laadt dit uit
+// zanp-status.json bij de start van een run en bewaart het aan het eind.
+
+let modelStaat = { dag: null, modellen: {} };
+let wachtBerekening = (_tekst, nu) => new Date(nu.getTime() + 3600 * 1000).toISOString();
+const laatsteAanroep = new Map();
+let beschikbaarLijst = null; // Set met modelnamen die Google kent, of null als dat niet is nagegaan
+const gemeldeOntbrekend = new Set();
+
+function laadModelStaat(opgeslagen, { dag = null, nu = new Date(), wachtTotNaQuotum = null } = {}) {
+  if (typeof wachtTotNaQuotum === "function") wachtBerekening = wachtTotNaQuotum;
+  const oud = opgeslagen && typeof opgeslagen === "object" ? opgeslagen : {};
+  const zelfdeDag = oud.dag != null && oud.dag === dag;
+  modelStaat = { dag, modellen: {} };
+  for (const [model, m] of Object.entries(oud.modellen || {})) {
+    if (!m || typeof m !== "object") continue;
+    const wachtTot = m.wachtTot && new Date(m.wachtTot) > nu ? m.wachtTot : null; // een wachttijd die loopt blijft gelden
+    modelStaat.modellen[model] = { gebruikt: zelfdeDag ? Number(m.gebruikt) || 0 : 0, wachtTot };
+  }
+}
+
+function geefModelStaat() {
+  return JSON.parse(JSON.stringify(modelStaat));
+}
+
+function staatVan(model) {
+  if (!modelStaat.modellen[model]) modelStaat.modellen[model] = { gebruikt: 0, wachtTot: null };
+  return modelStaat.modellen[model];
+}
+
+/** Voor de tests: alles terug naar het begin. */
+function resetModelStaat() {
+  modelStaat = { dag: null, modellen: {} };
+  laatsteAanroep.clear();
+  beschikbaarLijst = null;
+  gemeldeOntbrekend.clear();
+}
+
+/** "retry in 1h2m3s": zo leest wachtTotNaQuotum (zanp.js) een wachttijd. */
+function wachtTekst(totIso, nu) {
+  const sec = Math.max(1, Math.ceil((new Date(totIso).getTime() - nu.getTime()) / 1000));
+  return `retry in ${Math.floor(sec / 3600)}h${Math.floor((sec % 3600) / 60)}m${sec % 60}s`;
+}
+
+// ---------------------------------------------------------------------------
+// Welke modellen bestaan er? (één keer per run, alleen vanuit zanp.js)
+// ---------------------------------------------------------------------------
+
+const NIET_TEKSTMODEL = /(tts|image|live|audio|transcribe|embedding|robotics|computer|omni|lyria|genie)/;
+
+/**
+ * Zoekt voor een gewenste naam de echte naam. Bestaat de naam, dan is dat hem. Anders de
+ * nieuwste naam die ermee begint ("gemini-3.6-flash" → "gemini-3.6-flash-preview-0915"),
+ * zonder Lite-modellen als je om een gewoon model vraagt. Niets gevonden: null.
+ */
+function losOp(naam, beschikbaar) {
+  if (!beschikbaar) return naam;
+  if (beschikbaar.has(naam)) return naam;
+  if (/-latest$/.test(naam)) return naam; // deze namen werken altijd, ook als de lijst ze niet noemt
+  const lite = /lite/.test(naam);
+  const kandidaten = [...beschikbaar]
+    .filter((m) => m.startsWith(`${naam}-`) && !NIET_TEKSTMODEL.test(m) && (lite || !/lite/.test(m)))
+    .sort();
+  return kandidaten.length ? kandidaten[kandidaten.length - 1] : null;
+}
+
+/**
+ * Vraagt Google welke modellen dit account kan gebruiken en bewaart de lijst voor
+ * deze run. Mislukt het, dan werkt alles met de namen zoals ze staan. Geeft
+ * { aantal, tekstmodellen } terug voor het logboek, of null.
+ */
+async function ontdekModellen(apiKey) {
+  try {
+    const namen = new Set();
+    let pagina = "";
+    for (let i = 0; i < 5; i++) {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=200${pagina}`, {
+        headers: { "x-goog-api-key": apiKey },
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (!response.ok) return null;
+      const json = await response.json();
+      for (const m of json.models || []) {
+        const methoden = m.supportedGenerationMethods || [];
+        if (methoden.length && !methoden.includes("generateContent")) continue;
+        namen.add(String(m.name || "").replace(/^models\//, ""));
+      }
+      if (!json.nextPageToken) break;
+      pagina = `&pageToken=${encodeURIComponent(json.nextPageToken)}`;
+    }
+    namen.delete("");
+    if (namen.size < 3) return null; // een lijst die zo klein is, klopt niet; dan blijven de namen staan
+    beschikbaarLijst = namen;
+    const tekstmodellen = [...namen].filter((m) => /flash|pro/.test(m) && !NIET_TEKSTMODEL.test(m)).sort();
+    return { aantal: namen.size, tekstmodellen };
+  } catch (fout) {
+    console.warn(`  Modellenlijst van Google niet op te halen (${fout.message}); we gebruiken de namen zoals ze staan.`);
+    return null;
+  }
+}
+
+// De keten voor een klasse met de echte namen. Een naam die Google niet kent valt weg.
+function werkKeten(klasse) {
+  const uit = [];
+  for (const naam of ketenVoor(klasse)) {
+    const echt = losOp(naam, beschikbaarLijst);
+    if (echt) {
+      if (!uit.includes(echt)) uit.push(echt);
+    } else if (!gemeldeOntbrekend.has(naam)) {
+      gemeldeOntbrekend.add(naam);
+      console.warn(`  Gemini-model "${naam}" bestaat niet voor dit account; overgeslagen.`);
+    }
+  }
+  return uit;
+}
+
 
 // Tijdelijke fouten van Google (overbelasting, storing): één verzoek mislukt dan,
 // maar een paar seconden later lukt het vaak wel. Een 429 (quotum) valt hier
@@ -144,31 +309,61 @@ function parseAntwoord(tekst) {
 // De functies hieronder gebruiken de aanroep roepGeminiWire.
 
 const BATCH_GROOTTE = 6; // berichten per verzoek
-const BATCH_TEKENS_PER_ITEM = 3000; // brontekst per bericht in een batch
+const BATCH_TEKENS_PER_ITEM = 6000; // brontekst per bericht in een batch (de tekststap levert er hoogstens 6.000)
 const MAX_OUTPUT_TOKENS_BATCH = 8192; // een batch heeft meer uitvoer nodig dan één bericht
 const ZELFDE_PER_VERZOEK = 10; // twijfelparen per verzoek (dubbel nieuws)
 
 /**
  * Eén Gemini-aanroep voor ZANP, met een eigen uitvoerlimiet.
- * Geeft { data, verzoeken } terug; "verzoeken" telt de aanroepen die Google
- * heeft beantwoord (ook een antwoord dat geen geldige JSON bleek te zijn), want
+ * Geeft { data, verzoeken, model, modelVersie } terug; "verzoeken" telt de aanroepen die
+ * Google heeft beantwoord (ook een antwoord dat geen geldige JSON bleek te zijn), want
  * die tellen mee voor het dagquotum. Een HTTP-fout telt niet.
  *
+ * KETEN. opties.klasse ("licht", standaard, of "zwaar") kiest de reeks modellen. Is een
+ * model vol (dagcap, of een 429) of mislukt het, dan volgt het volgende model in de reeks.
+ * opties.terugval (bijvoorbeeld "licht" bij klasse "zwaar") is een tweede reeks voor als
+ * de eerste helemaal vol of kapot is. Alleen als ALLE modellen falen komt er een fout, met
+ * status 429 als dat door het quotum kwam.
+ *
  * Bij een tijdelijke Google-fout (HTTP 500, 502, 503, 504) probeert hij het
- * hoogstens HERPOGINGEN keer opnieuw, na 3 s en dan 9 s (zie metHerpogingen).
- * Een mislukte poging telt niet mee voor het dagquotum. Blijft de fout staan,
- * dan krijgt de fout "tijdelijk = true" en verandert de foutmelding niet.
+ * hoogstens HERPOGINGEN keer opnieuw, na 3 s en dan 9 s (zie metHerpogingen); daarna
+ * volgt het volgende model. Een mislukte poging telt niet mee voor het dagquotum.
+ * Blijft de fout staan, dan krijgt de fout "tijdelijk = true" en verandert de foutmelding niet.
+ * Elke aanroep heeft een tijdslimiet (licht 90 s, zwaar 180 s; ZANP_AI_TIMEOUT_MS).
  */
-async function roepGeminiWire(prompt, apiKey, maxTokens = MAX_OUTPUT_TOKENS_BATCH) {
+async function roepGeminiWire(prompt, apiKey, maxTokens = MAX_OUTPUT_TOKENS_BATCH, opties = {}) {
+  const klassen = [opties.klasse === "zwaar" ? "zwaar" : "licht"];
+  if (opties.terugval && !klassen.includes(opties.terugval)) klassen.push(opties.terugval === "zwaar" ? "zwaar" : "licht");
+
   let verzoeken = 0;
   let laatsteFout;
-  for (const model of MODELLEN.wire) {
-    let tekst;
-    try {
-      tekst = await metHerpogingen(model, async () => {
-        const response = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
-          {
+  let quotumGeraakt = false;
+  let quotumTekst = "";
+  const wachtTijden = [];
+
+  for (const klasse of klassen) {
+    const keten = werkKeten(klasse);
+    const uitvoer = klasse === "zwaar" ? Math.max(maxTokens, MIN_UITVOER_ZWAAR) : maxTokens;
+    const limiet = getalUitEnv("ZANP_AI_TIMEOUT_MS", TIJDSLIMIET_MS[klasse]);
+    for (let i = 0; i < keten.length; i++) {
+      const model = keten[i];
+      const staat = staatVan(model);
+      const nu = new Date();
+      if (!(staat.wachtTot && new Date(staat.wachtTot) > nu) && staat.gebruikt >= capVoor(klasse, model)) {
+        staat.wachtTot = wachtBerekening("per day", nu); // dagcap bereikt: tot de volgende quotumdag
+        console.warn(`  Gemini (${model}) heeft de dagcap bereikt (${staat.gebruikt}); overgeslagen tot ${staat.wachtTot}.`);
+      }
+      if (staat.wachtTot && new Date(staat.wachtTot) > nu) {
+        quotumGeraakt = true;
+        wachtTijden.push(staat.wachtTot);
+        continue;
+      }
+
+      await tempo(klasse, model);
+      let uit;
+      try {
+        uit = await metHerpogingen(model, async () => {
+          const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
             method: "POST",
             headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
             body: JSON.stringify({
@@ -176,49 +371,83 @@ async function roepGeminiWire(prompt, apiKey, maxTokens = MAX_OUTPUT_TOKENS_BATC
               generationConfig: {
                 temperature: TEMPERATUUR_WIRE,
                 responseMimeType: "application/json",
-                maxOutputTokens: maxTokens,
+                maxOutputTokens: uitvoer,
               },
             }),
+            signal: AbortSignal.timeout(limiet),
+          }).catch((fout) => {
+            if (fout && (fout.name === "TimeoutError" || fout.name === "AbortError")) {
+              throw new Error(`geen antwoord binnen ${Math.round(limiet / 1000)} s`);
+            }
+            throw fout;
+          });
+          if (!response.ok) {
+            let foutTekst = `HTTP ${response.status}`;
+            try {
+              const foutJson = await response.json();
+              if (foutJson.error && foutJson.error.message) foutTekst += `: ${foutJson.error.message}`;
+            } catch {
+              // geen JSON, laat de HTTP-status staan
+            }
+            const fout = new Error(foutTekst);
+            fout.status = response.status;
+            throw fout;
           }
-        );
-        if (!response.ok) {
-          let foutTekst = `HTTP ${response.status}`;
-          try {
-            const foutJson = await response.json();
-            if (foutJson.error && foutJson.error.message) foutTekst += `: ${foutJson.error.message}`;
-          } catch {
-            // geen JSON, laat de HTTP-status staan
+          verzoeken++;
+          staat.gebruikt++;
+          const antwoord = await response.json();
+          const kandidaat = antwoord && antwoord.candidates && antwoord.candidates[0];
+          const delen = (kandidaat && kandidaat.content && kandidaat.content.parts) || [];
+          const uitTekst = delen
+            .filter((d) => !d.thought && typeof d.text === "string")
+            .map((d) => d.text)
+            .join("");
+          if (!uitTekst) {
+            throw new Error(`leeg antwoord (finishReason: ${(kandidaat && kandidaat.finishReason) || "onbekend"})`);
           }
-          const fout = new Error(foutTekst);
-          fout.status = response.status;
-          throw fout;
+          return { tekst: uitTekst, modelVersie: (antwoord && antwoord.modelVersion) || null };
+        });
+      } catch (fout) {
+        laatsteFout = fout;
+        if (fout.status === 429) {
+          quotumGeraakt = true;
+          quotumTekst = fout.message;
+          staat.wachtTot = wachtBerekening(fout.message, new Date());
+          wachtTijden.push(staat.wachtTot);
         }
-        verzoeken++;
-        const antwoord = await response.json();
-        const kandidaat = antwoord && antwoord.candidates && antwoord.candidates[0];
-        const delen = (kandidaat && kandidaat.content && kandidaat.content.parts) || [];
-        const uitTekst = delen
-          .filter((d) => !d.thought && typeof d.text === "string")
-          .map((d) => d.text)
-          .join("");
-        if (!uitTekst) {
-          throw new Error(`leeg antwoord (finishReason: ${(kandidaat && kandidaat.finishReason) || "onbekend"})`);
-        }
-        return uitTekst;
-      });
-    } catch (fout) {
-      laatsteFout = fout;
-      console.warn(`  Gemini (${model}) mislukte: ${fout.message}`);
-      continue;
+        console.warn(`  Gemini (${model}) mislukte: ${fout.message}`);
+        continue;
+      }
+      const data = parseAntwoord(uit.tekst);
+      if (data) {
+        if (i > 0 || klasse !== klassen[0]) console.log(`  Gemini: reservemodel ${model} gebruikt (${klasse}).`);
+        return { data, verzoeken, model, modelVersie: uit.modelVersie, klasse };
+      }
+      laatsteFout = new Error("antwoord is geen geldige JSON");
+      console.warn(`  Gemini (${model}) gaf geen geldige JSON.`);
     }
-    const data = parseAntwoord(tekst);
-    if (data) return { data, verzoeken };
-    laatsteFout = new Error("antwoord is geen geldige JSON");
-    console.warn(`  Gemini (${model}) gaf geen geldige JSON.`);
   }
-  const fout = laatsteFout || new Error("alle modellen faalden");
+
+  let fout;
+  if (quotumGeraakt && !(laatsteFout && laatsteFout.tijdelijk)) {
+    // Alle modellen waren vol. Een echte 429-melding van Google blijft staan (daar leest
+    // zanp.js de wachttijd uit); anders maken we er een uit de vroegste wachttijd.
+    const vroegste = wachtTijden.sort()[0];
+    fout = new Error(quotumTekst || `HTTP 429: alle modellen zijn vol; ${vroegste ? wachtTekst(vroegste, new Date()) : "retry in 1h0m0s"}`);
+    fout.status = 429;
+  } else {
+    fout = laatsteFout || new Error("alle modellen faalden");
+  }
   fout.verzoeken = verzoeken;
   throw fout;
+}
+
+async function tempo(klasse, model) {
+  if (klasse !== "zwaar" || process.env.ZANP_AI_PAUZE_MS === "0") return;
+  const pauze = getalUitEnv("ZANP_ZWAAR_PAUZE_MS", ZWAAR_PAUZE_MS);
+  const laatst = laatsteAanroep.get(model);
+  if (laatst) await wacht(Math.max(0, laatst + pauze - Date.now()));
+  laatsteAanroep.set(model, Date.now());
 }
 
 const CHECKLIST_UITLEG = `CHECKLIST (feiten uit de bron; bij twijfel false of null):
@@ -537,7 +766,7 @@ async function schrijfMeldingen(items, apiKey, cap, opties = {}) {
 // ---------------------------------------------------------------------------
 
 function bouwZelfdeBatchPrompt(paren) {
-  const blok = (x) => `Titel: ${x.titel || ""}\nBron: ${x.bronNaam || ""}\nTekst: ${(x.tekst || "").slice(0, 500)}`;
+  const blok = (x) => `Titel: ${x.titel || ""}\nBron: ${x.bronNaam || ""}\nTekst: ${(x.tekst || "").slice(0, 1500)}`;
   return `Hieronder staan ${paren.length} paar(en) berichten uit Zaanstreek-Waterland. Beoordeel elk paar los van de andere: gaat het om HETZELFDE nieuwsfeit, dus dezelfde gebeurtenis of hetzelfde besluit, ook als ze anders zijn geschreven?
 Antwoord alleen "zelfde": true als het over dezelfde gebeurtenis gaat. Een vervolg, een reactie, een ander aspect of een soortgelijke maar andere gebeurtenis is "zelfde": false.
 
@@ -618,6 +847,14 @@ module.exports = {
   schrijfMeldingen,
   beslisZelfdeNieuwsfeit,
   roepGeminiWire, // ook voor de AI-controle van de prioriteitsfunctie (prioriteit/ai.js)
+  ketenVoor,
+  capVoor,
+  laadModelStaat,
+  geefModelStaat,
+  resetModelStaat,
+  ontdekModellen,
+  losOp,
+  BATCH_TEKENS_PER_ITEM,
   isTijdelijkeFout,
   HERPOGING_STATUSSEN,
   HERPOGINGEN,

@@ -6,6 +6,8 @@
 
 "use strict";
 
+const KERN_MAX_TEKENS = 500; // zie de kern in analyseer()
+
 const IMPACT = require("./impact");
 
 const STOP = new Set(
@@ -229,7 +231,15 @@ function analyseer({ kop = "", tekst = "" }) {
   const getroffenMax = grootsteAantalGetroffenen(`${kopTekst} ${lichaam}`);
   const impact = telImpact([...lichaamStammen, ...kopLijst], bedragMax, getroffenMax);
 
-  const zin = (lichaam.match(/[^.!?\n]{40,}[.!?]/) || [""])[0].trim().slice(0, 200);
+  // De kern: de eerste zin en wat erna komt, tot KERN_MAX_TEKENS, afgekapt na een volledige zin.
+  // De AI-controle en het indelen van verhalen lezen dit; de berekening gebruikt het niet.
+  const eerste = lichaam.match(/[^.!?\n]{40,}[.!?]/);
+  let zin = "";
+  if (eerste) {
+    const stuk = lichaam.slice(eerste.index, eerste.index + KERN_MAX_TEKENS).replace(/\s+/g, " ").trim();
+    const einde = Math.max(stuk.lastIndexOf(". "), stuk.lastIndexOf("! "), stuk.lastIndexOf("? "));
+    zin = stuk.length >= KERN_MAX_TEKENS && einde >= eerste[0].trim().length - 1 ? stuk.slice(0, einde + 1) : stuk;
+  }
 
   // Geannuleerd of afgelast, volgens de kop of de eerste regels van het stuk zelf.
   const afgelast = AFGELAST.test(schoon(`${kopTekst} ${lichaam.slice(0, 400)}`));

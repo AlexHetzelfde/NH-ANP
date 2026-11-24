@@ -24,7 +24,7 @@ function bouwVetoPrompt(items) {
       `ONDERWERP ${i + 1}\n` +
       `Soort: ${it.soort === "agenda" ? "agenda-item" : "nieuwsbericht"}\n` +
       `Titel: ${String(it.kop || "").slice(0, 200)}\n` +
-      (it.kern ? `Begin van de tekst: ${String(it.kern).slice(0, 200)}\n` : "") +
+      (it.kern ? `Begin van de tekst: ${String(it.kern).slice(0, 500)}\n` : "") +
       `Zoekwoorden: ${(it.ankers || []).slice(0, 4).join(", ")}\n` +
       `Wat de berekening vond: ${it.reden || ""}\n` +
       `Stukken waarop dat steunt:\n${bewijs || "  (geen)"}`

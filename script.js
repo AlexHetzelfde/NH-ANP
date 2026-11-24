@@ -829,7 +829,67 @@ async function vulVolledigeTekst(r) {
 
 // --- één bericht ---------------------------------------------------------------
 
+// Samengesteld nieuws (scraper/samengesteld.js): een kop en één of twee alinea's, door de AI
+// geschreven uit publicaties van meerdere lokale media, met links naar alle publicaties.
+function renderSamengesteld(r) {
+  const bronnen = Array.isArray(r.samengesteld && r.samengesteld.bronnen) ? r.samengesteld.bronnen : [];
+  const delen = [tekstNaarHtml(r.tekst)];
+  delen.push(
+    `<p><span class="wire-label ai">AI</span>Samengesteld door AI uit ${bronnen.length} publicaties van lokale media. Controleer de feiten via de bronnen voor gebruik.</p>`
+  );
+  if (bronnen.length) {
+    const items = bronnen
+      .map((b) => {
+        const d = new Date(b.datum);
+        const wanneer = isNaN(d.getTime())
+          ? ""
+          : ` <span class="wire-bron-tijd">(${escapeHtml(d.toLocaleString("nl-NL", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: TIJDZONE }))})</span>`;
+        return `<li><a class="wire-bron-link" href="${escapeHtml(veiligeUrl(b.url))}" target="_blank" rel="noopener">${escapeHtml(b.bronNaam || "bron")}: ${escapeHtml(b.titel || "artikel")} ↗</a>${wanneer}</li>`;
+      })
+      .join("");
+    delen.push(`<p>Gepubliceerd door:</p><ul>${items}</ul>`);
+  }
+  if (r.versie > 1) {
+    delen.push("<p>Nieuwe versie van een eerder bericht: er is een publicatie bijgekomen. De tijd is het moment waarop dat is opgemerkt.</p>");
+  }
+  return delen.join("");
+}
+
+// Besluitenlijst van de raadsvergadering (scraper/besluitenlijst.js): één alinea per besluit,
+// door de AI geschreven uit de officiële besluitenlijst en door de code gecontroleerd.
+function renderBesluitenlijst(r) {
+  const b = r.besluitenlijst || {};
+  const delen = [tekstNaarHtml(r.tekst)];
+  const door = b.alineasDoorCode ? ` ${b.alineasDoorCode} van de ${b.aantalBlokken} alinea's zijn kale regels die de code zelf uit de lijst haalde.` : "";
+  delen.push(
+    `<p><span class="wire-label ai">AI</span>Alinea's door AI geschreven uit de officiële besluitenlijst; getallen, namen en stemuitslagen zijn door de code gecontroleerd.${escapeHtml(door)} Controleer bij twijfel de lijst zelf.</p>`
+  );
+  const links = [];
+  if (b.pdfUrl) links.push(`<li><a class="wire-bron-link" href="${escapeHtml(veiligeUrl(b.pdfUrl))}" target="_blank" rel="noopener">${escapeHtml(b.docNaam || "Besluitenlijst (pdf)")} ↗</a></li>`);
+  if (b.vergaderUrl) links.push(`<li><a class="wire-bron-link" href="${escapeHtml(veiligeUrl(b.vergaderUrl))}" target="_blank" rel="noopener">Vergadering en stukken op iBabs ↗</a></li>`);
+  if (links.length) delen.push(`<p>Bron:</p><ul>${links.join("")}</ul>`);
+  return delen.join("");
+}
+
+// Verslag van de raadsvergadering (scraper/verslag.js): per onderwerp een kop en een alinea, door de AI
+// geschreven uit het woordelijke verslag en door de code gecontroleerd.
+function renderVerslag(r) {
+  const v = r.verslag || {};
+  const delen = [tekstNaarHtml(r.tekst)];
+  delen.push(
+    `<p><span class="wire-label ai">AI</span>Door AI geschreven uit het woordelijke verslag van de raadsvergadering${v.datum ? ` van ${escapeHtml(v.datum)}` : ""}; getallen, namen en datums zijn door de code gecontroleerd tegen de tekst van het verslag. Controleer bij twijfel het verslag zelf.</p>`
+  );
+  const links = [];
+  if (v.pdfUrl) links.push(`<li><a class="wire-bron-link" href="${escapeHtml(veiligeUrl(v.pdfUrl))}" target="_blank" rel="noopener">${escapeHtml(v.docNaam || "Verslag (pdf)")} ↗</a></li>`);
+  if (v.vergaderUrl) links.push(`<li><a class="wire-bron-link" href="${escapeHtml(veiligeUrl(v.vergaderUrl))}" target="_blank" rel="noopener">Vergadering en stukken op iBabs ↗</a></li>`);
+  if (links.length) delen.push(`<p>Bron:</p><ul>${links.join("")}</ul>`);
+  return delen.join("");
+}
+
 function renderWireDetail(r) {
+  if (r.samengesteld) return renderSamengesteld(r);
+  if (r.besluitenlijst) return renderBesluitenlijst(r);
+  if (r.verslag) return renderVerslag(r);
   const delen = [];
   if (r.alert && state.alertModus === "aan") {
     delen.push(`<p><span class="wire-label waarschuwing">${r.alert.niveau === "rood" ? "Alert" : "Mogelijk groot"}</span>${escapeHtml(r.alert.reden)}</p>`);

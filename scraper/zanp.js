@@ -64,6 +64,9 @@ const bronRood = require("./bron-rood");
 const dossiers = require("./dossiers");
 const spelling = require("./spelling");
 const bewijsModule = require("./bewijs");
+const samengesteldModule = require("./samengesteld");
+const besluitenlijstModule = require("./besluitenlijst");
+const verslagModule = require("./verslag");
 
 // ZANP-prioriteit (2026-11-04): agenda-items en berichten rood kleuren als een
 // onderwerp groot leeft. Staat in scraper/prioriteit/. Een fout bij het laden
@@ -81,6 +84,9 @@ const {
   schrijfMeldingen,
   beslisZelfdeNieuwsfeit,
   roepGeminiWire,
+  laadModelStaat,
+  geefModelStaat,
+  ontdekModellen,
   PROMPT_VERSIE_WIRE,
   BATCH_GROOTTE,
   ZELFDE_PER_VERZOEK,
@@ -380,6 +386,18 @@ async function draai(deps = {}) {
     runLog.regel("bronnen", `Statusregel opgeruimd van bron(nen) die niet meer in de lijsten staan: ${verwijderdeBronnen.join(", ")}.`);
   }
   const quotaDag = quotumDag(nu);
+  // Teller en onderbreker per AI-model (gemini.js): dezelfde quotumdag als hieronder. Dit moet
+  // vóór de reset hieronder, want die maakt status.gemini opnieuw aan.
+  laadModelStaat({ dag: status.gemini.dag, modellen: status.gemini.modellen }, { dag: quotaDag, nu, wachtTotNaQuotum });
+  if (apiKey && !deps.scrape) {
+    // Eén keer per run: welke modellen kent Google voor dit account? Een reservemodel dat niet
+    // bestaat wordt overgeslagen. Een fout hier stopt niets.
+    const ontdekt = await ontdekModellen(apiKey);
+    if (ontdekt) {
+      runLog.zet("ai", "modellenBeschikbaar", ontdekt.tekstmodellen);
+      runLog.regel("ai", `Google kent ${ontdekt.aantal} modellen; Flash/Pro: ${ontdekt.tekstmodellen.join(", ")}.`);
+    }
+  }
   if (status.gemini.dag !== quotaDag) {
     // Nieuwe quotumdag: de teller begint opnieuw. Een wachttijd die nog loopt
     // (bijvoorbeeld tot de reset) blijft gelden.
@@ -530,9 +548,11 @@ async function draai(deps = {}) {
 
   logFase("ZANP 4 — Nieuws: nieuwe en gewijzigde berichten");
   const berichtenBestand = await leesJson("berichten.json", { berichten: [] });
-  const bestaand = (Array.isArray(berichtenBestand.berichten) ? berichtenBestand.berichten : []).map(
-    migreerBericht
-  );
+  // Samengestelde berichten (samengesteld.js) horen niet bij de gewone verwerking: ze worden
+  // aan het eind uit data/zanp-samengesteld.json opnieuw in de stroom gezet.
+  const bestaand = (Array.isArray(berichtenBestand.berichten) ? berichtenBestand.berichten : [])
+    .filter((r) => r.bronId !== "samengesteld" && r.bronId !== "besluitenlijst" && r.bronId !== "verslag")
+    .map(migreerBericht);
   const laatstePerUrl = new Map();
   for (const r of bestaand) {
     const v = laatstePerUrl.get(r.url);
@@ -777,6 +797,10 @@ async function draai(deps = {}) {
   samenvatting.agenda = agenda.stats;
   console.log(`Agenda: ${JSON.stringify(agenda.stats)}`);
 
+  // De bewijsstukken van Rodi en Zaanstad.nieuws worden in de prioriteitsfase opgehaald; het
+  // samengestelde nieuws (fase 9b) gebruikt ze ook.
+  let bewijsItemsRun = [];
+
   // Prioriteit: de modus staat in ZANP_PRIORITEIT_MODUS (uit, schaduw, aan; standaard
   // schaduw = rekenen en loggen, niets kleuren). Niet bij de tests (die geven scrape mee).
   if (prioriteit && !deps.scrape) {
@@ -789,7 +813,9 @@ async function draai(deps = {}) {
       const aiVeto =
         apiKey && prioriteit.maakAiVeto && aiRuimte > 0 && !(status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu)
           ? prioriteit.maakAiVeto({
-              roep: roepGeminiWire,
+              // De rode controle beslist het persalarm en draait zelden: sterk model (Flash),
+              // met het lichte model als terugval. Lukt geen van beide, dan beslist de berekening.
+              roep: (prompt, sleutel, maxTokens) => roepGeminiWire(prompt, sleutel, maxTokens, { klasse: "zwaar", terugval: "licht" }),
               apiKey,
               ruimte: aiRuimte,
               telVerzoeken: (n) => {
@@ -812,6 +838,7 @@ async function draai(deps = {}) {
           const b = await bewijsModule.haalBewijs({ staat, nu });
           await bewijsModule.schrijfBewijsStaat(bewijsMap, b.staat, voor);
           bewijsItems = b.items;
+          bewijsItemsRun = b.items;
           samenvatting.bewijs = b.stats;
           console.log(`Bewijsbronnen: ${JSON.stringify(b.stats)}`);
         } catch (fout) {
@@ -880,6 +907,238 @@ async function draai(deps = {}) {
     console.error(`Rood per bron mislukte (ZANP gaat door zonder): ${fout.stack || fout.message}`);
   }
 
+  // Samengesteld nieuws (ZANP 9b, stap 3): nieuws dat binnen 72 uur op minstens twee van De Orkaan,
+  // Rodi en Zaanstad Nieuws staat. De code geeft het signaal, een sterk model velt het oordeel en
+  // schrijft kop en alinea's, de code controleert die tekst. Modus: ZANP_SAMENGESTELD_MODUS
+  // (uit, schaduw = standaard: berekenen en bewaren, niet tonen, aan). Een fout hier stopt de run niet.
+  const samenModus = samengesteldModule.leesModus(env);
+  let samenRecords = [];
+  if (samenModus === "uit") {
+    // De workflow commit dit bestand altijd; het moet dus bestaan.
+    try {
+      const bestaandeStaat = await leesJson("zanp-samengesteld.json", samengesteldModule.leegStaat());
+      await schrijfJson("zanp-samengesteld.json", { ...bestaandeStaat, modus: "uit" });
+    } catch (fout) {
+      console.error(`Bestand voor samengesteld nieuws bijwerken mislukte: ${fout.message}`);
+    }
+  } else if (!deps.scrape || deps.samengesteld) {
+    logFase(`ZANP 9b — Samengesteld nieuws (modus ${samenModus})`);
+    try {
+      const testDeps = deps.samengesteld || {};
+      const staatBestand = await leesJson("zanp-samengesteld.json", samengesteldModule.leegStaat());
+      // Zonder bewijsstukken van deze run (prioriteit uit): lees wat bewijs.json al bewaard heeft.
+      let stukkenBewijs = bewijsItemsRun;
+      if (!stukkenBewijs.length && prioriteit && !testDeps.bewijsItems) {
+        try {
+          const { staat: bewijsStaat } = await bewijsModule.leesBewijsStaat(prioriteit.mapVan(env));
+          stukkenBewijs = Object.values(bewijsStaat.items || {}).map((it) => ({ ...it, datum: it.datum || it.gezienOp }));
+        } catch (fout) {
+          console.error(`Bewijsstukken lezen voor samengesteld nieuws mislukte: ${fout.message}`);
+        }
+      }
+      if (testDeps.bewijsItems) stukkenBewijs = testDeps.bewijsItems;
+      const aiRuimte = Math.max(0, inst.dagcap - status.gemini.gebruikt);
+      const aiBeschikbaar = Boolean(apiKey) && aiRuimte > 0 && !(status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu);
+      // Eén aanroep per kandidaat, door het sterke model (Flash) en zonder terugval op het lichte
+      // model: een oordeel over "hetzelfde nieuwsfeit" wacht liever een run.
+      const vraagAI =
+        testDeps.vraagAI ||
+        (aiBeschikbaar
+          ? async (prompt) => {
+              try {
+                const antwoord = await roepGeminiWire(prompt, apiKey, 4096, { klasse: "zwaar" });
+                status.gemini.gebruikt += antwoord.verzoeken || 0;
+                run.verzoeken += antwoord.verzoeken || 0;
+                return antwoord;
+              } catch (fout) {
+                status.gemini.gebruikt += fout.verzoeken || 0;
+                run.verzoeken += fout.verzoeken || 0;
+                if (fout.status === 429) status.gemini.wachtTot = wachtTotNaQuotum(fout.message, nu);
+                throw fout;
+              }
+            }
+          : null);
+      const uit = await samengesteldModule.draaiSamengesteld({
+        ruwe,
+        records,
+        bewijsItems: stukkenBewijs,
+        staat: staatBestand,
+        nu,
+        vraagAI: vraagAI || undefined,
+        haalTekst: testDeps.haalTekst,
+        maxAI: Math.min(samengesteldModule.leesMaxAI(env), testDeps.vraagAI ? 99 : aiRuimte),
+        kiesTag: (kop, tekst) => wire.kiesTag({ kop, tekst, standaard: "ALG" }).tag,
+      });
+      await schrijfJson("zanp-samengesteld.json", { ...uit.staat, modus: samenModus });
+      samenvatting.samengesteld = { modus: samenModus, ...uit.stats };
+      console.log(`Samengesteld nieuws: ${JSON.stringify(uit.stats)}`);
+      for (const k of uit.kandidaten) {
+        console.log(`  kandidaat ${k.id}${k.update ? " (bijwerken)" : ""}: ${k.media.join(" + ")} — ${k.koppen.map((x) => x.slice(0, 60)).join(" | ")}`);
+      }
+      runLog.zet("samengesteld", "modus", samenModus);
+      runLog.zet("samengesteld", "stats", uit.stats);
+      if (samenModus === "aan") samenRecords = samengesteldModule.maakRecords(uit.staat);
+    } catch (fout) {
+      console.error(`Samengesteld nieuws mislukte (ZANP gaat door zonder): ${fout.stack || fout.message}`);
+      try {
+        const bestaandeStaat = await leesJson("zanp-samengesteld.json", samengesteldModule.leegStaat());
+        await schrijfJson("zanp-samengesteld.json", { ...bestaandeStaat, modus: samenModus });
+        if (samenModus === "aan") samenRecords = samengesteldModule.maakRecords(bestaandeStaat);
+      } catch {
+        // niets aan te doen
+      }
+    }
+  } else {
+    // Bij de tests (scrape meegegeven) draait de fase niet, maar het bestand moet bestaan.
+    try {
+      await schrijfJson("zanp-samengesteld.json", { ...(await leesJson("zanp-samengesteld.json", samengesteldModule.leegStaat())), modus: samenModus });
+    } catch {
+      // niets aan te doen
+    }
+  }
+
+  // Besluitenlijst van de raadsvergadering (ZANP 9c, stap 4a): na een raadsvergadering van Zaanstad
+  // (niet Zaanstad Beraad) komt de besluitenlijst online (PDF). De code deelt hem in blokken, een
+  // sterk model schrijft per blok een alinea, de code controleert die, en het geheel wordt één bericht.
+  // Modus: ZANP_BESLUITENLIJST_MODUS (uit, schaduw = standaard, aan). Een fout stopt de run niet.
+  const besluitModus = besluitenlijstModule.leesModus(env);
+  let besluitRecords = [];
+  const schrijfBesluitStaat = async (staat, extra = {}) => schrijfJson("zanp-besluitenlijsten.json", { ...staat, modus: besluitModus, ...extra });
+  if (besluitModus === "uit" || (deps.scrape && !deps.besluitenlijst)) {
+    // De workflow commit dit bestand altijd; het moet dus bestaan.
+    try {
+      await schrijfBesluitStaat(await leesJson("zanp-besluitenlijsten.json", besluitenlijstModule.leegStaat()));
+    } catch (fout) {
+      console.error(`Bestand voor besluitenlijsten bijwerken mislukte: ${fout.message}`);
+    }
+  } else {
+    logFase(`ZANP 9c — Besluitenlijst raadsvergadering (modus ${besluitModus})`);
+    const testDeps = deps.besluitenlijst || {};
+    let bestaandeStaat = besluitenlijstModule.leegStaat();
+    try {
+      bestaandeStaat = await leesJson("zanp-besluitenlijsten.json", besluitenlijstModule.leegStaat());
+      const aiRuimte = Math.max(0, inst.dagcap - status.gemini.gebruikt);
+      const aiBeschikbaar = Boolean(apiKey) && aiRuimte > 0 && !(status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu);
+      // Flash (klasse zwaar), zonder terugval op het lichte model; bij quotum wacht de volgende run.
+      const vraagAI =
+        testDeps.vraagAI ||
+        (aiBeschikbaar
+          ? async (prompt) => {
+              try {
+                const antwoord = await roepGeminiWire(prompt, apiKey, 16384, { klasse: "zwaar" });
+                status.gemini.gebruikt += antwoord.verzoeken || 0;
+                run.verzoeken += antwoord.verzoeken || 0;
+                return antwoord;
+              } catch (fout) {
+                status.gemini.gebruikt += fout.verzoeken || 0;
+                run.verzoeken += fout.verzoeken || 0;
+                if (fout.status === 429) status.gemini.wachtTot = wachtTotNaQuotum(fout.message, nu);
+                throw fout;
+              }
+            }
+          : null);
+      const uit = await besluitenlijstModule.draaiBesluitenlijst({
+        ruwe,
+        agendaItems,
+        staat: bestaandeStaat,
+        nu,
+        vraagAI: vraagAI || undefined,
+        haalHtml: testDeps.haalHtml,
+        haalPdfTekst: testDeps.haalPdfTekst,
+        maxAI: Math.min(besluitenlijstModule.leesMaxAI(env), testDeps.vraagAI ? 99 : aiRuimte),
+      });
+      await schrijfBesluitStaat(uit.staat);
+      samenvatting.besluitenlijst = { modus: besluitModus, ...uit.stats };
+      console.log(`Besluitenlijst: ${JSON.stringify(uit.stats)}`);
+      runLog.zet("besluitenlijst", "modus", besluitModus);
+      runLog.zet("besluitenlijst", "stats", uit.stats);
+      for (const v of Object.values(uit.staat.vergaderingen)) {
+        if (v.fout && v.status !== "klaar") runLog.zet("besluitenlijst", `fout-${v.id.slice(0, 8)}`, v.fout);
+      }
+      if (besluitModus === "aan") besluitRecords = besluitenlijstModule.maakRecords(uit.staat, { nu });
+    } catch (fout) {
+      console.error(`Besluitenlijst mislukte (ZANP gaat door zonder): ${fout.stack || fout.message}`);
+      try {
+        await schrijfBesluitStaat(bestaandeStaat);
+        if (besluitModus === "aan") besluitRecords = besluitenlijstModule.maakRecords(bestaandeStaat, { nu });
+      } catch {
+        // niets aan te doen
+      }
+    }
+  }
+
+  // Verslag van de raadsvergadering (ZANP 9d, stap 4b): ongeveer een week na de vergadering komt het
+  // woordelijke verslag online. Een sterk model kiest er de nieuwsonderwerpen uit (hooguit 15), schrijft per
+  // onderwerp een kop en een alinea, en de code controleert elk bericht tegen de bronbeurten.
+  // Modus: ZANP_VERSLAG_MODUS (uit, schaduw = standaard, aan). Een fout stopt de run niet.
+  const verslagModus = verslagModule.leesModus(env);
+  let verslagRecords = [];
+  const schrijfVerslagStaat = async (staat, extra = {}) => schrijfJson("zanp-verslagen.json", { ...staat, modus: verslagModus, ...extra });
+  if (verslagModus === "uit" || (deps.scrape && !deps.verslag)) {
+    // De workflow commit dit bestand altijd; het moet dus bestaan.
+    try {
+      await schrijfVerslagStaat(await leesJson("zanp-verslagen.json", verslagModule.leegStaat()));
+    } catch (fout) {
+      console.error(`Bestand voor verslagen bijwerken mislukte: ${fout.message}`);
+    }
+  } else {
+    logFase(`ZANP 9d — Verslag raadsvergadering (modus ${verslagModus})`);
+    const testDeps = deps.verslag || {};
+    let bestaandeStaat = verslagModule.leegStaat();
+    try {
+      bestaandeStaat = await leesJson("zanp-verslagen.json", verslagModule.leegStaat());
+      const besluitStaat = testDeps.besluitStaat || (await leesJson("zanp-besluitenlijsten.json", besluitenlijstModule.leegStaat()));
+      const aiRuimte = Math.max(0, inst.dagcap - status.gemini.gebruikt);
+      const aiBeschikbaar = Boolean(apiKey) && aiRuimte > 0 && !(status.gemini.wachtTot && new Date(status.gemini.wachtTot) > nu);
+      // Flash (klasse zwaar), zonder terugval op het lichte model; bij quotum wacht de volgende run.
+      const vraagAI =
+        testDeps.vraagAI ||
+        (aiBeschikbaar
+          ? async (prompt) => {
+              try {
+                const antwoord = await roepGeminiWire(prompt, apiKey, 16384, { klasse: "zwaar" });
+                status.gemini.gebruikt += antwoord.verzoeken || 0;
+                run.verzoeken += antwoord.verzoeken || 0;
+                return antwoord;
+              } catch (fout) {
+                status.gemini.gebruikt += fout.verzoeken || 0;
+                run.verzoeken += fout.verzoeken || 0;
+                if (fout.status === 429) status.gemini.wachtTot = wachtTotNaQuotum(fout.message, nu);
+                throw fout;
+              }
+            }
+          : null);
+      const uit = await verslagModule.draaiVerslag({
+        ruwe,
+        agendaItems,
+        staat: bestaandeStaat,
+        besluitStaat,
+        nu,
+        vraagAI: vraagAI || undefined,
+        haalHtml: testDeps.haalHtml,
+        haalPdfTekst: testDeps.haalPdfTekst,
+        maxAI: Math.min(verslagModule.leesMaxAI(env), testDeps.vraagAI ? 99 : aiRuimte),
+      });
+      await schrijfVerslagStaat(uit.staat);
+      samenvatting.verslag = { modus: verslagModus, ...uit.stats };
+      console.log(`Verslag: ${JSON.stringify(uit.stats)}`);
+      runLog.zet("verslag", "modus", verslagModus);
+      runLog.zet("verslag", "stats", uit.stats);
+      for (const v of Object.values(uit.staat.vergaderingen)) {
+        if (v.fout && v.status !== "klaar") runLog.zet("verslag", `fout-${v.id.slice(0, 8)}`, v.fout);
+      }
+      if (verslagModus === "aan") verslagRecords = verslagModule.maakRecords(uit.staat, { nu });
+    } catch (fout) {
+      console.error(`Verslag mislukte (ZANP gaat door zonder): ${fout.stack || fout.message}`);
+      try {
+        await schrijfVerslagStaat(bestaandeStaat);
+        if (verslagModus === "aan") verslagRecords = verslagModule.maakRecords(bestaandeStaat, { nu });
+      } catch {
+        // niets aan te doen
+      }
+    }
+  }
+
   // Dossiers (ZANP 10): onderwerpen waar vaak over is bericht. Een fout hier stopt
   // de run niet.
   const dossierModus = ["uit", "log", "aan"].includes(String(env.ZANP_DOSSIER_MODUS || "").trim().toLowerCase())
@@ -940,6 +1199,9 @@ async function draai(deps = {}) {
     console.log(`Kwaliteit van deze run: ${JSON.stringify(kwaliteitRun)}`);
   }
 
+  // Samengestelde berichten (alleen in modus "aan") erbij; voegBerichtenSamen sorteert en kapt af.
+  if (samenRecords.length || besluitRecords.length || verslagRecords.length) records = wire.voegBerichtenSamen(records, [...samenRecords, ...besluitRecords, ...verslagRecords], nu);
+
   const gegenereerdOp = nu.toISOString();
   await schrijfJson("agenda.json", { gegenereerdOp, regelVersie: REGEL_VERSIE, items: agendaItems });
   await schrijfJson("berichten.json", {
@@ -958,6 +1220,15 @@ async function draai(deps = {}) {
   runLog.zet("run", "agendaItems", agendaItems.length);
   runLog.zet("run", "aiVerzoeken", run.verzoeken);
   runLog.zet("run", "geminiDagGebruikt", `${status.gemini.gebruikt}/${inst.dagcap}`);
+  const modelStaat = geefModelStaat();
+  if (Object.keys(modelStaat.modellen).length) {
+    // Alleen als er vandaag een model is gebruikt: anders krijgt het logboek een leeg AI-onderdeel.
+    runLog.zet(
+      "ai",
+      "perModelVandaag",
+      Object.fromEntries(Object.entries(modelStaat.modellen).map(([m, s]) => [m, s.wachtTot ? `${s.gebruikt} (wacht tot ${s.wachtTot})` : s.gebruikt]))
+    );
+  }
   runLog.zet("run", "duurSeconden", Math.round((Date.now() - startRun) / 1000));
   runLog.drukAf();
   await schrijfJson("zanp-status.json", {
@@ -965,7 +1236,13 @@ async function draai(deps = {}) {
     alertModus: inst.alertModus,
     bronnen: status.bronnen,
     bronnenZonderRubriek: zonderRubriek,
-    gemini: { ...status.gemini, dagcap: inst.dagcap, runcap: inst.runcap, verzoekenDezeRun: run.verzoeken },
+    gemini: {
+      ...status.gemini,
+      modellen: modelStaat.modellen, // teller en wachttijd per model, zie gemini.js
+      dagcap: inst.dagcap,
+      runcap: inst.runcap,
+      verzoekenDezeRun: run.verzoeken,
+    },
     clusterBeslissingen: status.clusterBeslissingen,
     kwaliteit: status.kwaliteit,
     laatsteRun: samenvatting,

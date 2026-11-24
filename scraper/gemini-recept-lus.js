@@ -48,7 +48,7 @@ const { leesItem } = require("./scrapers/gemini-recept");
 
 const MAX_HTML_TEKENS = Number(process.env.MAX_HTML_TEKENS_VOOR_GEMINI || 400_000);
 const MAX_POGINGEN = Number(process.env.MAX_GEMINI_POGINGEN || 4);
-const MODELLEN = (process.env.GEMINI_MODELLEN || "gemini-flash-lite-latest,gemini-flash-latest,gemini-pro-latest")
+const MODELLEN = (process.env.GEMINI_MODELLEN || "gemini-flash-lite-latest,gemini-flash-latest")
   .split(",")
   .map((m) => m.trim())
   .filter(Boolean);

@@ -5,6 +5,7 @@
 //  - de rubrieken-controle kent bronnen.js en zanp-bronnen.js samen
 // Geen echt netwerk: alleen een lokale testserver op dit apparaat.
 process.env.ZANP_AI_PAUZE_MS = "0"; // de 503-test hieronder mag niet echt wachten op herpogingen
+process.env.ZANP_MODELLEN_LICHT = "gemini-flash-lite-latest"; // deze tests gaan over één model; de reeks met reserves wordt getest in gemini-ketens.test.js
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const fs = require("fs");

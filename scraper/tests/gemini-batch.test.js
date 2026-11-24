@@ -1,3 +1,4 @@
+process.env.ZANP_MODELLEN_LICHT = "gemini-flash-lite-latest"; // deze tests gaan over één model; de reeks met reserves wordt getest in gemini-ketens.test.js
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { geminiAntwoord } = require("./helpers");
@@ -7,7 +8,7 @@ const maak = (n, modus = "volledig") =>
   Array.from({ length: n }, (_, i) => ({ id: `${modus}${i}`, modus, titel: `Titel ${i}`, tekst: "x".repeat(100), bronNaam: "B", gepubliceerdOp: "2026-10-29" }));
 const goed = { kop: "kop", tekst: "tekst", prio: 3, tag: "GEM", checklist: { gevaar: false }, agendapunten: [] };
 const origineleFetch = global.fetch;
-test.afterEach(() => { global.fetch = origineleFetch; });
+test.afterEach(() => { global.fetch = origineleFetch; g.resetModelStaat(); });
 
 function antwoordVoorBatch(_url, opties) {
   const prompt = JSON.parse(opties.body).contents[0].parts[0].text;
@@ -20,8 +21,15 @@ function antwoordVoorBatch(_url, opties) {
   });
 }
 
-test("ZANP draait op Flash-Lite en er zijn geen pitchmodellen meer", () => {
-  assert.deepEqual(g.MODELLEN, { wire: ["gemini-flash-lite-latest"] });
+test("ZANP heeft twee klassen modellen, elk met een eerste keus en twee reserves", () => {
+  assert.equal(g.MODELLEN.licht[0], "gemini-flash-lite-latest", "het lichte werk blijft op Flash-Lite");
+  assert.equal(g.MODELLEN.zwaar[0], "gemini-flash-latest", "het zware werk begint op Flash");
+  assert.equal(g.MODELLEN.licht.length, 3);
+  assert.equal(g.MODELLEN.zwaar.length, 3);
+  assert.deepEqual(g.MODELLEN.wire, g.MODELLEN.licht, "de oude naam wire wijst naar de lichte klasse");
+  for (const naam of [...g.MODELLEN.licht, ...g.MODELLEN.zwaar]) {
+    assert.ok(!/pro|pitch/i.test(naam), `${naam}: Pro heeft op dit account geen quotum`);
+  }
 });
 
 test("16 berichten kosten 4 verzoeken: batches per modus", async () => {

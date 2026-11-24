@@ -261,4 +261,17 @@ function kiesPrimair(leden) {
   })[0];
 }
 
-module.exports = { bouwClusters, pasClustersToe, clusterContext, kiesPrimair, paarSleutel, AUTO_DREMPEL, TWIJFEL_DREMPEL };
+module.exports = {
+  bouwClusters,
+  pasClustersToe,
+  clusterContext,
+  kiesPrimair,
+  paarSleutel,
+  AUTO_DREMPEL,
+  TWIJFEL_DREMPEL,
+  // ook gebruikt door samengesteld.js (zelfde gelijkenismaat voor nieuws uit verschillende media)
+  tfidfVectoren,
+  cosinus,
+  entiteiten,
+  ENTITEIT_BONUS,
+};

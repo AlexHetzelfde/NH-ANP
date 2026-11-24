@@ -34,7 +34,7 @@ function bouwVerhaalPrompt({ losse, lopende }) {
     `V${i + 1}: ${kort(v.titel, 120)}\n` +
     v.stukken.map((s) => `   - ${s.bron || "?"}, ${datum(s.datum)}: ${kort(s.titel, 120)}`).join("\n");
   const losBlok = (s, i) =>
-    `L${i + 1}: ${kort(s.titel, 140)} (${s.bron || "?"}, ${datum(s.datum)})${s.kern ? `\n   Begin: ${kort(s.kern, 200)}` : ""}`;
+    `L${i + 1}: ${kort(s.titel, 140)} (${s.bron || "?"}, ${datum(s.datum)})${s.kern ? `\n   Begin: ${kort(s.kern, 500)}` : ""}`;
   return `Je helpt een lokale nieuwsredactie in de Zaanstreek (Nederland) berichten bij elkaar te zoeken die over HETZELFDE gaan: dezelfde gebeurtenis, hetzelfde besluit of dezelfde zaak.
 Hieronder staan lopende verhalen (V1, V2, ...) en losse berichten (L1, L2, ...). Geef voor elk los bericht aan bij welk lopend verhaal het hoort, of bij welk ander los bericht, of dat het bij niets hoort.
 
