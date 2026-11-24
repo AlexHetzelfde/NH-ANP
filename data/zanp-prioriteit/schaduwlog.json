@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T10:00:44.721Z",
+  "gegenereerdOp": "2026-11-24T11:00:49.076Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,30 +20,30 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 671,
-    "bewijsStukken": 60,
-    "kandidaten": 35,
-    "metAnker": 35,
+    "stukken": 674,
+    "bewijsStukken": 61,
+    "kandidaten": 36,
+    "metAnker": 36,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
       "boven": 1,
-      "wacht": 1,
+      "wacht": 0,
       "onderdrukt": 0,
-      "veto": 0,
+      "veto": 1,
       "nieuwRood": 0,
       "noodrem": false
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 677,
-      "verhalen": 538,
-      "metMeerStukken": 72,
+      "stukken": 681,
+      "verhalen": 540,
+      "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 3,
+      "aiGevraagd": 2,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -363,8 +363,8 @@
       "key": "a:ce4ae67b87",
       "soort": "agenda",
       "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-      "S": 0.04,
-      "Sa": 0.04,
+      "S": 0.03,
+      "Sa": 0.03,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0,
@@ -392,8 +392,8 @@
       "key": "a:4b9ea65ea4",
       "soort": "agenda",
       "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-      "S": 0.04,
-      "Sa": 0.04,
+      "S": 0.03,
+      "Sa": 0.03,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0,
@@ -414,6 +414,32 @@
           "c": 0.66,
           "plek": "intro",
           "titel": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0.02,
+      "Sa": 0.02,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.53,
+      "Kp": 0.4,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "landsmer"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "c": 0.78,
+          "plek": "intro",
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
         }
       ]
     },
@@ -3702,6 +3728,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a": {
+        "kop": "Stroomstoring in Landsmeer",
+        "S": 0.02,
+        "route": "aanhoudend",
+        "K": 0.53,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:59c7d5db97": {
         "kop": "Bijeenkomst 'Samenleven met ratten' Dierenbescherming",
         "S": 0,
@@ -3787,14 +3821,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.15,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:07b798f88b": {
-        "kop": "Omgevingsvergunning bouwen van een moskee locatie Paardebloemweg 21 te Zaandam",
-        "S": 0,
-        "route": "geen",
-        "K": 0.48,
         "n": 0,
         "bronnen": 0
       }
