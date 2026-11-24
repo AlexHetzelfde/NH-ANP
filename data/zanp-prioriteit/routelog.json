@@ -1,11 +1,11 @@
 {
-  "gegenereerdOp": "2026-11-24T15:00:51.541Z",
+  "gegenereerdOp": "2026-11-24T16:00:47.391Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 694,
-    "verhalen": 551,
-    "metMeerStukken": 73,
+    "stukken": 696,
+    "verhalen": 552,
+    "metMeerStukken": 74,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 1,
@@ -617,6 +617,37 @@
           "datum": "2026-11-21T13:00:00.000Z",
           "type": null,
           "titel": "Vier lintjes en twee erepenningen van Zaanstad op één dag"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/technische-storing-107-onterechte-busbrugboetes/",
+      "kop": "Technische storing: 107 onterechte busbrugboetes",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-23T23:00:00.000Z",
+        "laatste": "2026-11-24T15:26:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/technische-storing-107-onterechte-busbrugboetes/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Technische storing: 107 onterechte busbrugboetes"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513551/storing-zorgt-voor-107-onterechte-boetes-van-139-euro-op-busbrug-de-binding-in-zaanstad",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-24T15:26:00.000Z",
+          "type": null,
+          "titel": "Storing zorgt voor 107 onterechte boetes van 139 euro op busbrug De B…"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T15:00:51.541Z",
+  "gegenereerdOp": "2026-11-24T16:00:47.391Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 683,
-    "bewijsStukken": 65,
-    "kandidaten": 42,
-    "metAnker": 42,
+    "stukken": 684,
+    "bewijsStukken": 66,
+    "kandidaten": 43,
+    "metAnker": 43,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,9 +38,9 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 694,
-      "verhalen": 551,
-      "metMeerStukken": 73,
+      "stukken": 696,
+      "verhalen": 552,
+      "metMeerStukken": 74,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 1,
@@ -108,6 +108,64 @@
       ]
     },
     {
+      "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/3c86e354-508d-47ac-889a-93a6cf5cda23",
+      "soort": "nieuws",
+      "kop": "Implementatie nieuw metronetwerk en maatregelen",
+      "S": 0.46,
+      "Sa": 0.46,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.86,
+      "Kp": 0.55,
+      "n": 4,
+      "dagen": 4,
+      "bronnen": 1,
+      "ankers": [
+        "implementati",
+        "metronetwerk",
+        "toezegging",
+        "beantwording",
+        "moeskop",
+        "regiorad",
+        "matregel",
+        "terugkom",
+        "verdelsleutel",
+        "cofinanciering",
+        "stadhuis",
+        "matregelenpakket"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-09T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Nieuw metronetwerk Amsterdam"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 0.95,
+          "plek": "kop",
+          "titel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "c": 0.68,
+          "plek": "intro",
+          "titel": "Aanvullende vragen nieuwe ov-abonnementenstructuur"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-08T23:00:00.000Z",
+          "c": 0.61,
+          "plek": "intro",
+          "titel": "Flexibiliteit in begrotingsuitwerking voor OV en deelmobiliteit"
+        }
+      ]
+    },
+    {
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
@@ -153,7 +211,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.51,
-      "Kp": 0.35,
+      "Kp": 0.34,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -179,7 +237,7 @@
       "Sa": 0.18,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.66,
+      "K": 0.65,
       "Kp": 0.39,
       "n": 2,
       "dagen": 2,
@@ -191,8 +249,8 @@
         "haneveld",
         "beantwording",
         "albert",
-        "regiorad",
         "klein",
+        "regiorad",
         "vervolgvrag",
         "abonnementsstructur",
         "kostenneutral",
@@ -1011,24 +1069,6 @@
         "vriesstrat",
         "scharstrat",
         "hendrik"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-b29a46",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "norderhofdstrat"
       ],
       "bewijs": []
     }
@@ -3713,6 +3753,14 @@
         "n": 18,
         "bronnen": 2
       },
+      "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/3c86e354-508d-47ac-889a-93a6cf5cda23": {
+        "kop": "Implementatie nieuw metronetwerk en maatregelen",
+        "S": 0.46,
+        "route": "aanhoudend",
+        "K": 0.86,
+        "n": 4,
+        "bronnen": 1
+      },
       "a:a7d8a22d6c": {
         "kop": "WC-Symposium",
         "S": 0.26,
@@ -3894,14 +3942,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.3,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:e38b5e1899": {
-        "kop": "Last onder dwangsom m.b.t. schuttingen locatie Fluitekruidweg 1 Zaandam",
-        "S": 0,
-        "route": "geen",
-        "K": 0.15,
         "n": 0,
         "bronnen": 0
       }

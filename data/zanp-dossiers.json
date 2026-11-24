@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-24T15:00:51.541Z",
+  "bijgewerkt": "2026-11-24T16:00:47.391Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -87,6 +87,11 @@
     "wethouder": {
       "aantal": 5,
       "tijd": "2026-11-23T23:00:45.239Z",
+      "reden": "ai-nee"
+    },
+    "nieuw": {
+      "aantal": 5,
+      "tijd": "2026-11-24T16:00:47.391Z",
       "reden": "ai-nee"
     }
   }
