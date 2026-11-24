@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-24T18:00:48.480Z",
+  "gegenereerdOp": "2026-11-24T19:00:43.895Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 697,
-    "verhalen": 552,
+    "stukken": 700,
+    "verhalen": 554,
     "metMeerStukken": 74,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 2,
     "aiBanden": 0,
     "metRoute": 2,
     "nieuwRood": 0,
@@ -613,6 +613,13 @@
           "datum": "2026-11-20T12:45:00.000Z",
           "type": null,
           "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        },
+        {
+          "k": "a:e09bb78351",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-24T19:00:43.895Z",
+          "type": null,
+          "titel": "Orange The World: Op pad met ROSA!"
         }
       ]
     },
