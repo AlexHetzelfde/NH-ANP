@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-24T16:00:47.391Z",
+  "bijgewerkt": "2026-11-24T17:00:47.880Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4548,24 +4548,24 @@
     "b3f6ac7d68": {
       "g": "b3f6ac7d68",
       "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_aan_viaduct_N244_bij_Middenbeemster_starten_in_augustus",
-      "k": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
-      "bt": "",
+      "k": "Provincie start in augustus 2027 met versterken viaduct N244 bij Middenbeemster",
+      "bt": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-24T13:12:03.000Z",
       "c": null,
-      "r": "PRV"
+      "r": "VER"
     },
     "3b9f227f21": {
       "g": "3b9f227f21",
       "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kantoren_Noord_Holland_energiezuiniger",
-      "k": "Kantoren Noord-Holland energiezuiniger",
-      "bt": "",
+      "k": "Monitor Werklocaties Noord-Holland 2025-2026 toont energiezuinigere kantoren",
+      "bt": "Kantoren Noord-Holland energiezuiniger",
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-24T12:53:49.000Z",
       "c": null,
-      "r": "PRV"
+      "r": "BED"
     },
     "d8f4534c1a": {
       "g": "d8f4534c1a",
@@ -4581,8 +4581,8 @@
     "0958a85bff": {
       "g": "0958a85bff",
       "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
-      "k": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
-      "bt": "",
+      "k": "Scheepvaart en wegverkeer krijgen te maken met beperkingen bij bouw Stolperbrug",
+      "bt": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-24T09:36:39.000Z",
@@ -4592,24 +4592,35 @@
     "9ed21ecdbd": {
       "g": "9ed21ecdbd",
       "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_vraagt_aandacht_veiligheid_weginspecteurs_na_aanrijding_dienstwagen",
-      "k": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
-      "bt": "",
+      "k": "Provincie Noord-Holland vraagt aandacht voor veiligheid weginspecteurs",
+      "bt": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-24T13:52:37.000Z",
       "c": null,
-      "r": "PRV"
+      "r": "VER"
     },
     "7263a9cdaa": {
       "g": "7263a9cdaa",
       "u": "https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/3c86e354-508d-47ac-889a-93a6cf5cda23",
-      "k": "Implementatie nieuw metronetwerk en maatregelen",
-      "bt": "",
+      "k": "Vervoerregio beantwoordt toezegging over cofinanciering maatregelen nieuw metronetwerk",
+      "bt": "Implementatie nieuw metronetwerk en maatregelen",
       "b": "vervoerregio-overzichten",
       "n": "Vervoerregio: Overzichten (iBabs)",
       "t": "2026-11-23T23:00:00.000Z",
       "c": null,
-      "r": "VER"
+      "r": "GEM"
+    },
+    "457a7b8719": {
+      "g": "457a7b8719",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
+      "k": "Stroomstoring in Zaandam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T16:45:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

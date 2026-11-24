@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-24T16:00:47.391Z",
+  "gegenereerdOp": "2026-11-24T17:00:47.880Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 696,
-    "verhalen": 552,
+    "stukken": 697,
+    "verhalen": 553,
     "metMeerStukken": 74,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 1,
-    "aiBanden": 0,
-    "metRoute": 1,
+    "aiBanden": 1,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 0
@@ -85,6 +85,64 @@
           "datum": "2026-11-23T23:00:00.000Z",
           "type": null,
           "titel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
+      "kop": "Het Blauwe Pand dichtgespijkerd",
+      "meting": {
+        "stukken": 5,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 5,
+        "eerste": "2026-11-16T23:00:00.000Z",
+        "laatste": "2026-11-24T16:45:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 8 dagen met stukken op 5 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-16T23:00:00.000Z",
+          "type": null,
+          "titel": "Het Blauwe Pand dichtgespijkerd"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-18T10:09:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-20T07:57:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-21T09:06:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T16:45:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Zaandam"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T16:00:47.391Z",
+  "gegenereerdOp": "2026-11-24T17:00:47.880Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,14 +16,14 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 684,
+    "stukken": 685,
     "bewijsStukken": 66,
-    "kandidaten": 43,
-    "metAnker": 43,
+    "kandidaten": 44,
+    "metAnker": 44,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 696,
-      "verhalen": 552,
+      "stukken": 697,
+      "verhalen": 553,
       "metMeerStukken": 74,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 1,
-      "aiBanden": 0,
-      "metRoute": 1,
+      "aiBanden": 1,
+      "metRoute": 2,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 0
@@ -61,7 +61,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 1,
-      "Kp": 0.75,
+      "Kp": 0.74,
       "n": 18,
       "dagen": 15,
       "bronnen": 2,
@@ -803,6 +803,28 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "savornin",
+        "abelstrat",
+        "lohmanstrat",
+        "verbekstrat",
+        "talmaplein"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_vraagt_aandacht_veiligheid_weginspecteurs_na_aanrijding_dienstwagen",
       "soort": "nieuws",
       "kop": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
@@ -1048,27 +1070,6 @@
       "ankers": [
         "osthuiz",
         "osteind"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-23-33064a",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandijk",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "antoni",
-        "vriesstrat",
-        "scharstrat",
-        "hendrik"
       ],
       "bewijs": []
     }
