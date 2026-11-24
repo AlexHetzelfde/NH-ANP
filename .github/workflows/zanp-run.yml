@@ -24,8 +24,24 @@
 #                 Gemini-quotum wordt gedeeld met de pitchrun; houd dit getal
 #                 ruim onder je limiet in AI Studio.
 #   ZANP_RUNCAP   AI-aanroepen per run (standaard 25).
+#   ZANP_MODELLEN_LICHT / ZANP_MODELLEN_ZWAAR  de Gemini-modellen per klasse, gescheiden
+#                 door komma's: eerste keus eerst, dan de reserves. Leeg = de standaard
+#                 uit gemini.js (zie PLAN.md, "AI-modellen"). Een naam die Google niet
+#                 kent, wordt overgeslagen.
+#   ZANP_CAP_LICHT / ZANP_CAP_ZWAAR  hoogstens zoveel verzoeken per dag per model
+#                 (standaard 300 en 15; de echte limieten zijn 500 en 20).
 #   ZANP_DOSSIER_MODUS  "log" (standaard: dossiers berekenen en bewaren, maar de
 #                 app toont ze niet), "aan" (tab Dossiers tonen) of "uit".
+#   ZANP_SAMENGESTELD_MODUS  Samengesteld nieuws (nieuws dat binnen 72 uur op twee van De Orkaan,
+#                 Rodi en Zaanstad Nieuws staat): "schaduw" (standaard: berekenen en bewaren
+#                 in data/zanp-samengesteld.json, niets in de stroom), "aan" of "uit".
+#   ZANP_SAMENGESTELD_MAX  hoogstens zoveel AI-oordelen per run (standaard 3).
+#   ZANP_BESLUITENLIJST_MODUS  Besluitenlijst van de raadsvergadering (iBabs Zaanstad): "schaduw"
+#                 (standaard: alles doen en bewaren in data/zanp-besluitenlijsten.json, niets in de
+#                 stroom), "aan" of "uit". ZANP_BESLUITENLIJST_MAX: hoogstens zoveel AI-verzoeken per run (6).
+#   ZANP_VERSLAG_MODUS  Verslag van de raadsvergadering (ongeveer een week later online): "schaduw"
+#                 (standaard: alles doen en bewaren in data/zanp-verslagen.json, niets in de stroom),
+#                 "aan" of "uit". ZANP_VERSLAG_MAX: hoogstens zoveel AI-verzoeken per run (8).
 #   ZANP_ROOD_ROUTES  Rood volgens het persalarm, met meerdere routes (brekend,
 #                 uitkomst, gepland moment, breed opgepikt): "schaduw" (standaard:
 #                 rekenen en loggen in data/zanp-prioriteit/routelog.json, niets
@@ -108,9 +124,20 @@ jobs:
           # Leeg betekent: de standaard uit zanp.js (80 per dag, 25 per run).
           ZANP_DAGCAP: ${{ vars.ZANP_DAGCAP }}
           ZANP_RUNCAP: ${{ vars.ZANP_RUNCAP }}
+          # Gemini-modellen per klasse en dagcap per model: leeg = de standaard uit gemini.js.
+          ZANP_MODELLEN_LICHT: ${{ vars.ZANP_MODELLEN_LICHT }}
+          ZANP_MODELLEN_ZWAAR: ${{ vars.ZANP_MODELLEN_ZWAAR }}
+          ZANP_CAP_LICHT: ${{ vars.ZANP_CAP_LICHT }}
+          ZANP_CAP_ZWAAR: ${{ vars.ZANP_CAP_ZWAAR }}
           # Prioriteit (rood kleuren): uit, schaduw of aan. Leeg = schaduw (rekenen en loggen, niets kleuren).
           ZANP_PRIORITEIT_MODUS: ${{ vars.ZANP_PRIORITEIT_MODUS }}
           ZANP_DOSSIER_MODUS: ${{ vars.ZANP_DOSSIER_MODUS }}
+          ZANP_SAMENGESTELD_MODUS: ${{ vars.ZANP_SAMENGESTELD_MODUS }}
+          ZANP_SAMENGESTELD_MAX: ${{ vars.ZANP_SAMENGESTELD_MAX }}
+          ZANP_BESLUITENLIJST_MODUS: ${{ vars.ZANP_BESLUITENLIJST_MODUS }}
+          ZANP_BESLUITENLIJST_MAX: ${{ vars.ZANP_BESLUITENLIJST_MAX }}
+          ZANP_VERSLAG_MODUS: ${{ vars.ZANP_VERSLAG_MODUS }}
+          ZANP_VERSLAG_MAX: ${{ vars.ZANP_VERSLAG_MAX }}
           # Rood volgens het persalarm: leeg = schaduw. Zie de uitleg bovenaan.
           ZANP_ROOD_ROUTES: ${{ vars.ZANP_ROOD_ROUTES }}
           ZANP_ROOD_AI_VETO: ${{ vars.ZANP_ROOD_AI_VETO }}
@@ -124,7 +151,7 @@ jobs:
         run: |
           git config user.name "nieuwsaggregator-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/berichten.json data/agenda.json data/zanp-status.json data/zanp-log.json data/zanp-stubs.json data/zanp-dossiers.json data/zanp-prioriteit data/zanp-teksten data/zanp-camera
+          git add data/berichten.json data/agenda.json data/zanp-status.json data/zanp-log.json data/zanp-stubs.json data/zanp-dossiers.json data/zanp-samengesteld.json data/zanp-besluitenlijsten.json data/zanp-verslagen.json data/zanp-prioriteit data/zanp-teksten data/zanp-camera
           git diff --quiet --cached || git commit -m "ZANP: $(TZ='Europe/Amsterdam' date '+%Y-%m-%d %H:%M')"
           # De dagelijkse run of "Bron toevoegen" kan tussentijds hebben gepusht:
           # eerst rebasen, bij een mislukte push opnieuw proberen.
