@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T13:01:01.107Z",
+  "gegenereerdOp": "2026-11-24T14:00:48.289Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,43 @@
   ],
   "berichten": [
     {
+      "id": "9ed21ecdbd-v1",
+      "groepId": "9ed21ecdbd",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_vraagt_aandacht_veiligheid_weginspecteurs_na_aanrijding_dienstwagen",
+      "kop": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "trefwoord",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-24T13:52:37.000Z",
+      "heeftTijd": true,
+      "woorden": 679,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-24T14:00:48.289Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
+      "bronTitel": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
+      "bronLengte": 4556,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
       "id": "b3f6ac7d68-v1",
       "groepId": "b3f6ac7d68",
       "versie": 1,
@@ -425,7 +462,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T13:01:01.107Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
       "bronTitel": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
       "bronLengte": 2832,
       "checklist": {
@@ -440,7 +477,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "3b9f227f21-v1",
@@ -462,7 +500,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T13:01:01.107Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
       "bronTitel": "Kantoren Noord-Holland energiezuiniger",
       "bronLengte": 4073,
       "checklist": {
@@ -477,7 +515,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "3b7b91e42f-v2",
@@ -540,7 +579,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "d56f154e57-v1",
@@ -658,7 +698,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T13:01:01.107Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
       "bronTitel": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
       "bronLengte": 2810,
       "checklist": {
@@ -673,7 +713,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "28d10ef996-v1",
@@ -804,6 +845,44 @@
       "tagVersie": 2
     },
     {
+      "id": "a4c7dc91ea-v1",
+      "groepId": "a4c7dc91ea",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/even-of-oneven-gemeente-zet-parkeerfout-houthavenkade-recht/",
+      "kop": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 418,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-24T14:00:48.289Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
+      "bronTitel": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
+      "bronLengte": 2732,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "c0bdbfdea8-v1",
       "groepId": "c0bdbfdea8",
       "versie": 1,
@@ -840,7 +919,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4e955d3d75-v1",
@@ -942,7 +1022,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T10:00:44.721Z",
-      "gecontroleerdOp": "2026-11-24T12:00:45.965Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
       "bronTitel": "Vergunning voor Snoek (Westzijde 18b, Zaandam) #bouwmarathon",
       "bronLengte": 2320,
       "checklist": {
@@ -1453,7 +1533,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T07:00:46.108Z",
-      "gecontroleerdOp": "2026-11-24T12:00:45.965Z",
+      "gecontroleerdOp": "2026-11-24T14:00:48.289Z",
       "bronTitel": "Het Zaanse voetbalweekend ⚽️ Zege SVA en zeperd Rood Wit🎙",
       "bronLengte": 1023,
       "checklist": {
@@ -14685,46 +14765,6 @@
       },
       "checklistBron": "ai",
       "tagVersie": 2
-    },
-    {
-      "id": "ee0a4ff81b-v2",
-      "groepId": "ee0a4ff81b",
-      "versie": 2,
-      "url": "https://www.deorkaan.nl/ik-zie-je-vaag-zaanstreek-gehuld-in-mist/",
-      "kop": "Ik zie je vaag… Zaanstreek gehuld in mist",
-      "tekst": null,
-      "rubriek": "VER",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-10T13:01:02.347Z",
-      "heeftTijd": true,
-      "woorden": 193,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-10T13:01:02.347Z",
-      "gecontroleerdOp": "2026-11-11T05:55:18.389Z",
-      "bronTitel": "Ik zie je vaag… Zaanstreek gehuld in mist",
-      "bronLengte": 1194,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": true,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
     }
   ]
 }

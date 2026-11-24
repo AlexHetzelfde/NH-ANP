@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T13:01:01.107Z",
+  "gegenereerdOp": "2026-11-24T14:00:48.289Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 5,
-      "lokaal": 5,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 680,
-    "bewijsStukken": 63,
-    "kandidaten": 41,
-    "metAnker": 41,
+    "stukken": 682,
+    "bewijsStukken": 64,
+    "kandidaten": 42,
+    "metAnker": 42,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 689,
-      "verhalen": 548,
+      "stukken": 692,
+      "verhalen": 550,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 6,
-      "aiBanden": 1,
-      "metRoute": 2,
+      "aiGevraagd": 3,
+      "aiBanden": 0,
+      "metRoute": 1,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 0
@@ -745,6 +745,28 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_vraagt_aandacht_veiligheid_weginspecteurs_na_aanrijding_dienstwagen",
+      "soort": "nieuws",
+      "kop": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.73,
+      "Kp": 0.54,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "weginspecteur",
+        "dienstwag",
+        "veiligheid",
+        "wesley",
+        "anrijding"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_aan_viaduct_N244_bij_Middenbeemster_starten_in_augustus",
       "soort": "nieuws",
       "kop": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
@@ -1006,32 +1028,6 @@
       "bronnen": 0,
       "ankers": [
         "norderhofdstrat"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-23-3f55dc",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Volendam",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "volendam",
-        "adrianus",
-        "bleijsstrat",
-        "anthoni",
-        "schotelstrat",
-        "heringstrat",
-        "henricus",
-        "rolstrat",
-        "georg"
       ],
       "bewijs": []
     }
