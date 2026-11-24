@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T14:00:48.289Z",
+  "gegenereerdOp": "2026-11-24T15:00:51.541Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 1,
+      "lokaal": 1,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,8 +20,8 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 682,
-    "bewijsStukken": 64,
+    "stukken": 683,
+    "bewijsStukken": 65,
     "kandidaten": 42,
     "metAnker": 42,
     "zonderAnker": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 692,
-      "verhalen": 550,
+      "stukken": 694,
+      "verhalen": 551,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 3,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 1,
       "nieuwRood": 0,
@@ -275,8 +275,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
       "soort": "nieuws",
       "kop": "Stroomstoring in Krommenie en Uitgeest",
-      "S": 0.08,
-      "Sa": 0.08,
+      "S": 0.07,
+      "Sa": 0.07,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.61,
@@ -823,7 +823,8 @@
       "ankers": [
         "landsmer",
         "assumburg",
-        "giessenburg"
+        "giessenburg",
+        "amsterdams"
       ],
       "bewijs": []
     },

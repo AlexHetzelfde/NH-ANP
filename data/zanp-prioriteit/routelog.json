@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-24T14:00:48.289Z",
+  "gegenereerdOp": "2026-11-24T15:00:51.541Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 692,
-    "verhalen": 550,
+    "stukken": 694,
+    "verhalen": 551,
     "metMeerStukken": 73,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 3,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 1,
     "nieuwRood": 0,
@@ -20,14 +20,14 @@
       "id": "n:https://www.deorkaan.nl/vrijwillige-brandweer-oostzaan-bestaat-100-jaar/",
       "kop": "Vrijwillige brandweer Oostzaan bestaat 100 jaar 🎧",
       "meting": {
-        "stukken": 6,
+        "stukken": 7,
         "media": 2,
-        "mediaStukken": 6,
+        "mediaStukken": 7,
         "echo": 0,
         "onafhankelijk": 2,
         "dagen": 4,
         "eerste": "2026-10-25T23:00:00.000Z",
-        "laatste": "2026-11-23T14:00:56.794Z"
+        "laatste": "2026-11-23T23:00:00.000Z"
       },
       "routes": [
         {
@@ -78,6 +78,13 @@
           "datum": "2026-11-23T14:00:56.794Z",
           "type": null,
           "titel": "Drie Oostzaanse wethouders bij Radio 9 📻"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/vvd-oostzaan-zet-vraagtekens-bij-fusieonderzoek-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend"
         }
       ]
     },
