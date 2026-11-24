@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-24T09:00:44.839Z",
+  "bijgewerkt": "2026-11-24T10:00:44.721Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4509,6 +4509,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-24T08:03:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "3b7b91e42f": {
+      "g": "3b7b91e42f",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
+      "k": "Stroomstoring in Wormer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T10:00:51.401Z",
       "c": null,
       "r": "112"
     }

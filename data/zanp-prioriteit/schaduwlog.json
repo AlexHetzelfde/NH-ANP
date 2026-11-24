@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T09:00:44.839Z",
+  "gegenereerdOp": "2026-11-24T10:00:44.721Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,27 +10,27 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 4,
-      "lokaal": 4,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 3,
+    "bewijsNieuw": 1,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 669,
-    "bewijsStukken": 59,
-    "kandidaten": 34,
-    "metAnker": 34,
+    "stukken": 671,
+    "bewijsStukken": 60,
+    "kandidaten": 35,
+    "metAnker": 35,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
-      "boven": 0,
-      "wacht": 0,
+      "boven": 1,
+      "wacht": 1,
       "onderdrukt": 0,
       "veto": 0,
       "nieuwRood": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 674,
-      "verhalen": 535,
+      "stukken": 677,
+      "verhalen": 538,
       "metMeerStukken": 72,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 6,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -53,6 +53,60 @@
   },
   "top": [
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Wormer",
+      "S": 0.79,
+      "Sa": 0.79,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 1,
+      "Kp": 0.75,
+      "n": 18,
+      "dagen": 14,
+      "bronnen": 2,
+      "ankers": [
+        "wormer"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Topkolf in ’t Moriaanshoofd in Wormer"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Besluit sportcomplex Wormer weer uitgesteld"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-01T23:00:00.000Z",
+          "c": 0.8,
+          "plek": "intro",
+          "titel": "Eerste Arend Bloem-race: 70 kanoërs varen trainingsrondje van overleden kampioen"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-09T23:00:00.000Z",
+          "c": 0.8,
+          "plek": "intro",
+          "titel": "40 jaar geleden: Jisp voert actie voor zelfstandigheid"
+        }
+      ]
+    },
+    {
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
@@ -61,7 +115,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.64,
-      "Kp": 0.39,
+      "Kp": 0.38,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -136,8 +190,8 @@
         "haneveld",
         "beantwording",
         "albert",
-        "klein",
         "regiorad",
+        "klein",
         "vervolgvrag",
         "abonnementsstructur",
         "kostenneutral",
@@ -282,8 +336,8 @@
       "key": "a:ced2c284f8",
       "soort": "agenda",
       "kop": "Zaanstad Beraad Raadzaal",
-      "S": 0.05,
-      "Sa": 0.05,
+      "S": 0.04,
+      "Sa": 0.04,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.15,
@@ -3544,6 +3598,14 @@
       }
     },
     "2026-11-24": {
+      "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e": {
+        "kop": "Stroomstoring in Wormer",
+        "S": 0.79,
+        "route": "aanhoudend",
+        "K": 1,
+        "n": 18,
+        "bronnen": 2
+      },
       "a:a7d8a22d6c": {
         "kop": "WC-Symposium",
         "S": 0.26,
@@ -3733,14 +3795,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.48,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:e694b9a1f5": {
-        "kop": "Sluiting woning i.v.m. overtreding Opiumwet Parkrijklaan 101 te Assendelft",
-        "S": 0,
-        "route": "geen",
-        "K": 0.15,
         "n": 0,
         "bronnen": 0
       }

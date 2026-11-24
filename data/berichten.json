@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T09:00:44.839Z",
+  "gegenereerdOp": "2026-11-24T10:00:44.721Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "3b7b91e42f-v1",
+      "groepId": "3b7b91e42f",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
+      "kop": "Stroomstoring in Wormer",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T10:00:51.401Z",
+      "heeftTijd": true,
+      "woorden": 16,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-24T10:00:44.721Z",
+      "gecontroleerdOp": "2026-11-24T10:00:44.721Z",
+      "bronTitel": "Stroomstoring in Wormer",
+      "bronLengte": 129,
+      "rood": {
+        "sinds": "2026-11-24T10:00:44.721Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "28d10ef996-v1",
       "groepId": "28d10ef996",
       "versie": 1,
@@ -434,7 +465,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "5f04e69cee-v1",
@@ -465,7 +497,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "c4f63d0090-v1",
@@ -496,7 +529,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "7ae971f992-v1",
@@ -529,6 +563,45 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "9b7e4f8344-v1",
+      "groepId": "9b7e4f8344",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vergunning-voor-snoek-westzijde-18b-zaandam-bouwmarathon/",
+      "kop": "Vergunning voor Snoek (Westzijde 18b, Zaandam) #bouwmarathon",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 383,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-24T10:00:44.721Z",
+      "gecontroleerdOp": "2026-11-24T10:00:44.721Z",
+      "bronTitel": "Vergunning voor Snoek (Westzijde 18b, Zaandam) #bouwmarathon",
+      "bronLengte": 2320,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "6076c14ff4-v1",
@@ -567,7 +640,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "ad949cd117-v1",
@@ -1020,7 +1094,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T07:00:46.108Z",
-      "gecontroleerdOp": "2026-11-24T07:00:46.108Z",
+      "gecontroleerdOp": "2026-11-24T10:00:44.721Z",
       "bronTitel": "Het Zaanse voetbalweekend ⚽️ Zege SVA en zeperd Rood Wit🎙",
       "bronLengte": 1023,
       "checklist": {
@@ -1337,7 +1411,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T13:00:47.161Z",
-      "gecontroleerdOp": "2026-11-24T07:00:46.108Z",
+      "gecontroleerdOp": "2026-11-24T10:00:44.721Z",
       "bronTitel": "Zwarte bladzijde Zaanse slavernijverleden kleurrijk in beeld",
       "bronLengte": 3162,
       "checklist": {
