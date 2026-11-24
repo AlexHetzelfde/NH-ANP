@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-24T12:00:45.965Z",
+  "gegenereerdOp": "2026-11-24T13:01:01.107Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 683,
-    "verhalen": 542,
+    "stukken": 689,
+    "verhalen": 548,
     "metMeerStukken": 73,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 2,
-    "aiBanden": 0,
-    "metRoute": 3,
+    "aiGevraagd": 6,
+    "aiBanden": 1,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 0
@@ -143,64 +143,6 @@
           "datum": "2026-11-23T14:00:00.000Z",
           "type": null,
           "titel": "Verlengde Stellingweg dicht in het weekend; fietstunnel open"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
-      "kop": "Zestien koereigers aan het lopend buffet bij Krommenie 📸",
-      "meting": {
-        "stukken": 5,
-        "media": 1,
-        "mediaStukken": 1,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 4,
-        "eerste": "2026-10-28T23:00:00.000Z",
-        "laatste": "2026-11-23T12:25:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 26 dagen met stukken op 4 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/zestien-koereigers-aan-het-lopend-buffet-bij-krommenie-%f0%9f%93%b8/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "type": null,
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-19-91aae4",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-19T22:25:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-5b5463",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-20T06:33:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-20-858e2b",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-20T14:40:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-23T12:25:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Krommenie en Uitgeest"
         }
       ]
     },

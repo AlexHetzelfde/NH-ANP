@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-24T12:00:45.965Z",
+  "bijgewerkt": "2026-11-24T13:01:01.107Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4544,6 +4544,50 @@
       "t": "2026-11-24T11:00:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "b3f6ac7d68": {
+      "g": "b3f6ac7d68",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_aan_viaduct_N244_bij_Middenbeemster_starten_in_augustus",
+      "k": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-24T13:12:03.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "3b9f227f21": {
+      "g": "3b9f227f21",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kantoren_Noord_Holland_energiezuiniger",
+      "k": "Kantoren Noord-Holland energiezuiniger",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-24T12:53:49.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "d8f4534c1a": {
+      "g": "d8f4534c1a",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+      "k": "Stroomstoring in Landsmeer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T11:45:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "0958a85bff": {
+      "g": "0958a85bff",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
+      "k": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-24T09:36:39.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }

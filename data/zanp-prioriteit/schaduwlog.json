@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T12:00:45.965Z",
+  "gegenereerdOp": "2026-11-24T13:01:01.107Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 5,
+      "lokaal": 5,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 675,
-    "bewijsStukken": 62,
-    "kandidaten": 37,
-    "metAnker": 37,
+    "stukken": 680,
+    "bewijsStukken": 63,
+    "kandidaten": 41,
+    "metAnker": 41,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 683,
-      "verhalen": 542,
+      "stukken": 689,
+      "verhalen": 548,
       "metMeerStukken": 73,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 2,
-      "aiBanden": 0,
-      "metRoute": 3,
+      "aiGevraagd": 6,
+      "aiBanden": 1,
+      "metRoute": 2,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 0
@@ -63,7 +63,7 @@
       "K": 1,
       "Kp": 0.75,
       "n": 18,
-      "dagen": 14,
+      "dagen": 15,
       "bronnen": 2,
       "ankers": [
         "zandweg",
@@ -148,8 +148,8 @@
       "key": "a:adb796eec6",
       "soort": "agenda",
       "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
-      "S": 0.23,
-      "Sa": 0.23,
+      "S": 0.22,
+      "Sa": 0.22,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.51,
@@ -745,6 +745,67 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_aan_viaduct_N244_bij_Middenbeemster_starten_in_augustus",
+      "soort": "nieuws",
+      "kop": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.73,
+      "Kp": 0.54,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "middenbemster",
+        "viaduct",
+        "n244"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Kantoren_Noord_Holland_energiezuiniger",
+      "soort": "nieuws",
+      "kop": "Kantoren Noord-Holland energiezuiniger",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.3,
+      "Kp": 0.3,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "kantor",
+        "energiezuiniger",
+        "monitor",
+        "werklocatie"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "landsmer",
+        "assumburg",
+        "giessenburg"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-122fd1",
       "soort": "nieuws",
       "kop": "Stroomstoring in Purmerend",
@@ -762,6 +823,28 @@
         "kransfontein",
         "oranjefontein",
         "strandfontein"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
+      "soort": "nieuws",
+      "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.53,
+      "Kp": 0.34,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "stolperbrug",
+        "verkersstop",
+        "schepvart",
+        "wegverker",
+        "stolperbasculebrug"
       ],
       "bewijs": []
     },
@@ -949,27 +1032,6 @@
         "henricus",
         "rolstrat",
         "georg"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-543973.html",
-      "soort": "nieuws",
-      "kop": "Melding opslaan grond en baggerspecie - Nabij Boeilijn 7 Westzaan , 229 meter richting noordwesten",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.15,
-      "Kp": 0.15,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "boeilijn",
-        "opslan",
-        "loder",
-        "croklan"
       ],
       "bewijs": []
     }
