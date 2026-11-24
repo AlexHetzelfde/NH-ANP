@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T00:00:44.635Z",
+  "gegenereerdOp": "2026-11-24T01:00:46.093Z",
   "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -502,7 +502,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T14:00:56.794Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Drie Oostzaanse wethouders bij Radio 9 📻",
       "bronLengte": 757,
       "checklist": {
@@ -852,7 +852,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T19:00:50.666Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Bijna één op de drie inwoners in Zaanstreek vermoedt drugscriminaliteit",
       "bronLengte": 2404,
       "checklist": {
@@ -892,7 +892,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer",
       "bronLengte": 814,
       "checklist": {
@@ -932,7 +932,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-23T16:00:51.998Z",
-      "gecontroleerdOp": "2026-11-23T23:00:45.239Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
       "bronLengte": 9212,
       "checklist": {
@@ -973,7 +973,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T15:00:52.920Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Vier mannen veroordeeld na ontvoering en afpersingspoging Indigostraat",
       "bronLengte": 3359,
       "checklist": {
@@ -1013,7 +1013,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T14:00:56.794Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Groetjes uit de Villa – deel 6: Huub (‘Ik ben mijn hoofd kwijt’)",
       "bronLengte": 5999,
       "checklist": {
@@ -1093,7 +1093,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T12:00:47.910Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "De Orkaan in 2 minuten: 23 november 🎧",
       "bronLengte": 315,
       "checklist": {
@@ -1173,7 +1173,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T11:00:53.103Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Kettingbotsing met vier auto’s op Noorderveenweg, Assendelft",
       "bronLengte": 618,
       "checklist": {
@@ -1213,7 +1213,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T10:00:46.396Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "OV-staking in de Zaanstreek: lang wachten op de bus",
       "bronLengte": 2731,
       "checklist": {
@@ -1253,7 +1253,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:54:49.373Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Sport: laatste Kraaien-juich in Wijdewormer, KZ onderuit",
       "bronLengte": 5999,
       "checklist": {
@@ -1306,7 +1306,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T08:00:45.795Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel",
       "bronLengte": 5030,
       "checklist": {
@@ -1359,7 +1359,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-23T07:00:50.070Z",
-      "gecontroleerdOp": "2026-11-23T22:00:45.013Z",
+      "gecontroleerdOp": "2026-11-24T01:00:46.093Z",
       "bronTitel": "Twee dagen staking bij streekvervoer",
       "bronLengte": 1302,
       "checklist": {
