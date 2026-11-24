@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T08:00:45.814Z",
+  "gegenereerdOp": "2026-11-24T09:00:44.839Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 3,
+      "werklijst": 4,
+      "lokaal": 4,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 3,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 665,
-    "bewijsStukken": 56,
-    "kandidaten": 31,
-    "metAnker": 31,
+    "stukken": 669,
+    "bewijsStukken": 59,
+    "kandidaten": 34,
+    "metAnker": 34,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 667,
-      "verhalen": 528,
+      "stukken": 674,
+      "verhalen": 535,
       "metMeerStukken": 72,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 3,
+      "aiGevraagd": 6,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -97,7 +97,7 @@
       "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.52,
+      "K": 0.51,
       "Kp": 0.35,
       "n": 1,
       "dagen": 1,
@@ -161,6 +161,34 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Broek in Waterland",
+      "S": 0.18,
+      "Sa": 0.18,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.67,
+      "Kp": 0.44,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "broek",
+        "waterland",
+        "dokter"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-ingekomen-stukken",
+          "datum": "2026-11-18T23:00:00.000Z",
+          "c": 0.73,
+          "plek": "intro",
+          "titel": "Besluit AB l Stichting KCR2"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
@@ -168,7 +196,7 @@
       "Sa": 0.18,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.68,
+      "K": 0.67,
       "Kp": 0.44,
       "n": 1,
       "dagen": 1,
@@ -632,6 +660,43 @@
       "ankers": [
         "opiumwet",
         "parkrijklan"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-24-73ee1b",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zuidoostbeemster",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.53,
+      "Kp": 0.4,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "zuidostbemster"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-1c01f9",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Purmerend",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "poelstrat",
+        "wielingenstrat"
       ],
       "bewijs": []
     },
@@ -3511,6 +3576,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f": {
+        "kop": "Stroomstoring in Broek in Waterland",
+        "S": 0.18,
+        "route": "aanhoudend",
+        "K": 0.67,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64": {
         "kop": "Stroomstoring in Krommenie en Uitgeest",
         "S": 0.08,
@@ -3668,14 +3741,6 @@
         "S": 0,
         "route": "geen",
         "K": 0.15,
-        "n": 0,
-        "bronnen": 0
-      },
-      "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/5a8422ec-6dec-4b3a-9e42-72664554b74b": {
-        "kop": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
-        "S": 0,
-        "route": "geen",
-        "K": 0.1,
         "n": 0,
         "bronnen": 0
       }

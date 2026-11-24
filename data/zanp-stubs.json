@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-24T08:00:45.814Z",
+  "bijgewerkt": "2026-11-24T09:00:44.839Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4476,6 +4476,39 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-24T07:21:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "28d10ef996": {
+      "g": "28d10ef996",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zuidoostbeemster-2026-11-24-73ee1b",
+      "k": "Stroomstoring in Zuidoostbeemster",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T09:00:49.404Z",
+      "c": null,
+      "r": "112"
+    },
+    "5f04e69cee": {
+      "g": "5f04e69cee",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f",
+      "k": "Stroomstoring in Broek in Waterland",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T08:33:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "c4f63d0090": {
+      "g": "c4f63d0090",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-1c01f9",
+      "k": "Stroomstoring in Purmerend",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T08:03:00.000Z",
       "c": null,
       "r": "112"
     }
