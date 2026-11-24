@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-24T17:00:47.880Z",
+  "bijgewerkt": "2026-11-24T17:30:03.512Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4619,6 +4619,17 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-24T16:45:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "3b93f65c00": {
+      "g": "3b93f65c00",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zuiderwoude-2026-11-24-100ec6",
+      "k": "Stroomstoring in Zuiderwoude",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-24T17:04:00.000Z",
       "c": null,
       "r": "112"
     }

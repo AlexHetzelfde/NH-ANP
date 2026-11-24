@@ -1,0 +1,17 @@
+{
+  "versie": 1,
+  "vergaderingen": {
+    "54ef83e6-3f2c-49cf-8284-e8270fd74fb5": {
+      "id": "54ef83e6-3f2c-49cf-8284-e8270fd74fb5",
+      "kop": "Raadsvergadering",
+      "start": "2026-11-26T18:00:00.000Z",
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Agenda/Index/54ef83e6-3f2c-49cf-8284-e8270fd74fb5",
+      "status": "wacht",
+      "gezien": "2026-11-24T17:30:03.512Z",
+      "laatsteCheck": null,
+      "pogingenPdf": 0
+    }
+  },
+  "bijgewerkt": "2026-11-24T17:30:03.512Z",
+  "modus": "schaduw"
+}

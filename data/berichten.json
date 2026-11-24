@@ -1,6 +1,6 @@
 {
-  "gegenereerdOp": "2026-11-24T17:00:47.880Z",
-  "promptVersie": "2026-11-19-batch-kop-soort-tag-checklist-agendapunten",
+  "gegenereerdOp": "2026-11-24T17:30:03.512Z",
+  "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
   "rubrieken": [
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "3b93f65c00-v1",
+      "groepId": "3b93f65c00",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zuiderwoude-2026-11-24-100ec6",
+      "kop": "Stroomstoring in Zuiderwoude",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T17:04:00.000Z",
+      "heeftTijd": true,
+      "woorden": 48,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-24T17:30:03.512Z",
+      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
+      "bronTitel": "Stroomstoring in Zuiderwoude",
+      "bronLengte": 342,
+      "rood": {
+        "sinds": "2026-11-24T17:30:03.512Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "457a7b8719-v1",
       "groepId": "457a7b8719",
       "versie": 1,
@@ -434,7 +465,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "9ed21ecdbd-v1",
@@ -939,8 +971,8 @@
       "url": "https://www.deorkaan.nl/vvd-oostzaan-zet-vraagtekens-bij-fusieonderzoek-purmerend/",
       "kop": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "tekst": null,
-      "rubriek": "BED",
-      "tagBron": "trefwoord",
+      "rubriek": "GEM",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-23T23:00:00.000Z",
@@ -950,9 +982,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T15:00:51.541Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
       "bronTitel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "bronLengte": 5529,
       "checklist": {
@@ -960,16 +992,39 @@
         "evacuatieOfNlAlert": false,
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
+        "besluitMetGrootGevolg": true,
         "tijdkritisch": false,
         "betrokkenen": null,
-        "geldbedragEuro": 24000000,
+        "geldbedragEuro": 14400000,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "agendapunten": [
+        {
+          "titel": "Vergadering Oostzaanse raadscommissie",
+          "dag": "2026-12-03",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Besluit gemeenteraad over vervolg onderzoek",
+          "dag": "2026-12-10",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "agendaIds": [
+        "eddd7a42db",
+        "fdc274cda9"
+      ]
     },
     {
       "id": "a4c7dc91ea-v1",
@@ -979,7 +1034,7 @@
       "kop": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
       "tekst": null,
       "rubriek": "VER",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "signaal",
       "prio": 3,
       "tijd": "2026-11-23T23:00:00.000Z",
@@ -989,9 +1044,9 @@
       "bronId": "DeOrkaan",
       "bronNaam": "De Orkaan",
       "ai": false,
-      "controle": "ai-fout",
+      "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
       "bronTitel": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
       "bronLengte": 2732,
       "checklist": {
@@ -1000,15 +1055,16 @@
         "gewondenOfDoden": false,
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
+        "tijdkritisch": true,
         "betrokkenen": null,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon",
+      "checklistBron": "ai",
       "alleenAgenda": true,
-      "tagVersie": 2
+      "tagVersie": 2,
+      "analyse": true
     },
     {
       "id": "c0bdbfdea8-v1",
