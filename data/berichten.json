@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T19:00:43.895Z",
+  "gegenereerdOp": "2026-11-24T20:00:45.858Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -457,7 +457,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-24T17:00:47.880Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Stroomstoring in Zaandam",
       "bronLengte": 454,
       "rood": {
@@ -504,7 +504,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "9ed21ecdbd-v1",
@@ -526,7 +527,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
       "bronLengte": 4556,
       "checklist": {
@@ -567,7 +568,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
       "bronLengte": 2832,
       "checklist": {
@@ -609,7 +610,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Kantoren Noord-Holland energiezuiniger",
       "bronLengte": 4073,
       "checklist": {
@@ -811,7 +812,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
       "bronLengte": 2810,
       "checklist": {
@@ -996,7 +997,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "7263a9cdaa-v1",
@@ -1018,7 +1020,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T16:00:47.391Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 3305,
       "checklist": {
@@ -1059,7 +1061,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T15:00:51.541Z",
-      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "bronLengte": 5529,
       "checklist": {
@@ -1121,7 +1123,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-24T17:30:03.512Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
       "bronLengte": 2732,
       "checklist": {
@@ -1281,7 +1283,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T10:00:44.721Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Vergunning voor Snoek (Westzijde 18b, Zaandam) #bouwmarathon",
       "bronLengte": 2320,
       "checklist": {
@@ -1792,7 +1794,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T07:00:46.108Z",
-      "gecontroleerdOp": "2026-11-24T17:00:47.880Z",
+      "gecontroleerdOp": "2026-11-24T20:00:45.858Z",
       "bronTitel": "Het Zaanse voetbalweekend ⚽️ Zege SVA en zeperd Rood Wit🎙",
       "bronLengte": 1023,
       "checklist": {
