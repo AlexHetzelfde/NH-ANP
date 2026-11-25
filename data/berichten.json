@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T17:00:50.587Z",
+  "gegenereerdOp": "2026-11-25T18:00:57.228Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -440,7 +440,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "6971a72fc2-v1",
@@ -503,7 +504,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
       "bronLengte": 3885,
       "checklist": {
@@ -615,7 +616,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -1509,7 +1510,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -1602,7 +1603,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
       "bronLengte": 711,
       "checklist": {
@@ -1722,7 +1723,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Gele biggen op Savornin Lohmanstraat",
       "bronLengte": 1444,
       "checklist": {
@@ -1802,7 +1803,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Woningsluiting Nienke van Hichtumstraat: politie ziet 104 gram cocaïne, advocaat 0,21 gram",
       "bronLengte": 5707,
       "checklist": {
@@ -2338,7 +2339,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
       "bronTitel": "Provincie verbetert samen met gebruikers hub Middenmeer-Zuid",
       "bronLengte": 2815,
       "checklist": {
@@ -14223,44 +14224,6 @@
           }
         ]
       },
-      "tagVersie": 2
-    },
-    {
-      "id": "bdc90b8b2d-v1",
-      "groepId": "bdc90b8b2d",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Besluiten_Provinciale_Staten_van_Noord_Holland_9_november_2026",
-      "kop": "Provinciale Staten stemmen in met begroting 2027 en infrastructuurplan",
-      "tekst": "Provinciale Staten van Noord-Holland hebben ingestemd met de begroting voor 2027 en het meerjarenprogramma voor de infrastructuur. Tijdens de behandeling werden diverse moties aangenomen, waaronder voor extra steun aan groene vrijwilligers en betere veiligheid in het openbaar vervoer. Ook spraken de Staten over onderwerpen als klimaatbeleid, woningbouw en netcongestie.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-11T17:08:26.000Z",
-      "heeftTijd": true,
-      "woorden": 863,
-      "afgekapt": true,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-11T21:14:16.919Z",
-      "gecontroleerdOp": "2026-11-12T18:48:17.455Z",
-      "bronTitel": "Besluiten Provinciale Staten van Noord-Holland 9 november 2026",
-      "bronLengte": 5997,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": true,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
       "tagVersie": 2
     }
   ]
