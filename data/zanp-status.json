@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T19:00:51.079Z",
+  "gegenereerdOp": "2026-11-25T20:00:46.841Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,7 +15,7 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,12 +26,12 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
-      "gevonden": 15,
-      "opeenvolgendLeeg": 0,
-      "opeenvolgendFout": 0,
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
+      "gevonden": 0,
+      "opeenvolgendLeeg": 1,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-25T15:00:56.915Z",
+        "tijd": "2026-11-25T20:00:46.841Z",
         "bericht": "time-out na 45.0s bij nh-cultuur",
         "duurSec": 45
       }
@@ -84,15 +84,15 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 262,
+      "opeenvolgendLeeg": 263,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-25T17:00:50.587Z",
@@ -101,9 +101,9 @@
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 307,
+      "opeenvolgendLeeg": 308,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-25T14:00:50.956Z",
@@ -118,9 +118,9 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 52,
+      "opeenvolgendLeeg": 53,
       "opeenvolgendFout": 0,
       "laatsteFout": {
         "tijd": "2026-11-25T06:00:43.466Z",
@@ -129,7 +129,7 @@
       }
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -140,15 +140,15 @@
       }
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-25T19:00:51.079Z",
+      "laatsteScrape": "2026-11-25T20:00:46.841Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 8,
+      "opeenvolgendLeeg": 9,
       "opeenvolgendFout": 0
     }
   },
@@ -181,7 +181,7 @@
     },
     "dagcap": 80,
     "runcap": 25,
-    "verzoekenDezeRun": 1
+    "verzoekenDezeRun": 0
   },
   "clusterBeslissingen": {
     "1fffd00f47|5c0d0b11cc": {
@@ -417,8 +417,8 @@
     "berichten": {
       "nieuw": 0,
       "update": 0,
-      "opnieuw": 2,
-      "ongewijzigd": 8,
+      "opnieuw": 0,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -541,7 +541,7 @@
     "verslag": {
       "modus": "schaduw",
       "vergaderingen": 3,
-      "gecontroleerd": 0,
+      "gecontroleerd": 2,
       "verslagGevonden": 0,
       "aiGevraagd": 0,
       "onderwerpen": 0,
@@ -565,20 +565,6 @@
       "itemsToegevoegd": 0,
       "dossiersVerlopen": 0,
       "dossiersActief": 0
-    },
-    "kwaliteit": {
-      "verzoeken": 1,
-      "berichten": 2,
-      "ok": 2,
-      "analyseOk": 0,
-      "cijfersAfgekeurd": 0,
-      "onvoldoende": 0,
-      "fout": 0,
-      "overgeslagen": 0,
-      "tagAi": 2,
-      "tagTrefwoord": 0,
-      "tagBron": 0,
-      "tagGeen": 0
     }
   }
 }
