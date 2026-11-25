@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T18:00:57.228Z",
+  "gegenereerdOp": "2026-11-25T19:00:51.079Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -167,7 +167,7 @@
           "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
           "bron": "nh-actueel",
           "datum": "2026-11-25T09:55:23.000Z",
-          "type": null,
+          "type": "overig",
           "titel": "Provinciehuis kleurt oranje voor Orange the World"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T18:00:57.228Z",
+  "gegenereerdOp": "2026-11-25T19:00:51.079Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -410,10 +410,10 @@
       "groepId": "6971a72fc2",
       "versie": 2,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
-      "kop": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
+      "kop": "Nieuwe waterberging De Sandvennen in Heemskerk geopend tegen wateroverlast",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "bron",
+      "tagBron": "ai",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-25T17:00:50.587Z",
@@ -422,10 +422,10 @@
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -440,8 +440,12 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Tussen het Heemskerkse tuinbouwgebied en de duinen is waterberging De Sandvennen gerealiseerd."
+      }
     },
     {
       "id": "6971a72fc2-v1",
@@ -601,22 +605,22 @@
       "groepId": "5099755b05",
       "versie": 1,
       "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
-      "kop": "Provinciehuis kleurt oranje voor Orange the World",
+      "kop": "Provinciehuis in Haarlem kleurt oranje voor campagne Orange the World",
       "tekst": null,
       "rubriek": "PRV",
-      "tagBron": "trefwoord",
+      "tagBron": "ai",
       "herkomst": "officieel",
-      "prio": 3,
+      "prio": 4,
       "tijd": "2026-11-25T09:55:23.000Z",
       "heeftTijd": true,
       "woorden": 472,
       "afgekapt": false,
       "bronId": "nh-actueel",
       "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": false,
-      "controle": "ai-fout",
+      "ai": true,
+      "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T18:00:57.228Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -626,13 +630,16 @@
         "bestuurlijkeCrisis": false,
         "besluitMetGrootGevolg": false,
         "tijdkritisch": false,
-        "betrokkenen": null,
+        "betrokkenen": 841,
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon",
-      "tagVersie": 2
+      "checklistBron": "ai",
+      "tagVersie": 2,
+      "persType": {
+        "soort": "overig"
+      }
     },
     {
       "id": "f04476bc2c-v1",
@@ -1563,7 +1570,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -1643,7 +1650,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -1683,7 +1690,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -1763,7 +1770,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -1843,7 +1850,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
@@ -1883,7 +1890,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T06:00:43.466Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
       "bronLengte": 3109,
       "checklist": {
@@ -2068,7 +2075,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Gedeputeerde Staten stellen N203 langs spoor in Krommenie voor",
       "bronLengte": 2148,
       "checklist": {
@@ -2624,7 +2631,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T07:00:47.081Z",
-      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T19:00:51.079Z",
       "bronTitel": "Wandelen om vrouwonveiligheid te laten zien 🎧",
       "bronLengte": 4304,
       "checklist": {
