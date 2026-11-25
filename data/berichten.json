@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T11:00:50.171Z",
+  "gegenereerdOp": "2026-11-25T12:00:48.864Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "f04476bc2c-v1",
@@ -533,6 +534,84 @@
       "tagVersie": 2
     },
     {
+      "id": "a8a900e9b5-v1",
+      "groepId": "a8a900e9b5",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-25-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 25 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 55,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
+      "bronLengte": 333,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "cbb0a4914c-v1",
+      "groepId": "cbb0a4914c",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/bezwaren-tegen-nieuwbouw-de-pijl-wormerveer-afgewezen/",
+      "kop": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 377,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
+      "bronLengte": 2386,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "cda976f09c-v1",
       "groepId": "cda976f09c",
       "versie": 1,
@@ -569,7 +648,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "e791d744da-v1",
@@ -591,7 +671,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -671,7 +751,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
@@ -711,7 +791,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T06:00:43.466Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
       "bronLengte": 3109,
       "checklist": {
@@ -855,7 +935,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
       "bronLengte": 4556,
       "checklist": {
@@ -896,7 +976,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
       "bronLengte": 2832,
       "checklist": {
@@ -938,7 +1018,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Kantoren Noord-Holland energiezuiniger",
       "bronLengte": 4073,
       "checklist": {
@@ -1127,7 +1207,8 @@
       "persType": {
         "soort": "overig"
       },
-      "kopSpelling": "terugval"
+      "kopSpelling": "terugval",
+      "tagVersie": 2
     },
     {
       "id": "3b7b91e42f-v1",
@@ -1181,7 +1262,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
       "bronLengte": 2810,
       "checklist": {
@@ -1351,7 +1432,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T07:00:47.081Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Wandelen om vrouwonveiligheid te laten zien 🎧",
       "bronLengte": 4304,
       "checklist": {
@@ -1442,7 +1523,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T16:00:47.391Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 3305,
       "checklist": {
@@ -1483,7 +1564,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T15:00:51.541Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "bronLengte": 5529,
       "checklist": {
@@ -1545,7 +1626,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
       "bronLengte": 2732,
       "checklist": {
@@ -1585,7 +1666,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T10:00:46.652Z",
+      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
       "bronTitel": "De Orkaan in 2 minuten: 24 november 🎧",
       "bronLengte": 325,
       "checklist": {
