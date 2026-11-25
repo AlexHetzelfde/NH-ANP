@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T14:00:50.956Z",
+  "gegenereerdOp": "2026-11-25T15:00:56.915Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 2,
-      "opgehaald": 1,
+      "werklijst": 24,
+      "lokaal": 21,
+      "opgehaald": 3,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 2,
-    "vergeten": 0,
+    "bewijsNieuw": 1,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 698,
-    "bewijsStukken": 74,
-    "kandidaten": 52,
-    "metAnker": 52,
+    "stukken": 721,
+    "bewijsStukken": 75,
+    "kandidaten": 74,
+    "metAnker": 74,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 718,
-      "verhalen": 572,
-      "metMeerStukken": 74,
+      "stukken": 742,
+      "verhalen": 586,
+      "metMeerStukken": 77,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 5,
+      "aiGevraagd": 18,
       "aiBanden": 0,
-      "metRoute": 4,
+      "metRoute": 5,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
@@ -199,6 +199,37 @@
       ]
     },
     {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
+      "soort": "nieuws",
+      "kop": "Provinciehuis kleurt oranje voor Orange the World",
+      "S": 0.26,
+      "Sa": 0.26,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.67,
+      "Kp": 0.38,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "orang",
+        "world",
+        "provinciehuis",
+        "kleurt",
+        "meldpunt",
+        "oranj"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "c": 0.8,
+          "plek": "intro",
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        }
+      ]
+    },
+    {
       "key": "a:e09bb78351",
       "soort": "agenda",
       "kop": "Orange The World: Op pad met ROSA!",
@@ -206,7 +237,7 @@
       "Sa": 0.24,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.6,
+      "K": 0.59,
       "Kp": 0.29,
       "n": 1,
       "dagen": 1,
@@ -294,43 +325,84 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-23-1a1a64",
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
       "soort": "nieuws",
-      "kop": "Stroomstoring in Krommenie en Uitgeest",
+      "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
       "S": 0.22,
       "Sa": 0.22,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.67,
-      "Kp": 0.47,
+      "K": 0.89,
+      "Kp": 0.6,
       "n": 3,
       "dagen": 3,
-      "bronnen": 2,
+      "bronnen": 3,
       "ankers": [
-        "uitgest",
-        "busch"
+        "verblijfsontzegging",
+        "anwijzingsbesluit",
+        "omgeving",
+        "tref",
+        "verstor",
+        "vornamelijk",
+        "algemen",
+        "verorzak"
       ],
       "bewijs": [
         {
-          "bron": "DeOrkaan",
-          "datum": "2026-10-28T23:00:00.000Z",
-          "c": 0.71,
-          "plek": "intro",
-          "titel": "Zestien koereigers aan het lopend buffet bij Krommenie 📸"
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "c": 0.98,
+          "plek": "kop",
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
+        },
+        {
+          "bron": "bekendmakingen",
+          "datum": "2026-11-02T23:00:00.000Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Elzenstraat in Wormerveer"
+        },
+        {
+          "bron": "wetenregelgeving",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "c": 0.88,
+          "plek": "kop",
+          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Jaspersstraat Zaandam"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html",
+      "soort": "nieuws",
+      "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
+      "S": 0.17,
+      "Sa": 0.17,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.9,
+      "Kp": 0.61,
+      "n": 2,
+      "dagen": 1,
+      "bronnen": 2,
+      "ankers": [
+        "gibraltar",
+        "verblijfsontzegging",
+        "anwijzingsbesluit"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
         },
         {
           "bron": "DeOrkaan",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-10T23:08:49.684Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Motie aangenomen: Nachttrein"
+          "datum": "2026-11-11T23:00:00.000Z",
+          "c": 0.87,
+          "plek": "kop",
+          "titel": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gibraltar"
         }
       ]
     },
@@ -431,6 +503,63 @@
           "c": 0.73,
           "plek": "intro",
           "titel": "Besluit AB l Stichting KCR2"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547876.html",
+      "soort": "nieuws",
+      "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
+      "S": 0.11,
+      "Sa": 0.11,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.58,
+      "Kp": 0.42,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "jarwisseling",
+        "beleidsregel",
+        "ontheffingsbevoegdheid",
+        "vurwerkbesluit"
+      ],
+      "bewijs": [
+        {
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "c": 0.99,
+          "plek": "kop",
+          "titel": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547203.html",
+      "soort": "nieuws",
+      "kop": "Verordening rioolheffing Zaanstad 2026",
+      "S": 0.11,
+      "Sa": 0.11,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.16,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "riolheffing",
+        "belastingtariev",
+        "inwerkingtreding"
+      ],
+      "bewijs": [
+        {
+          "bron": "bekendmakingen",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "c": 0.27,
+          "plek": "tekst",
+          "titel": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026"
         }
       ]
     },
@@ -577,6 +706,61 @@
       ]
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+      "soort": "nieuws",
+      "kop": "Besluitenlijst B&W 17-11-2026",
+      "S": 0.04,
+      "Sa": 0.04,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.49,
+      "Kp": 0.15,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "besluitenlijst",
+        "besluitnota",
+        "anbiedingsbrief"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-05T04:00:52.742Z",
+          "c": 0.73,
+          "plek": "intro",
+          "titel": "Raadsvergadering: Begroting"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html",
+      "soort": "nieuws",
+      "kop": "Verordening parkeerbelastingen Zaanstad 2026",
+      "S": 0.03,
+      "Sa": 0.03,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.33,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "parkerbelasting",
+        "parkerverordening"
+      ],
+      "bewijs": [
+        {
+          "bron": "wetenregelgeving",
+          "datum": "2026-10-31T23:00:00.000Z",
+          "c": 0.89,
+          "plek": "kop",
+          "titel": "Uitvoeringsbesluit Parkeerbelastingen Zaanstad"
+        }
+      ]
+    },
+    {
       "key": "a:ce4ae67b87",
       "soort": "agenda",
       "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
@@ -658,6 +842,34 @@
           "c": 1,
           "plek": "kop",
           "titel": "Besluit tot invordering last onder dwangsom illegale woningsplitsing De Weer 23 Zaandam"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547178.html",
+      "soort": "nieuws",
+      "kop": "Verordening precariobelasting Zaanstad 2026",
+      "S": 0.03,
+      "Sa": 0.03,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.28,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "precariobelasting",
+        "tarieventabel",
+        "inwerkingtreding"
+      ],
+      "bewijs": [
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-05T04:00:52.742Z",
+          "c": 0.43,
+          "plek": "tekst",
+          "titel": "Raadsvergadering: Begroting"
         }
       ]
     },
@@ -819,7 +1031,8 @@
         "opvanglocatie",
         "emotie",
         "workshop",
-        "academi"
+        "academi",
+        "relevant"
       ],
       "bewijs": []
     },
@@ -841,8 +1054,8 @@
         "samenleving",
         "congrescentrum",
         "zeist",
-        "thuis",
         "begint",
+        "thuis",
         "achmea"
       ],
       "bewijs": []
@@ -889,9 +1102,9 @@
         "agendapunt",
         "opening",
         "vaststel",
+        "netuitbreiding",
         "besluitenlijst",
-        "anbiedingsbrief",
-        "netuitbreiding"
+        "anbiedingsbrief"
       ],
       "bewijs": []
     },
@@ -992,159 +1205,6 @@
         "opiumwet",
         "parkrijklan",
         "overtreding"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
-      "soort": "nieuws",
-      "kop": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.34,
-      "Kp": 0.34,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "sandven",
-        "hemskerk",
-        "versterkt",
-        "wateroverlast",
-        "hemskerks"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Busreizigers_in_NoordWest_Noord_Holland_reizen_vanaf_juli_2028_met_Arriva",
-      "soort": "nieuws",
-      "kop": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.54,
-      "Kp": 0.35,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "arriva",
-        "nordwest",
-        "busreiziger"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormerveer-2026-11-25-86c0a0",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Wormerveer",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "rosbayerweg",
-        "pardweg",
-        "vlinderweg",
-        "norddijk",
-        "witte"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandijk",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "antoni",
-        "vriesstrat",
-        "scharstrat",
-        "hendrik"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Peter_Derk_Wekx_en_Pieter_Kraaijeveld_nieuwe_directeuren_bij_provincie_Noord_Holland",
-      "soort": "nieuws",
-      "kop": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.13,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "kraijeveld",
-        "pieter",
-        "peter",
-        "wekx",
-        "naturontwikkeling"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zuiderwoude-2026-11-24-100ec6",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zuiderwoude",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "zuiderwoud",
-        "zuiderwouder"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://odnzkg.nl/nieuws/update-samenwerking-noord-hollandse-omgevingsdiensten/",
-      "soort": "nieuws",
-      "kop": "Update samenwerking Noord-Hollandse omgevingsdiensten",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "hollands",
-        "odijmond",
-        "odnzkg",
-        "updat",
-        "ijmond",
-        "samenwerking",
-        "algeme",
-        "vorverkenning",
-        "anknopingspunt",
-        "nabijheid"
       ],
       "bewijs": []
     }
@@ -3845,6 +3905,14 @@
         "n": 2,
         "bronnen": 1
       },
+      "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World": {
+        "kop": "Provinciehuis kleurt oranje voor Orange the World",
+        "S": 0.26,
+        "route": "aanhoudend",
+        "K": 0.67,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:e09bb78351": {
         "kop": "Orange The World: Op pad met ROSA!",
         "S": 0.25,
@@ -3877,6 +3945,14 @@
         "n": 3,
         "bronnen": 2
       },
+      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html": {
+        "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
+        "S": 0.22,
+        "route": "aanhoudend",
+        "K": 0.89,
+        "n": 3,
+        "bronnen": 3
+      },
       "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4": {
         "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
         "S": 0.17,
@@ -3898,6 +3974,30 @@
         "S": 0.17,
         "route": "aanhoudend",
         "K": 0.67,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html": {
+        "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
+        "S": 0.17,
+        "route": "aanhoudend",
+        "K": 0.9,
+        "n": 2,
+        "bronnen": 2
+      },
+      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547876.html": {
+        "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
+        "S": 0.11,
+        "route": "aanhoudend",
+        "K": 0.58,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547203.html": {
+        "kop": "Verordening rioolheffing Zaanstad 2026",
+        "S": 0.11,
+        "route": "aanhoudend",
+        "K": 0.16,
         "n": 1,
         "bronnen": 1
       },
@@ -3941,6 +4041,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246": {
+        "kop": "Besluitenlijst B&W 17-11-2026",
+        "S": 0.04,
+        "route": "aanhoudend",
+        "K": 0.49,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:ce4ae67b87": {
         "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
         "S": 0.03,
@@ -3965,61 +4073,13 @@
         "n": 1,
         "bronnen": 1
       },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a": {
-        "kop": "Stroomstoring in Landsmeer",
-        "S": 0.02,
+      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html": {
+        "kop": "Verordening parkeerbelastingen Zaanstad 2026",
+        "S": 0.03,
         "route": "aanhoudend",
-        "K": 0.53,
+        "K": 0.33,
         "n": 1,
         "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-deb16c": {
-        "kop": "Stroomstoring in Landsmeer",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.56,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d": {
-        "kop": "Stroomstoring in Landsmeer",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.53,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:59c7d5db97": {
-        "kop": "Bijeenkomst 'Samenleven met ratten' Dierenbescherming",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:876bc64aab": {
-        "kop": "Inspiratiesessie Zaans Preventiemodel (ZPM)",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:f14947adc5": {
-        "kop": "Opening Virtueel TIJDmuseum",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:0074fed529": {
-        "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
-        "S": 0,
-        "route": "geen",
-        "K": 0,
-        "n": 0,
-        "bronnen": 0
       }
     }
   }

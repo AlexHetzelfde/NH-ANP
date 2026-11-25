@@ -1,93 +1,54 @@
 {
-  "gegenereerdOp": "2026-11-25T14:00:50.956Z",
+  "gegenereerdOp": "2026-11-25T15:00:56.915Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 718,
-    "verhalen": 572,
-    "metMeerStukken": 74,
+    "stukken": 742,
+    "verhalen": 586,
+    "metMeerStukken": 77,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 5,
+    "aiGevraagd": 18,
     "aiBanden": 0,
-    "metRoute": 4,
+    "metRoute": 5,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
   },
   "verhalen": [
     {
-      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+      "id": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+      "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
       "meting": {
-        "stukken": 3,
-        "media": 3,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 3,
-        "eerste": "2026-11-19T13:00:00.000Z",
-        "laatste": "2026-11-23T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "gepland",
-          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
-          "doel": "a:e09bb78351"
-        }
-      ],
-      "leden": [
-        {
-          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T13:00:00.000Z",
-          "type": null,
-          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-20T12:45:00.000Z",
-          "type": null,
-          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-23T23:00:00.000Z",
-          "type": null,
-          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
-        },
-        {
-          "k": "a:e09bb78351",
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-24T19:00:43.895Z",
-          "type": null,
-          "titel": "Orange The World: Op pad met ROSA!"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
-      "kop": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸",
-      "meting": {
-        "stukken": 7,
+        "stukken": 9,
         "media": 2,
-        "mediaStukken": 4,
+        "mediaStukken": 5,
         "echo": 0,
-        "onafhankelijk": 4,
-        "dagen": 4,
-        "eerste": "2026-10-30T23:00:00.000Z",
-        "laatste": "2026-11-18T23:00:00.000Z"
+        "onafhankelijk": 5,
+        "dagen": 6,
+        "eerste": "2026-10-28T23:00:00.000Z",
+        "laatste": "2026-11-24T23:00:00.000Z"
       },
       "routes": [
         {
           "route": "gepland",
-          "reden": "Gepland: Raadsvergadering op 26 november; 4 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
+          "reden": "Gepland: Raadsvergadering op 26 november; 5 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
           "doel": "a:0a443011d0"
+        },
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 27 dagen met stukken op 6 dagen en een nieuw stuk",
+          "doel": null
         }
       ],
       "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-28T23:00:00.000Z",
+          "type": null,
+          "titel": "Ook Loods 5 Garage vertrekt uit Zaandam"
+        },
         {
           "k": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
           "bron": "DeOrkaan",
@@ -143,6 +104,185 @@
           "datum": "2026-11-20T15:00:50.406Z",
           "type": null,
           "titel": "Raadsvergadering"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Besluitenlijst B&W 17-11-2026"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+      "meting": {
+        "stukken": 4,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 4,
+        "eerste": "2026-11-19T13:00:00.000Z",
+        "laatste": "2026-11-25T09:55:23.000Z"
+      },
+      "routes": [
+        {
+          "route": "gepland",
+          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
+          "doel": "a:e09bb78351"
+        }
+      ],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T13:00:00.000Z",
+          "type": null,
+          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-20T12:45:00.000Z",
+          "type": null,
+          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        },
+        {
+          "k": "a:e09bb78351",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-24T19:00:43.895Z",
+          "type": null,
+          "titel": "Orange The World: Op pad met ROSA!"
+        },
+        {
+          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
+          "bron": "nh-actueel",
+          "datum": "2026-11-25T09:55:23.000Z",
+          "type": null,
+          "titel": "Provinciehuis kleurt oranje voor Orange the World"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/cameratoezicht-elzenstraat-weer-verlengd/",
+      "kop": "Cameratoezicht Elzenstraat wéér verlengd",
+      "meting": {
+        "stukken": 13,
+        "media": 1,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 7,
+        "eerste": "2026-11-02T23:00:00.000Z",
+        "laatste": "2026-11-24T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 7 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/cameratoezicht-elzenstraat-weer-verlengd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-02T23:00:00.000Z",
+          "type": null,
+          "titel": "Cameratoezicht Elzenstraat wéér verlengd"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-517023.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-02T23:00:00.000Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Elzenstraat in…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3efd6010-3187-4635-81ad-6abea4b1acda",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "type": null,
+          "titel": "Kennisgeving Burgemeester J. Hamming: Incident Elzenstraat"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/27931bc8-9e76-438d-82ba-f51af593bb38",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-04T23:00:00.000Z",
+          "type": null,
+          "titel": "Kennisgeving burgemeester Hamming: incident Jaspersstraat"
+        },
+        {
+          "k": "n:https://lokaleregelgeving.overheid.nl/CVDR768780/1",
+          "bron": "wetenregelgeving",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Jaspersstraat…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/cameratoezicht-zuiddijk-en-jaspersstraat-verlengd/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "type": null,
+          "titel": "Cameratoezicht Zuiddijk en Jaspersstraat verlengd"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8b899045-41e2-48f7-b963-2762303ae520",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-05T23:00:00.000Z",
+          "type": null,
+          "titel": "Kennisgeving burgemeester Hamming: Verlenging sluiting woning Zuiddij…"
+        },
+        {
+          "k": "n:https://lokaleregelgeving.overheid.nl/CVDR769019/1",
+          "bron": "wetenregelgeving",
+          "datum": "2026-11-07T22:00:51.272Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Zuiddijk te Za…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/verblijfsontzegging-voor-overlast-gevende-jongeren-bij-de-tref-en-gibraltar/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "type": null,
+          "titel": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gib…"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/228a3913-d309-408b-a7fe-9d8b57bf31fc",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/504ce4de-b401-486a-9066-852a2f49786b",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-11T23:00:00.000Z",
+          "type": "incident",
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
         }
       ]
     },
@@ -581,6 +721,37 @@
           "datum": "2026-11-19T23:00:00.000Z",
           "type": null,
           "titel": "Zaanstad wil islamitische scholen weren én de wet veranderen"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
+      "kop": "In Zaanstad krijgt één op de negen jongeren jeugdzorg",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-10-29T23:00:00.000Z",
+        "laatste": "2026-11-25T13:00:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
+          "bron": "DeOrkaan",
+          "datum": "2026-10-29T23:00:00.000Z",
+          "type": null,
+          "titel": "In Zaanstad krijgt één op de negen jongeren jeugdzorg"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/vooral-werkenden-steeds-vaker-ver-onder-armoedegrens",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-25T13:00:00.000Z",
+          "type": null,
+          "titel": "Vooral werkenden steeds vaker (ver) onder armoedegrens"
         }
       ]
     },
