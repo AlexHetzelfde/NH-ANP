@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-25T22:24:21.769Z",
+  "gegenereerdOp": "2026-11-25T23:00:47.333Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 745,
-    "verhalen": 589,
-    "metMeerStukken": 77,
+    "stukken": 741,
+    "verhalen": 586,
+    "metMeerStukken": 76,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
+    "aiGevraagd": 1,
     "aiBanden": 0,
-    "metRoute": 4,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
@@ -34,11 +34,6 @@
           "route": "gepland",
           "reden": "Gepland: Raadsvergadering op 26 november; 5 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
           "doel": "a:0a443011d0"
-        },
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 27 dagen met stukken op 6 dagen en een nieuw stuk",
-          "doel": null
         }
       ],
       "leden": [
@@ -111,185 +106,6 @@
           "datum": "2026-11-24T23:00:00.000Z",
           "type": null,
           "titel": "Besluitenlijst B&W 17-11-2026"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/cameratoezicht-elzenstraat-weer-verlengd/",
-      "kop": "Cameratoezicht Elzenstraat wéér verlengd",
-      "meting": {
-        "stukken": 13,
-        "media": 1,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 7,
-        "eerste": "2026-11-02T23:00:00.000Z",
-        "laatste": "2026-11-24T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 22 dagen met stukken op 7 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/cameratoezicht-elzenstraat-weer-verlengd/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-02T23:00:00.000Z",
-          "type": null,
-          "titel": "Cameratoezicht Elzenstraat wéér verlengd"
-        },
-        {
-          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-517023.html",
-          "bron": "bekendmakingen",
-          "datum": "2026-11-02T23:00:00.000Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Elzenstraat in…"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/3efd6010-3187-4635-81ad-6abea4b1acda",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "type": null,
-          "titel": "Kennisgeving Burgemeester J. Hamming: Incident Elzenstraat"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/27931bc8-9e76-438d-82ba-f51af593bb38",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-04T23:00:00.000Z",
-          "type": null,
-          "titel": "Kennisgeving burgemeester Hamming: incident Jaspersstraat"
-        },
-        {
-          "k": "n:https://lokaleregelgeving.overheid.nl/CVDR768780/1",
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Jaspersstraat…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/cameratoezicht-zuiddijk-en-jaspersstraat-verlengd/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "type": null,
-          "titel": "Cameratoezicht Zuiddijk en Jaspersstraat verlengd"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/8b899045-41e2-48f7-b963-2762303ae520",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-05T23:00:00.000Z",
-          "type": null,
-          "titel": "Kennisgeving burgemeester Hamming: Verlenging sluiting woning Zuiddij…"
-        },
-        {
-          "k": "n:https://lokaleregelgeving.overheid.nl/CVDR769019/1",
-          "bron": "wetenregelgeving",
-          "datum": "2026-11-07T22:00:51.272Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verlenging tijdelijk cameratoezicht Zuiddijk te Za…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/verblijfsontzegging-voor-overlast-gevende-jongeren-bij-de-tref-en-gibraltar/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "type": null,
-          "titel": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gib…"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/228a3913-d309-408b-a7fe-9d8b57bf31fc",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
-        },
-        {
-          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/504ce4de-b401-486a-9066-852a2f49786b",
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-11T23:00:00.000Z",
-          "type": "incident",
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        },
-        {
-          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html",
-          "bron": "bekendmakingen",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam"
-        },
-        {
-          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
-          "bron": "bekendmakingen",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "type": null,
-          "titel": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
-      "kop": "Het Blauwe Pand dichtgespijkerd",
-      "meting": {
-        "stukken": 6,
-        "media": 1,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 5,
-        "eerste": "2026-11-16T23:00:00.000Z",
-        "laatste": "2026-11-24T23:00:00.000Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 8 dagen met stukken op 5 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-16T23:00:00.000Z",
-          "type": null,
-          "titel": "Het Blauwe Pand dichtgespijkerd"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-18-75cfc9",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-18T10:09:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-20-50e4a1",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-20T07:57:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-21-1011e7",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-21T09:06:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-24T16:45:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Zaandam"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/gele-biggen-op-savornin-lohmanstraat/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "type": null,
-          "titel": "Gele biggen op Savornin Lohmanstraat"
         }
       ]
     },
@@ -623,7 +439,7 @@
           "k": "n:https://www.deorkaan.nl/twee-bewoners-naar-ziekenhuis-na-uitslaande-woningbrand-in-zaandam-%f0%9f%93%b8/",
           "bron": "DeOrkaan",
           "datum": "2026-11-11T23:00:00.000Z",
-          "type": "incident",
+          "type": null,
           "titel": "Twee bewoners naar ziekenhuis na uitslaande woningbrand in Zaandam 📸"
         },
         {
@@ -1127,6 +943,10 @@
           "verhaal": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk"
         }
       ],
+      "zonderDoel": []
+    },
+    "2026-11-26": {
+      "nieuwRood": [],
       "zonderDoel": []
     }
   }
