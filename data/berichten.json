@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T13:00:52.072Z",
+  "gegenereerdOp": "2026-11-25T14:00:50.956Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,46 @@
   ],
   "berichten": [
     {
+      "id": "6971a72fc2-v1",
+      "groepId": "6971a72fc2",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
+      "kop": "Waterberging De Sandvennen in Heemskerk gerealiseerd tegen wateroverlast",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-25T14:21:23.000Z",
+      "heeftTijd": true,
+      "woorden": 323,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
+      "bronLengte": 2283,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "07a0c14ff8-v1",
       "groepId": "07a0c14ff8",
       "versie": 1,
@@ -576,6 +616,45 @@
       "tagVersie": 2
     },
     {
+      "id": "505062cf17-v1",
+      "groepId": "505062cf17",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/al-bijna-zeven-jaar-wachtgeld-oud-wethouder-sleept-zaanstad-voor-de-rechter/",
+      "kop": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
+      "tekst": null,
+      "rubriek": "REC",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 897,
+      "afgekapt": true,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
+      "bronLengte": 5995,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 200,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "86eac09eff-v1",
       "groepId": "86eac09eff",
       "versie": 1,
@@ -635,7 +714,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -675,7 +754,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -755,7 +834,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -835,7 +914,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
@@ -875,7 +954,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T06:00:43.466Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
       "bronLengte": 3109,
       "checklist": {
@@ -1038,6 +1117,64 @@
       "tagVersie": 2,
       "persType": {
         "soort": "overig"
+      }
+    },
+    {
+      "id": "cac89c3fbc-v1",
+      "groepId": "cac89c3fbc",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Gedeputeerde_Staten_stellen_N203_langs_spoor_in_Krommenie_voor",
+      "kop": "Gedeputeerde Staten stellen verplaatsing N203 langs spoor in Krommenie voor",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-24T13:42:30.000Z",
+      "heeftTijd": true,
+      "woorden": 308,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "bronTitel": "Gedeputeerde Staten stellen N203 langs spoor in Krommenie voor",
+      "bronLengte": 2148,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Besluit Provinciale Staten over N203",
+          "dag": "2027-02-01",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "letterlijk"
+        }
+      ],
+      "persType": {
+        "soort": "gepland",
+        "zin": "Provinciale Staten nemen hierover naar verwachting op 1 februari 2027 een besluit."
+      },
+      "alertKandidaat": {
+        "niveau": "oranje",
+        "categorie": "bestuur",
+        "reden": "besluit met groot gevolg (officiële bron)",
+        "aangemaaktOp": "2026-11-25T14:00:50.956Z",
+        "tot": "2026-11-26T14:00:50.956Z"
       }
     },
     {
@@ -1516,7 +1653,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T07:00:47.081Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Wandelen om vrouwonveiligheid te laten zien 🎧",
       "bronLengte": 4304,
       "checklist": {
@@ -1607,7 +1744,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T16:00:47.391Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 3305,
       "checklist": {
@@ -1648,7 +1785,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T15:00:51.541Z",
-      "gecontroleerdOp": "2026-11-25T12:00:48.864Z",
+      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
       "bronTitel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "bronLengte": 5529,
       "checklist": {
