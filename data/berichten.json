@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T06:00:43.466Z",
+  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Het College van Gedeputeerde Staten van Noord-Holland heeft Peter Derk Wekx en Pieter Kraaijeveld benoemd tot directeur bij de provincie Noord-Holland."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "3b93f65c00-v1",
@@ -1002,6 +1003,58 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "40d6824a3e-v1",
+      "groepId": "40d6824a3e",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
+      "kop": "Wandelen om vrouwonveiligheid te laten zien 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-23T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 707,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T07:00:47.081Z",
+      "gecontroleerdOp": "2026-11-25T07:00:47.081Z",
+      "bronTitel": "Wandelen om vrouwonveiligheid te laten zien 🎧",
+      "bronLengte": 4304,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": true,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Wandeling vrouwonveiligheid Orange The World",
+          "dag": "2026-11-25",
+          "start": "2026-11-25T18:30:00.000Z",
+          "eind": null,
+          "plaats": "station Zaandijk Zaanse Schans",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "1fe4e066dc"
+      ]
     },
     {
       "id": "b95ff9c672-v1",

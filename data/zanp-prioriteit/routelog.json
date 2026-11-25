@@ -1,21 +1,72 @@
 {
-  "gegenereerdOp": "2026-11-25T06:00:43.466Z",
+  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 695,
-    "verhalen": 555,
+    "stukken": 696,
+    "verhalen": 556,
     "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 0,
-    "aiBanden": 0,
-    "metRoute": 2,
-    "nieuwRood": 0,
+    "aiGevraagd": 1,
+    "aiBanden": 1,
+    "metRoute": 3,
+    "nieuwRood": 1,
     "zonderDoel": 0,
-    "routeRood": 1
+    "routeRood": 2
   },
   "verhalen": [
+    {
+      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+      "meting": {
+        "stukken": 3,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 3,
+        "eerste": "2026-11-19T13:00:00.000Z",
+        "laatste": "2026-11-23T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "gepland",
+          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
+          "doel": "a:e09bb78351"
+        }
+      ],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T13:00:00.000Z",
+          "type": null,
+          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-20T12:45:00.000Z",
+          "type": null,
+          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        },
+        {
+          "k": "a:e09bb78351",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-24T19:00:43.895Z",
+          "type": null,
+          "titel": "Orange The World: Op pad met ROSA!"
+        }
+      ]
+    },
     {
       "id": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/",
       "kop": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸",
@@ -593,44 +644,6 @@
       ]
     },
     {
-      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-19T13:00:00.000Z",
-        "laatste": "2026-11-20T12:45:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T13:00:00.000Z",
-          "type": null,
-          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-20T12:45:00.000Z",
-          "type": null,
-          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
-        },
-        {
-          "k": "a:e09bb78351",
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-24T19:00:43.895Z",
-          "type": null,
-          "titel": "Orange The World: Op pad met ROSA!"
-        }
-      ]
-    },
-    {
       "id": "b:https://www.rodi.nl/zaanstad/nieuws/513084/counter-schenkt-vijftig-prentenboeken-aan-zaanse-gezinnen-voor-meer-leesplezier",
       "kop": "Counter schenkt vijftig prentenboeken aan Zaanse gezinnen voor meer leesplezier",
       "meting": {
@@ -724,7 +737,9 @@
       ]
     }
   ],
-  "aiVeto": {},
+  "aiVeto": {
+    "a:e09bb78351": true
+  },
   "routes": {
     "mediaBronnen": [
       "DeOrkaan",
@@ -840,6 +855,17 @@
           "reden": "Gepland: Raadsvergadering op 26 november; 4 stukken in 2 media (DeOrkaan, Zaanstad.nieuws.nl)",
           "kop": "Laatste koopjes, laatste klanten: Praxis Zaandam is dicht 📸",
           "verhaal": "n:https://www.deorkaan.nl/laatste-koopjes-laatste-klanten-praxis-zaandam-is-dicht-%f0%9f%93%b8/"
+        },
+        {
+          "key": "a:e09bb78351",
+          "sinds": "2026-11-25T07:00:47.081Z",
+          "routes": [
+            "gepland"
+          ],
+          "label": "Gepland moment",
+          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
+          "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+          "verhaal": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk"
         }
       ],
       "zonderDoel": []

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T06:00:43.466Z",
+  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,7 +20,7 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 683,
+    "stukken": 684,
     "bewijsStukken": 66,
     "kandidaten": 51,
     "metAnker": 51,
@@ -38,17 +38,17 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 695,
-      "verhalen": 555,
+      "stukken": 696,
+      "verhalen": 556,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
-      "aiBanden": 0,
-      "metRoute": 2,
-      "nieuwRood": 0,
+      "aiGevraagd": 1,
+      "aiBanden": 1,
+      "metRoute": 3,
+      "nieuwRood": 1,
       "zonderDoel": 0,
-      "routeRood": 1
+      "routeRood": 2
     }
   },
   "top": [
@@ -165,6 +165,34 @@
       ]
     },
     {
+      "key": "a:e09bb78351",
+      "soort": "agenda",
+      "kop": "Orange The World: Op pad met ROSA!",
+      "S": 0.25,
+      "Sa": 0.25,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.6,
+      "Kp": 0.3,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "world",
+        "orang",
+        "zangolf"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "c": 0.73,
+          "plek": "intro",
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        }
+      ]
+    },
+    {
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
@@ -210,7 +238,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.5,
-      "Kp": 0.34,
+      "Kp": 0.33,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -648,8 +676,7 @@
       "ankers": [
         "inspiratiesessi",
         "preventiemodel",
-        "pakhuisplein",
-        "preventi"
+        "pakhuisplein"
       ],
       "bewijs": []
     },
@@ -669,26 +696,6 @@
       "ankers": [
         "virtuel",
         "tijdmuseum"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "a:e09bb78351",
-      "soort": "agenda",
-      "kop": "Orange The World: Op pad met ROSA!",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.17,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "world",
-        "orang",
-        "zangolf"
       ],
       "bewijs": []
     },
@@ -991,9 +998,9 @@
       "ankers": [
         "weginspecteur",
         "dienstwag",
-        "veiligheid",
         "wesley",
-        "anrijding"
+        "anrijding",
+        "veiligheid"
       ],
       "bewijs": []
     },
@@ -3791,6 +3798,14 @@
         "n": 4,
         "bronnen": 1
       },
+      "a:e09bb78351": {
+        "kop": "Orange The World: Op pad met ROSA!",
+        "S": 0.25,
+        "route": "aanhoudend",
+        "K": 0.6,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:a7d8a22d6c": {
         "kop": "WC-Symposium",
         "S": 0.24,
@@ -3932,14 +3947,6 @@
         "S": 0,
         "route": "geen",
         "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:e09bb78351": {
-        "kop": "Orange The World: Op pad met ROSA!",
-        "S": 0,
-        "route": "geen",
-        "K": 0.17,
         "n": 0,
         "bronnen": 0
       },
