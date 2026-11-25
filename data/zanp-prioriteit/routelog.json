@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-25T12:00:48.864Z",
+  "gegenereerdOp": "2026-11-25T12:36:03.304Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 709,
+    "stukken": 713,
     "verhalen": 567,
-    "metMeerStukken": 71,
+    "metMeerStukken": 74,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 3,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 4,
     "nieuwRood": 0,
@@ -798,6 +798,37 @@
           "datum": "2026-11-24T15:26:00.000Z",
           "type": null,
           "titel": "Storing zorgt voor 107 onterechte boetes van 139 euro op busbrug De B…"
+        }
+      ]
+    },
+    {
+      "id": "b:https://www.rodi.nl/zaanstad/nieuws/513485/aantal-ongelukken-neemt-toe-in-zaanstad-provincialeweg-drie-jaar-op-rij-plek-van-ongevallen-met-slachtoffers",
+      "kop": "Aantal ongelukken neemt toe in Zaanstad: Provincialeweg drie jaar op rij plek van ongevallen met slachtoffers",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 1,
+        "eerste": "2026-11-24T14:09:00.000Z",
+        "laatste": "2026-11-24T14:30:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513485/aantal-ongelukken-neemt-toe-in-zaanstad-provincialeweg-drie-jaar-op-rij-plek-van-ongevallen-met-slachtoffers",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-24T14:09:00.000Z",
+          "type": null,
+          "titel": "Aantal ongelukken neemt toe in Zaanstad: Provincialeweg drie jaar op…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/vorig-jaar-in-zaanstad-64-meer-ongelukken-dan-in-2024",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-24T14:30:00.000Z",
+          "type": null,
+          "titel": "Vorig jaar in Zaanstad 64 meer ongelukken dan in 2024"
         }
       ]
     }

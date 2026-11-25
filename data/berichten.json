@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T12:00:48.864Z",
+  "gegenereerdOp": "2026-11-25T12:36:03.304Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,47 @@
   ],
   "berichten": [
     {
+      "id": "07a0c14ff8-v1",
+      "groepId": "07a0c14ff8",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Busreizigers_in_NoordWest_Noord_Holland_reizen_vanaf_juli_2028_met_Arriva",
+      "kop": "Arriva wordt vanaf juli 2028 de nieuwe busvervoerder in NoordWest Noord-Holland",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 2,
+      "tijd": "2026-11-25T13:18:35.000Z",
+      "heeftTijd": true,
+      "woorden": 603,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-25T12:36:03.304Z",
+      "gecontroleerdOp": "2026-11-25T12:36:03.304Z",
+      "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
+      "bronLengte": 3885,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Dit is de uitkomst van de aanbesteding van het busvervoer in deze regio."
+      }
+    },
+    {
       "id": "f04476bc2c-v2",
       "groepId": "f04476bc2c",
       "versie": 2,
@@ -534,6 +575,45 @@
       "tagVersie": 2
     },
     {
+      "id": "86eac09eff-v1",
+      "groepId": "86eac09eff",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vrachtwagen-verliest-laadbak-bij-botsing-op-n203-in-krommenie/",
+      "kop": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 109,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T12:36:03.304Z",
+      "gecontroleerdOp": "2026-11-25T12:36:03.304Z",
+      "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
+      "bronLengte": 711,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": true,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "a8a900e9b5-v1",
       "groepId": "a8a900e9b5",
       "versie": 1,
@@ -570,7 +650,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "cbb0a4914c-v1",
@@ -609,7 +690,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "cda976f09c-v1",

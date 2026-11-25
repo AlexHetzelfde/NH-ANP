@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-25T12:00:48.864Z",
+  "bijgewerkt": "2026-11-25T12:36:03.304Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4709,6 +4709,17 @@
       "t": "2026-11-24T10:11:13.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "07a0c14ff8": {
+      "g": "07a0c14ff8",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Busreizigers_in_NoordWest_Noord_Holland_reizen_vanaf_juli_2028_met_Arriva",
+      "k": "Arriva wordt vanaf juli 2028 de nieuwe busvervoerder in NoordWest Noord-Holland",
+      "bt": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-25T13:18:35.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }
