@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T15:00:56.915Z",
+  "gegenereerdOp": "2026-11-25T17:00:50.587Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,43 @@
   ],
   "berichten": [
     {
+      "id": "6971a72fc2-v2",
+      "groepId": "6971a72fc2",
+      "versie": 2,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
+      "kop": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-25T17:00:50.587Z",
+      "heeftTijd": true,
+      "woorden": 292,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-25T17:00:50.587Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
+      "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
+      "bronLengte": 2071,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon"
+    },
+    {
       "id": "6971a72fc2-v1",
       "groepId": "6971a72fc2",
       "versie": 1,
@@ -523,7 +560,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "f04476bc2c-v2",
@@ -577,7 +615,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T15:00:56.915Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -592,7 +630,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "f04476bc2c-v1",
@@ -725,7 +764,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "e34d68f835-v1",
@@ -762,7 +802,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "1fffd00f47-v1",
@@ -799,7 +840,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "1a1ab794e1-v1",
@@ -836,7 +878,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "37ec8128be-v1",
@@ -873,7 +916,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "8910568f7c-v1",
@@ -910,7 +954,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "9123bfa5de-v1",
@@ -947,7 +992,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "5c0d0b11cc-v1",
@@ -984,7 +1030,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "4f6cf2a12f-v1",
@@ -1021,7 +1068,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "606f6c12ec-v1",
@@ -1058,7 +1106,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "35050b1714-v1",
@@ -1095,7 +1144,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "49a04c54f1-v1",
@@ -1132,7 +1182,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "aa33c67f81-v1",
@@ -1169,7 +1220,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "bd4f40648e-v1",
@@ -1206,7 +1258,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "03e389b6f4-v1",
@@ -1243,7 +1296,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "15339d1611-v1",
@@ -1252,7 +1306,7 @@
       "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-547248.html",
       "kop": "Verordening roerende woon- en bedrijfsruimtenbelasting Zaanstad 2026",
       "tekst": null,
-      "rubriek": "GEM",
+      "rubriek": "WON",
       "tagBron": "trefwoord",
       "herkomst": "officieel",
       "prio": 4,
@@ -1280,7 +1334,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "a66f11b433-v1",
@@ -1317,7 +1372,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "44f0fe3867-v1",
@@ -1354,7 +1410,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "9a3a409231-v1",
@@ -1391,7 +1448,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "bcc0fd71ef-v1",
@@ -1428,7 +1486,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "1f90b5e91b-v1",
@@ -1480,7 +1539,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "3d4c267af8"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "505062cf17-v1",
@@ -1502,7 +1562,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -1582,7 +1642,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -1622,7 +1682,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -1702,7 +1762,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -1782,7 +1842,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
@@ -1822,7 +1882,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T06:00:43.466Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
       "bronLengte": 3109,
       "checklist": {
@@ -2007,7 +2067,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Gedeputeerde Staten stellen N203 langs spoor in Krommenie voor",
       "bronLengte": 2148,
       "checklist": {
@@ -2540,7 +2600,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "40d6824a3e-v1",
@@ -2562,7 +2623,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T07:00:47.081Z",
-      "gecontroleerdOp": "2026-11-25T14:00:50.956Z",
+      "gecontroleerdOp": "2026-11-25T17:00:50.587Z",
       "bronTitel": "Wandelen om vrouwonveiligheid te laten zien 🎧",
       "bronLengte": 4304,
       "checklist": {
@@ -14198,44 +14259,6 @@
         "geldbedragEuro": null,
         "banen": null,
         "inRegio": true
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
-    },
-    {
-      "id": "122c8e9bd7-v1",
-      "groepId": "122c8e9bd7",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/300_000_subsidie_voor_Noord_Hollandse_energiecooperaties_vanaf_2027",
-      "kop": "Provincie stelt 300.000 euro beschikbaar voor lokale energiecoöperaties",
-      "tekst": "De provincie Noord-Holland stelt een subsidie van 300.000 euro beschikbaar voor energiecoöperaties, verenigingen en stichtingen. Organisaties kunnen van 1 januari tot en met 1 oktober 2027 een aanvraag indienen tot maximaal 20.000 euro per project. Het geld is bedoeld om inwoners te helpen bij energiebesparing en het opwekken van duurzame energie.",
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-11T16:02:20.000Z",
-      "heeftTijd": true,
-      "woorden": 308,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-11T21:14:16.919Z",
-      "gecontroleerdOp": "2026-11-12T18:48:17.455Z",
-      "bronTitel": "€ 300.000 subsidie voor Noord-Hollandse energiecoöperaties vanaf 2027",
-      "bronLengte": 2137,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": 100,
-        "geldbedragEuro": 300000,
-        "banen": null,
-        "inRegio": false
       },
       "checklistBron": "ai",
       "tagVersie": 2

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T15:00:56.915Z",
+  "gegenereerdOp": "2026-11-25T17:00:50.587Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 24,
-      "lokaal": 21,
-      "opgehaald": 3,
+      "werklijst": 1,
+      "lokaal": 1,
+      "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
-    "vergeten": 1,
+    "bewijsNieuw": 3,
+    "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
     "stukken": 721,
-    "bewijsStukken": 75,
-    "kandidaten": 74,
-    "metAnker": 74,
+    "bewijsStukken": 78,
+    "kandidaten": 71,
+    "metAnker": 71,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 742,
-      "verhalen": 586,
+      "stukken": 745,
+      "verhalen": 589,
       "metMeerStukken": 77,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 18,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 5,
       "nieuwRood": 0,
@@ -56,12 +56,12 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
       "soort": "nieuws",
       "kop": "Stroomstoring in Wormer",
-      "S": 0.73,
-      "Sa": 0.73,
+      "S": 0.72,
+      "Sa": 0.72,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 1,
-      "Kp": 0.74,
+      "Kp": 0.73,
       "n": 18,
       "dagen": 15,
       "bronnen": 2,
@@ -261,8 +261,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-24-326b02",
       "soort": "nieuws",
       "kop": "Stroomstoring in Zaandam",
-      "S": 0.24,
-      "Sa": 0.24,
+      "S": 0.23,
+      "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.7,
@@ -407,79 +407,7 @@
       ]
     },
     {
-      "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/77d8b591-f9c6-4a97-b8e1-8139c57042a4",
-      "soort": "nieuws",
-      "kop": "Aanvullende vragen nieuwe ov-abonnementenstructuur",
-      "S": 0.16,
-      "Sa": 0.16,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.63,
-      "Kp": 0.37,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 2,
-      "ankers": [
-        "abonnementenstructur",
-        "anvullend",
-        "vragensteller",
-        "haneveld",
-        "beantwording",
-        "albert",
-        "klein",
-        "regiorad",
-        "vervolgvrag",
-        "abonnementsstructur",
-        "kostenneutral",
-        "uitpak"
-      ],
-      "bewijs": [
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Proefweekend nieuw metronetwerk en onveiligheid Van der Madeweg"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.62,
-          "plek": "intro",
-          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.16,
-      "Sa": 0.16,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.67,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "dokter"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Besluit AB l Stichting KCR2"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-23-9db834",
       "soort": "nieuws",
       "kop": "Stroomstoring in Broek in Waterland",
       "S": 0.16,
@@ -1205,6 +1133,48 @@
         "opiumwet",
         "parkrijklan",
         "overtreding"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
+      "soort": "nieuws",
+      "kop": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.34,
+      "Kp": 0.34,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "sandven",
+        "hemskerk",
+        "versterkt",
+        "wateroverlast",
+        "hemskerks"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Busreizigers_in_NoordWest_Noord_Holland_reizen_vanaf_juli_2028_met_Arriva",
+      "soort": "nieuws",
+      "kop": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.54,
+      "Kp": 0.35,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "arriva",
+        "nordwest",
+        "busreiziger"
       ],
       "bewijs": []
     }
