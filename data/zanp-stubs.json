@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-25T07:00:47.081Z",
+  "bijgewerkt": "2026-11-25T08:00:44.280Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4665,6 +4665,17 @@
       "t": "2026-11-24T18:59:34.000Z",
       "c": null,
       "r": "PRV"
+    },
+    "d9ae0fc9fc": {
+      "g": "d9ae0fc9fc",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
+      "k": "Stroomstoring in Zaandijk",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-25T07:13:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

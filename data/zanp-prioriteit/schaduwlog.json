@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
+  "gegenereerdOp": "2026-11-25T08:00:44.280Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 1,
-      "lokaal": 1,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 684,
+    "stukken": 686,
     "bewijsStukken": 66,
-    "kandidaten": 51,
-    "metAnker": 51,
+    "kandidaten": 52,
+    "metAnker": 52,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,15 +38,15 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 696,
-      "verhalen": 556,
+      "stukken": 698,
+      "verhalen": 557,
       "metMeerStukken": 71,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
-      "aiBanden": 1,
+      "aiGevraagd": 2,
+      "aiBanden": 0,
       "metRoute": 3,
-      "nieuwRood": 1,
+      "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
     }
@@ -56,8 +56,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
       "soort": "nieuws",
       "kop": "Stroomstoring in Wormer",
-      "S": 0.74,
-      "Sa": 0.74,
+      "S": 0.73,
+      "Sa": 0.73,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 1,
@@ -893,6 +893,27 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Zaandijk",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "antoni",
+        "vriesstrat",
+        "scharstrat",
+        "hendrik"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Peter_Derk_Wekx_en_Pieter_Kraaijeveld_nieuwe_directeuren_bij_provincie_Noord_Holland",
       "soort": "nieuws",
       "kop": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
@@ -1084,28 +1105,6 @@
         "kransfontein",
         "oranjefontein",
         "strandfontein"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
-      "soort": "nieuws",
-      "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.53,
-      "Kp": 0.34,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "stolperbrug",
-        "verkersstop",
-        "schepvart",
-        "wegverker",
-        "stolperbasculebrug"
       ],
       "bewijs": []
     }

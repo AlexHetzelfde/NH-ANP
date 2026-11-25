@@ -1,17 +1,17 @@
 {
-  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
+  "gegenereerdOp": "2026-11-25T08:00:44.280Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 696,
-    "verhalen": 556,
+    "stukken": 698,
+    "verhalen": 557,
     "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
-    "aiBanden": 1,
+    "aiGevraagd": 2,
+    "aiBanden": 0,
     "metRoute": 3,
-    "nieuwRood": 1,
+    "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
   },
@@ -737,9 +737,7 @@
       ]
     }
   ],
-  "aiVeto": {
-    "a:e09bb78351": true
-  },
+  "aiVeto": {},
   "routes": {
     "mediaBronnen": [
       "DeOrkaan",

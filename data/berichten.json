@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T07:00:47.081Z",
+  "gegenereerdOp": "2026-11-25T08:00:44.280Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,76 @@
   ],
   "berichten": [
     {
+      "id": "d9ae0fc9fc-v1",
+      "groepId": "d9ae0fc9fc",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
+      "kop": "Stroomstoring in Zaandijk",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T07:13:00.000Z",
+      "heeftTijd": true,
+      "woorden": 50,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-25T08:00:44.280Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
+      "bronTitel": "Stroomstoring in Zaandijk",
+      "bronLengte": 378,
+      "rood": {
+        "sinds": "2026-11-25T08:00:44.280Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "743fcd4ce7-v1",
+      "groepId": "743fcd4ce7",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/snoep-voor-het-oog-truck-%e2%9c%a8%f0%9f%93%b8/",
+      "kop": "Snoep voor het oog: truck ✨📸",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 88,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-25T08:00:44.280Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
+      "bronTitel": "Snoep voor het oog: truck ✨📸",
+      "bronLengte": 489,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "4708615d40-v1",
       "groepId": "4708615d40",
       "versie": 1,
@@ -425,7 +495,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T06:00:43.466Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Peter Derk Wekx en Pieter Kraaijeveld nieuwe directeuren bij provincie Noord-Holland",
       "bronLengte": 3109,
       "checklist": {
@@ -569,7 +639,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Provincie vraagt aandacht veiligheid weginspecteurs na aanrijding dienstwagen",
       "bronLengte": 4556,
       "checklist": {
@@ -610,7 +680,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
       "bronLengte": 2832,
       "checklist": {
@@ -652,7 +722,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Kantoren Noord-Holland energiezuiniger",
       "bronLengte": 4073,
       "checklist": {
@@ -854,7 +924,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
       "bronLengte": 2810,
       "checklist": {
@@ -1054,7 +1124,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "1fe4e066dc"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "b95ff9c672-v1",
@@ -1114,7 +1185,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-24T16:00:47.391Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Implementatie nieuw metronetwerk en maatregelen",
       "bronLengte": 3305,
       "checklist": {
@@ -1155,7 +1226,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T15:00:51.541Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "VVD Oostzaan zet vraagtekens bij fusieonderzoek Purmerend",
       "bronLengte": 5529,
       "checklist": {
@@ -1217,7 +1288,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T14:00:48.289Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Even of oneven? Gemeente zet parkeerfout Houthavenkade recht",
       "bronLengte": 2732,
       "checklist": {
@@ -1257,7 +1328,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T13:01:01.107Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "De Orkaan in 2 minuten: 24 november 🎧",
       "bronLengte": 325,
       "checklist": {
@@ -1297,7 +1368,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T11:00:49.076Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "‘Prutrace? Amateurs!’",
       "bronLengte": 1051,
       "checklist": {
@@ -1337,7 +1408,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T11:00:49.076Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Snoep voor het oog: Gedempte Gracht by night ✨📸",
       "bronLengte": 617,
       "checklist": {
@@ -1377,7 +1448,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T10:00:44.721Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Vergunning voor Snoek (Westzijde 18b, Zaandam) #bouwmarathon",
       "bronLengte": 2320,
       "checklist": {
@@ -1417,7 +1488,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T09:00:44.839Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Technische storing: 107 onterechte busbrugboetes",
       "bronLengte": 2772,
       "checklist": {
@@ -1457,7 +1528,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T08:00:45.814Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "IJs, ijs, baby",
       "bronLengte": 252,
       "checklist": {
@@ -1497,7 +1568,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-24T08:00:45.814Z",
-      "gecontroleerdOp": "2026-11-25T06:00:43.466Z",
+      "gecontroleerdOp": "2026-11-25T08:00:44.280Z",
       "bronTitel": "Rechter zet streep door woningsplitsing bij Hotel Mills Assendelft",
       "bronLengte": 3634,
       "checklist": {
