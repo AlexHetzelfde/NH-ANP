@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T04:00:42.805Z",
+  "gegenereerdOp": "2026-11-25T05:00:44.128Z",
   "alertModus": "log",
   "bronnen": {
     "ibabs-collegeberichten": {
@@ -15,7 +15,7 @@
       "opeenvolgendFout": 0
     },
     "nh-actueel": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 15,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -26,7 +26,7 @@
       }
     },
     "nh-cultuur": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 3,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -84,30 +84,30 @@
       "opeenvolgendFout": 0
     },
     "vervoerregio-overzichten": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "zaanstad-moties": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 247,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 248,
+      "opeenvolgendFout": 2,
       "laatsteFout": {
-        "tijd": "2026-11-25T04:00:42.805Z",
+        "tijd": "2026-11-25T05:00:44.128Z",
         "bericht": "Lijst ophalen mislukt: Unexpected end of JSON input",
         "duurSec": null
       }
     },
     "zaanstad-camera": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 292,
-      "opeenvolgendFout": 0,
+      "opeenvolgendLeeg": 293,
+      "opeenvolgendFout": 1,
       "laatsteFout": {
-        "tijd": "2026-11-24T23:00:44.333Z",
-        "bericht": "RSS-feed ophalen mislukt: HTTP 504",
+        "tijd": "2026-11-25T05:00:44.128Z",
+        "bericht": "RSS-feed ophalen mislukt: HTTP 403",
         "duurSec": null
       }
     },
@@ -118,18 +118,18 @@
       "opeenvolgendFout": 0
     },
     "zaanstad-schriftelijke-vragen": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 0,
-      "opeenvolgendLeeg": 37,
-      "opeenvolgendFout": 1,
+      "opeenvolgendLeeg": 38,
+      "opeenvolgendFout": 2,
       "laatsteFout": {
-        "tijd": "2026-11-25T04:00:42.805Z",
-        "bericht": "Lijst ophalen mislukt: HTTP 429 bij https://zaanstad.bestuurlijkeinformatie.nl/Reports/GetReportData/36b1b6ca-8c4b-4d88-b910-a1edba601ac1",
+        "tijd": "2026-11-25T05:00:44.128Z",
+        "bericht": "Lijst ophalen mislukt: This operation was aborted",
         "duurSec": null
       }
     },
     "DeOrkaan": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 12,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0,
@@ -140,13 +140,13 @@
       }
     },
     "veiligheidsregio-nieuws": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 10,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
     },
     "stroomstoringkaart": {
-      "laatsteScrape": "2026-11-25T04:00:42.805Z",
+      "laatsteScrape": "2026-11-25T05:00:44.128Z",
       "gevonden": 1,
       "opeenvolgendLeeg": 0,
       "opeenvolgendFout": 0
@@ -413,7 +413,7 @@
       "nieuw": 0,
       "update": 0,
       "opnieuw": 0,
-      "ongewijzigd": 9,
+      "ongewijzigd": 0,
       "seed": 0
     },
     "cluster": {
@@ -524,7 +524,7 @@
     "besluitenlijst": {
       "modus": "schaduw",
       "vergaderingen": 3,
-      "gecontroleerd": 0,
+      "gecontroleerd": 1,
       "besluitenlijstGevonden": 0,
       "aiGevraagd": 0,
       "alineasAI": 0,
