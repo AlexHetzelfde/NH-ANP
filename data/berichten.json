@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T12:36:03.304Z",
+  "gegenereerdOp": "2026-11-25T13:00:52.072Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Dit is de uitkomst van de aanbesteding van het busvervoer in deze regio."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "f04476bc2c-v2",
@@ -611,7 +612,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "a8a900e9b5-v1",
@@ -713,7 +715,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T11:00:50.171Z",
+      "gecontroleerdOp": "2026-11-25T13:00:52.072Z",
       "bronTitel": "Gele biggen op Savornin Lohmanstraat",
       "bronLengte": 1444,
       "checklist": {
@@ -793,7 +795,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-25T11:00:50.171Z",
+      "gecontroleerdOp": "2026-11-25T13:00:52.072Z",
       "bronTitel": "Woningsluiting Nienke van Hichtumstraat: politie ziet 104 gram cocaïne, advocaat 0,21 gram",
       "bronLengte": 5707,
       "checklist": {
@@ -1270,7 +1272,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T11:00:50.171Z",
+      "gecontroleerdOp": "2026-11-25T13:00:52.072Z",
       "bronTitel": "Provincie verbetert samen met gebruikers hub Middenmeer-Zuid",
       "bronLengte": 2815,
       "checklist": {
