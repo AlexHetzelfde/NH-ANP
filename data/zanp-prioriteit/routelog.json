@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T20:00:46.841Z",
+  "gegenereerdOp": "2026-11-25T21:01:00.562Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -10,7 +10,7 @@
     "teGroot": 0,
     "aiGevraagd": 0,
     "aiBanden": 0,
-    "metRoute": 5,
+    "metRoute": 4,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
@@ -111,64 +111,6 @@
           "datum": "2026-11-24T23:00:00.000Z",
           "type": null,
           "titel": "Besluitenlijst B&W 17-11-2026"
-        }
-      ]
-    },
-    {
-      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
-      "meting": {
-        "stukken": 4,
-        "media": 3,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 4,
-        "dagen": 4,
-        "eerste": "2026-11-19T13:00:00.000Z",
-        "laatste": "2026-11-25T09:55:23.000Z"
-      },
-      "routes": [
-        {
-          "route": "gepland",
-          "reden": "Gepland: Orange The World: Op pad met ROSA! op 25 november; 3 stukken in 3 media (Zaanstad.nieuws.nl, Rodi (Zaanstad), DeOrkaan)",
-          "doel": "a:e09bb78351"
-        }
-      ],
-      "leden": [
-        {
-          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T13:00:00.000Z",
-          "type": null,
-          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-20T12:45:00.000Z",
-          "type": null,
-          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-23T23:00:00.000Z",
-          "type": null,
-          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
-        },
-        {
-          "k": "a:e09bb78351",
-          "bron": "zaanstad-kalender",
-          "datum": "2026-11-24T19:00:43.895Z",
-          "type": null,
-          "titel": "Orange The World: Op pad met ROSA!"
-        },
-        {
-          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
-          "bron": "nh-actueel",
-          "datum": "2026-11-25T09:55:23.000Z",
-          "type": "overig",
-          "titel": "Provinciehuis kleurt oranje voor Orange the World"
         }
       ]
     },
@@ -406,6 +348,58 @@
           "datum": "2026-11-25T11:00:50.171Z",
           "type": "incident",
           "titel": "Stroomstoring in Landsmeer"
+        }
+      ]
+    },
+    {
+      "id": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+      "kop": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk",
+      "meting": {
+        "stukken": 4,
+        "media": 3,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 4,
+        "eerste": "2026-11-19T13:00:00.000Z",
+        "laatste": "2026-11-25T09:55:23.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/agenda/wandelend-met-rosa-onveilge-plekken-leren-zien-in-koog-zaandijk",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T13:00:00.000Z",
+          "type": null,
+          "titel": "Wandelend met Rosa onveilge plekken leren zien in Koog - Zaandijk"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513196/avondwandeling-rondom-station-zaandijk-zaanse-schans-vraagt-aandacht-voor-geweld-tegen-vrouwen-en-onveilige-plekken",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-20T12:45:00.000Z",
+          "type": null,
+          "titel": "Avondwandeling rondom Station Zaandijk Zaanse Schans vraagt aandacht…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wandelen-om-vrouwonveiligheid-te-laten-zien-%f0%9f%8e%a7/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-23T23:00:00.000Z",
+          "type": null,
+          "titel": "Wandelen om vrouwonveiligheid te laten zien 🎧"
+        },
+        {
+          "k": "a:e09bb78351",
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-24T19:00:43.895Z",
+          "type": null,
+          "titel": "Orange The World: Op pad met ROSA!"
+        },
+        {
+          "k": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
+          "bron": "nh-actueel",
+          "datum": "2026-11-25T09:55:23.000Z",
+          "type": "overig",
+          "titel": "Provinciehuis kleurt oranje voor Orange the World"
         }
       ]
     },
