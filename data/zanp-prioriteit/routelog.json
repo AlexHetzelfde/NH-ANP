@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-24T23:00:44.333Z",
+  "gegenereerdOp": "2026-11-25T00:00:47.880Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
@@ -11,7 +11,7 @@
     "aiGevraagd": 0,
     "aiBanden": 0,
     "metRoute": 2,
-    "nieuwRood": 1,
+    "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 1
   },
@@ -724,9 +724,7 @@
       ]
     }
   ],
-  "aiVeto": {
-    "a:0a443011d0": true
-  },
+  "aiVeto": {},
   "routes": {
     "mediaBronnen": [
       "DeOrkaan",
