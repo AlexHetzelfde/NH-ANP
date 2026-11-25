@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T00:00:47.880Z",
+  "gegenereerdOp": "2026-11-25T01:00:46.088Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -56,8 +56,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
       "soort": "nieuws",
       "kop": "Stroomstoring in Wormer",
-      "S": 0.75,
-      "Sa": 0.75,
+      "S": 0.74,
+      "Sa": 0.74,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 1,
