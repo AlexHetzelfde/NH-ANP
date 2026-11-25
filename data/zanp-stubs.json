@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-25T08:00:44.280Z",
+  "bijgewerkt": "2026-11-25T09:00:45.829Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4674,6 +4674,28 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-25T07:13:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "f04476bc2c": {
+      "g": "f04476bc2c",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+      "k": "Stroomstoring in Landsmeer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-25T09:00:49.882Z",
+      "c": null,
+      "r": "112"
+    },
+    "0a7311b9eb": {
+      "g": "0a7311b9eb",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/wormerveer-2026-11-25-86c0a0",
+      "k": "Stroomstoring in Wormerveer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-25T08:09:00.000Z",
       "c": null,
       "r": "112"
     }

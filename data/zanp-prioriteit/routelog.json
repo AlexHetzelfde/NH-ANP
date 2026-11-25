@@ -1,16 +1,16 @@
 {
-  "gegenereerdOp": "2026-11-25T08:00:44.280Z",
+  "gegenereerdOp": "2026-11-25T09:00:45.829Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 698,
-    "verhalen": 557,
-    "metMeerStukken": 71,
+    "stukken": 701,
+    "verhalen": 559,
+    "metMeerStukken": 72,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 2,
     "aiBanden": 0,
-    "metRoute": 3,
+    "metRoute": 4,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 2
@@ -143,6 +143,64 @@
           "datum": "2026-11-20T15:00:50.406Z",
           "type": null,
           "titel": "Raadsvergadering"
+        }
+      ]
+    },
+    {
+      "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+      "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
+      "meting": {
+        "stukken": 5,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 3,
+        "eerste": "2026-11-03T11:00:54.646Z",
+        "laatste": "2026-11-25T09:00:49.882Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "type": null,
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wel-miljoenen-voor-bushaltes-geen-cijfers-over-uitvallende-ebs-bussen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "type": null,
+          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:00:55.107Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:45:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-25T09:00:49.882Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
         }
       ]
     },

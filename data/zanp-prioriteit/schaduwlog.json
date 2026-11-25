@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T08:00:44.280Z",
+  "gegenereerdOp": "2026-11-25T09:00:45.829Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
-    "vergeten": 0,
+    "bewijsNieuw": 1,
+    "vergeten": 1,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 686,
-    "bewijsStukken": 66,
-    "kandidaten": 52,
-    "metAnker": 52,
+    "stukken": 688,
+    "bewijsStukken": 67,
+    "kandidaten": 50,
+    "metAnker": 50,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 698,
-      "verhalen": 557,
-      "metMeerStukken": 71,
+      "stukken": 701,
+      "verhalen": 559,
+      "metMeerStukken": 72,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 2,
       "aiBanden": 0,
-      "metRoute": 3,
+      "metRoute": 4,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
@@ -151,7 +151,7 @@
         {
           "bron": "vervoerregio-overzichten",
           "datum": "2026-11-22T23:00:00.000Z",
-          "c": 0.68,
+          "c": 0.69,
           "plek": "intro",
           "titel": "Aanvullende vragen nieuwe ov-abonnementenstructuur"
         },
@@ -161,6 +161,40 @@
           "c": 0.61,
           "plek": "intro",
           "titel": "Flexibiliteit in begrotingsuitwerking voor OV en deelmobiliteit"
+        }
+      ]
+    },
+    {
+      "key": "a:adb796eec6",
+      "soort": "agenda",
+      "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
+      "S": 0.43,
+      "Sa": 0.43,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.61,
+      "Kp": 0.44,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 1,
+      "ankers": [
+        "hichtumstrat",
+        "nienk"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "c": 0.92,
+          "plek": "kop",
+          "titel": "Woningsluiting Nienke van Hichtumstraat: politie ziet 104 gram cocaïne, advocaat 0,21 gram"
+        },
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-22T23:00:00.000Z",
+          "c": 0.64,
+          "plek": "intro",
+          "titel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel"
         }
       ]
     },
@@ -201,7 +235,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.61,
-      "Kp": 0.37,
+      "Kp": 0.36,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -226,33 +260,6 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
-        }
-      ]
-    },
-    {
-      "key": "a:adb796eec6",
-      "soort": "agenda",
-      "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
-      "S": 0.21,
-      "Sa": 0.21,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.5,
-      "Kp": 0.33,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "hichtumstrat",
-        "nienk"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-22T23:00:00.000Z",
-          "c": 0.65,
-          "plek": "intro",
-          "titel": "Zaans voor ’t hekje: moord Pinasstraat & drugshandel"
         }
       ]
     },
@@ -587,6 +594,32 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0.02,
+      "Sa": 0.02,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.53,
+      "Kp": 0.4,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "landsmer"
+      ],
+      "bewijs": [
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "c": 0.78,
+          "plek": "intro",
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        }
+      ]
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
       "soort": "nieuws",
       "kop": "Stroomstoring in Landsmeer",
@@ -888,7 +921,30 @@
       "bronnen": 0,
       "ankers": [
         "opiumwet",
-        "parkrijklan"
+        "parkrijklan",
+        "overtreding"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormerveer-2026-11-25-86c0a0",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Wormerveer",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "rosbayerweg",
+        "pardweg",
+        "vlinderweg",
+        "norddijk",
+        "witte"
       ],
       "bewijs": []
     },
@@ -1063,48 +1119,6 @@
         "energiezuiniger",
         "monitor",
         "werklocatie"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "landsmer",
-        "assumburg",
-        "giessenburg",
-        "amsterdams"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-24-122fd1",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Purmerend",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "karavanstrat",
-        "kransfontein",
-        "oranjefontein",
-        "strandfontein"
       ],
       "bewijs": []
     }
@@ -3797,6 +3811,14 @@
         "n": 4,
         "bronnen": 1
       },
+      "a:adb796eec6": {
+        "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
+        "S": 0.43,
+        "route": "aanhoudend",
+        "K": 0.61,
+        "n": 2,
+        "bronnen": 1
+      },
       "a:e09bb78351": {
         "kop": "Orange The World: Op pad met ROSA!",
         "S": 0.25,
@@ -3810,14 +3832,6 @@
         "S": 0.24,
         "route": "aanhoudend",
         "K": 0.62,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:adb796eec6": {
-        "kop": "Sluiting woning Nienke van Hichtumstraat 4 te Zaandam",
-        "S": 0.22,
-        "route": "aanhoudend",
-        "K": 0.5,
         "n": 1,
         "bronnen": 1
       },
@@ -3925,6 +3939,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d": {
+        "kop": "Stroomstoring in Landsmeer",
+        "S": 0.02,
+        "route": "aanhoudend",
+        "K": 0.53,
+        "n": 1,
+        "bronnen": 1
+      },
       "a:59c7d5db97": {
         "kop": "Bijeenkomst 'Samenleven met ratten' Dierenbescherming",
         "S": 0,
@@ -3970,14 +3992,6 @@
         "S": 0,
         "route": "geen",
         "K": 0,
-        "n": 0,
-        "bronnen": 0
-      },
-      "a:0a443011d0": {
-        "kop": "Raadsvergadering",
-        "S": 0,
-        "route": "geen",
-        "K": 0.15,
         "n": 0,
         "bronnen": 0
       }
