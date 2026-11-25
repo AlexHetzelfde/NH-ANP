@@ -1,185 +1,7 @@
 {
-  "gegenereerdOp": "2026-11-25T10:00:46.652Z",
+  "gegenereerdOp": "2026-11-25T11:00:50.171Z",
   "uitleg": "Per run per onderdeel: tellers (optellend), waarden (meting van die run), voorbeelden en regels. De laatste 24 runs hebben voorbeelden en regels; 'dagen' telt de tellers per dag op.",
   "runs": [
-    {
-      "tijd": "2026-11-22T18:00:45.183Z",
-      "duurMs": 21984,
-      "onderdelen": {
-        "spelling": {
-          "tellers": {},
-          "waarden": {}
-        },
-        "bronnen": {
-          "tellers": {
-            "gescrapet": 9,
-            "fout": 0,
-            "leegZonderFout": 5
-          },
-          "waarden": {
-            "leegZonderFoutLijst": [
-              "vervoerregio-overzichten",
-              "zaanstad-moties",
-              "zaanstad-schriftelijke-vragen",
-              "zaanstad-camera",
-              "stroomstoringkaart"
-            ]
-          }
-        },
-        "tekst": {
-          "tellers": {
-            "oudeBestandenOvergezet": 0,
-            "dagbestandenVerwijderd": 0,
-            "bytesVerwijderd": 0
-          },
-          "waarden": {
-            "oudsteDagbestand": "2026-11-08",
-            "dekkingPct": 100,
-            "berichtenZonderTekst": 0,
-            "dekkingPerBron": {
-              "DeOrkaan": {
-                "berichten": 144,
-                "metTekst": 144,
-                "pct": 100,
-                "gemTekens": 2675
-              },
-              "stroomstoringkaart": {
-                "berichten": 32,
-                "metTekst": 32,
-                "pct": 100,
-                "gemTekens": 309
-              },
-              "nh-actueel": {
-                "berichten": 25,
-                "metTekst": 25,
-                "pct": 100,
-                "gemTekens": 2799
-              },
-              "vervoerregio-overzichten": {
-                "berichten": 6,
-                "metTekst": 6,
-                "pct": 100,
-                "gemTekens": 6595
-              },
-              "zaanstad-schriftelijke-vragen": {
-                "berichten": 4,
-                "metTekst": 4,
-                "pct": 100,
-                "gemTekens": 10030
-              },
-              "ibabs-ingekomen-stukken": {
-                "berichten": 33,
-                "metTekst": 33,
-                "pct": 100,
-                "gemTekens": 3822
-              },
-              "ibabs-collegeberichten": {
-                "berichten": 19,
-                "metTekst": 19,
-                "pct": 100,
-                "gemTekens": 6211
-              },
-              "bekendmakingen": {
-                "berichten": 19,
-                "metTekst": 19,
-                "pct": 100,
-                "gemTekens": 752
-              },
-              "zaanstad-moties": {
-                "berichten": 43,
-                "metTekst": 43,
-                "pct": 100,
-                "gemTekens": 1054
-              },
-              "vervoerregio-persberichten": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 194
-              },
-              "wetenregelgeving": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 2965
-              },
-              "zaanstad-ted": {
-                "berichten": 2,
-                "metTekst": 2,
-                "pct": 100,
-                "gemTekens": 74
-              },
-              "zaansche-molen": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 1620
-              },
-              "rechtspraak-noord-holland": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 6002
-              },
-              "omgevingsdienstnoordzeekanaal": {
-                "berichten": 1,
-                "metTekst": 1,
-                "pct": 100,
-                "gemTekens": 2533
-              }
-            }
-          }
-        },
-        "jubileum": {
-          "tellers": {
-            "nieuwsRood": 0,
-            "agendaRood": 0,
-            "uitgesloten": 0,
-            "alRoodDoorPrioriteit": 0
-          },
-          "waarden": {}
-        },
-        "bronRood": {
-          "tellers": {
-            "rood": 0,
-            "alRood": 34
-          },
-          "waarden": {}
-        },
-        "dossiers": {
-          "tellers": {
-            "stubsNieuw": 0,
-            "stubsVerlopen": 0,
-            "aiControles": 0,
-            "aiJa": 0,
-            "aiNee": 0,
-            "aiFout": 0,
-            "nieuweDossiers": 0,
-            "itemsToegevoegd": 0,
-            "dossiersVerlopen": 0
-          },
-          "waarden": {
-            "kandidatenDezeRun": [],
-            "stubsTotaal": 395,
-            "verhalen": 368,
-            "kandidaten": 0,
-            "dossiersActief": 0,
-            "modus": "log",
-            "dossiers": []
-          }
-        },
-        "run": {
-          "tellers": {},
-          "waarden": {
-            "berichten": 347,
-            "agendaItems": 160,
-            "aiVerzoeken": 0,
-            "geminiDagGebruikt": "16/80",
-            "duurSeconden": 22
-          }
-        }
-      }
-    },
     {
       "tijd": "2026-11-22T18:27:17.810Z",
       "duurMs": 295975,
@@ -8716,11 +8538,7 @@
       "onderdelen": {
         "spelling": {
           "tellers": {},
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": [
-            "Nederlands woordenboek geladen."
-          ]
+          "waarden": {}
         },
         "bronnen": {
           "tellers": {
@@ -8733,53 +8551,13 @@
               "zaanstad-schriftelijke-vragen",
               "zaanstad-camera"
             ]
-          },
-          "voorbeelden": [
-            {
-              "bron": "zaanstad-moties",
-              "bericht": "Lijst ophalen mislukt: This operation was aborted",
-              "duurSec": null,
-              "opeenvolgendFout": 1
-            }
-          ],
-          "regels": [
-            "[zaanstad-moties] scrapen mislukt (1x achter elkaar): Lijst ophalen mislukt: This operation was aborted"
-          ]
+          }
         },
         "ai": {
           "tellers": {
             "fout-http-503": 3
           },
-          "waarden": {},
-          "voorbeelden": [
-            {
-              "bron": "nh-actueel",
-              "kop": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
-              "modus": "volledig",
-              "categorie": "http-503",
-              "reden": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-              "status": 503
-            },
-            {
-              "bron": "nh-actueel",
-              "kop": "Kantoren Noord-Holland energiezuiniger",
-              "modus": "volledig",
-              "categorie": "http-503",
-              "reden": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-              "status": 503
-            },
-            {
-              "bron": "nh-actueel",
-              "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
-              "modus": "volledig",
-              "categorie": "http-503",
-              "reden": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-              "status": 503
-            }
-          ],
-          "regels": [
-            "3x http-503: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. (bronnen: nh-actueel)"
-          ]
+          "waarden": {}
         },
         "tekst": {
           "tellers": {
@@ -8880,48 +8658,7 @@
                 "gemTekens": 1620
               }
             }
-          },
-          "voorbeelden": [
-            {
-              "bron": "nh-actueel",
-              "methode": "run",
-              "kop": "Werkzaamheden aan viaduct N244 bij Middenbeemster starten in augustus",
-              "tekensVoor": 2832,
-              "tekensNa": 2622,
-              "alineas": 6,
-              "rommelRegelsWeg": 2,
-              "alineasHerleid": true,
-              "begin": "De provincie start in augustus 2027 met het versterken van het viaduct in de N244 bij Middenbeemster. De werkzaamheden stonden eerder gepland voor het voorjaar van 2027. De werkzaamheden worden verplaatst omdat meer voor",
-              "eind": "contact op met het servicepunt van de provincie via: servicepunt@noord-holland.nl of telefonisch 0800-0200 600 (gratis)."
-            },
-            {
-              "bron": "stroomstoringkaart",
-              "methode": "lijst",
-              "kop": "Stroomstoring in Landsmeer",
-              "tekensVoor": 433,
-              "tekensNa": 405,
-              "alineas": 1,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": false,
-              "begin": "De storing begon op 24 november 2026 om 12:45. Ongeveer 200 huishoudens zijn zonder stroom. Netbeheerder: Liander. Soort: gepland onderhoud, aangekondigd door de netbeheerder. Oorzaak: Geplande werkzaamheden. Postcodes: ",
-              "eind": "nburg, Het Amsterdamse Pad en 2 andere straten in die buurt. Bron: Stroomstoringkaart, met gegevens van de netbeheerder."
-            },
-            {
-              "bron": "DeOrkaan",
-              "methode": "run",
-              "kop": "De Orkaan in 2 minuten: 24 november 🎧",
-              "tekensVoor": 325,
-              "tekensNa": 325,
-              "alineas": 1,
-              "rommelRegelsWeg": 0,
-              "alineasHerleid": false,
-              "begin": "De Orkaan in 2 minuten. Een dagelijks bulletin waarin we je razendsnel bijpraten over wat er speelt in de Zaanstreek. Met vandaag: dealen op straat, onterechte boetes, ijs en meer… Belangrijk, opvallend en zo Zaans als ’",
-              "eind": " zo Zaans als ’t maar kan. De Orkaan podcast (Zaans nieuws) · DE Orkaan in 2 minuten Door Di-Lan Sun en redactie Orkaan."
-            }
-          ],
-          "regels": [
-            "Dekking volledige tekst: 321/321 berichten (100%)."
-          ]
+          }
         },
         "jubileum": {
           "tellers": {
@@ -8930,20 +8667,14 @@
             "uitgesloten": 0,
             "alRoodDoorPrioriteit": 0
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": []
+          "waarden": {}
         },
         "bronRood": {
           "tellers": {
             "rood": 1,
             "alRood": 49
           },
-          "waarden": {},
-          "voorbeelden": [],
-          "regels": [
-            "ROOD (stroomstoringkaart): Stroomstoring in Landsmeer (Stroomstoring in Zaanstreek-Waterland)"
-          ]
+          "waarden": {}
         },
         "dossiers": {
           "tellers": {
@@ -8965,9 +8696,7 @@
             "dossiersActief": 0,
             "modus": "log",
             "dossiers": []
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         },
         "run": {
           "tellers": {},
@@ -8977,9 +8706,7 @@
             "aiVerzoeken": 2,
             "geminiDagGebruikt": "13/80",
             "duurSeconden": 124
-          },
-          "voorbeelden": [],
-          "regels": []
+          }
         }
       }
     },
@@ -15793,6 +15520,357 @@
           "regels": []
         }
       }
+    },
+    {
+      "tijd": "2026-11-25T11:00:50.171Z",
+      "duurMs": 76046,
+      "onderdelen": {
+        "spelling": {
+          "tellers": {
+            "gecontroleerd": 1,
+            "terugval": 1
+          },
+          "waarden": {},
+          "voorbeelden": [
+            {
+              "status": "terugval",
+              "voor": "Provincie Noord-Holland onderzoekt verbeteringen voor mobiliteitshub Middenmeer-Zuid",
+              "na": "Provincie verbetert samen met gebruikers hub Middenmeer-Zuid",
+              "fouten": [
+                {
+                  "woord": "mobiliteitshub",
+                  "suggestie": null
+                }
+              ]
+            }
+          ],
+          "regels": [
+            "Nederlands woordenboek geladen.",
+            "Kop teruggevallen op brontitel: \"Provincie Noord-Holland onderzoekt verbeteringen voor mobiliteitshub M\" (onbekend: mobiliteitshub)"
+          ]
+        },
+        "ai": {
+          "tellers": {},
+          "waarden": {
+            "modellenBeschikbaar": [
+              "gemini-2.5-flash",
+              "gemini-2.5-flash-lite",
+              "gemini-2.5-pro",
+              "gemini-3-flash-preview",
+              "gemini-3.1-flash-lite",
+              "gemini-3.1-flash-lite-preview",
+              "gemini-3.1-pro-preview",
+              "gemini-3.1-pro-preview-customtools",
+              "gemini-3.5-flash",
+              "gemini-3.5-flash-lite",
+              "gemini-3.6-flash",
+              "gemini-3.7-flash",
+              "gemini-3.8-flash",
+              "gemini-flash-latest",
+              "gemini-flash-lite-latest",
+              "gemini-pro-latest",
+              "nano-banana-pro-preview"
+            ],
+            "perModelVandaag": {
+              "gemini-flash-lite-latest": 9,
+              "gemini-3.1-flash-lite": 0,
+              "gemini-2.5-flash-lite": 0,
+              "gemini-flash-latest": 0,
+              "gemini-3.6-flash": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": [
+            "Google kent 49 modellen; Flash/Pro: gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gemini-3-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.6-flash, gemini-3.…"
+          ]
+        },
+        "bronnen": {
+          "tellers": {
+            "gescrapet": 9,
+            "fout": 1,
+            "leegZonderFout": 3,
+            "timeOut": 1
+          },
+          "waarden": {
+            "leegZonderFoutLijst": [
+              "zaanstad-moties",
+              "zaanstad-schriftelijke-vragen",
+              "zaanstad-camera"
+            ]
+          },
+          "voorbeelden": [
+            {
+              "bron": "nh-cultuur",
+              "bericht": "time-out na 45.0s bij nh-cultuur",
+              "duurSec": 45,
+              "opeenvolgendFout": 2
+            }
+          ],
+          "regels": [
+            "[nh-cultuur] scrapen mislukt na 45s (2x achter elkaar): time-out na 45.0s bij nh-cultuur"
+          ]
+        },
+        "tekst": {
+          "tellers": {
+            "aangeboden": 3,
+            "geschreven": 3,
+            "teOudOvergeslagen": 0,
+            "leegOvergeslagen": 0,
+            "rommelRegelsWeg": 2,
+            "alineasHerleid": 2,
+            "titelHerhalingWeg": 1,
+            "methode-lijst": 1,
+            "methode-run": 2,
+            "oudeBestandenOvergezet": 0,
+            "dagbestandenVerwijderd": 0,
+            "bytesVerwijderd": 0
+          },
+          "waarden": {
+            "oudsteDagbestand": "2026-11-11",
+            "dekkingPct": 100,
+            "berichtenZonderTekst": 0,
+            "dekkingPerBron": {
+              "stroomstoringkaart": {
+                "berichten": 52,
+                "metTekst": 52,
+                "pct": 100,
+                "gemTekens": 313
+              },
+              "DeOrkaan": {
+                "berichten": 134,
+                "metTekst": 134,
+                "pct": 100,
+                "gemTekens": 2554
+              },
+              "nh-actueel": {
+                "berichten": 28,
+                "metTekst": 28,
+                "pct": 100,
+                "gemTekens": 2957
+              },
+              "omgevingsdienstnoordzeekanaal": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 1273
+              },
+              "ibabs-collegeberichten": {
+                "berichten": 19,
+                "metTekst": 19,
+                "pct": 100,
+                "gemTekens": 5848
+              },
+              "vervoerregio-overzichten": {
+                "berichten": 5,
+                "metTekst": 5,
+                "pct": 100,
+                "gemTekens": 6250
+              },
+              "zaanstad-schriftelijke-vragen": {
+                "berichten": 5,
+                "metTekst": 5,
+                "pct": 100,
+                "gemTekens": 8437
+              },
+              "bekendmakingen": {
+                "berichten": 7,
+                "metTekst": 7,
+                "pct": 100,
+                "gemTekens": 766
+              },
+              "ibabs-ingekomen-stukken": {
+                "berichten": 17,
+                "metTekst": 17,
+                "pct": 100,
+                "gemTekens": 5370
+              },
+              "zaanstad-moties": {
+                "berichten": 21,
+                "metTekst": 21,
+                "pct": 100,
+                "gemTekens": 1070
+              },
+              "vervoerregio-persberichten": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 194
+              },
+              "wetenregelgeving": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 2965
+              },
+              "zaanstad-ted": {
+                "berichten": 1,
+                "metTekst": 1,
+                "pct": 100,
+                "gemTekens": 61
+              }
+            }
+          },
+          "voorbeelden": [
+            {
+              "bron": "stroomstoringkaart",
+              "methode": "lijst",
+              "kop": "Stroomstoring in Landsmeer",
+              "tekensVoor": 343,
+              "tekensNa": 315,
+              "alineas": 1,
+              "rommelRegelsWeg": 0,
+              "alineasHerleid": false,
+              "begin": "De storing begon op 25 november 2026 om 09:26. Ongeveer 25 huishoudens zijn zonder stroom. Netbeheerder: Liander. Soort: gepland onderhoud, aangekondigd door de netbeheerder. Oorzaak: Geplande werkzaamheden. Postcodes: 1",
+              "eind": "rkzaamheden. Postcodes: 1121. Het gaat om de Van Beekstraat. Bron: Stroomstoringkaart, met gegevens van de netbeheerder."
+            },
+            {
+              "bron": "DeOrkaan",
+              "methode": "run",
+              "kop": "Gele biggen op Savornin Lohmanstraat",
+              "tekensVoor": 1444,
+              "tekensNa": 1446,
+              "alineas": 3,
+              "rommelRegelsWeg": 0,
+              "alineasHerleid": true,
+              "begin": "De A.F. de Savornin Lohmanstraat richting Oostzijde in Zaandam is weer open voor verkeer. In verband met het werk aan de Peperstraat werd de straat in mei van dit jaar afgesloten. Het gevolg was voor automobilisten een c",
+              "eind": "De voorbereidende werkzaamheden zullen in de komende periode wel aanvangen.’ Door Piet Bakker en Rens Kamminga (foto’s)."
+            },
+            {
+              "bron": "nh-actueel",
+              "methode": "run",
+              "kop": "Provincie verbetert samen met gebruikers hub Middenmeer-Zuid",
+              "tekensVoor": 2815,
+              "tekensNa": 2605,
+              "alineas": 6,
+              "rommelRegelsWeg": 2,
+              "alineasHerleid": true,
+              "begin": "De provincie Noord-Holland zet in op een netwerk van mobiliteitshubs waardoor steden, dorpen en natuurgebieden beter bereikbaar zijn met OV en deelvervoer. De mobiliteitshubs zijn plekken waar reizigers soepel kunnen ove",
+              "eind": "isinformatiedisplays te plaatsen. In datzelfde jaar wordt ook onderzocht hoe de overige ideeën kunnen worden uitgevoerd."
+            }
+          ],
+          "regels": [
+            "Dekking volledige tekst: 292/292 berichten (100%)."
+          ]
+        },
+        "jubileum": {
+          "tellers": {
+            "nieuwsRood": 0,
+            "agendaRood": 0,
+            "uitgesloten": 0,
+            "alRoodDoorPrioriteit": 0
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": []
+        },
+        "bronRood": {
+          "tellers": {
+            "rood": 1,
+            "alRood": 55
+          },
+          "waarden": {},
+          "voorbeelden": [],
+          "regels": [
+            "ROOD (stroomstoringkaart): Stroomstoring in Landsmeer (Stroomstoring in Zaanstreek-Waterland)"
+          ]
+        },
+        "samengesteld": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "stukken": 65,
+              "groepen": 0,
+              "nieuw": 0,
+              "bijgewerkt": 0,
+              "ongewijzigd": 0,
+              "afgewezenEerder": 0,
+              "aiGevraagd": 0,
+              "aiNee": 0,
+              "afgekeurd": 0,
+              "uitgesteld": 0,
+              "geenAI": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "besluitenlijst": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "vergaderingen": 3,
+              "gecontroleerd": 1,
+              "besluitenlijstGevonden": 0,
+              "aiGevraagd": 0,
+              "alineasAI": 0,
+              "alineasCode": 0,
+              "afgekeurd": 0,
+              "klaar": 0,
+              "fouten": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "verslag": {
+          "tellers": {},
+          "waarden": {
+            "modus": "schaduw",
+            "stats": {
+              "vergaderingen": 3,
+              "gecontroleerd": 0,
+              "verslagGevonden": 0,
+              "aiGevraagd": 0,
+              "onderwerpen": 0,
+              "berichten": 0,
+              "overgeslagen": 0,
+              "afgekeurd": 0,
+              "klaar": 0,
+              "fouten": 0
+            }
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "dossiers": {
+          "tellers": {
+            "stubsNieuw": 1,
+            "stubsVerlopen": 0,
+            "aiControles": 0,
+            "aiJa": 0,
+            "aiNee": 0,
+            "aiFout": 0,
+            "nieuweDossiers": 0,
+            "itemsToegevoegd": 0,
+            "dossiersVerlopen": 0
+          },
+          "waarden": {
+            "kandidatenDezeRun": [],
+            "stubsTotaal": 428,
+            "verhalen": 395,
+            "kandidaten": 0,
+            "dossiersActief": 0,
+            "modus": "log",
+            "dossiers": []
+          },
+          "voorbeelden": [],
+          "regels": []
+        },
+        "run": {
+          "tellers": {},
+          "waarden": {
+            "berichten": 307,
+            "agendaItems": 127,
+            "aiVerzoeken": 3,
+            "geminiDagGebruikt": "9/80",
+            "duurSeconden": 76
+          },
+          "voorbeelden": [],
+          "regels": []
+        }
+      }
     }
   ],
   "dagen": {
@@ -16407,32 +16485,33 @@
       }
     },
     "2026-11-25": {
-      "runs": 12,
+      "runs": 13,
       "tellers": {
         "spelling": {
-          "gecontroleerd": 1,
-          "ok": 1
+          "gecontroleerd": 2,
+          "ok": 1,
+          "terugval": 1
         },
         "ai": {},
         "bronnen": {
-          "gescrapet": 99,
-          "fout": 12,
-          "leegZonderFout": 24,
-          "timeOut": 2
+          "gescrapet": 108,
+          "fout": 13,
+          "leegZonderFout": 27,
+          "timeOut": 3
         },
         "tekst": {
           "oudeBestandenOvergezet": 0,
           "dagbestandenVerwijderd": 0,
           "bytesVerwijderd": 0,
-          "aangeboden": 8,
-          "geschreven": 8,
+          "aangeboden": 11,
+          "geschreven": 11,
           "teOudOvergeslagen": 0,
           "leegOvergeslagen": 0,
-          "rommelRegelsWeg": 2,
-          "alineasHerleid": 4,
-          "titelHerhalingWeg": 3,
-          "methode-run": 5,
-          "methode-lijst": 3
+          "rommelRegelsWeg": 4,
+          "alineasHerleid": 6,
+          "titelHerhalingWeg": 4,
+          "methode-run": 7,
+          "methode-lijst": 4
         },
         "jubileum": {
           "nieuwsRood": 0,
@@ -16441,14 +16520,14 @@
           "alRoodDoorPrioriteit": 0
         },
         "bronRood": {
-          "rood": 3,
-          "alRood": 628
+          "rood": 4,
+          "alRood": 683
         },
         "samengesteld": {},
         "besluitenlijst": {},
         "verslag": {},
         "dossiers": {
-          "stubsNieuw": 4,
+          "stubsNieuw": 5,
           "stubsVerlopen": 0,
           "aiControles": 0,
           "aiJa": 0,

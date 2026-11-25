@@ -1,15 +1,15 @@
 {
-  "gegenereerdOp": "2026-11-25T10:00:46.652Z",
+  "gegenereerdOp": "2026-11-25T11:00:50.171Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 702,
-    "verhalen": 560,
-    "metMeerStukken": 72,
+    "stukken": 706,
+    "verhalen": 565,
+    "metMeerStukken": 71,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 1,
-    "aiBanden": 0,
+    "aiGevraagd": 4,
+    "aiBanden": 1,
     "metRoute": 4,
     "nieuwRood": 0,
     "zonderDoel": 0,
@@ -147,75 +147,17 @@
       ]
     },
     {
-      "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
-      "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
-      "meting": {
-        "stukken": 5,
-        "media": 1,
-        "mediaStukken": 1,
-        "echo": 0,
-        "onafhankelijk": 3,
-        "dagen": 3,
-        "eerste": "2026-11-03T11:00:54.646Z",
-        "laatste": "2026-11-25T09:00:49.882Z"
-      },
-      "routes": [
-        {
-          "route": "vervolg",
-          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
-          "doel": null
-        }
-      ],
-      "leden": [
-        {
-          "k": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "type": null,
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/wel-miljoenen-voor-bushaltes-geen-cijfers-over-uitvallende-ebs-bussen/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "type": null,
-          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-24T11:00:55.107Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Landsmeer"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-24T11:45:00.000Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Landsmeer"
-        },
-        {
-          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-25T09:00:49.882Z",
-          "type": "incident",
-          "titel": "Stroomstoring in Landsmeer"
-        }
-      ]
-    },
-    {
       "id": "n:https://www.deorkaan.nl/het-blauwe-pand-dichtgespijkerd/",
       "kop": "Het Blauwe Pand dichtgespijkerd",
       "meting": {
-        "stukken": 5,
+        "stukken": 6,
         "media": 1,
-        "mediaStukken": 1,
+        "mediaStukken": 2,
         "echo": 0,
         "onafhankelijk": 2,
         "dagen": 5,
         "eerste": "2026-11-16T23:00:00.000Z",
-        "laatste": "2026-11-24T16:45:00.000Z"
+        "laatste": "2026-11-24T23:00:00.000Z"
       },
       "routes": [
         {
@@ -259,6 +201,71 @@
           "datum": "2026-11-24T16:45:00.000Z",
           "type": "incident",
           "titel": "Stroomstoring in Zaandam"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/gele-biggen-op-savornin-lohmanstraat/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Gele biggen op Savornin Lohmanstraat"
+        }
+      ]
+    },
+    {
+      "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+      "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
+      "meting": {
+        "stukken": 5,
+        "media": 1,
+        "mediaStukken": 1,
+        "echo": 0,
+        "onafhankelijk": 3,
+        "dagen": 3,
+        "eerste": "2026-11-03T11:00:54.646Z",
+        "laatste": "2026-11-25T11:00:50.171Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 22 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "type": null,
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wel-miljoenen-voor-bushaltes-geen-cijfers-over-uitvallende-ebs-bussen/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-03T23:00:00.000Z",
+          "type": null,
+          "titel": "Wel miljoenen voor bushaltes, geen cijfers over uitvallende EBS-bussen"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-0a723a",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:00:55.107Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-54a375",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-24T11:45:00.000Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-25T11:00:50.171Z",
+          "type": "incident",
+          "titel": "Stroomstoring in Landsmeer"
         }
       ]
     },
