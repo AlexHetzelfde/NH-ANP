@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T11:00:54.477Z",
+  "bijgewerkt": "2026-11-26T12:00:49.742Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4907,6 +4907,28 @@
       "t": "2026-11-25T23:00:00.000Z",
       "c": null,
       "r": "WON"
+    },
+    "4f304ea91e": {
+      "g": "4f304ea91e",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-7112d0",
+      "k": "Stroomstoring in Purmerend",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T11:48:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "fe57bf176c": {
+      "g": "fe57bf176c",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
+      "k": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T11:44:00.000Z",
+      "c": null,
+      "r": "112"
     }
   }
 }

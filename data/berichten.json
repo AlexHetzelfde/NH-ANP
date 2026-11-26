@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T11:00:54.477Z",
+  "gegenereerdOp": "2026-11-26T12:00:49.742Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,68 @@
   ],
   "berichten": [
     {
+      "id": "4f304ea91e-v1",
+      "groepId": "4f304ea91e",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-7112d0",
+      "kop": "Stroomstoring in Purmerend",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T11:48:00.000Z",
+      "heeftTijd": true,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "bronTitel": "Stroomstoring in Purmerend",
+      "bronLengte": 385,
+      "rood": {
+        "sinds": "2026-11-26T12:00:49.742Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "fe57bf176c-v1",
+      "groepId": "fe57bf176c",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
+      "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T11:44:00.000Z",
+      "heeftTijd": true,
+      "woorden": 83,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "bronTitel": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+      "bronLengte": 601,
+      "rood": {
+        "sinds": "2026-11-26T12:00:49.742Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "582e0d002d-v1",
       "groepId": "582e0d002d",
       "versie": 1,
@@ -457,7 +519,8 @@
       },
       "agendaIds": [
         "d6577cbcf1"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "ef06e2daa0-v1",
@@ -497,7 +560,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "7515a08bcd-v1",
@@ -576,7 +640,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "f3b9acb694-v1",
@@ -643,6 +708,97 @@
       "tagVersie": 2
     },
     {
+      "id": "286b0d51f6-v1",
+      "groepId": "286b0d51f6",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-orkaan-in-2-minuten-26-november-%f0%9f%8e%a7/",
+      "kop": "De Orkaan in 2 minuten: 26 november 🎧",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "bronTitel": "De Orkaan in 2 minuten: 26 november 🎧",
+      "bronLengte": 309,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "9f8202518f-v1",
+      "groepId": "9f8202518f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/wie-wordt-de-oen-van-2026-doe-mee/",
+      "kop": "Wie wordt de OEN van 2026? Doe mee!",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 170,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "bronTitel": "Wie wordt de OEN van 2026? Doe mee!",
+      "bronLengte": 1077,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Orkaans Eindejaars Nieuwsquiz (OEN)",
+          "dag": "2026-12-15",
+          "start": null,
+          "eind": null,
+          "plaats": "Café de Fabriek in Zaandam",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "d29b20f89b"
+      ]
+    },
+    {
       "id": "ea123188a5-v1",
       "groepId": "ea123188a5",
       "versie": 1,
@@ -682,6 +838,7 @@
         "soort": "uitkomst",
         "zin": "Zodoende is door het college besloten om de gereserveerde middelen, passend binnen de criteria van de specifieke uitkering, in te zetten voor verduurzamen van circa 300 extra woningen door verbetering van energielabels in het projectgebied."
       },
+      "tagVersie": 2,
       "alertKandidaat": {
         "niveau": "oranje",
         "categorie": "bestuur",
@@ -729,7 +886,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Besluit vast te stellen : Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "a8215685ad-v1",
@@ -768,7 +926,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "913e23cbb7-v1",
@@ -790,7 +949,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
       "bronLengte": 2851,
       "checklist": {
@@ -843,7 +1002,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
       "bronLengte": 4001,
       "checklist": {
@@ -936,7 +1095,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
       "bronLengte": 4304,
       "checklist": {
@@ -976,7 +1135,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Zie de maan…",
       "bronLengte": 765,
       "checklist": {
@@ -1016,7 +1175,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
       "bronLengte": 2280,
       "checklist": {
@@ -1080,7 +1239,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -1163,7 +1322,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
       "bronLengte": 3885,
       "checklist": {
@@ -1279,7 +1438,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -1416,7 +1575,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
       "bronLengte": 3774,
       "checklist": {
@@ -2333,7 +2492,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -2386,7 +2545,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -2426,7 +2585,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
       "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
       "bronLengte": 711,
       "checklist": {

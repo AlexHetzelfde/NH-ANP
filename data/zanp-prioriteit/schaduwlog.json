@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T11:00:54.477Z",
+  "gegenereerdOp": "2026-11-26T12:00:49.742Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,18 +10,18 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 6,
-      "lokaal": 6,
+      "werklijst": 4,
+      "lokaal": 4,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 3,
+    "bewijsNieuw": 1,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 737,
-    "bewijsStukken": 84,
+    "stukken": 741,
+    "bewijsStukken": 85,
     "kandidaten": 69,
     "metAnker": 69,
     "zonderAnker": 0,
@@ -29,7 +29,7 @@
     "dubbel": 0,
     "tau": 0.5,
     "besluit": {
-      "boven": 1,
+      "boven": 0,
       "wacht": 0,
       "onderdrukt": 0,
       "veto": 0,
@@ -38,85 +38,30 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 763,
-      "verhalen": 597,
+      "stukken": 768,
+      "verhalen": 601,
       "metMeerStukken": 79,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 4,
-      "aiBanden": 1,
+      "aiGevraagd": 5,
+      "aiBanden": 0,
       "metRoute": 4,
-      "nieuwRood": 1,
+      "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 3
     }
   },
   "top": [
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Wormer",
-      "S": 0.76,
-      "Sa": 0.76,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 1,
-      "Kp": 0.73,
-      "n": 19,
-      "dagen": 15,
-      "bronnen": 2,
-      "ankers": [
-        "wormer",
-        "zandweg"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "c": 0.92,
-          "plek": "kop",
-          "titel": "Besluit sportcomplex Wormer weer uitgesteld"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.91,
-          "plek": "kop",
-          "titel": "Topkolf in ’t Moriaanshoofd in Wormer"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-22T23:00:00.000Z",
-          "c": 0.91,
-          "plek": "kop",
-          "titel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-01T23:00:00.000Z",
-          "c": 0.72,
-          "plek": "intro",
-          "titel": "Eerste Arend Bloem-race: 70 kanoërs varen trainingsrondje van overleden kampioen"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-09T23:00:00.000Z",
-          "c": 0.72,
-          "plek": "intro",
-          "titel": "40 jaar geleden: Jisp voert actie voor zelfstandigheid"
-        }
-      ]
-    },
-    {
       "key": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/3c86e354-508d-47ac-889a-93a6cf5cda23",
       "soort": "nieuws",
       "kop": "Implementatie nieuw metronetwerk en maatregelen",
-      "S": 0.41,
-      "Sa": 0.41,
+      "S": 0.4,
+      "Sa": 0.4,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.81,
-      "Kp": 0.52,
+      "K": 0.8,
+      "Kp": 0.51,
       "n": 4,
       "dagen": 4,
       "bronnen": 1,
@@ -168,8 +113,8 @@
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
       "soort": "nieuws",
       "kop": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
-      "S": 0.35,
-      "Sa": 0.35,
+      "S": 0.34,
+      "Sa": 0.34,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.51,
@@ -241,8 +186,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3618e7b-a471-457c-bf28-97e387fb3800",
       "soort": "nieuws",
       "kop": "Kennisgeving wethouder Sahin: Vertrek programmadirecteuren Pact Zaandam Oost",
-      "S": 0.27,
-      "Sa": 0.27,
+      "S": 0.26,
+      "Sa": 0.26,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.16,
@@ -302,8 +247,8 @@
       "key": "a:e09bb78351",
       "soort": "agenda",
       "kop": "Orange The World: Op pad met ROSA!",
-      "S": 0.23,
-      "Sa": 0.23,
+      "S": 0.22,
+      "Sa": 0.22,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.58,
@@ -1089,6 +1034,55 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-7112d0",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Purmerend",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "dijckscampenlan",
+        "oievarsbek",
+        "springfontein",
+        "woestijnstrat"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "graftdijk",
+        "purmerland",
+        "westbemster",
+        "spijkerbor",
+        "starnmer",
+        "middenbemster",
+        "ostknollendam",
+        "wijdewormer",
+        "aggelenstrat",
+        "bamestraweg",
+        "bellehof"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Groen_licht_voor_bouw_350_woningen_in_Stompetoren_West",
       "soort": "nieuws",
       "kop": "Groen licht voor bouw 350 woningen in Stompetoren-West",
@@ -1192,30 +1186,6 @@
         "bonacker",
         "damcogh",
         "hemme"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
-      "soort": "nieuws",
-      "kop": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.65,
-      "Kp": 0.5,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "verschuiv",
-        "geredmak",
-        "labelverbetering",
-        "warmtenet",
-        "budget",
-        "vhf1",
-        "uitvoeringsplan"
       ],
       "bewijs": []
     }

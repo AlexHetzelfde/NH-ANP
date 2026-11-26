@@ -1,17 +1,17 @@
 {
-  "gegenereerdOp": "2026-11-26T11:00:54.477Z",
+  "gegenereerdOp": "2026-11-26T12:00:49.742Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 763,
-    "verhalen": 597,
+    "stukken": 768,
+    "verhalen": 601,
     "metMeerStukken": 79,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 4,
-    "aiBanden": 1,
+    "aiGevraagd": 5,
+    "aiBanden": 0,
     "metRoute": 4,
-    "nieuwRood": 1,
+    "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 3
   },
@@ -951,9 +951,7 @@
       ]
     }
   ],
-  "aiVeto": {
-    "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html": true
-  },
+  "aiVeto": {},
   "routes": {
     "mediaBronnen": [
       "DeOrkaan",
