@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T12:00:49.742Z",
+  "gegenereerdOp": "2026-11-26T13:00:49.133Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,37 @@
   ],
   "berichten": [
     {
+      "id": "5c00af8a79-v1",
+      "groepId": "5c00af8a79",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-f3f31e",
+      "kop": "Stroomstoring in Purmerend",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T11:51:00.000Z",
+      "heeftTijd": true,
+      "woorden": 53,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T13:00:49.133Z",
+      "gecontroleerdOp": "2026-11-26T13:00:49.133Z",
+      "bronTitel": "Stroomstoring in Purmerend",
+      "bronLengte": 365,
+      "rood": {
+        "sinds": "2026-11-26T13:00:49.133Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "4f304ea91e-v1",
       "groepId": "4f304ea91e",
       "versie": 1,
@@ -430,6 +461,38 @@
       "bronLengte": 385,
       "rood": {
         "sinds": "2026-11-26T12:00:49.742Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "e65a02465e-v1",
+      "groepId": "e65a02465e",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-26-6c1bda",
+      "kop": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk…",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T11:44:00.000Z",
+      "heeftTijd": true,
+      "woorden": 117,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T13:00:49.133Z",
+      "gecontroleerdOp": "2026-11-26T13:00:49.133Z",
+      "bronTitel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk, Oostknollendam, Oostzaan, Oudendijk, Purmerend, Purmerland, Spijkerboor, Starnmeer, Watergang, Westbeemster, Wijdewormer, Wormer en Zuidoostbeemster",
+      "bronLengte": 877,
+      "rood": {
+        "sinds": "2026-11-26T13:00:49.133Z",
         "score": 1,
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
@@ -465,7 +528,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "582e0d002d-v1",
@@ -644,6 +708,37 @@
       "tagVersie": 2
     },
     {
+      "id": "85c0515d6d-v1",
+      "groepId": "85c0515d6d",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/naarden-2026-11-26-692e37",
+      "kop": "Stroomstoring in Naarden en Purmerend",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T08:33:00.000Z",
+      "heeftTijd": true,
+      "woorden": 55,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T13:00:49.133Z",
+      "gecontroleerdOp": "2026-11-26T13:00:49.133Z",
+      "bronTitel": "Stroomstoring in Naarden en Purmerend",
+      "bronLengte": 397,
+      "rood": {
+        "sinds": "2026-11-26T13:00:49.133Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "f3b9acb694-v1",
       "groepId": "f3b9acb694",
       "versie": 1,
@@ -708,6 +803,66 @@
       "tagVersie": 2
     },
     {
+      "id": "429662ee60-v1",
+      "groepId": "429662ee60",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/crowdfunding-moet-roots-aan-de-zaan-redden/",
+      "kop": "Crowdfunding moet Roots aan de Zaan redden",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 549,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T13:00:49.133Z",
+      "gecontroleerdOp": "2026-11-26T13:00:49.133Z",
+      "bronTitel": "Crowdfunding moet Roots aan de Zaan redden",
+      "bronLengte": 3341,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 6000,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "singer-songwriter Eric Devries & The Song & Dance Band",
+          "dag": "2026-12-12",
+          "start": "2026-12-12T19:00:00.000Z",
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Nederlandse indie-folk- en rockband AlascA",
+          "dag": "2027-01-23",
+          "start": "2027-01-23T19:00:00.000Z",
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "5423b79723"
+      ]
+    },
+    {
       "id": "286b0d51f6-v1",
       "groepId": "286b0d51f6",
       "versie": 1,
@@ -744,7 +899,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "9f8202518f-v1",
@@ -796,7 +952,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "d29b20f89b"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "ea123188a5-v1",

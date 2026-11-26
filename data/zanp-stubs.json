@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T12:00:49.742Z",
+  "bijgewerkt": "2026-11-26T13:00:49.133Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4927,6 +4927,39 @@
       "b": "stroomstoringkaart",
       "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
       "t": "2026-11-26T11:44:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "5c00af8a79": {
+      "g": "5c00af8a79",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-f3f31e",
+      "k": "Stroomstoring in Purmerend",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T11:51:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "e65a02465e": {
+      "g": "e65a02465e",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-26-6c1bda",
+      "k": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk…",
+      "bt": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk, Oostknollendam, Oostzaan, Oudendijk, Purmerend, Purmerland, Spijkerboor, Starnmeer, Watergang, Westbeemster, Wijdewormer, Wormer en Zuidoostbeemster",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T11:44:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "85c0515d6d": {
+      "g": "85c0515d6d",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/naarden-2026-11-26-692e37",
+      "k": "Stroomstoring in Naarden en Purmerend",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T08:33:00.000Z",
       "c": null,
       "r": "112"
     }

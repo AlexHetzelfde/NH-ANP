@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T12:00:49.742Z",
+  "gegenereerdOp": "2026-11-26T13:00:49.133Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 741,
-    "bewijsStukken": 85,
-    "kandidaten": 69,
-    "metAnker": 69,
+    "stukken": 745,
+    "bewijsStukken": 86,
+    "kandidaten": 72,
+    "metAnker": 72,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 768,
-      "verhalen": 601,
+      "stukken": 773,
+      "verhalen": 605,
       "metMeerStukken": 79,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 5,
+      "aiGevraagd": 4,
       "aiBanden": 0,
       "metRoute": 4,
       "nieuwRood": 0,
@@ -244,6 +244,75 @@
       ]
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0.24,
+      "Sa": 0.24,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.71,
+      "Kp": 0.54,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "landsmer",
+        "bekstrat"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-26T11:44:00.000Z",
+          "c": 0.97,
+          "plek": "kop",
+          "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "c": 0.72,
+          "plek": "intro",
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Landsmeer",
+      "S": 0.23,
+      "Sa": 0.23,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.7,
+      "Kp": 0.54,
+      "n": 2,
+      "dagen": 2,
+      "bronnen": 2,
+      "ankers": [
+        "landsmer",
+        "leverkruidstrat",
+        "melkkruidstrat"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-26T11:44:00.000Z",
+          "c": 0.91,
+          "plek": "kop",
+          "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
+        },
+        {
+          "bron": "vervoerregio-overzichten",
+          "datum": "2026-11-03T11:00:54.646Z",
+          "c": 0.67,
+          "plek": "intro",
+          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
+        }
+      ]
+    },
+    {
       "key": "a:e09bb78351",
       "soort": "agenda",
       "kop": "Orange The World: Op pad met ROSA!",
@@ -305,6 +374,43 @@
           "c": 0.92,
           "plek": "kop",
           "titel": "Nieuwe Ranglijst WC-Vriendelijkheid bij gemeenten gepubliceerd"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+      "S": 0.21,
+      "Sa": 0.21,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.72,
+      "Kp": 0.56,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "graftdijk",
+        "purmerland",
+        "westbemster",
+        "spijkerbor",
+        "starnmer",
+        "middenbemster",
+        "ostknollendam",
+        "wijdewormer",
+        "aggelenstrat",
+        "bamestraweg",
+        "bellehof",
+        "belleslot"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-26T11:44:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
         }
       ]
     },
@@ -393,6 +499,43 @@
           "c": 0.76,
           "plek": "intro",
           "titel": "Sluiting woning i.v.m. overtreding Opiumwet Parkrijklaan 101 te Assendelft"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-26-6c1bda",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk, Oostknollendam, Oostzaan, Oudendijk, Purmerend, Purmerland, Spijkerboor, Starnmeer, Watergang, Westbeemster, Wijdewormer, Wormer en Zuidoostbeemster",
+      "S": 0.18,
+      "Sa": 0.18,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.72,
+      "Kp": 0.55,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "nordbemster",
+        "oudendijk",
+        "watergang",
+        "ilpendam",
+        "monnickendam",
+        "graftdijk",
+        "purmerland",
+        "westbemster",
+        "spijkerbor",
+        "starnmer",
+        "zuidostbemster",
+        "middenbemster"
+      ],
+      "bewijs": [
+        {
+          "bron": "stroomstoringkaart",
+          "datum": "2026-11-26T11:44:00.000Z",
+          "c": 0.94,
+          "plek": "kop",
+          "titel": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, W"
         }
       ]
     },
@@ -799,61 +942,6 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0.02,
-      "Sa": 0.02,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "landsmer",
-        "bekstrat"
-      ],
-      "bewijs": [
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0.01,
-      "Sa": 0.01,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "landsmer",
-        "leverkruidstrat",
-        "melkkruidstrat"
-      ],
-      "bewijs": [
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "c": 0.67,
-          "plek": "intro",
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        }
-      ]
-    },
-    {
       "key": "a:0074fed529",
       "soort": "agenda",
       "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
@@ -1034,6 +1122,28 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-f3f31e",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Purmerend",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "where",
+        "reigersbek",
+        "helenabai",
+        "saint",
+        "gedempt"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-7112d0",
       "soort": "nieuws",
       "kop": "Stroomstoring in Purmerend",
@@ -1051,34 +1161,6 @@
         "oievarsbek",
         "springfontein",
         "woestijnstrat"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "graftdijk",
-        "purmerland",
-        "westbemster",
-        "spijkerbor",
-        "starnmer",
-        "middenbemster",
-        "ostknollendam",
-        "wijdewormer",
-        "aggelenstrat",
-        "bamestraweg",
-        "bellehof"
       ],
       "bewijs": []
     },
@@ -1142,50 +1224,6 @@
         "twisk",
         "regeling",
         "waterland"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Volendam",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "volendam",
-        "begerslant",
-        "bonacker",
-        "damcogh",
-        "hemme"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-cd68fa",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Volendam",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "volendam",
-        "begerslant",
-        "bonacker",
-        "damcogh",
-        "hemme"
       ],
       "bewijs": []
     }
@@ -3918,6 +3956,22 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d": {
+        "kop": "Stroomstoring in Landsmeer",
+        "S": 0.24,
+        "route": "aanhoudend",
+        "K": 0.71,
+        "n": 2,
+        "bronnen": 2
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457": {
+        "kop": "Stroomstoring in Landsmeer",
+        "S": 0.23,
+        "route": "aanhoudend",
+        "K": 0.7,
+        "n": 2,
+        "bronnen": 2
+      },
       "a:a7d8a22d6c": {
         "kop": "WC-Symposium",
         "S": 0.22,
@@ -3940,6 +3994,22 @@
         "route": "aanhoudend",
         "K": 0.17,
         "n": 3,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda": {
+        "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
+        "S": 0.21,
+        "route": "aanhoudend",
+        "K": 0.72,
+        "n": 1,
+        "bronnen": 1
+      },
+      "n:https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-26-6c1bda": {
+        "kop": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk, Oostknollendam, Oostzaan, Oudendijk, Purmerend, Purmerland, Spijkerboor, Starnmeer, Watergang, Westbeemster, Wijdewormer, Wormer en Zuidoostbeemster",
+        "S": 0.18,
+        "route": "aanhoudend",
+        "K": 0.72,
+        "n": 1,
         "bronnen": 1
       },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html": {
@@ -4027,38 +4097,6 @@
         "S": 0.03,
         "route": "aanhoudend",
         "K": 0.33,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:ce4ae67b87": {
-        "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-        "S": 0.03,
-        "route": "aanhoudend",
-        "K": 0,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:4b9ea65ea4": {
-        "kop": "Maling Academie Najaar 2026 - Schrijf u in!!",
-        "S": 0.03,
-        "route": "aanhoudend",
-        "K": 0,
-        "n": 1,
-        "bronnen": 1
-      },
-      "a:17ea10e19c": {
-        "kop": "Invordering dwangsom m.b.t. locatie Kopermolenstraat 44 te Zaandam",
-        "S": 0.03,
-        "route": "aanhoudend",
-        "K": 0.15,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547178.html": {
-        "kop": "Verordening precariobelasting Zaanstad 2026",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.28,
         "n": 1,
         "bronnen": 1
       }
