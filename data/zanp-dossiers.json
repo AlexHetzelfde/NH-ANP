@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-26T10:00:49.318Z",
+  "bijgewerkt": "2026-11-26T11:00:54.477Z",
   "dossiers": [],
   "afgewezen": {
     "verworp": {
@@ -97,6 +97,21 @@
     "stellen": {
       "aantal": 5,
       "tijd": "2026-11-25T14:00:50.956Z",
+      "reden": "ai-nee"
+    },
+    "brengt": {
+      "aantal": 5,
+      "tijd": "2026-11-26T11:00:54.477Z",
+      "reden": "ai-nee"
+    },
+    "miljo": {
+      "aantal": 5,
+      "tijd": "2026-11-26T11:00:54.477Z",
+      "reden": "ai-nee"
+    },
+    "actie": {
+      "aantal": 5,
+      "tijd": "2026-11-26T11:00:54.477Z",
       "reden": "ai-nee"
     }
   }

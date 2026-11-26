@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T10:00:49.318Z",
+  "bijgewerkt": "2026-11-26T11:00:54.477Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4746,8 +4746,8 @@
     "71b44eeaff": {
       "g": "71b44eeaff",
       "u": "https://odnzkg.nl/nieuws/omgevingsdienst-trekt-last-onder-dwangsom-tata-steel-voor-onvoldoende-medewerking-in/",
-      "k": "Omgevingsdienst trekt last onder dwangsom Tata Steel voor onvoldoende medewerking in",
-      "bt": "",
+      "k": "Omgevingsdienst trekt last onder dwangsom Tata Steel in",
+      "bt": "Omgevingsdienst trekt last onder dwangsom Tata Steel voor onvoldoende medewerking in",
       "b": "omgevingsdienstnoordzeekanaal",
       "n": "Omgevingsdienst Noordzeekanaalgebied",
       "t": "2026-11-25T11:30:00.000Z",
@@ -4768,8 +4768,8 @@
     "f0002442d3": {
       "g": "f0002442d3",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4c234012-3d9f-440a-87d9-e90e9b8c2741",
-      "k": "Start Omgevingsprogramma Volkshuisvesting Zaanstad",
-      "bt": "",
+      "k": "Zaanstad start met opstellen verplicht Omgevingsprogramma Volkshuisvesting",
+      "bt": "Start Omgevingsprogramma Volkshuisvesting Zaanstad",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
@@ -4779,8 +4779,8 @@
     "e34d68f835": {
       "g": "e34d68f835",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/33bd783b-04ee-4650-8b3f-77c007454246",
-      "k": "Besluitenlijst B&W 17-11-2026",
-      "bt": "",
+      "k": "Zaanstad vordert contractuele boete van 50.000 euro bij Wmo-zorgaanbieder",
+      "bt": "Besluitenlijst B&W 17-11-2026",
       "b": "ibabs-collegeberichten",
       "n": "Zaanstad — Collegeberichten (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
@@ -4790,35 +4790,35 @@
     "1fffd00f47": {
       "g": "1fffd00f47",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7e90c069-f09b-4d84-a45e-22047f85fd5d",
-      "k": "Input voor de gemeenteraadsvergaderingen over de Zaanse Schans",
-      "bt": "",
+      "k": "Bewonersvereniging vraagt gemeenteraad om actie tegen toeristenoverlast Zaanse Schans",
+      "bt": "Input voor de gemeenteraadsvergaderingen over de Zaanse Schans",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "CUL"
     },
     "1a1ab794e1": {
       "g": "1a1ab794e1",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/2abfc102-7635-4996-8184-b0daa54b68db",
-      "k": "Spoedverzoek: publicatie brief klankbordgroep Parkeren Gouwpark – VVD-motie 26 november",
-      "bt": "",
+      "k": "Klankbordgroep Parkeren Gouwpark wil vastleggen van 30 parkeerplaatsen in ZMC-garage",
+      "bt": "Spoedverzoek: publicatie brief klankbordgroep Parkeren Gouwpark – VVD-motie 26 november",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "VER"
     },
     "37ec8128be": {
       "g": "37ec8128be",
       "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/a639c4a4-62ad-4be1-b4de-b527055da407",
-      "k": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
-      "bt": "",
+      "k": "Stichting S4R vraagt gemeenteraad Zaanstad om beroep tegen Luchthavenverkeerbesluit Schiphol",
+      "bt": "Verzoek om beroep in te stellen tegen het Luchthavenverkeerbesluit Schiphol (LVB)",
       "b": "ibabs-ingekomen-stukken",
       "n": "Zaanstad — Ingekomen stukken (iBabs)",
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
-      "r": "GEM"
+      "r": "PRV"
     },
     "f3b9acb694": {
       "g": "f3b9acb694",
@@ -4863,6 +4863,50 @@
       "t": "2026-11-26T10:00:51.475Z",
       "c": null,
       "r": "GEM"
+    },
+    "582e0d002d": {
+      "g": "582e0d002d",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Groen_licht_voor_bouw_350_woningen_in_Stompetoren_West",
+      "k": "Provincie en gemeente Alkmaar tekenen overeenkomst voor 350 woningen",
+      "bt": "Groen licht voor bouw 350 woningen in Stompetoren-West",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T11:14:07.000Z",
+      "c": null,
+      "r": "WON"
+    },
+    "ef06e2daa0": {
+      "g": "ef06e2daa0",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Jongeren_op_de_stoel_Statenleden_Iedereen_moet_zich_veilig_voelen",
+      "k": "Noord-Hollands Jeugddebat brengt jongeren en Statenleden samen in Haarlem",
+      "bt": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T10:38:33.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "6674a42b56": {
+      "g": "6674a42b56",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457",
+      "k": "Stroomstoring in Landsmeer",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T08:50:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "ea123188a5": {
+      "g": "ea123188a5",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/d725469e-fc86-4dd6-ae8d-9b8b8efcce09",
+      "k": "Zaanstad verschuift 2,5 miljoen euro naar verduurzaming van extra woningen",
+      "bt": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
     }
   }
 }
