@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T14:00:54.113Z",
+  "gegenereerdOp": "2026-11-26T14:58:53.342Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -444,7 +444,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "De provincie Noord-Holland investeert € 4,3 miljoen in projecten die de bereikbaarheid van Alkmaar en omgeving verbeteren."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "5c00af8a79-v1",
@@ -847,6 +848,58 @@
       "tagVersie": 2
     },
     {
+      "id": "b0903e766f-v1",
+      "groepId": "b0903e766f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/identiteit-en-voorzieningen-centraal-in-verder-overleg-oostzaan-purmerend/",
+      "kop": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 520,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T14:58:53.342Z",
+      "gecontroleerdOp": "2026-11-26T14:58:53.342Z",
+      "bronTitel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
+      "bronLengte": 3179,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Commissievergadering over uitkomsten quickscan fusie",
+          "dag": "2026-12-03",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "fbb9f72359"
+      ]
+    },
+    {
       "id": "58474c1ce0-v1",
       "groepId": "58474c1ce0",
       "versie": 1,
@@ -883,7 +936,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "429662ee60-v1",

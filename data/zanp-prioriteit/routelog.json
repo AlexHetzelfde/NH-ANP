@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-26T14:00:54.113Z",
+  "gegenereerdOp": "2026-11-26T14:58:53.342Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 777,
-    "verhalen": 608,
+    "stukken": 780,
+    "verhalen": 609,
     "metMeerStukken": 80,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 3,
+    "aiGevraagd": 1,
     "aiBanden": 0,
     "metRoute": 4,
     "nieuwRood": 0,
@@ -302,9 +302,9 @@
       "id": "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/c996f16f-b73e-4a25-a3ab-d5d09ea9848e",
       "kop": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen",
       "meting": {
-        "stukken": 6,
+        "stukken": 7,
         "media": 1,
-        "mediaStukken": 1,
+        "mediaStukken": 2,
         "echo": 0,
         "onafhankelijk": 3,
         "dagen": 4,
@@ -353,6 +353,13 @@
           "datum": "2026-11-25T11:00:50.171Z",
           "type": "incident",
           "titel": "Stroomstoring in Landsmeer"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/identiteit-en-voorzieningen-centraal-in-verder-overleg-oostzaan-purmerend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": null,
+          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Pur…"
         },
         {
           "k": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457",
@@ -679,6 +686,44 @@
       ]
     },
     {
+      "id": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
+      "kop": "Ouders verongelukte Finn (21) laten hem voortleven in boek",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-24T10:30:00.000Z",
+        "laatste": "2026-11-26T08:39:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-24T10:30:00.000Z",
+          "type": null,
+          "titel": "Ouders verongelukte Finn (21) laten hem voortleven in boek"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513706/edith-en-roy-uit-westzaan-schrijven-boek-over-hun-plotseling-overleden-zoon-finn-21-",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-26T08:39:00.000Z",
+          "type": null,
+          "titel": "Edith en Roy uit Westzaan schrijven boek over hun plotseling overlede…"
+        },
+        {
+          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513706/edith-en-roy-uit-zaandam-schrijven-boek-over-hun-plotseling-overleden-zoon-finn-21-",
+          "bron": "rodi-zaanstad",
+          "datum": "2026-11-26T08:39:00.000Z",
+          "type": null,
+          "titel": "Edith en Roy uit Zaandam schrijven boek over hun plotseling overleden…"
+        }
+      ]
+    },
+    {
       "id": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
       "kop": "In Zaanstad krijgt één op de negen jongeren jeugdzorg",
       "meting": {
@@ -923,37 +968,6 @@
           "datum": "2026-11-24T15:26:00.000Z",
           "type": null,
           "titel": "Storing zorgt voor 107 onterechte boetes van 139 euro op busbrug De B…"
-        }
-      ]
-    },
-    {
-      "id": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
-      "kop": "Ouders verongelukte Finn (21) laten hem voortleven in boek",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-24T10:30:00.000Z",
-        "laatste": "2026-11-26T08:39:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "b:https://zaanstad.nieuws.nl/actueel/ouders-verongelukte-finn-21-laten-hem-voortleven-in-boek",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-24T10:30:00.000Z",
-          "type": null,
-          "titel": "Ouders verongelukte Finn (21) laten hem voortleven in boek"
-        },
-        {
-          "k": "b:https://www.rodi.nl/zaanstad/nieuws/513706/edith-en-roy-uit-zaandam-schrijven-boek-over-hun-plotseling-overleden-zoon-finn-21-",
-          "bron": "rodi-zaanstad",
-          "datum": "2026-11-26T08:39:00.000Z",
-          "type": null,
-          "titel": "Edith en Roy uit Zaandam schrijven boek over hun plotseling overleden…"
         }
       ]
     },
