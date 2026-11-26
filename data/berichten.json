@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T17:01:01.944Z",
+  "gegenereerdOp": "2026-11-26T18:00:53.694Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T16:00:50.207Z",
-      "gecontroleerdOp": "2026-11-26T16:00:50.207Z",
+      "gecontroleerdOp": "2026-11-26T18:00:53.694Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -1001,7 +1001,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T13:00:49.133Z",
-      "gecontroleerdOp": "2026-11-26T16:00:50.207Z",
+      "gecontroleerdOp": "2026-11-26T18:00:53.694Z",
       "bronTitel": "Crowdfunding moet Roots aan de Zaan redden",
       "bronLengte": 3341,
       "checklist": {
