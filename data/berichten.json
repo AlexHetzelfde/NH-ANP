@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T07:00:55.388Z",
+  "gegenereerdOp": "2026-11-26T08:00:47.393Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,76 @@
   ],
   "berichten": [
     {
+      "id": "f3b9acb694-v1",
+      "groepId": "f3b9acb694",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
+      "kop": "Stroomstoring in Volendam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T07:21:00.000Z",
+      "heeftTijd": true,
+      "woorden": 57,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "bronTitel": "Stroomstoring in Volendam",
+      "bronLengte": 410,
+      "rood": {
+        "sinds": "2026-11-26T08:00:47.393Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "84753d50b9-v1",
+      "groepId": "84753d50b9",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/groot-onderhoud-rooswijk-twintig-weken-vertraagd-pas-in-april-2028-klaar-%f0%9f%93%b8/",
+      "kop": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 644,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
+      "bronLengte": 4304,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 8720000,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "859f6d749f-v1",
       "groepId": "859f6d749f",
       "versie": 1,
@@ -442,7 +512,71 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
+    },
+    {
+      "id": "424e244c7c-v1",
+      "groepId": "424e244c7c",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Schoorldammerbrug_bij_Warmenhuizen_meerdere_dagen_afgesloten_wegens_onderhoud",
+      "kop": "Schoorldammerbrug in Warmenhuizen drie dagen dicht voor onderhoud",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 2,
+      "tijd": "2026-11-25T17:22:52.000Z",
+      "heeftTijd": true,
+      "woorden": 355,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
+      "bronLengte": 2280,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Schoorldammerbrug gesloten voor onderhoud",
+          "dag": "2026-12-01",
+          "start": "2026-12-01T06:00:00.000Z",
+          "eind": "2026-12-01T18:00:00.000Z",
+          "plaats": "Schoorldammerbrug aan de Kanaalweg (N504) in Warmenhuizen",
+          "zekerheid": "afgeleid"
+        },
+        {
+          "titel": "Schoorldammerbrug gesloten voor onderhoud",
+          "dag": "2026-12-10",
+          "start": "2026-12-10T06:00:00.000Z",
+          "eind": "2026-12-10T18:00:00.000Z",
+          "plaats": "Schoorldammerbrug aan de Kanaalweg (N504) in Warmenhuizen",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "persType": {
+        "soort": "gepland",
+        "zin": "De Schoorldammerbrug aan de Kanaalweg (N504) in Warmenhuizen is in december 3 dagen gesloten voor autoverkeer wegens onderhoud."
+      },
+      "agendaIds": [
+        "bbd84cb984",
+        "e8cf280bb8"
+      ]
     },
     {
       "id": "6971a72fc2-v2",
@@ -826,7 +960,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "37bf991b6d"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "f0002442d3-v1",

@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T07:00:55.388Z",
+  "bijgewerkt": "2026-11-26T08:00:47.393Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4819,6 +4819,28 @@
       "t": "2026-11-24T23:00:00.000Z",
       "c": null,
       "r": "GEM"
+    },
+    "f3b9acb694": {
+      "g": "f3b9acb694",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
+      "k": "Stroomstoring in Volendam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-26T07:21:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "424e244c7c": {
+      "g": "424e244c7c",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Schoorldammerbrug_bij_Warmenhuizen_meerdere_dagen_afgesloten_wegens_onderhoud",
+      "k": "Schoorldammerbrug in Warmenhuizen drie dagen dicht voor onderhoud",
+      "bt": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-25T17:22:52.000Z",
+      "c": null,
+      "r": "VER"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T07:00:55.388Z",
+  "gegenereerdOp": "2026-11-26T08:00:47.393Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 723,
+    "stukken": 726,
     "bewijsStukken": 79,
-    "kandidaten": 65,
-    "metAnker": 65,
+    "kandidaten": 66,
+    "metAnker": 66,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 744,
-      "verhalen": 586,
+      "stukken": 747,
+      "verhalen": 589,
       "metMeerStukken": 77,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 1,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -168,8 +168,8 @@
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
       "soort": "nieuws",
       "kop": "Provinciehuis kleurt oranje voor Orange the World",
-      "S": 0.25,
-      "Sa": 0.25,
+      "S": 0.24,
+      "Sa": 0.24,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.66,
@@ -257,12 +257,12 @@
       "key": "a:a7d8a22d6c",
       "soort": "agenda",
       "kop": "WC-Symposium",
-      "S": 0.22,
-      "Sa": 0.22,
+      "S": 0.21,
+      "Sa": 0.21,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.58,
-      "Kp": 0.35,
+      "Kp": 0.34,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -341,8 +341,8 @@
       "key": "a:aea0d9f918",
       "soort": "agenda",
       "kop": "Last onder bestuursdwang sluiting bedrijfspand Rak 39 te Westzaan",
-      "S": 0.21,
-      "Sa": 0.21,
+      "S": 0.2,
+      "Sa": 0.2,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.17,
@@ -450,7 +450,7 @@
       "Sa": 0.11,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.58,
+      "K": 0.57,
       "Kp": 0.42,
       "n": 1,
       "dagen": 1,
@@ -581,6 +581,36 @@
           "c": 0.62,
           "plek": "intro",
           "titel": "Besluiten Provinciale Staten van Noord-Holland 9 november 2026"
+        }
+      ]
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
+      "soort": "nieuws",
+      "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
+      "S": 0.04,
+      "Sa": 0.04,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.54,
+      "Kp": 0.35,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "stolperbrug",
+        "verkersstop",
+        "schepvart",
+        "wegverker",
+        "stolperbasculebrug"
+      ],
+      "bewijs": [
+        {
+          "bron": "nh-actueel",
+          "datum": "2026-11-09T11:55:56.000Z",
+          "c": 0.63,
+          "plek": "intro",
+          "titel": "Koopvaardersschutsluis in Den Helder op 26 november tijdelijk gestremd"
         }
       ]
     },
@@ -833,33 +863,6 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-deb16c",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0.02,
-      "Sa": 0.02,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "landsmer",
-        "kanaldijk"
-      ],
-      "bewijs": [
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        }
-      ]
-    },
-    {
       "key": "a:0074fed529",
       "soort": "agenda",
       "kop": "Workshop: Participatie bij opvanglocaties en Hoe ga je om met emoties bij participatie",
@@ -1040,6 +1043,47 @@
       "bewijs": []
     },
     {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Volendam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "volendam",
+        "begerslant",
+        "bonacker",
+        "damcogh",
+        "hemme"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Schoorldammerbrug_bij_Warmenhuizen_meerdere_dagen_afgesloten_wegens_onderhoud",
+      "soort": "nieuws",
+      "kop": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.49,
+      "Kp": 0.3,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "schorldammerbrug",
+        "warmenhuiz"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/De_Sandvennen_versterkt_Heemskerk_tegen_wateroverlast",
       "soort": "nieuws",
       "kop": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
@@ -1145,49 +1189,6 @@
         "vriesstrat",
         "scharstrat",
         "hendrik"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/4c234012-3d9f-440a-87d9-e90e9b8c2741",
-      "soort": "nieuws",
-      "kop": "Start Omgevingsprogramma Volkshuisvesting Zaanstad",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.38,
-      "Kp": 0.22,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "omgevingsprogramma",
-        "volkshuisvesting",
-        "start",
-        "wonvisi"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7e90c069-f09b-4d84-a45e-22047f85fd5d",
-      "soort": "nieuws",
-      "kop": "Input voor de gemeenteraadsvergaderingen over de Zaanse Schans",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.33,
-      "Kp": 0.23,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "input",
-        "gementeradsvergadering",
-        "schan",
-        "bewonersvereniging",
-        "radstuk"
       ],
       "bewijs": []
     }
@@ -4000,6 +4001,14 @@
         "n": 1,
         "bronnen": 1
       },
+      "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug": {
+        "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
+        "S": 0.04,
+        "route": "aanhoudend",
+        "K": 0.54,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547095.html": {
         "kop": "Verordening parkeerbelastingen Zaanstad 2026",
         "S": 0.03,
@@ -4049,14 +4058,6 @@
         "bronnen": 1
       },
       "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d": {
-        "kop": "Stroomstoring in Landsmeer",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.56,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-24-deb16c": {
         "kop": "Stroomstoring in Landsmeer",
         "S": 0.02,
         "route": "aanhoudend",
