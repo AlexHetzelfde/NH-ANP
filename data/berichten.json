@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T08:00:47.393Z",
+  "gegenereerdOp": "2026-11-26T09:00:48.470Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -434,7 +434,78 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "bd7e75ce47-v1",
+      "groepId": "bd7e75ce47",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-cd68fa",
+      "kop": "Stroomstoring in Volendam",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T07:10:00.000Z",
+      "heeftTijd": true,
+      "woorden": 57,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-26T09:00:48.470Z",
+      "gecontroleerdOp": "2026-11-26T09:00:48.470Z",
+      "bronTitel": "Stroomstoring in Volendam",
+      "bronLengte": 410,
+      "rood": {
+        "sinds": "2026-11-26T09:00:48.470Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
       }
+    },
+    {
+      "id": "0a5c567ddc-v1",
+      "groepId": "0a5c567ddc",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/verlengde-stellingweg-komend-weekend-dicht/",
+      "kop": "Verlengde Stellingweg komend weekend dicht 🎥",
+      "tekst": null,
+      "rubriek": "VER",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 199,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T09:00:48.470Z",
+      "gecontroleerdOp": "2026-11-26T09:00:48.470Z",
+      "bronTitel": "Verlengde Stellingweg komend weekend dicht 🎥",
+      "bronLengte": 1270,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "84753d50b9-v1",
@@ -473,7 +544,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "859f6d749f-v1",
@@ -576,7 +648,8 @@
       "agendaIds": [
         "bbd84cb984",
         "e8cf280bb8"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "6971a72fc2-v2",
@@ -13138,44 +13211,6 @@
       "analyse": true,
       "tagVersie": 2,
       "alleenAgenda": true
-    },
-    {
-      "id": "57352072e8-v1",
-      "groepId": "57352072e8",
-      "versie": 1,
-      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_betrekt_belanghebbenden_bij_aanpak_stikstof_en_natuurherstel",
-      "kop": "Provincie Noord-Holland stelt participatieplan vast voor stikstof en natuurherstel",
-      "tekst": null,
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "officieel",
-      "prio": 3,
-      "tijd": "2026-11-12T08:04:04.000Z",
-      "heeftTijd": true,
-      "woorden": 449,
-      "afgekapt": false,
-      "bronId": "nh-actueel",
-      "bronNaam": "Provincie Noord-Holland — Actueel",
-      "ai": true,
-      "controle": "cijfers-ok",
-      "eerstGezienOp": "2026-11-12T10:52:59.944Z",
-      "gecontroleerdOp": "2026-11-13T06:30:43.224Z",
-      "bronTitel": "Provincie betrekt belanghebbenden bij aanpak stikstof en natuurherstel",
-      "bronLengte": 3191,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "tagVersie": 2
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T08:00:47.393Z",
+  "gegenereerdOp": "2026-11-26T09:00:48.470Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 3,
-      "lokaal": 3,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 0,
+    "bewijsNieuw": 2,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 726,
-    "bewijsStukken": 79,
-    "kandidaten": 66,
-    "metAnker": 66,
+    "stukken": 728,
+    "bewijsStukken": 81,
+    "kandidaten": 64,
+    "metAnker": 64,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 747,
-      "verhalen": 589,
+      "stukken": 751,
+      "verhalen": 592,
       "metMeerStukken": 77,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 3,
       "aiBanden": 0,
-      "metRoute": 2,
+      "metRoute": 3,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 2
@@ -204,7 +204,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.58,
-      "Kp": 0.29,
+      "Kp": 0.28,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -261,7 +261,7 @@
       "Sa": 0.21,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.58,
+      "K": 0.57,
       "Kp": 0.34,
       "n": 1,
       "dagen": 1,
@@ -298,7 +298,7 @@
       "Sa": 0.21,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.89,
+      "K": 0.88,
       "Kp": 0.6,
       "n": 3,
       "dagen": 3,
@@ -388,7 +388,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.9,
-      "Kp": 0.61,
+      "Kp": 0.6,
       "n": 2,
       "dagen": 1,
       "bronnen": 2,
@@ -411,34 +411,6 @@
           "c": 0.87,
           "plek": "kop",
           "titel": "Verblijfsontzegging voor overlast gevende jongeren bij De Tref en Gibraltar"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/broek-in-waterland-2026-11-24-79d24f",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Broek in Waterland",
-      "S": 0.15,
-      "Sa": 0.15,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.67,
-      "Kp": 0.44,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "broek",
-        "waterland",
-        "dokter"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-ingekomen-stukken",
-          "datum": "2026-11-18T23:00:00.000Z",
-          "c": 0.73,
-          "plek": "intro",
-          "titel": "Besluit AB l Stichting KCR2"
         }
       ]
     },
@@ -1044,6 +1016,28 @@
     },
     {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Volendam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "volendam",
+        "begerslant",
+        "bonacker",
+        "damcogh",
+        "hemme"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-cd68fa",
       "soort": "nieuws",
       "kop": "Stroomstoring in Volendam",
       "S": 0,
