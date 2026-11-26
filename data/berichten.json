@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-25T23:00:47.333Z",
+  "gegenereerdOp": "2026-11-26T00:00:49.088Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -425,7 +425,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -508,7 +508,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
       "bronLengte": 3885,
       "checklist": {
@@ -620,7 +620,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -1517,7 +1517,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -1570,7 +1570,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -1610,7 +1610,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
       "bronLengte": 711,
       "checklist": {
@@ -1650,7 +1650,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -1690,7 +1690,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -1730,7 +1730,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Gele biggen op Savornin Lohmanstraat",
       "bronLengte": 1444,
       "checklist": {
@@ -1770,7 +1770,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -1810,7 +1810,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Woningsluiting Nienke van Hichtumstraat: politie ziet 104 gram cocaïne, advocaat 0,21 gram",
       "bronLengte": 5707,
       "checklist": {
@@ -1850,7 +1850,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-25T21:01:00.562Z",
+      "gecontroleerdOp": "2026-11-26T00:00:49.088Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
