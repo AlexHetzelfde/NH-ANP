@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T09:00:48.470Z",
+  "bijgewerkt": "2026-11-26T10:00:49.318Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4852,6 +4852,17 @@
       "t": "2026-11-26T07:10:00.000Z",
       "c": null,
       "r": "112"
+    },
+    "7515a08bcd": {
+      "g": "7515a08bcd",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6f1574e7-0e4e-4333-af60-8545713561a2",
+      "k": "POV en PVV stellen vragen over opname Jagersveld in regeling Twiske-Waterland",
+      "bt": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "b": "zaanstad-schriftelijke-vragen",
+      "n": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "t": "2026-11-26T10:00:51.475Z",
+      "c": null,
+      "r": "GEM"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T09:00:48.470Z",
+  "gegenereerdOp": "2026-11-26T10:00:49.318Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,53 @@
   ],
   "berichten": [
     {
+      "id": "7515a08bcd-v1",
+      "groepId": "7515a08bcd",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6f1574e7-0e4e-4333-af60-8545713561a2",
+      "kop": "POV en PVV stellen vragen over opname Jagersveld in regeling Twiske-Waterland",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "bron",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T10:00:51.475Z",
+      "heeftTijd": true,
+      "woorden": 324,
+      "afgekapt": false,
+      "bronId": "zaanstad-schriftelijke-vragen",
+      "bronNaam": "Gemeente Zaanstad: schriftelijke vragen (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "bronTitel": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "bronLengte": 2102,
+      "vraag": {
+        "status": "gesteld",
+        "nummer": "1040",
+        "onderwerp": "Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+        "datumVraag": "2026-11-23",
+        "datumAntwoord": null,
+        "verwachteAfdoening": "2026-12-29",
+        "raadsleden": [
+          "Barends, Menno",
+          "Velden, Perry van der"
+        ],
+        "steunfractieleden": [],
+        "partijen": [
+          "POV",
+          "PVV"
+        ],
+        "portefeuillehouders": [
+          "'t Veer, van J."
+        ]
+      },
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
       "id": "f3b9acb694-v1",
       "groepId": "f3b9acb694",
       "versie": 1,
@@ -425,7 +472,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Stroomstoring in Volendam",
       "bronLengte": 410,
       "rood": {
@@ -466,7 +513,112 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "913e23cbb7-v1",
+      "groepId": "913e23cbb7",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/gelijkspel-az-19-bij-rangers-fc-in-youth-league-%f0%9f%8e%a7/",
+      "kop": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 502,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
+      "bronLengte": 2851,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "return in Youth League",
+          "dag": "2026-12-08",
+          "start": null,
+          "eind": null,
+          "plaats": "Wijdewormer",
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "bb6d61cb57"
+      ]
+    },
+    {
+      "id": "f19a8d6b28-v1",
+      "groepId": "f19a8d6b28",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/beide-directeuren-pact-zaandam-oost-stoppen-dz-stelt-35-raadsvragen/",
+      "kop": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 566,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T10:00:49.318Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
+      "bronTitel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
+      "bronLengte": 4001,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": true,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "Zaanstad Beraad",
+          "dag": "2026-12-10",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "3baf2860f1"
+      ]
     },
     {
       "id": "0a5c567ddc-v1",
@@ -505,7 +657,8 @@
       },
       "checklistBron": "ai",
       "analyse": true,
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "84753d50b9-v1",
@@ -527,7 +680,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
       "bronLengte": 4304,
       "checklist": {
@@ -567,7 +720,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Zie de maan…",
       "bronLengte": 765,
       "checklist": {
@@ -607,7 +760,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T08:00:47.393Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
       "bronLengte": 2280,
       "checklist": {
@@ -671,7 +824,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -754,7 +907,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
       "bronLengte": 3885,
       "checklist": {
@@ -866,7 +1019,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -1003,7 +1156,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
       "bronLengte": 3774,
       "checklist": {
@@ -1816,7 +1969,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -1869,7 +2022,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -1909,7 +2062,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
       "bronLengte": 711,
       "checklist": {
@@ -1949,7 +2102,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -1989,7 +2142,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -2029,7 +2182,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T10:00:49.318Z",
       "bronTitel": "Gele biggen op Savornin Lohmanstraat",
       "bronLengte": 1444,
       "checklist": {

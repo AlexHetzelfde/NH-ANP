@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T09:00:48.470Z",
+  "gegenereerdOp": "2026-11-26T10:00:49.318Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 2,
-      "lokaal": 2,
+      "werklijst": 3,
+      "lokaal": 3,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 2,
+    "bewijsNieuw": 0,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 728,
+    "stukken": 731,
     "bewijsStukken": 81,
-    "kandidaten": 64,
-    "metAnker": 64,
+    "kandidaten": 65,
+    "metAnker": 65,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 751,
-      "verhalen": 592,
-      "metMeerStukken": 77,
+      "stukken": 754,
+      "verhalen": 595,
+      "metMeerStukken": 78,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 3,
+      "aiGevraagd": 2,
       "aiBanden": 0,
       "metRoute": 3,
       "nieuwRood": 0,
@@ -161,6 +161,36 @@
           "c": 0.61,
           "plek": "intro",
           "titel": "Flexibiliteit in begrotingsuitwerking voor OV en deelmobiliteit"
+        }
+      ]
+    },
+    {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3618e7b-a471-457c-bf28-97e387fb3800",
+      "soort": "nieuws",
+      "kop": "Kennisgeving wethouder Sahin: Vertrek programmadirecteuren Pact Zaandam Oost",
+      "S": 0.27,
+      "Sa": 0.27,
+      "Sp": 0,
+      "route": "aanhoudend",
+      "K": 0.16,
+      "Kp": 0,
+      "n": 1,
+      "dagen": 1,
+      "bronnen": 1,
+      "ankers": [
+        "sahin",
+        "vertrek",
+        "programmadirecteur",
+        "pactpartner",
+        "pact"
+      ],
+      "bewijs": [
+        {
+          "bron": "DeOrkaan",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "c": 1,
+          "plek": "kop",
+          "titel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen"
         }
       ]
     },
@@ -1015,6 +1045,29 @@
       "bewijs": []
     },
     {
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/6f1574e7-0e4e-4333-af60-8545713561a2",
+      "soort": "nieuws",
+      "kop": "Schriftelijke vragen: Artikel 51-vragen POV inzake Opname Jagersveld in de Gemeenschappelijke Regeling (GR) Twiske-Waterland (TW-WL)",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.1,
+      "Kp": 0,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "opnam",
+        "gemenschappelijk",
+        "jagersveld",
+        "twisk",
+        "regeling",
+        "waterland"
+      ],
+      "bewijs": []
+    },
+    {
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
       "soort": "nieuws",
       "kop": "Stroomstoring in Volendam",
@@ -1140,49 +1193,6 @@
         "metbureaus",
         "werkvergunning",
         "bemoeilijkt"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormerveer-2026-11-25-86c0a0",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Wormerveer",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "rosbayerweg",
-        "pardweg",
-        "vlinderweg",
-        "norddijk",
-        "witte"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/zaandijk-2026-11-25-999e13",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Zaandijk",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.61,
-      "Kp": 0.49,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "antoni",
-        "vriesstrat",
-        "scharstrat",
-        "hendrik"
       ],
       "bewijs": []
     }
@@ -3875,6 +3885,14 @@
         "n": 4,
         "bronnen": 1
       },
+      "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3618e7b-a471-457c-bf28-97e387fb3800": {
+        "kop": "Kennisgeving wethouder Sahin: Vertrek programmadirecteuren Pact Zaandam Oost",
+        "S": 0.27,
+        "route": "aanhoudend",
+        "K": 0.16,
+        "n": 1,
+        "bronnen": 1
+      },
       "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World": {
         "kop": "Provinciehuis kleurt oranje voor Orange the World",
         "S": 0.25,
@@ -4048,14 +4066,6 @@
         "S": 0.02,
         "route": "aanhoudend",
         "K": 0.53,
-        "n": 1,
-        "bronnen": 1
-      },
-      "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-25-23d37d": {
-        "kop": "Stroomstoring in Landsmeer",
-        "S": 0.02,
-        "route": "aanhoudend",
-        "K": 0.56,
         "n": 1,
         "bronnen": 1
       }
