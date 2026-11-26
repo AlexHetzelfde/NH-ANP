@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T16:00:50.207Z",
+  "gegenereerdOp": "2026-11-26T17:01:01.944Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -443,7 +443,8 @@
       "checklistBron": "ai",
       "persType": {
         "soort": "overig"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "1bbd327215-v1",
@@ -465,7 +466,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T14:00:54.113Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -635,7 +636,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -690,7 +691,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3622,
       "checklist": {
@@ -907,7 +908,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T14:58:53.342Z",
-      "gecontroleerdOp": "2026-11-26T14:58:53.342Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
       "bronLengte": 3179,
       "checklist": {
@@ -960,7 +961,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T14:00:54.113Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
       "bronLengte": 1180,
       "checklist": {
@@ -1061,7 +1062,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "De Orkaan in 2 minuten: 26 november 🎧",
       "bronLengte": 309,
       "checklist": {
@@ -1101,7 +1102,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Wie wordt de OEN van 2026? Doe mee!",
       "bronLengte": 1077,
       "checklist": {
@@ -1245,7 +1246,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Vertraging voor Peperstraat: nog geen aannemer voor parkeergarage",
       "bronLengte": 1474,
       "checklist": {
@@ -1285,7 +1286,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
       "bronLengte": 2851,
       "checklist": {
@@ -1338,7 +1339,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
       "bronLengte": 4001,
       "checklist": {
@@ -1391,7 +1392,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T09:00:48.470Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Verlengde Stellingweg komend weekend dicht 🎥",
       "bronLengte": 1270,
       "checklist": {
@@ -1431,7 +1432,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
       "bronLengte": 4304,
       "checklist": {
@@ -1471,7 +1472,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Zie de maan…",
       "bronLengte": 765,
       "checklist": {
@@ -1511,7 +1512,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
       "bronLengte": 2280,
       "checklist": {
@@ -1911,7 +1912,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T17:01:01.944Z",
       "bronTitel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
       "bronLengte": 3774,
       "checklist": {
