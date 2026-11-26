@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T15:00:49.992Z",
+  "bijgewerkt": "2026-11-26T16:00:50.207Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4971,6 +4971,17 @@
       "b": "nh-actueel",
       "n": "Provincie Noord-Holland — Actueel",
       "t": "2026-11-26T13:26:23.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "c09e4f7369": {
+      "g": "c09e4f7369",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/7_locaties_gevonden_in_onderzoek_naar_toepassing_staalslakken_provinciale_infrastructuur",
+      "k": "Provincie vindt zeven locaties met staalslakken in provinciale infrastructuur",
+      "bt": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-26T16:21:50.000Z",
       "c": null,
       "r": "PRV"
     }
