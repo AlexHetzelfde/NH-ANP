@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T06:00:55.559Z",
+  "gegenereerdOp": "2026-11-26T07:00:55.388Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,8 +10,8 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
-      "lokaal": 0,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
@@ -20,7 +20,7 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 721,
+    "stukken": 723,
     "bewijsStukken": 79,
     "kandidaten": 65,
     "metAnker": 65,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 742,
+      "stukken": 744,
       "verhalen": 586,
       "metMeerStukken": 77,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 2,
       "nieuwRood": 0,
@@ -56,38 +56,38 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e",
       "soort": "nieuws",
       "kop": "Stroomstoring in Wormer",
-      "S": 0.7,
-      "Sa": 0.7,
+      "S": 0.76,
+      "Sa": 0.76,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 1,
       "Kp": 0.73,
-      "n": 18,
-      "dagen": 14,
+      "n": 19,
+      "dagen": 15,
       "bronnen": 2,
       "ankers": [
-        "zandweg",
-        "wormer"
+        "wormer",
+        "zandweg"
       ],
       "bewijs": [
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-12T23:00:00.000Z",
-          "c": 0.91,
+          "c": 0.92,
           "plek": "kop",
           "titel": "Besluit sportcomplex Wormer weer uitgesteld"
         },
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-03T23:00:00.000Z",
-          "c": 0.9,
+          "c": 0.91,
           "plek": "kop",
           "titel": "Topkolf in ’t Moriaanshoofd in Wormer"
         },
         {
           "bron": "DeOrkaan",
           "datum": "2026-11-22T23:00:00.000Z",
-          "c": 0.9,
+          "c": 0.91,
           "plek": "kop",
           "titel": "Bromfietser gewond bij aanrijding op Rouenweg in Wormer"
         },
@@ -124,8 +124,8 @@
         "implementati",
         "metronetwerk",
         "toezegging",
-        "beantwording",
         "moeskop",
+        "beantwording",
         "regiorad",
         "matregel",
         "terugkom",
@@ -151,7 +151,7 @@
         {
           "bron": "vervoerregio-overzichten",
           "datum": "2026-11-22T23:00:00.000Z",
-          "c": 0.69,
+          "c": 0.68,
           "plek": "intro",
           "titel": "Aanvullende vragen nieuwe ov-abonnementenstructuur"
         },
@@ -383,8 +383,8 @@
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547894.html",
       "soort": "nieuws",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving Gibraltar te Zaandam",
-      "S": 0.17,
-      "Sa": 0.17,
+      "S": 0.16,
+      "Sa": 0.16,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.9,
@@ -3866,10 +3866,10 @@
     "2026-11-26": {
       "n:https://www.stroomstoringkaart.nl/storing/2026/wormer-2026-11-24-54437e": {
         "kop": "Stroomstoring in Wormer",
-        "S": 0.71,
+        "S": 0.76,
         "route": "aanhoudend",
         "K": 1,
-        "n": 18,
+        "n": 19,
         "bronnen": 2
       },
       "n:https://vervoerregio.bestuurlijkeinformatie.nl/Reports/Item/3c86e354-508d-47ac-889a-93a6cf5cda23": {

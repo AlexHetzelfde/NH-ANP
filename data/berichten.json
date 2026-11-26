@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T06:00:55.559Z",
+  "gegenereerdOp": "2026-11-26T07:00:55.388Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,45 @@
   ],
   "berichten": [
     {
+      "id": "859f6d749f-v1",
+      "groepId": "859f6d749f",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zie-de-maan/",
+      "kop": "Zie de maan…",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 131,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "bronTitel": "Zie de maan…",
+      "bronLengte": 765,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "6971a72fc2-v2",
       "groepId": "6971a72fc2",
       "versie": 2,
@@ -425,7 +464,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -508,7 +547,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Busreizigers in NoordWest Noord-Holland reizen vanaf juli 2028 met Arriva",
       "bronLengte": 3885,
       "checklist": {
@@ -620,7 +659,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -736,6 +775,58 @@
         "label": "stroomstoring"
       },
       "tagVersie": 2
+    },
+    {
+      "id": "73c056ea04-v1",
+      "groepId": "73c056ea04",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zaanse-schans-vrijwillige-bijdrage-werkt-eigenlijk-nergens-en-is-nooit-kostendekkend/",
+      "kop": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-24T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 568,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T07:00:55.388Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
+      "bronTitel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
+      "bronLengte": 3774,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "agendapunten": [
+        {
+          "titel": "de raad besluiten of wethouder Karst inderdaad aan die bestuursopdracht mag gaan werken",
+          "dag": "2026-11-26",
+          "start": null,
+          "eind": null,
+          "plaats": null,
+          "zekerheid": "afgeleid"
+        }
+      ],
+      "analyse": true,
+      "alleenAgenda": true,
+      "agendaIds": [
+        "37bf991b6d"
+      ]
     },
     {
       "id": "f0002442d3-v1",
@@ -1517,7 +1608,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -1570,7 +1661,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T14:00:50.956Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Al bijna zeven jaar wachtgeld, oud-wethouder sleept Zaanstad voor de rechter",
       "bronLengte": 5995,
       "checklist": {
@@ -1610,7 +1701,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:36:03.304Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Vrachtwagen verliest laadbak bij botsing op N203 in Krommenie",
       "bronLengte": 711,
       "checklist": {
@@ -1650,7 +1741,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "De Orkaan in 2 minuten: 25 november 🎧",
       "bronLengte": 333,
       "checklist": {
@@ -1690,7 +1781,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T12:00:48.864Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Bezwaren tegen nieuwbouw De Pijl Wormerveer afgewezen",
       "bronLengte": 2386,
       "checklist": {
@@ -1730,7 +1821,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T11:00:50.171Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Gele biggen op Savornin Lohmanstraat",
       "bronLengte": 1444,
       "checklist": {
@@ -1770,7 +1861,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T10:00:46.652Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Help! Juf Rubia is haar ‘benen’ kwijt: brommer gestolen in Westerkoog",
       "bronLengte": 1589,
       "checklist": {
@@ -1810,7 +1901,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T09:00:45.829Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Woningsluiting Nienke van Hichtumstraat: politie ziet 104 gram cocaïne, advocaat 0,21 gram",
       "bronLengte": 5707,
       "checklist": {
@@ -1850,7 +1941,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T08:00:44.280Z",
-      "gecontroleerdOp": "2026-11-26T04:54:58.342Z",
+      "gecontroleerdOp": "2026-11-26T07:00:55.388Z",
       "bronTitel": "Snoep voor het oog: truck ✨📸",
       "bronLengte": 489,
       "checklist": {
