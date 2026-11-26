@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T18:00:53.694Z",
+  "gegenereerdOp": "2026-11-26T19:00:48.872Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,9 +10,9 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 0,
+      "werklijst": 1,
       "lokaal": 0,
-      "opgehaald": 0,
+      "opgehaald": 1,
       "mislukt": 0,
       "uitgesteld": 0
     },
@@ -20,10 +20,10 @@
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 749,
+    "stukken": 750,
     "bewijsStukken": 94,
-    "kandidaten": 66,
-    "metAnker": 66,
+    "kandidaten": 64,
+    "metAnker": 64,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 785,
-      "verhalen": 613,
+      "stukken": 786,
+      "verhalen": 614,
       "metMeerStukken": 81,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 0,
+      "aiGevraagd": 1,
       "aiBanden": 0,
       "metRoute": 4,
       "nieuwRood": 0,
@@ -57,7 +57,7 @@
       "soort": "nieuws",
       "kop": "Stroomstoring in Landsmeer",
       "S": 0.5,
-      "Sa": 0.43,
+      "Sa": 0.42,
       "Sp": 0.5,
       "route": "piek",
       "K": 0.78,
@@ -172,36 +172,6 @@
       ]
     },
     {
-      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3618e7b-a471-457c-bf28-97e387fb3800",
-      "soort": "nieuws",
-      "kop": "Kennisgeving wethouder Sahin: Vertrek programmadirecteuren Pact Zaandam Oost",
-      "S": 0.26,
-      "Sa": 0.26,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.16,
-      "Kp": 0,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "sahin",
-        "vertrek",
-        "programmadirecteur",
-        "pactpartner",
-        "pact"
-      ],
-      "bewijs": [
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-25T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen"
-        }
-      ]
-    },
-    {
       "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provinciehuis_kleurt_oranje_voor_Orange_the_World",
       "soort": "nieuws",
       "kop": "Provinciehuis kleurt oranje voor Orange the World",
@@ -240,7 +210,7 @@
       "Sa": 0.22,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.58,
+      "K": 0.57,
       "Kp": 0.28,
       "n": 1,
       "dagen": 1,
@@ -269,7 +239,7 @@
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.56,
-      "Kp": 0.34,
+      "Kp": 0.33,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -1184,6 +1154,28 @@
         "chromstrat",
         "energiestrat",
         "zambezilan"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/volendam-2026-11-26-4280e6",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Volendam",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.61,
+      "Kp": 0.49,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "volendam",
+        "begerslant",
+        "bonacker",
+        "damcogh",
+        "hemme"
       ],
       "bewijs": []
     }
