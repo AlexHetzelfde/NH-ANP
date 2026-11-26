@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T13:00:49.133Z",
+  "gegenereerdOp": "2026-11-26T14:00:54.113Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,47 @@
   ],
   "berichten": [
     {
+      "id": "1bbd327215-v1",
+      "groepId": "1bbd327215",
+      "versie": 1,
+      "url": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
+      "kop": "Provincie investeert 4,3 miljoen euro in projecten voor betere bereikbaarheid Alkmaar",
+      "tekst": null,
+      "rubriek": "PRV",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T13:26:23.000Z",
+      "heeftTijd": true,
+      "woorden": 365,
+      "afgekapt": false,
+      "bronId": "nh-actueel",
+      "bronNaam": "Provincie Noord-Holland — Actueel",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
+      "bronLengte": 2461,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 4300000,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "De provincie Noord-Holland investeert € 4,3 miljoen in projecten die de bereikbaarheid van Alkmaar en omgeving verbeteren."
+      }
+    },
+    {
       "id": "5c00af8a79-v1",
       "groepId": "5c00af8a79",
       "versie": 1,
@@ -434,7 +475,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "4f304ea91e-v1",
@@ -497,7 +539,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "fe57bf176c-v1",
@@ -551,7 +594,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -606,7 +649,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3622,
       "checklist": {
@@ -736,7 +779,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "f3b9acb694-v1",
@@ -803,6 +847,45 @@
       "tagVersie": 2
     },
     {
+      "id": "58474c1ce0-v1",
+      "groepId": "58474c1ce0",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/waarheen-paul-haenen-cadeautjesmarkt-probieren/",
+      "kop": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 181,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-26T14:00:54.113Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
+      "bronTitel": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
+      "bronLengte": 1180,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "429662ee60-v1",
       "groepId": "429662ee60",
       "versie": 1,
@@ -860,7 +943,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "5423b79723"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "286b0d51f6-v1",
@@ -882,7 +966,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "De Orkaan in 2 minuten: 26 november 🎧",
       "bronLengte": 309,
       "checklist": {
@@ -922,7 +1006,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Wie wordt de OEN van 2026? Doe mee!",
       "bronLengte": 1077,
       "checklist": {
@@ -1066,7 +1150,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Vertraging voor Peperstraat: nog geen aannemer voor parkeergarage",
       "bronLengte": 1474,
       "checklist": {
@@ -1106,7 +1190,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
       "bronLengte": 2851,
       "checklist": {
@@ -1159,7 +1243,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Beide directeuren Pact Zaandam-Oost stoppen: DZ stelt 35 raadsvragen",
       "bronLengte": 4001,
       "checklist": {
@@ -1212,7 +1296,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T09:00:48.470Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Verlengde Stellingweg komend weekend dicht 🎥",
       "bronLengte": 1270,
       "checklist": {
@@ -1252,7 +1336,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Groot onderhoud Rooswijk twintig weken vertraagd: pas in april 2028 klaar 📸",
       "bronLengte": 4304,
       "checklist": {
@@ -1292,7 +1376,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Zie de maan…",
       "bronLengte": 765,
       "checklist": {
@@ -1332,7 +1416,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T08:00:47.393Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Schoorldammerbrug bij Warmenhuizen meerdere dagen afgesloten wegens onderhoud",
       "bronLengte": 2280,
       "checklist": {
@@ -1396,7 +1480,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T17:00:50.587Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "De Sandvennen versterkt Heemskerk tegen wateroverlast",
       "bronLengte": 2071,
       "checklist": {
@@ -1595,7 +1679,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Provinciehuis kleurt oranje voor Orange the World",
       "bronLengte": 3036,
       "checklist": {
@@ -1732,7 +1816,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T07:00:55.388Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is nooit kostendekkend",
       "bronLengte": 3774,
       "checklist": {
@@ -2649,7 +2733,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-25T15:00:56.915Z",
-      "gecontroleerdOp": "2026-11-26T12:00:49.742Z",
+      "gecontroleerdOp": "2026-11-26T14:00:54.113Z",
       "bronTitel": "Vijf huizen, één familie en al vijf jaar gedoe over kamerverhuur",
       "bronLengte": 6000,
       "checklist": {
@@ -3237,14 +3321,7 @@
         "soort": "gepland",
         "zin": "Provinciale Staten nemen hierover naar verwachting op 1 februari 2027 een besluit."
       },
-      "tagVersie": 2,
-      "alertKandidaat": {
-        "niveau": "oranje",
-        "categorie": "bestuur",
-        "reden": "besluit met groot gevolg (officiële bron)",
-        "aangemaaktOp": "2026-11-25T14:00:50.956Z",
-        "tot": "2026-11-26T14:00:50.956Z"
-      }
+      "tagVersie": 2
     },
     {
       "id": "b3f6ac7d68-v1",

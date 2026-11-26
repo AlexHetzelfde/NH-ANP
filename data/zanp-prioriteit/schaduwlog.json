@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T13:00:49.133Z",
+  "gegenereerdOp": "2026-11-26T14:00:54.113Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -10,20 +10,20 @@
     "formule": "v4-22806000",
     "routes": "r1-d3346bca",
     "tekst": {
-      "werklijst": 4,
-      "lokaal": 4,
+      "werklijst": 2,
+      "lokaal": 2,
       "opgehaald": 0,
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 1,
+    "bewijsNieuw": 2,
     "vergeten": 0,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 745,
-    "bewijsStukken": 86,
-    "kandidaten": 72,
-    "metAnker": 72,
+    "stukken": 747,
+    "bewijsStukken": 88,
+    "kandidaten": 68,
+    "metAnker": 68,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,12 +38,12 @@
     },
     "rood": 4,
     "verhalen": {
-      "stukken": 773,
-      "verhalen": 605,
-      "metMeerStukken": 79,
+      "stukken": 777,
+      "verhalen": 608,
+      "metMeerStukken": 80,
       "bijgesneden": 0,
       "teGroot": 0,
-      "aiGevraagd": 4,
+      "aiGevraagd": 3,
       "aiBanden": 0,
       "metRoute": 4,
       "nieuwRood": 0,
@@ -418,8 +418,8 @@
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547896.html",
       "soort": "nieuws",
       "kop": "Aanwijzingsbesluit verblijfsontzegging omgeving De Tref te Zaandam",
-      "S": 0.21,
-      "Sa": 0.21,
+      "S": 0.2,
+      "Sa": 0.2,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.88,
@@ -430,8 +430,8 @@
       "ankers": [
         "verblijfsontzegging",
         "anwijzingsbesluit",
-        "omgeving",
         "tref",
+        "omgeving",
         "verstor",
         "vornamelijk",
         "algemen",
@@ -578,8 +578,8 @@
       "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547876.html",
       "soort": "nieuws",
       "kop": "Beleidsregel ontheffingsbevoegdheid Wet veilige jaarwisseling gemeente Zaanstad 2026",
-      "S": 0.11,
-      "Sa": 0.11,
+      "S": 0.1,
+      "Sa": 0.1,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.57,
@@ -713,36 +713,6 @@
           "c": 0.62,
           "plek": "intro",
           "titel": "Besluiten Provinciale Staten van Noord-Holland 9 november 2026"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Beperkingen_voor_scheepvaart_en_verkeersstops_voor_wegverkeer_tijdens_bouw_Stolperbrug",
-      "soort": "nieuws",
-      "kop": "Beperkingen voor scheepvaart en verkeersstops voor wegverkeer tijdens bouw Stolperbrug",
-      "S": 0.04,
-      "Sa": 0.04,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.54,
-      "Kp": 0.35,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "stolperbrug",
-        "verkersstop",
-        "schepvart",
-        "wegverker",
-        "stolperbasculebrug"
-      ],
-      "bewijs": [
-        {
-          "bron": "nh-actueel",
-          "datum": "2026-11-09T11:55:56.000Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Koopvaardersschutsluis in Den Helder op 26 november tijdelijk gestremd"
         }
       ]
     },
@@ -1118,6 +1088,29 @@
         "verwijder",
         "fluitekruidweg",
         "ladpal"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
+      "soort": "nieuws",
+      "kop": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.49,
+      "Kp": 0.3,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "bereikbarheid",
+        "investert",
+        "alkmar",
+        "kogendijk",
+        "beter",
+        "miljo"
       ],
       "bewijs": []
     },
