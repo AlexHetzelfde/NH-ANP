@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-27T08:06:56.776Z",
+  "bijgewerkt": "2026-11-27T18:08:26.880Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -5094,6 +5094,94 @@
       "t": "2026-11-25T23:00:00.000Z",
       "c": null,
       "r": "WON"
+    },
+    "dbf2cea2d5": {
+      "g": "dbf2cea2d5",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c757efec-bc55-40d1-a12f-b789f8cb0df3",
+      "k": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder",
+      "bt": "",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-27T18:08:28.561Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "65cfb7a30e": {
+      "g": "65cfb7a30e",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f",
+      "k": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
+      "bt": "",
+      "b": "zaanstad-moties",
+      "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
+      "t": "2026-11-27T18:08:28.561Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "e7a2315e8a": {
+      "g": "e7a2315e8a",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83",
+      "k": "Stroomstoring in Middenbeemster",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-27T15:59:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "ca8d021080": {
+      "g": "ca8d021080",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Onderzoeksresultaten_behoud_van_ruimte_voor_bedrijven_in_Noord_Holland",
+      "k": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T13:37:06.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "c4b3d65076": {
+      "g": "c4b3d65076",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Heel_Noord_Holland_gaat_weer_schaatsen",
+      "k": "Heel Noord-Holland gaat weer schaatsen",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T12:00:17.000Z",
+      "c": null,
+      "r": "SPO"
+    },
+    "e4223664c4": {
+      "g": "e4223664c4",
+      "u": "https://www.stroomstoringkaart.nl/storing/2026/zaandam-2026-11-27-df5260",
+      "k": "Stroomstoring in Zaandam",
+      "bt": "",
+      "b": "stroomstoringkaart",
+      "n": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "t": "2026-11-27T11:11:00.000Z",
+      "c": null,
+      "r": "112"
+    },
+    "b1524f6f7c": {
+      "g": "b1524f6f7c",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Werkzaamheden_N247_bij_gemaal_Katwoude",
+      "k": "Werkzaamheden N247 bij gemaal Katwoude",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T10:38:05.000Z",
+      "c": null,
+      "r": "PRV"
+    },
+    "7cc9261059": {
+      "g": "7cc9261059",
+      "u": "https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_Noord_Holland_blijft_werken_aan_minder_grondstoffengebruik",
+      "k": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
+      "bt": "",
+      "b": "nh-actueel",
+      "n": "Provincie Noord-Holland — Actueel",
+      "t": "2026-11-27T10:08:23.000Z",
+      "c": null,
+      "r": "PRV"
     }
   }
 }
