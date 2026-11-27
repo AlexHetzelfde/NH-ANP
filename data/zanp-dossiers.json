@@ -1,7 +1,7 @@
 {
   "versie": 1,
   "modus": "log",
-  "bijgewerkt": "2026-11-26T23:44:00.913Z",
+  "bijgewerkt": "2026-11-27T08:06:56.776Z",
   "dossiers": [
     {
       "id": "de44f0ea6",
@@ -184,6 +184,11 @@
     "actie": {
       "aantal": 5,
       "tijd": "2026-11-26T11:00:54.477Z",
+      "reden": "ai-nee"
+    },
+    "omgevingsdienst": {
+      "aantal": 5,
+      "tijd": "2026-11-27T08:06:56.776Z",
       "reden": "ai-nee"
     }
   }

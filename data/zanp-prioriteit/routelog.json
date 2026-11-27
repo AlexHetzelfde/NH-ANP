@@ -1,14 +1,14 @@
 {
-  "gegenereerdOp": "2026-11-26T23:44:00.913Z",
+  "gegenereerdOp": "2026-11-27T08:06:56.776Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 792,
-    "verhalen": 618,
-    "metMeerStukken": 82,
+    "stukken": 808,
+    "verhalen": 627,
+    "metMeerStukken": 85,
     "bijgesneden": 0,
     "teGroot": 0,
-    "aiGevraagd": 5,
+    "aiGevraagd": 6,
     "aiBanden": 0,
     "metRoute": 5,
     "nieuwRood": 0,
@@ -92,7 +92,7 @@
       "id": "n:https://www.deorkaan.nl/ook-loods-5-garage-vertrekt-uit-zaandam/",
       "kop": "Ook Loods 5 Garage vertrekt uit Zaandam",
       "meting": {
-        "stukken": 11,
+        "stukken": 12,
         "media": 2,
         "mediaStukken": 5,
         "echo": 0,
@@ -185,6 +185,13 @@
           "datum": "2026-11-24T23:00:00.000Z",
           "type": "uitkomst",
           "titel": "Besluitenlijst B&W 17-11-2026"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
+          "bron": "ibabs-collegeberichten",
+          "datum": "2026-11-25T23:00:00.000Z",
+          "type": "overig",
+          "titel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026…"
         },
         {
           "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
@@ -768,37 +775,6 @@
           "datum": "2026-11-26T08:39:00.000Z",
           "type": null,
           "titel": "Edith en Roy uit Zaandam schrijven boek over hun plotseling overleden…"
-        }
-      ]
-    },
-    {
-      "id": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
-      "kop": "In Zaanstad krijgt één op de negen jongeren jeugdzorg",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-10-29T23:00:00.000Z",
-        "laatste": "2026-11-25T13:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/in-zaanstad-krijgt-een-op-de-negen-jongeren-jeugdzorg/",
-          "bron": "DeOrkaan",
-          "datum": "2026-10-29T23:00:00.000Z",
-          "type": null,
-          "titel": "In Zaanstad krijgt één op de negen jongeren jeugdzorg"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/actueel/vooral-werkenden-steeds-vaker-ver-onder-armoedegrens",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-25T13:00:00.000Z",
-          "type": null,
-          "titel": "Vooral werkenden steeds vaker (ver) onder armoedegrens"
         }
       ]
     },

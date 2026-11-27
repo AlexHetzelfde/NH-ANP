@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-26T23:44:00.913Z",
+  "gegenereerdOp": "2026-11-27T08:06:56.776Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -412,8 +412,8 @@
       "url": "https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
       "kop": "Gemeenteraad verwerpt motie over verplichte participatie bij afwijkende bouwplannen",
       "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "bron",
+      "rubriek": "WON",
+      "tagBron": "trefwoord",
       "herkomst": "officieel",
       "prio": 3,
       "tijd": "2026-11-26T23:44:02.859Z",
@@ -471,7 +471,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 41% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "55278b5942-v1",
@@ -541,7 +542,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: aangenomen met 95% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "210dd9aea7-v1",
@@ -606,7 +608,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 22% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "1d9d2b24c1-v1",
@@ -674,7 +677,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 27% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "da913ad12d-v1",
@@ -742,7 +746,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 27% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "01516a7171-v1",
@@ -814,7 +819,8 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Uitslag: verworpen met 43% voor."
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "d8574705a5-v1",
@@ -884,7 +890,125 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "Motie verworpen: Regie met een duidelijke grens geen voldongen feiten in de Assendelverpolder"
-      }
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "da64d4b7a4-v1",
+      "groepId": "da64d4b7a4",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/hoogspanning-assendelft-raad-unaniem-tegen-verdeeld-over-aanpak/",
+      "kop": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 651,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Hoogspanning Assendelft: raad unaniem tegen, verdeeld over aanpak",
+      "bronLengte": 4361,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "284a0255b4-v1",
+      "groepId": "284a0255b4",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zaanse-raad-geeft-groen-licht-voor-padelbanen-westzaan/",
+      "kop": "Zaanse raad geeft groen licht voor padelbanen Westzaan",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 357,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Zaanse raad geeft groen licht voor padelbanen Westzaan",
+      "bronLengte": 2488,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": true,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
+      "id": "63308e779d-v1",
+      "groepId": "63308e779d",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/zie-de-maan-in-koogerpark/",
+      "kop": "Zie de maan… (in Koogerpark)",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 142,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Zie de maan… (in Koogerpark)",
+      "bronLengte": 833,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
     },
     {
       "id": "c09e4f7369-v1",
@@ -906,7 +1030,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T16:00:50.207Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
       "bronLengte": 3784,
       "checklist": {
@@ -928,6 +1052,47 @@
       "tagVersie": 2
     },
     {
+      "id": "7011a6b7a1-v1",
+      "groepId": "7011a6b7a1",
+      "versie": 1,
+      "url": "https://odnzkg.nl/nieuws/negatief-advies-voor-music-on-tent-is-terecht-gegeven/",
+      "kop": "Negatief advies Omgevingsdienst voor tent Music On festival was terecht",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-26T15:47:35.000Z",
+      "heeftTijd": true,
+      "woorden": 337,
+      "afgekapt": false,
+      "bronId": "omgevingsdienstnoordzeekanaal",
+      "bronNaam": "Omgevingsdienst Noordzeekanaalgebied",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Negatief advies voor Music On tent is terecht gegeven",
+      "bronLengte": 2338,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Uit deze evaluatie blijkt dat het negatieve advies van de Omgevingsdienst terecht is gegeven."
+      }
+    },
+    {
       "id": "1bbd327215-v1",
       "groepId": "1bbd327215",
       "versie": 1,
@@ -947,7 +1112,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T14:00:54.113Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
       "bronLengte": 2461,
       "checklist": {
@@ -1117,7 +1282,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Groen licht voor bouw 350 woningen in Stompetoren-West",
       "bronLengte": 2195,
       "checklist": {
@@ -1172,7 +1337,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Jongeren op de stoel Statenleden: “Iedereen moet zich veilig voelen”",
       "bronLengte": 3622,
       "checklist": {
@@ -1370,6 +1535,126 @@
       "tagVersie": 2
     },
     {
+      "id": "4b6904b931-v1",
+      "groepId": "4b6904b931",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
+      "kop": "Gemeente Zaanstad verlengt aanwijzing veiligheidsrisicogebied Zaandam-centrum niet",
+      "tekst": null,
+      "rubriek": "GEM",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 999,
+      "afgekapt": true,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
+      "bronLengte": 7300,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "uitkomst",
+        "zin": "Na overleg in de driehoek is besloten dit gebied niet te verlengen."
+      }
+    },
+    {
+      "id": "5729daca65-v1",
+      "groepId": "5729daca65",
+      "versie": 1,
+      "url": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
+      "kop": "College Zaanstad verstuurt erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel",
+      "tekst": null,
+      "rubriek": "WON",
+      "tagBron": "ai",
+      "herkomst": "officieel",
+      "prio": 4,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 256,
+      "afgekapt": false,
+      "bronId": "ibabs-collegeberichten",
+      "bronNaam": "Zaanstad — Collegeberichten (iBabs)",
+      "ai": true,
+      "controle": "cijfers-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
+      "bronLengte": 1886,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "persType": {
+        "soort": "overig"
+      }
+    },
+    {
+      "id": "7f59b53ea0-v1",
+      "groepId": "7f59b53ea0",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/lantaarnpalen-in-rooswijk-sneller-dan-het-licht-opgelost/",
+      "kop": "Lantaarnpalen in Rooswijk*: sneller dan het licht opgelost",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-25T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 333,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "analyse-ok",
+      "eerstGezienOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "bronTitel": "Lantaarnpalen in Rooswijk*: sneller dan het licht opgelost",
+      "bronLengte": 1990,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "ai",
+      "analyse": true,
+      "alleenAgenda": true
+    },
+    {
       "id": "c070e8b1bf-v1",
       "groepId": "c070e8b1bf",
       "versie": 1,
@@ -1389,7 +1674,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T19:00:48.872Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Burgemeester Hamming negeert negatief advies over dwangsom glazenwasser",
       "bronLengte": 6000,
       "checklist": {
@@ -1429,7 +1714,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T14:58:53.342Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend",
       "bronLengte": 3179,
       "checklist": {
@@ -1482,7 +1767,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T14:00:54.113Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Waarheen: Paul Haenen, cadeautjesmarkt, probieren",
       "bronLengte": 1180,
       "checklist": {
@@ -1522,7 +1807,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T13:00:49.133Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Crowdfunding moet Roots aan de Zaan redden",
       "bronLengte": 3341,
       "checklist": {
@@ -1583,7 +1868,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "De Orkaan in 2 minuten: 26 november 🎧",
       "bronLengte": 309,
       "checklist": {
@@ -1623,7 +1908,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T12:00:49.742Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Wie wordt de OEN van 2026? Doe mee!",
       "bronLengte": 1077,
       "checklist": {
@@ -1676,7 +1961,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Verschuiven van 2,5 miljoen uit VHF1-budget van warmtenet gereedmaken van woningen naar verduurzaming van extra woningen door labelverbetering",
       "bronLengte": 6630,
       "checklist": {
@@ -1725,7 +2010,7 @@
       "ai": true,
       "controle": "cijfers-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T11:00:54.477Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
       "bronLengte": 3825,
       "checklist": {
@@ -1767,7 +2052,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T11:00:54.477Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Vertraging voor Peperstraat: nog geen aannemer voor parkeergarage",
       "bronLengte": 1474,
       "checklist": {
@@ -1807,7 +2092,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-26T10:00:49.318Z",
-      "gecontroleerdOp": "2026-11-26T23:44:00.913Z",
+      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
       "bronTitel": "Gelijkspel AZ -19 bij Rangers FC in Youth League 🎧",
       "bronLengte": 2851,
       "checklist": {
@@ -2754,7 +3039,10 @@
       "persType": {
         "soort": "uitkomst",
         "zin": "De gemeenteraad van Zaanstad, gelet op de artikelen 216 en 220 van de Gemeentewet, besluit vast te stellen de ‘Verordening tot wijziging van de Verordening onroerende-zaakbelastingen Zaanstad 2026’."
-      }
+      },
+      "agendaIds": [
+        "622944ae19"
+      ]
     },
     {
       "id": "5c0d0b11cc-v1",

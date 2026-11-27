@@ -1,6 +1,6 @@
 {
   "versie": 1,
-  "bijgewerkt": "2026-11-26T23:44:00.913Z",
+  "bijgewerkt": "2026-11-27T08:06:56.776Z",
   "items": {
     "d0a0aa7b4e": {
       "g": "d0a0aa7b4e",
@@ -4994,7 +4994,7 @@
       "n": "Gemeente Zaanstad: moties en stemmingen (iBabs)",
       "t": "2026-11-26T23:44:02.859Z",
       "c": null,
-      "r": "GEM"
+      "r": "WON"
     },
     "55278b5942": {
       "g": "55278b5942",
@@ -5061,6 +5061,39 @@
       "t": "2026-11-26T23:44:02.859Z",
       "c": null,
       "r": "GEM"
+    },
+    "7011a6b7a1": {
+      "g": "7011a6b7a1",
+      "u": "https://odnzkg.nl/nieuws/negatief-advies-voor-music-on-tent-is-terecht-gegeven/",
+      "k": "Negatief advies Omgevingsdienst voor tent Music On festival was terecht",
+      "bt": "Negatief advies voor Music On tent is terecht gegeven",
+      "b": "omgevingsdienstnoordzeekanaal",
+      "n": "Omgevingsdienst Noordzeekanaalgebied",
+      "t": "2026-11-26T15:47:35.000Z",
+      "c": null,
+      "r": "CUL"
+    },
+    "4b6904b931": {
+      "g": "4b6904b931",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
+      "k": "Gemeente Zaanstad verlengt aanwijzing veiligheidsrisicogebied Zaandam-centrum niet",
+      "bt": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "GEM"
+    },
+    "5729daca65": {
+      "g": "5729daca65",
+      "u": "https://zaanstad.bestuurlijkeinformatie.nl/Document/View/17d5f06f-9c75-4a42-b6a6-b39355bf797f",
+      "k": "College Zaanstad verstuurt erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel",
+      "bt": "Erratum bij voorbereidingsbesluit Hembrugterrein zuidelijk deel 2026 10699386",
+      "b": "ibabs-collegeberichten",
+      "n": "Zaanstad — Collegeberichten (iBabs)",
+      "t": "2026-11-25T23:00:00.000Z",
+      "c": null,
+      "r": "WON"
     }
   }
 }
