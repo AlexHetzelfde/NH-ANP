@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:11:44.844Z",
+  "gegenereerdOp": "2026-11-28T18:50:10.463Z",
   "modus": "schaduw",
   "stempel": "v4-22806000",
   "tau": 0.5,
@@ -16,14 +16,14 @@
       "mislukt": 0,
       "uitgesteld": 0
     },
-    "bewijsNieuw": 2,
-    "vergeten": 2,
+    "bewijsNieuw": 7,
+    "vergeten": 4,
     "tekstenOpgeruimd": 0,
     "tekstDekkingPct": 100,
-    "stukken": 781,
-    "bewijsStukken": 108,
-    "kandidaten": 45,
-    "metAnker": 45,
+    "stukken": 787,
+    "bewijsStukken": 115,
+    "kandidaten": 35,
+    "metAnker": 35,
     "zonderAnker": 0,
     "afgelast": 0,
     "dubbel": 0,
@@ -38,14 +38,14 @@
     },
     "rood": 6,
     "verhalen": {
-      "stukken": 814,
-      "verhalen": 647,
-      "metMeerStukken": 84,
+      "stukken": 827,
+      "verhalen": 652,
+      "metMeerStukken": 87,
       "bijgesneden": 0,
       "teGroot": 0,
       "aiGevraagd": 24,
       "aiBanden": 0,
-      "metRoute": 0,
+      "metRoute": 2,
       "nieuwRood": 0,
       "zonderDoel": 0,
       "routeRood": 3
@@ -57,20 +57,21 @@
       "soort": "nieuws",
       "kop": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Schans",
       "S": 0.66,
-      "Sa": 0.52,
+      "Sa": 0.57,
       "Sp": 0.66,
       "route": "piek",
-      "K": 0.8,
+      "K": 0.79,
       "Kp": 0.5,
-      "n": 4,
-      "dagen": 1,
-      "bronnen": 2,
+      "n": 5,
+      "dagen": 2,
+      "bronnen": 3,
       "ankers": [
         "schan",
         "visie",
         "participati",
+        "26m98",
         "volg",
-        "26m98"
+        "bestursopdracht"
       ],
       "bewijs": [
         {
@@ -83,6 +84,13 @@
         {
           "bron": "zaanstad-moties",
           "datum": "2026-11-26T23:44:02.859Z",
+          "c": 0.71,
+          "plek": "intro",
+          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
+        },
+        {
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T23:44:02.859Z",
           "c": 0.69,
           "plek": "intro",
           "titel": "Motie aangenomen: Herziene Participatieverordening"
@@ -90,16 +98,16 @@
         {
           "bron": "zaanstad-moties",
           "datum": "2026-11-26T23:44:02.859Z",
-          "c": 0.69,
-          "plek": "intro",
-          "titel": "Motie verworpen: Verbreed de commitmentmatrix: neem wijken, buurten en natuurorganisaties mee"
-        },
-        {
-          "bron": "zaanstad-moties",
-          "datum": "2026-11-26T23:44:02.859Z",
-          "c": 0.66,
+          "c": 0.68,
           "plek": "intro",
           "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
+        },
+        {
+          "bron": "zaanstad-kalender",
+          "datum": "2026-11-20T15:00:50.406Z",
+          "c": 0.4,
+          "plek": "tekst",
+          "titel": "Raadsvergadering"
         }
       ]
     },
@@ -107,12 +115,12 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
       "soort": "nieuws",
       "kop": "Motie verworpen: vrijwillig blijft vrijwillig",
-      "S": 0.56,
-      "Sa": 0.56,
+      "S": 0.55,
+      "Sa": 0.55,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.94,
-      "Kp": 0.6,
+      "K": 0.93,
+      "Kp": 0.59,
       "n": 3,
       "dagen": 3,
       "bronnen": 1,
@@ -126,8 +134,8 @@
         "uitgan",
         "sprekt",
         "kerkhov",
-        "schan",
         "bestursopdracht",
+        "schan",
         "coalitieakkord"
       ],
       "bewijs": [
@@ -155,92 +163,14 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/landsmeer-2026-11-26-fe3457",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Landsmeer",
-      "S": 0.41,
-      "Sa": 0.41,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.76,
-      "Kp": 0.53,
-      "n": 3,
-      "dagen": 3,
-      "bronnen": 3,
-      "ankers": [
-        "landsmer",
-        "leverkruidstrat",
-        "melkkruidstrat"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-26T11:44:00.000Z",
-          "c": 0.91,
-          "plek": "kop",
-          "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
-        },
-        {
-          "bron": "vervoerregio-overzichten",
-          "datum": "2026-11-03T11:00:54.646Z",
-          "c": 0.67,
-          "plek": "intro",
-          "titel": "Inzicht in rituitval EBS en de verdeling daarvan over buslijnen"
-        },
-        {
-          "bron": "DeOrkaan",
-          "datum": "2026-11-25T23:00:00.000Z",
-          "c": 0.63,
-          "plek": "intro",
-          "titel": "Identiteit en voorzieningen centraal in verder overleg Oostzaan – Purmerend"
-        }
-      ]
-    },
-    {
-      "key": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547830.html",
-      "soort": "nieuws",
-      "kop": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom",
-      "S": 0.3,
-      "Sa": 0.3,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.47,
-      "Kp": 0.18,
-      "n": 2,
-      "dagen": 2,
-      "bronnen": 1,
-      "ankers": [
-        "parameter",
-        "omzetting",
-        "erfpacht",
-        "eigendom"
-      ],
-      "bewijs": [
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-17T23:00:00.000Z",
-          "c": 1,
-          "plek": "kop",
-          "titel": "Parameters 2027 voor omzetting recht van erfpacht naar vol eigendom"
-        },
-        {
-          "bron": "ibabs-collegeberichten",
-          "datum": "2026-11-24T23:00:00.000Z",
-          "c": 0.5,
-          "plek": "tekst",
-          "titel": "Besluitenlijst B&W 17-11-2026"
-        }
-      ]
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/84d67eec-ad6e-4f1b-902d-7cdb50b78e66",
       "soort": "nieuws",
       "kop": "Motie verworpen: verplichte participatie bij afwijkende bouwplannen",
-      "S": 0.26,
-      "Sa": 0.26,
+      "S": 0.25,
+      "Sa": 0.25,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.7,
+      "K": 0.69,
       "Kp": 0.45,
       "n": 1,
       "dagen": 1,
@@ -268,8 +198,8 @@
       "key": "n:https://www.stroomstoringkaart.nl/storing/2026/middenbeemster-2026-11-27-799f83",
       "soort": "nieuws",
       "kop": "Stroomstoring in Middenbeemster",
-      "S": 0.24,
-      "Sa": 0.24,
+      "S": 0.23,
+      "Sa": 0.23,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.74,
@@ -295,43 +225,6 @@
           "bron": "stroomstoringkaart",
           "datum": "2026-11-26T11:44:00.000Z",
           "c": 0.88,
-          "plek": "kop",
-          "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
-        }
-      ]
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/de-rijp-2026-11-26-6c1bda",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, Wijdewormer en Wormer",
-      "S": 0.18,
-      "Sa": 0.18,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.71,
-      "Kp": 0.55,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "graftdijk",
-        "purmerland",
-        "westbemster",
-        "spijkerbor",
-        "starnmer",
-        "middenbemster",
-        "ostknollendam",
-        "wijdewormer",
-        "aggelenstrat",
-        "bamestraweg",
-        "bellehof",
-        "belleslot"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-26T11:44:00.000Z",
-          "c": 1,
           "plek": "kop",
           "titel": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeems"
         }
@@ -379,43 +272,6 @@
       ]
     },
     {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/amsterdam-2026-11-26-6c1bda",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Amsterdam, Beets, Broek in Waterland, De Rijp, Den Ilp, Ilpendam, Jisp, Landsmeer, Middenbeemster, Monnickendam, Noordbeemster, Oost-Graftdijk, Oostknollendam, Oostzaan, Oudendijk, Purmerend, Purmerland, Spijkerboor, Starnmeer, Watergang, Westbeemster, Wijdewormer, Wormer en Zuidoostbeemster",
-      "S": 0.16,
-      "Sa": 0.16,
-      "Sp": 0,
-      "route": "aanhoudend",
-      "K": 0.71,
-      "Kp": 0.55,
-      "n": 1,
-      "dagen": 1,
-      "bronnen": 1,
-      "ankers": [
-        "nordbemster",
-        "oudendijk",
-        "watergang",
-        "ilpendam",
-        "monnickendam",
-        "graftdijk",
-        "purmerland",
-        "westbemster",
-        "spijkerbor",
-        "starnmer",
-        "zuidostbemster",
-        "middenbemster"
-      ],
-      "bewijs": [
-        {
-          "bron": "stroomstoringkaart",
-          "datum": "2026-11-26T11:44:00.000Z",
-          "c": 0.94,
-          "plek": "kop",
-          "titel": "Stroomstoring in De Rijp, Den Ilp, Jisp, Middenbeemster, Oost-Graftdijk, Oostknollendam, Purmerland, Spijkerboor, Starnmeer, Westbeemster, W"
-        }
-      ]
-    },
-    {
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/4b6ce4b9-f340-42c8-93c2-ac43599b2f3f",
       "soort": "nieuws",
       "kop": "Motie verworpen: Kies voor leefbaarheid en daarom tegen erfgoedstatus schootsvelden",
@@ -423,8 +279,8 @@
       "Sa": 0.14,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.4,
-      "Kp": 0.14,
+      "K": 0.39,
+      "Kp": 0.13,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -459,8 +315,8 @@
       "Sa": 0.14,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.4,
-      "Kp": 0.14,
+      "K": 0.39,
+      "Kp": 0.13,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -491,8 +347,8 @@
       "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/573416a1-18c7-4f14-b178-98a9d74249a6",
       "soort": "nieuws",
       "kop": "Het laatste nieuws uit Zaanstad / 27 november 2026",
-      "S": 0.12,
-      "Sa": 0.12,
+      "S": 0.11,
+      "Sa": 0.11,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.66,
@@ -584,8 +440,8 @@
       "key": "a:860bf35798",
       "soort": "agenda",
       "kop": "Tegen verkeersbesluit 10407261 plaatsen laadpaal locatie Saendelverlaan Assendelft",
-      "S": 0.08,
-      "Sa": 0.08,
+      "S": 0.07,
+      "Sa": 0.07,
       "Sp": 0,
       "route": "aanhoudend",
       "K": 0.31,
@@ -642,8 +498,8 @@
       "Sa": 0.06,
       "Sp": 0,
       "route": "aanhoudend",
-      "K": 0.34,
-      "Kp": 0.25,
+      "K": 0.33,
+      "Kp": 0.24,
       "n": 1,
       "dagen": 1,
       "bronnen": 1,
@@ -799,6 +655,44 @@
         "verwijder",
         "fluitekruidweg",
         "ladpal"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-28-77117f",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Krommenie",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "oranjeplein",
+        "hogendorpstrat",
+        "norderhofdstrat"
+      ],
+      "bewijs": []
+    },
+    {
+      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/kwadijk-2026-11-28-810713",
+      "soort": "nieuws",
+      "kop": "Stroomstoring in Kwadijk",
+      "S": 0,
+      "Sa": 0,
+      "Sp": 0,
+      "route": "geen",
+      "K": 0.56,
+      "Kp": 0.44,
+      "n": 0,
+      "dagen": 0,
+      "bronnen": 0,
+      "ankers": [
+        "kwadijk"
       ],
       "bewijs": []
     },
@@ -1060,31 +954,6 @@
       "bewijs": []
     },
     {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/7_locaties_gevonden_in_onderzoek_naar_toepassing_staalslakken_provinciale_infrastructuur",
-      "soort": "nieuws",
-      "kop": "7 locaties gevonden in onderzoek naar toepassing staalslakken provinciale infrastructuur",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0,
-      "Kp": 0,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "infrastructur",
-        "stalslak",
-        "purmerenderweg",
-        "zwanshoek",
-        "locatie",
-        "gevond",
-        "toepassing",
-        "provincial"
-      ],
-      "bewijs": []
-    },
-    {
       "key": "n:https://odnzkg.nl/nieuws/negatief-advies-voor-music-on-tent-is-terecht-gegeven/",
       "soort": "nieuws",
       "kop": "Negatief advies voor Music On tent is terecht gegeven",
@@ -1100,74 +969,26 @@
       "ankers": [
         "music",
         "negatief",
-        "stadsdel",
-        "terecht"
+        "stadsdel"
       ],
       "bewijs": []
     },
     {
-      "key": "n:https://www.noord-holland.nl/Actueel/Archief/2026/November_2026/Provincie_investeert_4_3_miljoen_in_projecten_voor_betere_bereikbaarheid_Alkmaar",
+      "key": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/7fc8ecb9-b9cb-4705-ac8a-b8b160fb878b",
       "soort": "nieuws",
-      "kop": "Provincie investeert € 4,3 miljoen in projecten voor betere bereikbaarheid Alkmaar",
+      "kop": "Evaluatie veiligheidsrisicogebied Zaanstad 2025-2026",
       "S": 0,
       "Sa": 0,
       "Sp": 0,
       "route": "geen",
-      "K": 0.49,
-      "Kp": 0.3,
+      "K": 0.3,
+      "Kp": 0.15,
       "n": 0,
       "dagen": 0,
       "bronnen": 0,
       "ankers": [
-        "bereikbarheid",
-        "investert",
-        "alkmar",
-        "kogendijk",
-        "beter",
-        "miljo"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-f3f31e",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Purmerend",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "where",
-        "reigersbek",
-        "helenabai",
-        "saint",
-        "gedempt"
-      ],
-      "bewijs": []
-    },
-    {
-      "key": "n:https://www.stroomstoringkaart.nl/storing/2026/purmerend-2026-11-26-7112d0",
-      "soort": "nieuws",
-      "kop": "Stroomstoring in Purmerend",
-      "S": 0,
-      "Sa": 0,
-      "Sp": 0,
-      "route": "geen",
-      "K": 0.56,
-      "Kp": 0.44,
-      "n": 0,
-      "dagen": 0,
-      "bronnen": 0,
-      "ankers": [
-        "dijckscampenlan",
-        "oievarsbek",
-        "springfontein",
-        "woestijnstrat"
+        "evaluati",
+        "veiligheidsrisicogebied"
       ],
       "bewijs": []
     }

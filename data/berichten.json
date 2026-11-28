@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-28T10:11:44.844Z",
+  "gegenereerdOp": "2026-11-28T18:50:10.463Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -406,6 +406,106 @@
   ],
   "berichten": [
     {
+      "id": "4aa95ba328-v2",
+      "groepId": "4aa95ba328",
+      "versie": 2,
+      "url": "https://www.deorkaan.nl/jong-az-top-oss-afgelast-vanwege-het-weer-%e2%9a%bd%ef%b8%8f/",
+      "kop": "Duels afgelast vanwege het weer ⚽️- UPDATE",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T18:50:10.463Z",
+      "heeftTijd": true,
+      "woorden": 199,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Duels afgelast vanwege het weer ⚽️- UPDATE",
+      "bronLengte": 1158,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "7586629841-v1",
+      "groepId": "7586629841",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/krommenie-2026-11-28-77117f",
+      "kop": "Stroomstoring in Krommenie",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T18:24:00.000Z",
+      "heeftTijd": true,
+      "woorden": 50,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Stroomstoring in Krommenie",
+      "bronLengte": 366,
+      "rood": {
+        "sinds": "2026-11-28T18:50:10.463Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
+      "id": "d65f35f7c2-v1",
+      "groepId": "d65f35f7c2",
+      "versie": 1,
+      "url": "https://www.stroomstoringkaart.nl/storing/2026/kwadijk-2026-11-28-810713",
+      "kop": "Stroomstoring in Kwadijk",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "bron",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-28T10:55:00.000Z",
+      "heeftTijd": true,
+      "woorden": 44,
+      "afgekapt": false,
+      "bronId": "stroomstoringkaart",
+      "bronNaam": "Stroomstoringkaart: stroomstoringen Zaanstreek-Waterland",
+      "ai": false,
+      "controle": "geen-ai",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Stroomstoring in Kwadijk",
+      "bronLengte": 310,
+      "rood": {
+        "sinds": "2026-11-28T18:50:10.463Z",
+        "score": 1,
+        "route": "regel",
+        "reden": "Stroomstoring in Zaanstreek-Waterland",
+        "label": "stroomstoring"
+      }
+    },
+    {
       "id": "ac00a0eef0-v1",
       "groepId": "ac00a0eef0",
       "versie": 1,
@@ -425,7 +525,7 @@
       "ai": false,
       "controle": "geen-ai",
       "eerstGezienOp": "2026-11-28T10:11:44.844Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Stroomstoring in Marken",
       "bronLengte": 336,
       "rood": {
@@ -434,7 +534,312 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
+    },
+    {
+      "id": "a314b9f627-v1",
+      "groepId": "a314b9f627",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/rietbrand-in-westzijderveld-brandstichting-vermoed/",
+      "kop": "Rietbrand achter Vermaning Westzaan, brandstichting vermoed",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 139,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Rietbrand achter Vermaning Westzaan, brandstichting vermoed",
+      "bronLengte": 845,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "065f632a73-v1",
+      "groepId": "065f632a73",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+      "kop": "Accu opgeladen, tractor in brand",
+      "tekst": null,
+      "rubriek": "112",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 82,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Accu opgeladen, tractor in brand",
+      "bronLengte": 468,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "248b2a30c9-v1",
+      "groepId": "248b2a30c9",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/het-liberalisme-verdient-beter-vvd-koers-onder-vuur-onder-zaanse-aanvoering/",
+      "kop": "‘Het liberalisme verdient beter’: VVD-koers onder vuur onder Zaanse aanvoering",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 500,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "‘Het liberalisme verdient beter’: VVD-koers onder vuur onder Zaanse aanvoering",
+      "bronLengte": 3117,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": true,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "2cadb0660d-v1",
+      "groepId": "2cadb0660d",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/de-eerste-schaatsmeters-in-het-twiske-%f0%9f%8e%a5/",
+      "kop": "De eerste schaatsmeters in het Twiske! 🎥",
+      "tekst": null,
+      "rubriek": "SPO",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 95,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "De eerste schaatsmeters in het Twiske! 🎥",
+      "bronLengte": 544,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "db65f8e5ad-v1",
+      "groepId": "db65f8e5ad",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vuurwerkpost-onderschept-in-wormerveer/",
+      "kop": "Vuurwerkpost onderschept in Wormerveer",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 190,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Vuurwerkpost onderschept in Wormerveer",
+      "bronLengte": 1259,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "953011f0a4-v1",
+      "groepId": "953011f0a4",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/vier-centimeter-ijs-in-oostknollendam/",
+      "kop": "Vier centimeter ijs in Oostknollendam",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 126,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Vier centimeter ijs in Oostknollendam",
+      "bronLengte": 747,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "e9a7d319e4-v1",
+      "groepId": "e9a7d319e4",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/schiphol-poller-en-zaanse-schans-in-de-week-van-de-orkaan/",
+      "kop": "Schiphol, poller en Zaanse Schans in de Week van De Orkaan 🎧",
+      "tekst": null,
+      "rubriek": "CUL",
+      "tagBron": "trefwoord",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 142,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Schiphol, poller en Zaanse Schans in de Week van De Orkaan 🎧",
+      "bronLengte": 841,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
+      "id": "79009d07ba-v1",
+      "groepId": "79009d07ba",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/weer-raak-op-kolkweg-bestuurder-gewond-naar-ziekenhuis/",
+      "kop": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-27T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 139,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T18:50:10.463Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
+      "bronTitel": "Weer raak op Kolkweg, bestuurder gewond naar ziekenhuis",
+      "bronLengte": 827,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": true,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": null,
+        "banen": null,
+        "inRegio": true
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
     },
     {
       "id": "ffd9ca220c-v1",
@@ -456,7 +861,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-28T10:11:44.844Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Geluidsoverlast nieuwbouw Houthavenkade, bewoners van kastje naar muur gestuurd",
       "bronLengte": 3700,
       "checklist": {
@@ -472,7 +877,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "f8de423868-v1",
@@ -494,7 +900,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-28T10:11:44.844Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
       "bronLengte": 1303,
       "checklist": {
@@ -510,7 +916,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4099954d1a-v1",
@@ -532,7 +939,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-28T10:11:44.844Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Waarheen: trimloop, Boban Benjamin Braspenning, Franks & Maddogs 🎙",
       "bronLengte": 1325,
       "checklist": {
@@ -548,7 +955,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "5863607653-v1",
@@ -586,7 +994,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "dbf2cea2d5-v1",
@@ -776,7 +1185,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1456,
       "checklist": {
@@ -814,7 +1223,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4435,
       "checklist": {
@@ -884,7 +1293,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -922,7 +1331,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-28T10:11:44.844Z",
+      "gecontroleerdOp": "2026-11-28T18:50:10.463Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -1463,7 +1872,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "5e0cabaaee-v1",
@@ -1500,7 +1910,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "f860972b0d-v1",
@@ -1537,7 +1948,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "8a7cdf3222-v1",
@@ -1574,7 +1986,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "89bc94b8b3-v1",
@@ -1611,7 +2024,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "5671fd089e-v1",
@@ -1649,7 +2063,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "051333d1c3-v1",

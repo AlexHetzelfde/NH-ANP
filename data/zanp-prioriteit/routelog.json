@@ -1,21 +1,158 @@
 {
-  "gegenereerdOp": "2026-11-28T10:11:44.844Z",
+  "gegenereerdOp": "2026-11-28T18:50:10.463Z",
   "modus": "schaduw",
   "stempel": "r1-d3346bca",
   "stats": {
-    "stukken": 814,
-    "verhalen": 647,
-    "metMeerStukken": 84,
+    "stukken": 827,
+    "verhalen": 652,
+    "metMeerStukken": 87,
     "bijgesneden": 0,
     "teGroot": 0,
     "aiGevraagd": 24,
     "aiBanden": 0,
-    "metRoute": 0,
+    "metRoute": 2,
     "nieuwRood": 0,
     "zonderDoel": 0,
     "routeRood": 3
   },
   "verhalen": [
+    {
+      "id": "n:https://www.deorkaan.nl/de-duinkaart-is-terug-vanaf-maart-2027-vrijwillige-bijdrage-voor-zaanse-schans/",
+      "kop": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Zaanse Schans",
+      "meting": {
+        "stukken": 9,
+        "media": 2,
+        "mediaStukken": 6,
+        "echo": 0,
+        "onafhankelijk": 4,
+        "dagen": 5,
+        "eerste": "2026-11-12T23:00:00.000Z",
+        "laatste": "2026-11-28T11:33:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 16 dagen met stukken op 5 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/de-duinkaart-is-terug-vanaf-maart-2027-vrijwillige-bijdrage-voor-zaanse-schans/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "De Duinkaart is terug! Vanaf maart 2027 ‘vrijwillige bijdrage’ voor Z…"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/de-orkaan-in-2-minuten-13-november-%f0%9f%8e%a7/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "De Orkaan in 2 minuten: 13 november 🎧"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/wethouder-karst-onderworpen-aan-vragenvuur-over-zaanse-schans/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Wethouder Karst onderworpen aan vragenvuur over Zaanse Schans"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/zaanse-schans-vrijwillige-bijdrage-werkt-eigenlijk-nergens-en-is-nooit-kostendekkend/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": null,
+          "titel": "Zaanse Schans: vrijwillige bijdrage werkt eigenlijk nergens en is noo…"
+        },
+        {
+          "k": "n:https://zoek.officielebekendmakingen.nl/gmb-2026-547364.html",
+          "bron": "bekendmakingen",
+          "datum": "2026-11-24T23:00:00.000Z",
+          "type": "uitkomst",
+          "titel": "Verordening vermakelijkhedenretributie Zaanse Schans 2026"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/raad-kiest-voor-nieuwe-koers-zaanse-schans/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/b8de4ab0-799c-47ab-a539-bca0d23252a6",
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T23:44:02.859Z",
+          "type": "uitkomst",
+          "titel": "Motie verworpen: vrijwillig blijft vrijwillig"
+        },
+        {
+          "k": "n:https://zaanstad.bestuurlijkeinformatie.nl/Reports/Item/c10b884e-a835-46d5-a7f4-824ffb421179",
+          "bron": "zaanstad-moties",
+          "datum": "2026-11-26T23:44:02.859Z",
+          "type": "uitkomst",
+          "titel": "Motie verworpen: Volg de visie op participatie, ook voor de Zaanse Sc…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/vermakelijkhedentaks-schans-ongewijzigd-ondanks-tekort",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T11:33:00.000Z",
+          "type": null,
+          "titel": "Vermakelijkhedentaks Schans ongewijzigd ondanks tekort"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
+      "meting": {
+        "stukken": 4,
+        "media": 2,
+        "mediaStukken": 4,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 3,
+        "eerste": "2026-11-12T23:00:00.000Z",
+        "laatste": "2026-11-27T23:00:00.000Z"
+      },
+      "routes": [
+        {
+          "route": "vervolg",
+          "reden": "Vervolg: verhaal van 15 dagen met stukken op 3 dagen en een nieuw stuk",
+          "doel": null
+        }
+      ],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-12T23:00:00.000Z",
+          "type": null,
+          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-19T08:00:00.000Z",
+          "type": null,
+          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-19T23:00:00.000Z",
+          "type": null,
+          "titel": "Poller omlaag: winst of verlies?"
+        },
+        {
+          "k": "n:https://www.deorkaan.nl/schiphol-poller-en-zaanse-schans-in-de-week-van-de-orkaan/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": null,
+          "titel": "Schiphol, poller en Zaanse Schans in de Week van De Orkaan 🎧"
+        }
+      ]
+    },
     {
       "id": "n:https://www.deorkaan.nl/volgend-weekend-den-uylbrug-afgesloten/",
       "kop": "Volgend weekend (13-16 november) Den Uylbrug afgesloten",
@@ -489,44 +626,6 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-      "kop": "Bewoners Russische Buurt starten petitie om poller te behouden",
-      "meting": {
-        "stukken": 3,
-        "media": 2,
-        "mediaStukken": 3,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-12T23:00:00.000Z",
-        "laatste": "2026-11-19T23:00:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/bewoners-russische-buurt-starten-petitie-om-poller-te-behouden/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-12T23:00:00.000Z",
-          "type": null,
-          "titel": "Bewoners Russische Buurt starten petitie om poller te behouden"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/gemeente/russische-buurt-wil-poller-houden-truc-voor-247-opening-busbrug",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-19T08:00:00.000Z",
-          "type": null,
-          "titel": "Russische Buurt wil poller houden; truc voor 24/7 opening busbrug"
-        },
-        {
-          "k": "n:https://www.deorkaan.nl/poller-omlaag-winst-of-verlies/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-19T23:00:00.000Z",
-          "type": null,
-          "titel": "Poller omlaag: winst of verlies?"
-        }
-      ]
-    },
-    {
       "id": "n:https://zaanstad.bestuurlijkeinformatie.nl/Document/View/f3c2e31e-a45b-49b8-8da5-c7fed64fbc10",
       "kop": "Indienen zienswijzen en lobbybrief aanvragen nieuwe scholen PO en VO",
       "meting": {
@@ -599,6 +698,44 @@
           "datum": "2026-11-26T08:39:00.000Z",
           "type": null,
           "titel": "Edith en Roy uit Zaandam schrijven boek over hun plotseling overleden…"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
+      "meting": {
+        "stukken": 3,
+        "media": 2,
+        "mediaStukken": 3,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-26T23:00:00.000Z",
+        "laatste": "2026-11-27T10:46:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-26T23:00:00.000Z",
+          "type": null,
+          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-27T10:46:00.000Z",
+          "type": null,
+          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/gemeente/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-27T10:46:00.000Z",
+          "type": null,
+          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
         }
       ]
     },
@@ -913,37 +1050,6 @@
       ]
     },
     {
-      "id": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-      "kop": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
-      "meting": {
-        "stukken": 2,
-        "media": 2,
-        "mediaStukken": 2,
-        "echo": 0,
-        "onafhankelijk": 2,
-        "dagen": 2,
-        "eerste": "2026-11-26T23:00:00.000Z",
-        "laatste": "2026-11-27T10:46:00.000Z"
-      },
-      "routes": [],
-      "leden": [
-        {
-          "k": "n:https://www.deorkaan.nl/coenbrug-minder-sterk-dan-verwacht-maximaal-70-km-u/",
-          "bron": "DeOrkaan",
-          "datum": "2026-11-26T23:00:00.000Z",
-          "type": null,
-          "titel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u"
-        },
-        {
-          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/coenbrug-verzwakt-smallere-rijstroken-en-langzamer-rijden",
-          "bron": "zaanstad-nieuws",
-          "datum": "2026-11-27T10:46:00.000Z",
-          "type": null,
-          "titel": "Coenbrug verzwakt: smallere rijstroken en langzamer rijden"
-        }
-      ]
-    },
-    {
       "id": "n:https://www.deorkaan.nl/gewapende-beroving-bij-verkoopafspraak-in-krommenie/",
       "kop": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "meting": {
@@ -971,6 +1077,99 @@
           "datum": "2026-11-27T09:22:00.000Z",
           "type": "incident",
           "titel": "Gewapende straatroof Serooskerkestraat in Krommenie"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/twee-roltrappen-station-zaandam-stilgezet-na-ernstig-ongeval-in-amsterdam/",
+      "kop": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amsterdam",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T12:28:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/twee-roltrappen-station-zaandam-stilgezet-na-ernstig-ongeval-in-amsterdam/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": "incident",
+          "titel": "Twee roltrappen Station Zaandam stilgezet na ernstig ongeval in Amste…"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/bedrijvigheid/roltrappen-station-zaandam-preventief-uit-vanwege-veiligheid",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T12:28:00.000Z",
+          "type": null,
+          "titel": "Roltrappen station Zaandam preventief uit vanwege veiligheid"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+      "kop": "Accu opgeladen, tractor in brand",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T14:46:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/accu-opgeladen-tractor-in-brand/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": "incident",
+          "titel": "Accu opgeladen, tractor in brand"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/actueel/brandweer-blust-tractor-in-loods-aan-ringweg-zaandam",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T14:46:00.000Z",
+          "type": null,
+          "titel": "Brandweer blust tractor in loods aan Ringweg Zaandam"
+        }
+      ]
+    },
+    {
+      "id": "n:https://www.deorkaan.nl/vuurwerkpost-onderschept-in-wormerveer/",
+      "kop": "Vuurwerkpost onderschept in Wormerveer",
+      "meting": {
+        "stukken": 2,
+        "media": 2,
+        "mediaStukken": 2,
+        "echo": 0,
+        "onafhankelijk": 2,
+        "dagen": 2,
+        "eerste": "2026-11-27T23:00:00.000Z",
+        "laatste": "2026-11-28T12:08:00.000Z"
+      },
+      "routes": [],
+      "leden": [
+        {
+          "k": "n:https://www.deorkaan.nl/vuurwerkpost-onderschept-in-wormerveer/",
+          "bron": "DeOrkaan",
+          "datum": "2026-11-27T23:00:00.000Z",
+          "type": null,
+          "titel": "Vuurwerkpost onderschept in Wormerveer"
+        },
+        {
+          "k": "b:https://zaanstad.nieuws.nl/112/vuurwerk-ontdekt-in-slaapkamer-wormerveer-via-postpakket",
+          "bron": "zaanstad-nieuws",
+          "datum": "2026-11-28T12:08:00.000Z",
+          "type": "incident",
+          "titel": "Vuurwerk ontdekt in slaapkamer Wormerveer via postpakket"
         }
       ]
     }
