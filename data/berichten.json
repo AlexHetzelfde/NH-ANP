@@ -1,5 +1,5 @@
 {
-  "gegenereerdOp": "2026-11-27T18:08:26.880Z",
+  "gegenereerdOp": "2026-11-28T01:52:27.342Z",
   "promptVersie": "2026-11-22-batch-tekst6000-kop-soort-tag-checklist-agendapunten",
   "alertModus": "log",
   "prioSchaal": "1 = urgent, 2 = belangrijk, 3 = regulier, 4 = routine. De AI geeft nooit prio 1.",
@@ -469,7 +469,8 @@
         "tekst": "Verzoekt het college: 1. bij deelname aan het ontwerpend onderzoek en het NOVEX NZKG-gebiedsproces expliciet uit te dragen dat dit geen instemming met het groene tracé of zoekgebieden ZW1/ZW2 inhoudt en dat het primaire standpunt tegen deze keuzes onverkort overeind blijft; 2. in die overleggen en bij een eventuele aanvulling op de zienswijze de leefbaarheid en gezondheid van inwoners als zwaarwegend uitgangspunt te blijven inbrengen — inclusief de cumulatieve belasting, magneetvelden en het belang van een open, recreatief en groen buitengebied — naast de geldende beschermingsregimes (zoals Beschermd Landschap, de UNESCO-bufferzone en cultuurhistorische linten), water en bodem sturend,…",
         "aanleiding": "Constaterende dat: • de gemeenteraad en het college zich verzetten tegen de voorgenomen groene corridor (langs Assendelft en Krommeniedijk) en een 380 kV-station (met bijbehorende infrastructuur en 150 kV-station) in de zoekgebieden ZW1/ZW2 in de Assendelverpolder;",
         "bron": "dictum"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "65cfb7a30e-v1",
@@ -537,7 +538,8 @@
         "tekst": "Verzoekt het college om: • Een formeel verzoek aan UNESCO om de schootsvelden van de werelderfgoedstatus voor de Stelling van Amsterdam, als onderdeel van de Hollandse Waterlinies, in te trekken. Namens de fractie van: VVD, Casper Davelaar POV, Nino Keijser PVV, Boy Boomsma CDA, Nick Hendriks",
         "aanleiding": "Constaterende dat: • de Stelling van Amsterdam sinds 1996 UNESCO-werelderfgoed is • ICOMOS-deskundige Ana Luengo, na haar bezoek in 2017, negatieve gevolgen van de onderzochte A8-A9-varianten voor het erfgoed beschreef;",
         "bron": "dictum"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "e7a2315e8a-v1",
@@ -568,7 +570,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "ca8d021080-v1",
@@ -590,7 +593,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Onderzoeksresultaten behoud van ruimte voor bedrijven in Noord-Holland",
       "bronLengte": 1456,
       "checklist": {
@@ -605,7 +608,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "c4b3d65076-v1",
@@ -627,7 +631,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Heel Noord-Holland gaat weer schaatsen",
       "bronLengte": 4435,
       "checklist": {
@@ -642,7 +646,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "e4223664c4-v1",
@@ -673,7 +678,8 @@
         "route": "regel",
         "reden": "Stroomstoring in Zaanstreek-Waterland",
         "label": "stroomstoring"
-      }
+      },
+      "tagVersie": 2
     },
     {
       "id": "b1524f6f7c-v1",
@@ -695,7 +701,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Werkzaamheden N247 bij gemaal Katwoude",
       "bronLengte": 2897,
       "checklist": {
@@ -710,7 +716,8 @@
         "banen": null,
         "inRegio": true
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "7cc9261059-v1",
@@ -732,7 +739,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Provincie Noord-Holland blijft werken aan minder grondstoffengebruik",
       "bronLengte": 3914,
       "checklist": {
@@ -747,7 +754,8 @@
         "banen": null,
         "inRegio": false
       },
-      "checklistBron": "patroon"
+      "checklistBron": "patroon",
+      "tagVersie": 2
     },
     {
       "id": "ada812de22-v1",
@@ -1238,6 +1246,44 @@
       "tagVersie": 2
     },
     {
+      "id": "051333d1c3-v1",
+      "groepId": "051333d1c3",
+      "versie": 1,
+      "url": "https://www.deorkaan.nl/50woordenfoto-witte-vrijdag/",
+      "kop": "50woordenfoto: White Friday…",
+      "tekst": null,
+      "rubriek": "ALG",
+      "tagBron": "geen",
+      "herkomst": "signaal",
+      "prio": 3,
+      "tijd": "2026-11-26T23:00:00.000Z",
+      "heeftTijd": false,
+      "woorden": 109,
+      "afgekapt": false,
+      "bronId": "DeOrkaan",
+      "bronNaam": "De Orkaan",
+      "ai": false,
+      "controle": "ai-fout",
+      "eerstGezienOp": "2026-11-28T01:52:27.342Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
+      "bronTitel": "50woordenfoto: White Friday…",
+      "bronLengte": 594,
+      "checklist": {
+        "gevaar": false,
+        "evacuatieOfNlAlert": false,
+        "gewondenOfDoden": false,
+        "bestuurlijkeCrisis": false,
+        "besluitMetGrootGevolg": false,
+        "tijdkritisch": false,
+        "betrokkenen": null,
+        "geldbedragEuro": 1440,
+        "banen": null,
+        "inRegio": false
+      },
+      "checklistBron": "patroon",
+      "alleenAgenda": true
+    },
+    {
       "id": "7381b0d544-v1",
       "groepId": "7381b0d544",
       "versie": 1,
@@ -1257,7 +1303,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Kat overleden bij woningbrand in Nauerna",
       "bronLengte": 969,
       "checklist": {
@@ -1273,7 +1319,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "08f05cb847-v1",
@@ -1295,7 +1342,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Geen treinen naar Alkmaar en Hoorn dit weekend",
       "bronLengte": 699,
       "checklist": {
@@ -1311,7 +1358,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "214fcfb35b-v1",
@@ -1333,7 +1381,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Zuhal’s Hoekje op station Krommenie Assendelft verdwijnt",
       "bronLengte": 3305,
       "checklist": {
@@ -1349,7 +1397,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "c28e9f46f8-v1",
@@ -1371,7 +1420,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Coenbrug minder sterk dan verwacht: maximaal 70 km/u",
       "bronLengte": 1250,
       "checklist": {
@@ -1387,7 +1436,8 @@
         "inRegio": false
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "4aa95ba328-v1",
@@ -1409,7 +1459,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Jong AZ – TOP Oss afgelast vanwege het weer ⚽️",
       "bronLengte": 989,
       "checklist": {
@@ -1425,7 +1475,8 @@
         "inRegio": false
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "3bf6643a3b-v1",
@@ -1447,7 +1498,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "50woordenfoto: oan de Zaan?",
       "bronLengte": 614,
       "checklist": {
@@ -1463,7 +1514,8 @@
         "inRegio": false
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "c6e0677434-v1",
@@ -1485,7 +1537,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "De Orkaan in 2 minuten: 27 november 🎧",
       "bronLengte": 320,
       "checklist": {
@@ -1501,7 +1553,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "429cb4a355-v1",
@@ -1523,7 +1576,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Zaanstad wil vrijwillige bijdragen voor Zaanse Schans",
       "bronLengte": 5999,
       "checklist": {
@@ -1539,7 +1592,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "fbe6094730-v1",
@@ -1577,7 +1631,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "a104a8ed39-v1",
@@ -1599,7 +1654,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Gewapende beroving bij verkoopafspraak in Krommenie",
       "bronLengte": 1696,
       "checklist": {
@@ -1615,7 +1670,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "29c80dc8a2-v1",
@@ -1637,7 +1693,7 @@
       "ai": false,
       "controle": "ai-fout",
       "eerstGezienOp": "2026-11-27T18:08:26.880Z",
-      "gecontroleerdOp": "2026-11-27T18:08:26.880Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Zaanstad tegen Schiphol-plannen: stop nachtvluchten",
       "bronLengte": 4036,
       "checklist": {
@@ -1653,7 +1709,8 @@
         "inRegio": true
       },
       "checklistBron": "patroon",
-      "alleenAgenda": true
+      "alleenAgenda": true,
+      "tagVersie": 2
     },
     {
       "id": "dce2bcd72c-v1",
@@ -1705,7 +1762,8 @@
       "alleenAgenda": true,
       "agendaIds": [
         "e44ee6bf45"
-      ]
+      ],
+      "tagVersie": 2
     },
     {
       "id": "da64d4b7a4-v1",
@@ -1767,7 +1825,7 @@
       "ai": false,
       "controle": "analyse-ok",
       "eerstGezienOp": "2026-11-27T08:06:56.776Z",
-      "gecontroleerdOp": "2026-11-27T08:06:56.776Z",
+      "gecontroleerdOp": "2026-11-28T01:52:27.342Z",
       "bronTitel": "Zaanse raad geeft groen licht voor padelbanen Westzaan",
       "bronLengte": 2488,
       "checklist": {
@@ -9706,9 +9764,6 @@
       ],
       "analyse": true,
       "alleenAgenda": true,
-      "agendaIds": [
-        "9b1f0250f9"
-      ],
       "tagVersie": 2
     },
     {
@@ -13276,299 +13331,6 @@
         ]
       },
       "tagVersie": 2
-    },
-    {
-      "id": "1374b2c9b7-v1",
-      "groepId": "1374b2c9b7",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/sinterklaas-in-zaandam-koog-a-d-zaan-krommenie-en-westzaan-2026/",
-      "kop": "Sinterklaas in Zaandam, Koog a/d Zaan, Krommenie en Westzaan 📷 🎥",
-      "tekst": null,
-      "rubriek": "CUL",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 332,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T16:05:59.095Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Sinterklaas in Zaandam, Koog a/d Zaan, Krommenie en Westzaan 📷 🎥",
-      "bronLengte": 1882,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "1ad67625a2-v1",
-      "groepId": "1ad67625a2",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/begroting-verzet-krommeniedijk-en-sprookje-in-de-week-van-de-orkaan-%f0%9f%8e%99/",
-      "kop": "Begroting, verzet Krommeniedijk en sprookje in De Week van De Orkaan 🎙",
-      "tekst": null,
-      "rubriek": "GEM",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 173,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T16:05:59.095Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Begroting, verzet Krommeniedijk en sprookje in De Week van De Orkaan 🎙",
-      "bronLengte": 1079,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "9931cb3d69-v1",
-      "groepId": "9931cb3d69",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/aan-de-molenwerf-westerkoog-klaar-voor-oplevering-bouwmarathon/",
-      "kop": "Aan de Molenwerf (Westerkoog) klaar voor oplevering #bouwmarathon",
-      "tekst": null,
-      "rubriek": "WON",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 389,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T16:05:59.095Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Aan de Molenwerf (Westerkoog) klaar voor oplevering #bouwmarathon",
-      "bronLengte": 2412,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "83ef01d4f9-v1",
-      "groepId": "83ef01d4f9",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/sprookjesboek-als-protest-tegen-schiphollawaai-%f0%9f%8e%a7/",
-      "kop": "Sprookjesboek als protest tegen Schiphollawaai 🎧",
-      "tekst": null,
-      "rubriek": "PRV",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 357,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T16:05:59.095Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Sprookjesboek als protest tegen Schiphollawaai 🎧",
-      "bronLengte": 2192,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "6d27772f6c-v1",
-      "groepId": "6d27772f6c",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/handboogschieten-een-goed-schot-voel-je-al-in-je-voorbereiding-%f0%9f%8e%99/",
-      "kop": "Handboogschieten: ‘Een goed schot voel je al in je voorbereiding’ 🎙",
-      "tekst": null,
-      "rubriek": "SPO",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 324,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T10:05:16.902Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Handboogschieten: ‘Een goed schot voel je al in je voorbereiding’ 🎙",
-      "bronLengte": 1861,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": false
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
-    },
-    {
-      "id": "a0597aaf31-v1",
-      "groepId": "a0597aaf31",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/albert-heijn-marktplein-wormerveer-ruim-twee-weken-dicht-winkel-wordt-40-procent-groter/",
-      "kop": "Albert Heijn Marktplein Wormerveer ruim twee weken dicht, winkel wordt 40 procent groter",
-      "tekst": null,
-      "rubriek": "BED",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 220,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T10:05:16.902Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Albert Heijn Marktplein Wormerveer ruim twee weken dicht, winkel wordt 40 procent groter",
-      "bronLengte": 1341,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "agendapunten": [
-        {
-          "titel": "Feestelijke opening Albert Heijn Marktplein Wormerveer",
-          "dag": "2026-12-08",
-          "start": "2026-12-08T10:00:00.000Z",
-          "eind": null,
-          "plaats": null,
-          "zekerheid": "afgeleid"
-        }
-      ],
-      "analyse": true,
-      "tagVersie": 2,
-      "agendaIds": [
-        "5ee4c4fe04"
-      ],
-      "alleenAgenda": true
-    },
-    {
-      "id": "2b07c4344b-v1",
-      "groepId": "2b07c4344b",
-      "versie": 1,
-      "url": "https://www.deorkaan.nl/waarheen-intochten-sinterklaas-ruben-hoeke-young-analogues%f0%9f%8e%99/",
-      "kop": "Waarheen: Intochten Sinterklaas, Ruben Hoeke, Noraly Beyer 🎙",
-      "tekst": null,
-      "rubriek": "CUL",
-      "tagBron": "ai",
-      "herkomst": "signaal",
-      "prio": 3,
-      "tijd": "2026-11-13T23:00:00.000Z",
-      "heeftTijd": false,
-      "woorden": 263,
-      "afgekapt": false,
-      "bronId": "DeOrkaan",
-      "bronNaam": "DeOrkaan",
-      "ai": false,
-      "controle": "analyse-ok",
-      "eerstGezienOp": "2026-11-14T10:05:16.902Z",
-      "gecontroleerdOp": "2026-11-14T16:05:59.095Z",
-      "bronTitel": "Waarheen: Intochten Sinterklaas, Ruben Hoeke, Noraly Beyer 🎙",
-      "bronLengte": 1609,
-      "checklist": {
-        "gevaar": false,
-        "evacuatieOfNlAlert": false,
-        "gewondenOfDoden": false,
-        "bestuurlijkeCrisis": false,
-        "besluitMetGrootGevolg": false,
-        "tijdkritisch": false,
-        "betrokkenen": null,
-        "geldbedragEuro": null,
-        "banen": null,
-        "inRegio": true
-      },
-      "checklistBron": "ai",
-      "analyse": true,
-      "tagVersie": 2,
-      "alleenAgenda": true
     }
   ]
 }
